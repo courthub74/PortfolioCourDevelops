@@ -933,7 +933,7 @@ $savethis: #7273ad;
                             input {
                                 background-color: $portfolios;
                                 border: none;
-                                border-radius: 5px;
+                                border-radius: 10px;
                                 width: 82vw;
                                 height: 10vw;
                             }
@@ -956,7 +956,7 @@ $savethis: #7273ad;
                                 height: 37vh;
                                 width: 82vw;
                                 border: none;
-                                border-radius: 5px;
+                                border-radius: 10px;
                                 resize: none;
                             }
                         }
@@ -969,7 +969,7 @@ $savethis: #7273ad;
                                 // background-color: red;
                                 border: none;
                                 box-shadow: 3px 3px 2px $boxshadowcircles;
-                                border-radius: 5px;
+                                border-radius: 10px;
                                 width: 40.5vw;
                                 width: 82vw;
                                 height: 5.5vw;
@@ -1020,7 +1020,7 @@ $savethis: #7273ad;
                         align-items: center;
                         gap: 2.5ch;
                         // margin: 4vh 0 0 -1vw;
-                        margin: 2vh 0 0 0;
+                        margin: 2vh 0vw 0 0;
                         width: 100%;
                         // background-color: yellow;
                         p {
@@ -1033,17 +1033,17 @@ $savethis: #7273ad;
                             margin-right: -5vw;
                         }
                         #copyright_courdevs {
-                            margin: 0vh 0 0 0;
-                            width: 5.5vw;
-                            height: 5.5vw;
+                            margin: 0vh -5vw 0 0;
+                            width: 7.5vw;
+                            height: 7.5vw;
                             // background-color: red;
                         }
                         .courdev {
                             // margin: 0 -2vw 0 0vw;
                             color: $firstblue;
                             font-family: 'Inter', sans-serif;
-                            font-size: 4vw;
                             font-size: .65rem;
+                            margin: 0 3vw 0 0vw;
                         }
                         #phone {
                             width: 4.5vw;
@@ -1076,7 +1076,7 @@ $savethis: #7273ad;
 /////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////
-// SMALLER CELLPHONES 375px (PORTRAIT)
+// SMALLER CELLPHONES 375px (PORTRAIT) Galaxy s5
 @media screen and (min-width: 360px) and (max-width: 399px) {
     // NAVBAR (PORTRAIT)
     nav {
@@ -1274,7 +1274,8 @@ $savethis: #7273ad;
     #about_section_id {
         .about_section_class {
             background-color: $nextgreen;
-            height: 105vh;
+            // background-color: red;
+            height: 115vh;
             color: white;
             display: flex;
             flex-direction: column;
@@ -1346,7 +1347,7 @@ $savethis: #7273ad;
     #portfolio_section_id {
         .portfolio_section_class {
             background-color: $darkblue;
-            height: 105vh;
+            height: 110vh;
             display: flex;
             flex-direction: column;
             .portfolio_desktop_nav {
@@ -1673,7 +1674,7 @@ $savethis: #7273ad;
     #experience_section_id {
         .experience_section_class {
             background-color: $darkblue;
-            height: 105vh;
+            height: 110vh;
             display: flex;
             flex-direction: column;
             .experience_desktop_nav {
@@ -1829,7 +1830,7 @@ $savethis: #7273ad;
     #blog_section_id {
         .blog_section_class {
             background-color: $nextgreen;
-            height: 100vh;
+            height: 110vh;
             display: flex;
             flex-direction: column;
             // justify-content: center;
@@ -1909,7 +1910,7 @@ $savethis: #7273ad;
         .contact_section_class {
             display: flex;
             flex-direction: column;
-            height: 100vh;
+            height: 110vh;
             background-color: $darkblue;
             .contact_desktop_nav {
                 ul {
@@ -1925,7 +1926,7 @@ $savethis: #7273ad;
             }
             .contact_section_form {
                 height: 80vh;
-                margin: 5vh 0 0 0;
+                margin: 5vh 0vw 0 0;
                 form {
                     display: flex;
                     flex-direction: column;
@@ -1947,7 +1948,7 @@ $savethis: #7273ad;
                             input {
                                 background-color: $portfolios;
                                 border: none;
-                                border-radius: 5px;
+                                border-radius: 10px;
                                 width: 82vw;
                                 height: 10vw;
                             }
@@ -1970,7 +1971,7 @@ $savethis: #7273ad;
                                 height: 37vh;
                                 width: 82vw;
                                 border: none;
-                                border-radius: 5px;
+                                border-radius: 15px;
                                 resize: none;
                             }
                         }
@@ -1983,7 +1984,7 @@ $savethis: #7273ad;
                                 // background-color: red;
                                 border: none;
                                 box-shadow: 3px 3px 2px $boxshadowcircles;
-                                border-radius: 5px;
+                                border-radius: 10px;
                                 width: 40.5vw;
                                 width: 82vw;
                                 height: 5.5vw;
@@ -2034,7 +2035,7 @@ $savethis: #7273ad;
                         align-items: center;
                         gap: 2.5ch;
                         // margin: 4vh 0 0 -1vw;
-                        margin: 2vh 0 0 0;
+                        margin: 4vh 0 0 0;
                         width: 100%;
                         // background-color: yellow;
                         p {
@@ -2044,10 +2045,10 @@ $savethis: #7273ad;
                             // font-weight: bold;
                             font-family: 'Inter', sans-serif;
                             // background-color: red;
-                            margin-right: -3vw;
+                            margin-right: -2vw;
                         }
                         #copyright_courdevs {
-                            margin: 0vh 0 0 0;
+                            margin: 0vh -3vw 0 0;
                             width: 5vw;
                             height: 5vw;
                             // background-color: red;
@@ -2060,15 +2061,15 @@ $savethis: #7273ad;
                             font-size: .8rem;
                         }
                         #phone {
-                            width: 4.5vw;
-                            height: 4.5vw;
+                            width: 6.5vw;
+                            height: 6.5vw;
                             margin-left: -3vw;
                         }
                         .courdev_num {
                             font-family: 'Inter', sans-serif;
                             color: $firstblue;
                             font-size: .8rem;
-                            margin-left: -.8rem;
+                            margin-left: -1rem;
                         }
                     }
                 }
@@ -6422,7 +6423,7 @@ $savethis: #7273ad;
                             input {
                                 background-color: $portfolios;
                                 border: none;
-                                border-radius: 5px;
+                                border-radius: 10px;
                                 width: 40vw;
                                 height: 4.5vw;
                             }
@@ -6455,7 +6456,7 @@ $savethis: #7273ad;
                                 height: 35vh;
                                 width: 40vw;
                                 border: none;
-                                border-radius: 5px;
+                                border-radius: 15px;
                                 resize: none;
                             }
                         }
@@ -6469,7 +6470,7 @@ $savethis: #7273ad;
                                 // background-color: red;
                                 border: none;
                                 box-shadow: 3px 3px 2px $boxshadowcircles;
-                                border-radius: 5px;
+                                border-radius: 10px;
                                 width: 40.5vw;
                                 height: 4.5vw;
                                 p {
