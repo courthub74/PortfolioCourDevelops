@@ -14429,10 +14429,10 @@
     justify-content: center;
     align-items: center;
     gap: 12ch;
-    gap: 3ch;
+    gap: 2ch;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_1_square {
-    width: 30vw;
+    width: 29.2vw;
     height: 35vw;
     border: 1px solid #36395D;
     border-radius: 10px;
@@ -14463,7 +14463,7 @@
     font-size: 1rem;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_2_square {
-    width: 30vw;
+    width: 29.2vw;
     height: 35vw;
     border: 1px solid #36395D;
     border-radius: 10px;
@@ -14494,7 +14494,7 @@
     font-size: 1rem;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_3_square {
-    width: 30vw;
+    width: 29.2vw;
     height: 35vw;
     border: 1px solid #36395D;
     border-radius: 10px;
@@ -14672,8 +14672,8 @@
   #contact_section_id .contact_section_class .contact_section_form form .name_email {
     display: flex;
     flex-direction: column;
-    gap: 10ch;
-    margin: -23vh 0 0 0;
+    gap: 8ch;
+    margin: -21vh 0 0 0;
   }
   #contact_section_id .contact_section_class .contact_section_form form .name_email .input_div {
     display: flex;
@@ -14693,6 +14693,14 @@
     border-radius: 25px;
     width: 41vw;
     height: 6vw;
+    outline: none;
+    color: white;
+    text-align: center;
+  }
+  #contact_section_id .contact_section_class .contact_section_form form .name_email .input_div input:focus {
+    background-color: #36395D;
+    color: white;
+    text-align: center;
   }
   #contact_section_id .contact_section_class .contact_section_form form .message_submit {
     display: flex;
@@ -14719,6 +14727,15 @@
     border-radius: 10px;
     border-radius: 25px;
     resize: none;
+    outline: none;
+    padding: 12px 20px;
+    color: white;
+    text-align: center;
+  }
+  #contact_section_id .contact_section_class .contact_section_form form .message_submit .input_div textarea:focus {
+    background-color: #36395D;
+    color: white;
+    text-align: center;
   }
   #contact_section_id .contact_section_class .contact_section_form form .message_submit .submit_button {
     display: flex;
