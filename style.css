@@ -13779,6 +13779,7 @@
   #home_section_id .home_section_class {
     background-color: #080E2F;
     height: 100vh;
+    height: 90ch;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13897,6 +13898,7 @@
   #about_section_id .about_section_class {
     background-color: #00313E;
     height: 105vh;
+    height: 105ch;
     display: flex;
     flex-direction: column;
   }
@@ -13949,9 +13951,10 @@
     flex-direction: column;
     width: 80%;
     color: white;
-    margin: 12vh 0 0 5vw;
+    margin: 8vh 0 0 5vw;
     font-family: "Inter", sans-serif;
     font-size: 1.3rem;
+    line-height: 3ch;
   }
   #about_section_id .about_section_class .about_section_content .brand_is .brand {
     display: flex;
@@ -13965,7 +13968,7 @@
     height: 8vw;
   }
   #about_section_id .about_section_class .download_resume {
-    margin: 10vh 0 0 5vw;
+    margin: 8vh 0 0 5vw;
     border-radius: 25px;
     background-color: white;
     width: 24vw;
@@ -13984,6 +13987,7 @@
   #portfolio_section_id .portfolio_section_class {
     background-color: #080E2F;
     height: 105vh;
+    height: 105ch;
     display: flex;
     flex-direction: column;
   }
@@ -14067,6 +14071,7 @@
   #skills_section_id .skills_section_class {
     background-color: #00313E;
     height: 105vh;
+    height: 105ch;
   }
   #skills_section_id .skills_section_class .title_nav {
     display: flex;
@@ -14377,6 +14382,7 @@
   #experience_section_id .experience_section_class {
     background-color: #080E2F;
     height: 105vh;
+    height: 105ch;
     display: flex;
     flex-direction: column;
   }
@@ -14527,6 +14533,7 @@
   #blog_section_id .blog_section_class {
     background-color: #00313E;
     height: 105vh;
+    height: 105ch;
   }
   #blog_section_id .blog_section_class .title_nav {
     display: flex;
@@ -14615,6 +14622,7 @@
   #contact_section_id .contact_section_class {
     background-color: #080E2F;
     height: 100vh;
+    height: 100ch;
   }
   #contact_section_id .contact_section_class .title_nav {
     display: flex;

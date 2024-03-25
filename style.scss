@@ -16734,6 +16734,7 @@ $savethis: #7273ad;
         .home_section_class {
             background-color: $darkblue;
             height: 100vh;
+            height: 90ch;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -16865,6 +16866,7 @@ $savethis: #7273ad;
         .about_section_class {
             background-color: $nextgreen;
             height: 105vh;
+            height: 105ch;
             display: flex;
             flex-direction: column;
             // align-items: center;
@@ -16923,9 +16925,10 @@ $savethis: #7273ad;
                 flex-direction: column;
                 width: 80%;
                 color: white;
-                margin: 12vh 0 0 5vw;
+                margin: 8vh 0 0 5vw;
                 font-family: 'Inter', sans-serif;
                 font-size: 1.3rem;
+                line-height: 3ch;
                 .brand_is {
                     .brand {
                         display: flex;
@@ -16942,7 +16945,7 @@ $savethis: #7273ad;
             }
             // DOWNLOAD RESUME
             .download_resume {
-                margin: 10vh 0 0 5vw;
+                margin: 8vh 0 0 5vw;
                 border-radius: 25px;
                 background-color: white;
                 width: 24vw;
@@ -16965,6 +16968,7 @@ $savethis: #7273ad;
         .portfolio_section_class {
             background-color: $darkblue;
             height: 105vh;
+            height: 105ch;
             display: flex;
             flex-direction: column;
              // SECTION TITLE AND NAVBAR
@@ -17055,6 +17059,7 @@ $savethis: #7273ad;
         .skills_section_class {
             background-color: $nextgreen;
             height: 105vh;
+            height: 105ch;
             // display: flex;
             // align-items: center;
             // justify-content: center;
@@ -17408,6 +17413,7 @@ $savethis: #7273ad;
         .experience_section_class {
             background-color: $darkblue;
             height: 105vh;
+            height: 105ch;
             display: flex;
             flex-direction: column;
             .title_nav {
@@ -17570,6 +17576,7 @@ $savethis: #7273ad;
         .blog_section_class {
             background-color: $nextgreen;
             height: 105vh;
+            height: 105ch;
             // NAVBAR BLOG
             .title_nav {
                 display: flex;
@@ -17666,6 +17673,7 @@ $savethis: #7273ad;
         .contact_section_class {
             background-color: $darkblue;
             height: 100vh;
+            height: 100ch;
             // NAVBAR CONTACT
             .title_nav {
                 display: flex;
