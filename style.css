@@ -14864,7 +14864,7 @@
   #home_section_id .home_section_class {
     background-color: #080E2F;
     height: 100vh;
-    height: 90ch;
+    height: 100ch;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14983,7 +14983,7 @@
   #about_section_id .about_section_class {
     background-color: #00313E;
     height: 105vh;
-    height: 105ch;
+    height: 115ch;
     display: flex;
     flex-direction: column;
   }
@@ -15072,7 +15072,7 @@
   #portfolio_section_id .portfolio_section_class {
     background-color: #080E2F;
     height: 105vh;
-    height: 105ch;
+    height: 110ch;
     display: flex;
     flex-direction: column;
   }
