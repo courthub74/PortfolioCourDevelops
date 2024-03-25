@@ -14576,7 +14576,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: -7vh 0 0 0;
+    margin: -7vh 0 0 0.8vw;
     gap: 9ch;
   }
   #blog_section_id .blog_section_class .blog_entry {
@@ -14666,7 +14666,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10vh;
+    gap: 5.5vh;
     margin: 15vh 0 0 0;
   }
   #contact_section_id .contact_section_class .contact_section_form form .name_email {

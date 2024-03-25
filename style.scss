@@ -1076,7 +1076,7 @@ $savethis: #7273ad;
 /////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////
-// SMALLER CELLPHONES 375px (PORTRAIT) Galaxy s5
+// SMALLER CELLPHONES 375px (PORTRAIT) Galaxy s5 and My Smartphone
 @media screen and (min-width: 360px) and (max-width: 399px) {
     // NAVBAR (PORTRAIT)
     nav {
@@ -17622,7 +17622,7 @@ $savethis: #7273ad;
                 justify-content: center;
                 align-items: center;
                 height: 100vh;
-                margin: -7vh 0 0 0;
+                margin: -7vh 0 0 .8vw;
                 gap: 9ch;
             }
             // BLOG CIRCLE 
@@ -17721,7 +17721,7 @@ $savethis: #7273ad;
                     // flex-direction: column;
                     justify-content: center;
                     align-items: center;
-                    gap: 10vh;
+                    gap: 5.5vh;
                     margin: 15vh 0 0 0;
                     .name_email {
                         display: flex;
