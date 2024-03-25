@@ -17904,7 +17904,7 @@ $savethis: #7273ad;
 }
 
 // BIGGER DESKTOP (1300px)
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1300px) and (max-width: 1499px) {
     // DESKTOP NAVBAR
     .desktop_nav {
         margin: 7vh 5vw 0 0;
@@ -19114,7 +19114,165 @@ $savethis: #7273ad;
 
 // EVEN BIGGER DESKTOP (1500px)
 @media screen and (min-width: 1500px) {
-    body {
-        background-color: green;
+    // DESKTOP NAVBAR
+    .desktop_nav {
+        margin: 7vh 9vw 0 0;
+        ul {
+            display: flex;
+            justify-content: right;
+            text-decoration: none;
+            gap: 1.5vw;
+            margin: 0vh 0vw 0 0;
+            #selected {
+                color: $darkblue;
+                border: 1px solid white;
+                background-color: white;
+                padding: .5ch;
+                border-radius: 10px;
+            }
+            li {
+                list-style: none;
+                font-size: 5rem;
+                a {
+                   text-decoration: none;
+                   color: white;
+                   font-family: 'Inter', sans-serif;
+                   font-weight: bold;   
+                }
+            }
+        }
+    }
+    // HOME SECTION
+    #home_section_id {
+        .home_section_class {
+            // background-color: red;
+            height: 90ch;
+            height: 450ch;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .home_section_content {
+                // background-color: #00313E;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: -15vh 0 0 0;
+                gap: 15vw;
+                // BIG HOME LOGO
+                .logo_div {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .back_logo {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background-color: white;
+                        border-radius: 50%;
+                        width: 22vw;
+                        height: 22vw;
+                        .front_logo {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            #logo_home {
+                                width: 20vw;
+                                height: 20vw;
+                            }
+                        }
+                    }
+                }
+                 // BIG HOME WORDS
+                 .word_content {
+                    // background-color: #00C6C3;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 2.5ch;
+                    // NAME - DESCRIPTION
+                    .name_description {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        gap: 2ch;
+                        .home_name {
+                            font-size: 10rem;
+                            color: white;
+                            font-family: 'Inter', sans-serif;
+                        }
+                        .job_description {
+                            font-size: 6rem;
+                            color: $descriptionblue;
+                            font-family: 'Inter', sans-serif;
+                            border: 1px solid $portfolios;
+                            border-radius: 15px;
+                            background-color: $portfolios;
+                            width: 22vw;
+                            height: 3vw;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                    }
+                    // HOME SLOGAN
+                    .home_slogan {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        p {
+                            font-size: 5rem;
+                            color: white;
+                            font-family: 'Inter', sans-serif;
+                            font-weight: bold;
+                            text-align: center;
+                        }
+                    }
+                    // HOME SOCIALS DESKTOP
+                    .home_socials {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 3.5vw;
+                        #github {
+                            width: 2.5vw;
+                            height: 2.5vw;
+                        }
+                        #twitter {
+                            width: 2.5vw;
+                            height: 2.5vw;
+                        }
+                        #linkedin {
+                            width: 2.5vw;
+                            height: 2.5vw;
+                        }
+                        #instagram {
+                            width: 3vw;
+                            height: 3vw;
+                        }
+                    }
+                    // LEARN MORE BUTTON
+                    .learn_more {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 3vw;
+                        width: 21vw;
+                        border: 1px solid $portfolios;
+                        border-radius: 105px;
+                        background-color: $portfolios;
+                        margin: 0 0 0 4ch;
+                        .words_arrow {
+                            a {
+                                color: $descriptionblue;
+                                text-decoration: none;
+                                font-size: 4rem;
+                                font-family: 'Inter', sans-serif;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
+
