@@ -17895,5 +17895,16 @@ $savethis: #7273ad;
     }
 }
 
-// BIGGER DESKTOP (1500px)
+// BIGGER DESKTOP (1300px)
+@media screen and (min-width: 1300px) {
+    body {
+        background-color: red;
+    }
+}
 
+// EVEN BIGGER DESKTOP (1500px)
+@media screen and (min-width: 1500px) {
+    body {
+        background-color: green;
+    }
+}
