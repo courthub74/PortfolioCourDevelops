@@ -18232,7 +18232,7 @@ $savethis: #7273ad;
                 justify-content: center;
                 align-items: center;
                 gap: 2ch;
-                margin: 10vh 0 0 0;
+                margin: 14vh 0 0 0;
                 .portfolio_square {
                     background-color: $portfolios;
                     border: 1px solid $portfolios;
@@ -18267,7 +18267,7 @@ $savethis: #7273ad;
         .skills_section_class {
             background-color: $nextgreen;
             height: 105vh;
-            height: 105ch;
+            height: 115ch;
             // display: flex;
             // align-items: center;
             // justify-content: center;
@@ -18328,7 +18328,7 @@ $savethis: #7273ad;
                 gap: 1.5ch;
                 gap: 3.5ch;
                 gap: 7ch;
-                margin: 15vh 0 0 -10vw;
+                margin: 20vh 0 0 -10vw;
                 
                 .skills_first_6 {
                     display: flex;
@@ -18621,7 +18621,7 @@ $savethis: #7273ad;
         .experience_section_class {
             background-color: $darkblue;
             height: 105vh;
-            height: 105ch;
+            height: 110ch;
             display: flex;
             flex-direction: column;
             .title_nav {
@@ -18671,7 +18671,7 @@ $savethis: #7273ad;
             }
             // EXPERIENCE SECTION CONTENT
             .experience_section_squares {
-                margin: 12vh 0 0 0;
+                margin: 15vh 0 0 0;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -18784,7 +18784,7 @@ $savethis: #7273ad;
         .blog_section_class {
             background-color: $nextgreen;
             height: 105vh;
-            height: 105ch;
+            height: 115ch;
             // NAVBAR BLOG
             .title_nav {
                 display: flex;
@@ -18881,7 +18881,7 @@ $savethis: #7273ad;
         .contact_section_class {
             background-color: $darkblue;
             height: 100vh;
-            height: 100ch;
+            height: 110ch;
             // NAVBAR CONTACT
             .title_nav {
                 display: flex;
@@ -19019,6 +19019,7 @@ $savethis: #7273ad;
                                 border-radius: 10px;
                                 border-radius: 25px;
                                 width: 41.5vw;
+                                width: 44.2vw;
                                 height: 6vw;
                                 p {
                                     color: rgb(255, 255, 255);
