@@ -19187,7 +19187,7 @@ $savethis: #7273ad;
                     // background-color: #00C6C3;
                     display: flex;
                     flex-direction: column;
-                    gap: 10ch;
+                    gap: 18ch;
                     // NAME - DESCRIPTION
                     .name_description {
                         display: flex;
@@ -19264,12 +19264,102 @@ $savethis: #7273ad;
                             a {
                                 color: $descriptionblue;
                                 text-decoration: none;
-                                font-size: 4rem;
+                                font-size: 5rem;
                                 font-family: 'Inter', sans-serif;
                                 font-weight: bold;
                             }
                         }
                     }
+                }
+            }
+        }
+    }
+    // ABOUT SECTION (DESKTOP)
+    #about_section_id {
+        .about_section_class {
+            background-color: $nextgreen;
+            height: 470ch;
+            display: flex;
+            flex-direction: column;
+            // DESKTOP NAVBAR
+            .title_nav {
+                // margin: 7vh 13.5vw 0 0;
+                .section_title {
+                    font-family: 'Inter', sans-serif;
+                    font-weight: bold;
+                    font-size: 13rem;
+                    color: white;
+                    margin: 3vh 0 0 5vw;
+                    margin: 7vh 0 0 5vw;
+                }
+                .about_desktop_nav {
+                    margin: 7vh 13.5vw 0 0;
+                    ul {
+                        display: flex;
+                        justify-content: right;
+                        text-decoration: none;
+                        gap: 1.5vw;
+                        margin: 0vh 0vw 0 0;
+                        #selected {
+                            color: $nextgreen;
+                            border: 1px solid white;
+                            background-color: white;
+                            padding: .5ch;
+                            border-radius: 10px;
+                        }
+                        li {
+                            list-style: none;
+                            font-size: 5rem;
+                            a {
+                            text-decoration: none;
+                            color: white;
+                            font-family: 'Inter', sans-serif;
+                            font-weight: bold;   
+                            }
+                        }
+                    }
+                }
+            }
+            // ABOUT CONTENT 1500
+            .about_section_content {
+                display: flex;
+                flex-direction: column;
+                width: 80%;
+                color: white;
+                margin: 12vh 0 0 5vw;
+                font-family: 'Inter', sans-serif;
+                font-size: 5rem;
+                line-height: 3ch;
+                .brand_is {
+                    .brand {
+                        display: flex;
+                        justify-content: left;
+                        align-items: center;
+                        gap: 1.4vw;
+                        padding: 7vh 0 7vh 0;
+                    }
+                    #about_logo {
+                        width: 8vw;
+                        height: 8vw;
+                    }
+                }
+            }
+            // DOWNLOAD RESUME
+            .download_resume {
+                margin: 8vh 0 0 5vw;
+                border-radius: 180px;
+                background-color: white;
+                height: 3vw;
+                width: 21vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                a {
+                    font-size: 4rem;
+                    font-family: 'Inter', sans-serif;
+                    font-weight: bold;
+                    text-decoration: none;
+                    color: $nextgreen;
                 }
             }
         }
