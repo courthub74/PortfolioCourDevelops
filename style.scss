@@ -19116,7 +19116,7 @@ $savethis: #7273ad;
 @media screen and (min-width: 1500px) {
     // DESKTOP NAVBAR
     .desktop_nav {
-        margin: 7vh 9vw 0 0;
+        margin: 7vh 13.5vw 0 0;
         ul {
             display: flex;
             justify-content: right;
@@ -19187,7 +19187,7 @@ $savethis: #7273ad;
                     // background-color: #00C6C3;
                     display: flex;
                     flex-direction: column;
-                    gap: 2.5ch;
+                    gap: 10ch;
                     // NAME - DESCRIPTION
                     .name_description {
                         display: flex;
@@ -19219,7 +19219,7 @@ $savethis: #7273ad;
                         align-items: center;
                         justify-content: center;
                         p {
-                            font-size: 5rem;
+                            font-size: 6rem;
                             color: white;
                             font-family: 'Inter', sans-serif;
                             font-weight: bold;

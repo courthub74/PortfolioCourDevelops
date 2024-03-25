@@ -15918,7 +15918,7 @@
 }
 @media screen and (min-width: 1500px) {
   .desktop_nav {
-    margin: 7vh 9vw 0 0;
+    margin: 7vh 13.5vw 0 0;
   }
   .desktop_nav ul {
     display: flex;
@@ -15984,7 +15984,7 @@
   #home_section_id .home_section_class .home_section_content .word_content {
     display: flex;
     flex-direction: column;
-    gap: 2.5ch;
+    gap: 10ch;
   }
   #home_section_id .home_section_class .home_section_content .word_content .name_description {
     display: flex;
@@ -16016,7 +16016,7 @@
     justify-content: center;
   }
   #home_section_id .home_section_class .home_section_content .word_content .home_slogan p {
-    font-size: 5rem;
+    font-size: 6rem;
     color: white;
     font-family: "Inter", sans-serif;
     font-weight: bold;
