@@ -14587,7 +14587,7 @@
     align-items: center;
     height: 100vh;
     margin: -7vh 0 0 0.8vw;
-    gap: 9ch;
+    gap: 5ch;
   }
   #blog_section_id .blog_section_class .blog_entry {
     display: flex;
@@ -14601,6 +14601,8 @@
     align-items: center;
     width: 26vw;
     height: 26vw;
+    width: 28vw;
+    height: 28vw;
     border-radius: 50%;
     background-color: #146166;
     border: 3px solid #080E2F;
@@ -14611,6 +14613,8 @@
     align-items: center;
     width: 24vw;
     height: 24vw;
+    width: 26vw;
+    height: 26vw;
     border-radius: 50%;
     background-color: #080E2F;
     color: white;
@@ -14703,7 +14707,7 @@
     border-radius: 10px;
     border-radius: 25px;
     width: 41vw;
-    height: 6vw;
+    height: 7vw;
     outline: none;
     color: white;
     text-align: center;
