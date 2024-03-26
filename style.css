@@ -16094,7 +16094,7 @@
   #about_section_id .about_section_class {
     background-color: #00313E;
     height: 105vh;
-    height: 105ch;
+    height: 115ch;
     display: flex;
     flex-direction: column;
   }
@@ -16108,7 +16108,7 @@
   #about_section_id .about_section_class .title_nav .section_title {
     font-family: "Inter", sans-serif;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: white;
     margin: 3vh 0 0 5vw;
     margin: 5vh 0 0 5vw;
@@ -16147,7 +16147,7 @@
     flex-direction: column;
     width: 80%;
     color: white;
-    margin: 8vh 0 0 5vw;
+    margin: 10vh 0 0 5vw;
     font-family: "Inter", sans-serif;
     font-size: 1.3rem;
     line-height: 3ch;
@@ -16167,8 +16167,8 @@
     margin: 8vh 0 0 5vw;
     border-radius: 25px;
     background-color: white;
+    height: 3.5vw;
     width: 24vw;
-    height: 4vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16183,7 +16183,7 @@
   #portfolio_section_id .portfolio_section_class {
     background-color: #080E2F;
     height: 105vh;
-    height: 105ch;
+    height: 115ch;
     display: flex;
     flex-direction: column;
   }
@@ -16197,7 +16197,7 @@
   #portfolio_section_id .portfolio_section_class .title_nav .section_title {
     font-family: "Inter", sans-serif;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: white;
     margin: 3vh 0 0 5vw;
     margin: 5vh 0 0 5vw;
@@ -16248,8 +16248,11 @@
     justify-content: center;
     align-items: center;
     box-shadow: 2px 2px 2px 2px black;
+    cursor: pointer;
   }
   #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square #workflow_app {
+    width: 20vw;
+    height: 4.5vw;
     margin: 0 0 0 5ch;
   }
   #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square #create_collab {
@@ -16267,7 +16270,7 @@
   #skills_section_id .skills_section_class {
     background-color: #00313E;
     height: 105vh;
-    height: 105ch;
+    height: 110ch;
   }
   #skills_section_id .skills_section_class .title_nav {
     display: flex;
@@ -16279,7 +16282,7 @@
   #skills_section_id .skills_section_class .title_nav .section_title {
     font-family: "Inter", sans-serif;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: white;
     margin: 3vh 0 0 5vw;
     margin: 5vh 0 0 5vw;
@@ -16318,19 +16321,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1.5ch;
-    gap: 3.5ch;
     gap: 7ch;
+    gap: 3ch;
     margin: 15vh 0 0 -10vw;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_first_6 {
     display: flex;
     margin: 0 0ch 0 16.5ch;
+    margin: 0 0 0 20ch;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_first_6 .skills_circles_one {
     display: flex;
-    gap: 2ch;
-    gap: 4.4ch;
+    gap: 4.5ch;
+    gap: 5ch;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_first_6 .skills_circles_one .skill_circle .skill_back {
     width: 12.5vw;
@@ -16353,6 +16356,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_first_6 .skills_circles_one .skill_circle .skill_back .skill_front .shield {
     width: 4vw;
@@ -16450,11 +16454,12 @@
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 {
     display: flex;
     margin: 0 0 0 16.5ch;
+    margin: 0 0 0 20ch;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one {
     display: flex;
-    gap: 2ch;
     gap: 4.4ch;
+    gap: 5ch;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one .skill_circle .skill_back {
     width: 12.5vw;
@@ -16477,6 +16482,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one .skill_circle .skill_back #figma {
     width: 4.5vw;
@@ -16578,7 +16584,7 @@
   #experience_section_id .experience_section_class {
     background-color: #080E2F;
     height: 105vh;
-    height: 105ch;
+    height: 110ch;
     display: flex;
     flex-direction: column;
   }
@@ -16645,6 +16651,7 @@
     gap: 3ch;
     background-color: #36395D;
     box-shadow: 2px 2px 2px 2px black;
+    cursor: pointer;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_1_square #courdevelops {
     width: 8vw;
@@ -16657,12 +16664,12 @@
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_1_square .job_1_description .experience_company {
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: bold;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_1_square .job_1_description .experience_position {
     color: #8091ED;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_2_square {
     width: 29.2vw;
@@ -16676,6 +16683,7 @@
     justify-content: center;
     gap: 3ch;
     box-shadow: 2px 2px 2px 2px black;
+    cursor: pointer;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_2_square #slea {
     width: 7vw;
@@ -16688,12 +16696,12 @@
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_2_square .job_2_description .experience_company {
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: bold;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_2_square .job_2_description .experience_position {
     color: #8091ED;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_3_square {
     width: 29.2vw;
@@ -16707,6 +16715,7 @@
     justify-content: center;
     gap: 3ch;
     box-shadow: 2px 2px 2px 2px black;
+    cursor: pointer;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_3_square #r1rcm {
     width: 6.5vw;
@@ -16719,17 +16728,17 @@
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_3_square .job_3_description .experience_company {
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: bold;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_3_square .job_3_description .experience_position {
     color: #8091ED;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   #blog_section_id .blog_section_class {
     background-color: #00313E;
     height: 105vh;
-    height: 105ch;
+    height: 110ch;
   }
   #blog_section_id .blog_section_class .title_nav {
     display: flex;
@@ -16816,6 +16825,7 @@
     font-weight: bold;
     font-size: 1.5rem;
     border: none;
+    cursor: pointer;
   }
   #blog_section_id .blog_section_class .blog_square {
     display: none;
@@ -16823,7 +16833,7 @@
   #contact_section_id .contact_section_class {
     background-color: #080E2F;
     height: 100vh;
-    height: 100ch;
+    height: 110ch;
   }
   #contact_section_id .contact_section_class .title_nav {
     display: flex;
@@ -16905,6 +16915,7 @@
     outline: none;
     color: white;
     text-align: center;
+    font-size: 1.2rem;
   }
   #contact_section_id .contact_section_class .contact_section_form form .name_email .input_div input:focus {
     background-color: #36395D;
@@ -16940,6 +16951,8 @@
     padding: 12px 20px;
     color: white;
     text-align: center;
+    font-size: 1.2rem;
+    font-family: "Roboto", sans-serif;
   }
   #contact_section_id .contact_section_class .contact_section_form form .message_submit .input_div textarea:focus {
     background-color: #36395D;

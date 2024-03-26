@@ -19320,7 +19320,7 @@ $savethis: #7273ad;
         .about_section_class {
             background-color: $nextgreen;
             height: 105vh;
-            height: 105ch;
+            height: 115ch;
             display: flex;
             flex-direction: column;
             // align-items: center;
@@ -19338,7 +19338,7 @@ $savethis: #7273ad;
                 .section_title {
                     font-family: 'Inter', sans-serif;
                     font-weight: bold;
-                    font-size: 3rem;
+                    font-size: 3.5rem;
                     color: white;
                     margin: 3vh 0 0 5vw;
                     margin: 5vh 0 0 5vw;
@@ -19380,7 +19380,7 @@ $savethis: #7273ad;
                 flex-direction: column;
                 width: 80%;
                 color: white;
-                margin: 8vh 0 0 5vw;
+                margin: 10vh 0 0 5vw;
                 font-family: 'Inter', sans-serif;
                 font-size: 1.3rem;
                 line-height: 3ch;
@@ -19403,8 +19403,8 @@ $savethis: #7273ad;
                 margin: 8vh 0 0 5vw;
                 border-radius: 25px;
                 background-color: white;
+                height: 3.5vw;
                 width: 24vw;
-                height: 4vw;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -19423,7 +19423,7 @@ $savethis: #7273ad;
         .portfolio_section_class {
             background-color: $darkblue;
             height: 105vh;
-            height: 105ch;
+            height: 115ch;
             display: flex;
             flex-direction: column;
              // SECTION TITLE AND NAVBAR
@@ -19437,7 +19437,7 @@ $savethis: #7273ad;
                 .section_title {
                     font-family: 'Inter', sans-serif;
                     font-weight: bold;
-                    font-size: 3rem;
+                    font-size: 3.5rem;
                     color: white;
                     margin: 3vh 0 0 5vw;
                     margin: 5vh 0 0 5vw;
@@ -19490,8 +19490,12 @@ $savethis: #7273ad;
                     justify-content: center;
                     align-items: center;
                     box-shadow: 2px 2px 2px 2px black;
+                    cursor: pointer;
                     #workflow_app {
+                        width: 20vw;
+                        height: 4.5vw;
                         margin: 0 0 0 5ch;
+                        // background-color: #00313E;
                     }
                     #create_collab {
                         width: 21vw;
@@ -19514,7 +19518,7 @@ $savethis: #7273ad;
         .skills_section_class {
             background-color: $nextgreen;
             height: 105vh;
-            height: 105ch;
+            height: 110ch;
             // display: flex;
             // align-items: center;
             // justify-content: center;
@@ -19530,7 +19534,7 @@ $savethis: #7273ad;
                 .section_title {
                     font-family: 'Inter', sans-serif;
                     font-weight: bold;
-                    font-size: 3rem;
+                    font-size: 3.5rem;
                     color: white;
                     margin: 3vh 0 0 5vw;
                     margin: 5vh 0 0 5vw;
@@ -19572,19 +19576,23 @@ $savethis: #7273ad;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                gap: 1.5ch;
-                gap: 3.5ch;
                 gap: 7ch;
+                gap: 3ch;
                 margin: 15vh 0 0 -10vw;
                 
                 .skills_first_6 {
                     display: flex;
                     margin: 0 0ch 0 16.5ch;
+                    margin: 0 0 0 20ch;
+                    // background-color: yellow;
+                    // gap: 2ch;
                     // background-color: #507E81;
                     .skills_circles_one {
                         display: flex;
-                        gap: 2ch;
-                        gap: 4.4ch;
+                        gap: 4.5ch;
+                        gap: 5ch;
+                        // background-color: yellow;
+                        // margin: 0 0 0 5ch;
                         .skill_circle {
                             .skill_back {
                                 width: 12.5vw;
@@ -19610,6 +19618,7 @@ $savethis: #7273ad;
                                     flex-direction: column;
                                     justify-content: center;
                                     align-items: center;
+                                    cursor: pointer;
                                     .shield {
                                         width: 4vw;
                                         height: 4vw;
@@ -19719,10 +19728,13 @@ $savethis: #7273ad;
                 .skills_second_6 {
                     display: flex;
                     margin: 0 0 0 16.5ch;
+                    margin: 0 0 0 20ch;
+                    // gap: 4.5ch;
+                    // background-color: #36395D;
                     .skills_circles_one {
                         display: flex;
-                        gap: 2ch;
                         gap: 4.4ch;
+                        gap: 5ch;
                         // margin: 0 0 0 1ch;
                         .skill_circle {
                             .skill_back {
@@ -19749,6 +19761,7 @@ $savethis: #7273ad;
                                     flex-direction: column;
                                     justify-content: center;
                                     align-items: center;
+                                    cursor: pointer;
                                 }
                                 
                                  // FIGMA
@@ -19868,7 +19881,7 @@ $savethis: #7273ad;
         .experience_section_class {
             background-color: $darkblue;
             height: 105vh;
-            height: 105ch;
+            height: 110ch;
             display: flex;
             flex-direction: column;
             .title_nav {
@@ -19936,6 +19949,7 @@ $savethis: #7273ad;
                     gap: 3ch;
                     background-color: $portfolios;
                     box-shadow: 2px 2px 2px 2px black;
+                    cursor: pointer;
                     #courdevelops {
                         width: 8vw;
                         height: 8vw;
@@ -19946,14 +19960,14 @@ $savethis: #7273ad;
                         flex-direction: column;
                         .experience_company {
                             color: white;
-                            font-size: 1.2rem;
+                            font-size: 1.5rem;
                             // font-size: 18px;
                             font-weight: bold;
                         }
                         .experience_position {
                             color: $descriptionblue;
                             // color: $jobdescription;
-                            font-size: 1rem;
+                            font-size: 1.2rem;
                         }
                     }
                 }
@@ -19969,6 +19983,7 @@ $savethis: #7273ad;
                     justify-content: center;
                     gap: 3ch;
                     box-shadow: 2px 2px 2px 2px black;
+                    cursor: pointer;
                     #slea {
                         width: 7vw;
                         height: 7vw;
@@ -19979,14 +19994,14 @@ $savethis: #7273ad;
                         flex-direction: column;
                         .experience_company {
                             color: white;
-                            font-size: 1.2rem;
+                            font-size: 1.5rem;
                             // font-size: 18px;
                             font-weight: bold;
                         }
                         .experience_position {
                             color: $descriptionblue;
                             // color: $jobdescription;
-                            font-size: 1rem;
+                            font-size: 1.2rem;
                         }
                     }
                 }
@@ -20002,6 +20017,7 @@ $savethis: #7273ad;
                     justify-content: center;
                     gap: 3ch;
                     box-shadow: 2px 2px 2px 2px black;
+                    cursor: pointer;
                     #r1rcm {
                         width: 6.5vw;
                         height: 6.5vw;
@@ -20012,14 +20028,14 @@ $savethis: #7273ad;
                         flex-direction: column;
                         .experience_company {
                             color: white;
-                            font-size: 1.2rem;
+                            font-size: 1.5rem;
                             // font-size: 18px;
                             font-weight: bold;
                         }
                         .experience_position {
                             color: $descriptionblue;
                             // color: $jobdescription;
-                            font-size: 1rem;
+                            font-size: 1.2rem;
                         }
                     }
                 }
@@ -20031,7 +20047,7 @@ $savethis: #7273ad;
         .blog_section_class {
             background-color: $nextgreen;
             height: 105vh;
-            height: 105ch;
+            height: 110ch;
             // NAVBAR BLOG
             .title_nav {
                 display: flex;
@@ -20120,6 +20136,7 @@ $savethis: #7273ad;
                             font-weight: bold;
                             font-size: 1.5rem;
                             border: none;
+                            cursor: pointer;
                         }
                 }
             }
@@ -20133,7 +20150,7 @@ $savethis: #7273ad;
         .contact_section_class {
             background-color: $darkblue;
             height: 100vh;
-            height: 100ch;
+            height: 110ch;
             // NAVBAR CONTACT
             .title_nav {
                 display: flex;
@@ -20216,12 +20233,14 @@ $savethis: #7273ad;
                                 outline: none;
                                 color: white;
                                 text-align: center;
+                                font-size: 1.2rem;
                             }
                             input:focus {
                                 background-color: $portfolios;
                                 color: white;
                                 text-align: center;
                             }
+                            
                         }
                     }
                    .message_submit {
@@ -20251,6 +20270,8 @@ $savethis: #7273ad;
                                 padding: 12px 20px;
                                 color: white;
                                 text-align: center;
+                                font-size: 1.2rem;
+                                font-family: 'Roboto', sans-serif;
                             }
                             textarea:focus {
                                 background-color: $portfolios;
