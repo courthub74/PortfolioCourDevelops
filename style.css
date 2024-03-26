@@ -3789,6 +3789,7 @@
   }
   #skills_section_id .skills_section_class .skills_section_circles {
     display: flex;
+    margin: 6vh 0 0 0;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_first_6 .skills_circles_one {
     display: flex;
@@ -4067,7 +4068,7 @@
     justify-content: center;
     align-items: center;
     gap: 5vh;
-    margin: 10vh 0 0 0.5vw;
+    margin: 12vh 0 0 0.5vw;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_1_square {
     width: 27vw;
