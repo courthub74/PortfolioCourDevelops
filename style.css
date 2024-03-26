@@ -14471,6 +14471,10 @@
     color: #8091ED;
     font-size: 1rem;
   }
+  #experience_section_id .experience_section_class .experience_section_squares .experience_1_square .job_1_description:hover {
+    opacity: 0;
+    transition: all 0.3s ease-out;
+  }
   #experience_section_id .experience_section_class .experience_section_squares .experience_2_square {
     width: 29.2vw;
     height: 35vw;
@@ -14502,6 +14506,10 @@
     color: #8091ED;
     font-size: 1rem;
   }
+  #experience_section_id .experience_section_class .experience_section_squares .experience_2_square .job_2_description:hover {
+    opacity: 0;
+    transition: all 0.3s ease-out;
+  }
   #experience_section_id .experience_section_class .experience_section_squares .experience_3_square {
     width: 29.2vw;
     height: 35vw;
@@ -14532,6 +14540,10 @@
   #experience_section_id .experience_section_class .experience_section_squares .experience_3_square .job_3_description .experience_position {
     color: #8091ED;
     font-size: 1rem;
+  }
+  #experience_section_id .experience_section_class .experience_section_squares .experience_3_square .job_3_description:hover {
+    opacity: 0;
+    transition: all 0.3s ease-out;
   }
   #blog_section_id .blog_section_class {
     background-color: #00313E;
@@ -15564,6 +15576,10 @@
     color: #8091ED;
     font-size: 1rem;
   }
+  #experience_section_id .experience_section_class .experience_section_squares .experience_1_square .job_1_description:hover {
+    opacity: 0;
+    transition: all 0.3s ease-out;
+  }
   #experience_section_id .experience_section_class .experience_section_squares .experience_2_square {
     width: 29.2vw;
     height: 35vw;
@@ -15595,6 +15611,10 @@
     color: #8091ED;
     font-size: 1rem;
   }
+  #experience_section_id .experience_section_class .experience_section_squares .experience_2_square .job_2_description:hover {
+    opacity: 0;
+    transition: all 0.3s ease-out;
+  }
   #experience_section_id .experience_section_class .experience_section_squares .experience_3_square {
     width: 29.2vw;
     height: 35vw;
@@ -15625,6 +15645,10 @@
   #experience_section_id .experience_section_class .experience_section_squares .experience_3_square .job_3_description .experience_position {
     color: #8091ED;
     font-size: 1rem;
+  }
+  #experience_section_id .experience_section_class .experience_section_squares .experience_3_square .job_3_description:hover {
+    opacity: 0;
+    transition: all 0.3s ease-out;
   }
   #blog_section_id .blog_section_class {
     background-color: #00313E;
@@ -16672,6 +16696,7 @@
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_1_square .job_1_description:hover {
     opacity: 0;
+    transition: all 0.3s ease-out;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_2_square {
     width: 29.2vw;
@@ -16706,6 +16731,7 @@
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_2_square .job_2_description:hover {
     opacity: 0;
+    transition: all 0.3s ease-out;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_3_square {
     width: 29.2vw;
@@ -16740,6 +16766,7 @@
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_3_square .job_3_description:hover {
     opacity: 0;
+    transition: all 0.3s ease-out;
   }
   #blog_section_id .blog_section_class {
     background-color: #00313E;

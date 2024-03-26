@@ -17506,6 +17506,10 @@ $savethis: #7273ad;
                             font-size: 1rem;
                         }
                     }
+                    .job_1_description:hover {
+                        opacity: 0;
+                        transition: all .3s ease-out;
+                    }
                 }
                 .experience_2_square {
                     width: 29.2vw;
@@ -17539,6 +17543,10 @@ $savethis: #7273ad;
                             font-size: 1rem;
                         }
                     }
+                    .job_2_description:hover {
+                        opacity: 0;
+                        transition: all .3s ease-out;
+                    }
                 }
                 .experience_3_square {
                     width: 29.2vw;
@@ -17571,6 +17579,10 @@ $savethis: #7273ad;
                             // color: $jobdescription;
                             font-size: 1rem;
                         }
+                    }
+                    .job_3_description:hover {
+                        opacity: 0;
+                        transition: all .3s ease-out;
                     }
                 }
             }
@@ -18726,6 +18738,10 @@ $savethis: #7273ad;
                             font-size: 1rem;
                         }
                     }
+                    .job_1_description:hover {
+                        opacity: 0;
+                        transition: all .3s ease-out;
+                    }
                 }
                 .experience_2_square {
                     width: 29.2vw;
@@ -18759,6 +18775,10 @@ $savethis: #7273ad;
                             font-size: 1rem;
                         }
                     }
+                    .job_2_description:hover {
+                        opacity: 0;
+                        transition: all .3s ease-out;
+                    }
                 }
                 .experience_3_square {
                     width: 29.2vw;
@@ -18791,6 +18811,10 @@ $savethis: #7273ad;
                             // color: $jobdescription;
                             font-size: 1rem;
                         }
+                    }
+                    .job_3_description:hover {
+                        opacity: 0;
+                        transition: all .3s ease-out;
                     }
                 }
             }
@@ -19972,6 +19996,7 @@ $savethis: #7273ad;
                     }
                     .job_1_description:hover {
                         opacity: 0;
+                        transition: all .3s ease-out;
                     }
                 }
                 .experience_2_square {
@@ -20009,6 +20034,7 @@ $savethis: #7273ad;
                     }
                     .job_2_description:hover {
                         opacity: 0;
+                        transition: all .3s ease-out;
                     }
                 }
                 .experience_3_square {
@@ -20046,6 +20072,7 @@ $savethis: #7273ad;
                     }
                     .job_3_description:hover {
                         opacity: 0;
+                        transition: all .3s ease-out;
                     }
                 }
             }
