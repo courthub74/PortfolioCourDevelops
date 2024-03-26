@@ -14605,7 +14605,8 @@
     height: 28vw;
     border-radius: 50%;
     background-color: #146166;
-    border: 3px solid #080E2F;
+    border: 2px solid #080E2F;
+    box-shadow: 2px 2px 4px black;
   }
   #blog_section_id .blog_section_class .blog_entry .blog_back_circle .blog_front_circle {
     display: flex;
