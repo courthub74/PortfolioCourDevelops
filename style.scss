@@ -17916,15 +17916,2448 @@ $savethis: #7273ad;
 
 // BIGGER DESKTOP (1300px)
 @media screen and (min-width: 1300px) and (max-width: 1499px) {
-    body {
+    // body {
+    //     display: none;
+    // }
+    // DESKTOP NAVBAR
+    .desktop_nav {
+        margin: 7vh 5vw 0 0;
+        ul {
+            display: flex;
+            justify-content: right;
+            text-decoration: none;
+            gap: 1.5vw;
+            margin: 0vh 0vw 0 0;
+            #selected {
+                color: $darkblue;
+                border: 1px solid white;
+                background-color: white;
+                padding: .5ch;
+                border-radius: 5px;
+            }
+            li {
+                list-style: none;
+                font-size: 1.2rem;
+                a {
+                   text-decoration: none;
+                   color: white;
+                   font-family: 'Inter', sans-serif;
+                   font-weight: bold;   
+                }
+            }
+        }
+    }
+    // MOBILE NAVBAR
+    nav {
         display: none;
+    }
+    // HOME SECTION
+    #home_section_id {
+        .home_section_class {
+            background-color: $darkblue;
+            height: 100vh;
+            height: 90ch;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .home_section_content {
+                // background-color: #00313E;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: -15vh 0 0 0;  
+                margin: -5vh 0 0 0;  
+                gap: 15vw;
+                // BIG HOME LOGO
+                .logo_div {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .back_logo {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background-color: white;
+                        border-radius: 50%;
+                        width: 28vw;
+                        height: 28vw;
+                        .front_logo {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            #logo_home {
+                                width: 26vw;
+                                height: 26vw;
+                            }
+                        }
+                    }
+                }
+                 // BIG HOME WORDS
+                 .word_content {
+                    // background-color: #00C6C3;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 2.5ch;
+                    margin-right: -3ch;
+                    // NAME - DESCRIPTION
+                    .name_description {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        gap: 1ch;
+                        .home_name {
+                            font-size: 2.5rem;
+                            color: white;
+                            font-family: 'Inter', sans-serif;
+                        }
+                        .job_description {
+                            font-size: 1.5rem;
+                            color: $descriptionblue;
+                            font-family: 'Inter', sans-serif;
+                            border: 1px solid $portfolios;
+                            border-radius: 10px;
+                            background-color: $portfolios;
+                            width: 26vw;
+                            height: 4vw;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                    }
+                    // HOME SLOGAN
+                    .home_slogan {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        p {
+                            font-size: 1.3rem;
+                            color: white;
+                            font-family: 'Inter', sans-serif;
+                            font-weight: bold;
+                            text-align: center;
+                        }
+                    }
+                    // HOME SOCIALS DESKTOP
+                    .home_socials {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 3.5vw;
+                        #github {
+                            width: 3vw;
+                            height: 3vw;
+                        }
+                        #twitter {
+                            width: 3vw;
+                            height: 3vw;
+                        }
+                        #linkedin {
+                            width: 3vw;
+                            height: 3vw;
+                        }
+                        #instagram {
+                            width: 3.5vw;
+                            height: 3.5vw;
+                        }
+                    }
+                    // LEARN MORE BUTTON
+                    .learn_more {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 4vw;
+                        width: 24vw;
+                        border: 1px solid $portfolios;
+                        border-radius: 25px;
+                        background-color: $portfolios;
+                        margin: 0 0 0 1ch;
+                        .words_arrow {
+                            a {
+                                color: $descriptionblue;
+                                text-decoration: none;
+                                font-size: 1rem;
+                                font-family: 'Inter', sans-serif;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // ABOUT SECTION (DESKTOP)
+    #about_section_id {
+        .about_section_class {
+            background-color: $nextgreen;
+            height: 105vh;
+            height: 105ch;
+            display: flex;
+            flex-direction: column;
+            // align-items: center;
+            // justify-content: center;
+            
+            // SECTION TITLE AND NAVBAR
+            .title_nav {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: row-reverse;
+                // background-color: orange;
+                margin: 0vh 0 0 0;
+                // ABOUT TITLE
+                .section_title {
+                    font-family: 'Inter', sans-serif;
+                    font-weight: bold;
+                    font-size: 3rem;
+                    color: white;
+                    margin: 3vh 0 0 5vw;
+                    margin: 5vh 0 0 5vw;
+                }
+                // ABOUT NAVBAR
+                .about_desktop_nav {
+                    margin: 2vh 5vw 0 0;
+                    margin: 6vh 5vw 0 0;
+                    ul {
+                        display: flex;
+                        justify-content: right;
+                        text-decoration: none;
+                        gap: 1.5vw;
+                        margin: 0vh 0vw 0 0;
+                        #selected {
+                            color: $nextgreen;
+                            border: 1px solid white;
+                            background-color: white;
+                            padding: .5ch;
+                            border-radius: 5px;
+                        }
+                        li {
+                            list-style: none;
+                            font-size: 1.2rem;
+                            cursor: pointer;
+                            a {
+                               text-decoration: none;
+                               color: white;
+                               font-family: 'Inter', sans-serif;
+                               font-weight: bold;   
+                            }
+                        }
+                    }
+                }
+            }
+            // ABOUT CONTENT
+            .about_section_content {
+                display: flex;
+                flex-direction: column;
+                width: 80%;
+                color: white;
+                margin: 8vh 0 0 5vw;
+                font-family: 'Inter', sans-serif;
+                font-size: 1.3rem;
+                line-height: 3ch;
+                .brand_is {
+                    .brand {
+                        display: flex;
+                        justify-content: left;
+                        align-items: center;
+                        gap: 1.4vw;
+                        padding: 7vh 0 7vh 0;
+                    }
+                    #about_logo {
+                        width: 8vw;
+                        height: 8vw;
+                    }
+                }
+            }
+            // DOWNLOAD RESUME
+            .download_resume {
+                margin: 8vh 0 0 5vw;
+                border-radius: 25px;
+                background-color: white;
+                width: 24vw;
+                height: 4vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                a {
+                    font-size: 1.1rem;
+                    font-family: 'Inter', sans-serif;
+                    font-weight: bold;
+                    text-decoration: none;
+                    color: $nextgreen;
+                }
+            }
+        }
+    }
+    // PORTFOLIO SECTION (DESKTOP)
+    #portfolio_section_id {
+        .portfolio_section_class {
+            background-color: $darkblue;
+            height: 105vh;
+            height: 105ch;
+            display: flex;
+            flex-direction: column;
+             // SECTION TITLE AND NAVBAR
+             .title_nav {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: row-reverse;
+                margin: 0vh 0 0 0;
+                // ABOUT TITLE
+                .section_title {
+                    font-family: 'Inter', sans-serif;
+                    font-weight: bold;
+                    font-size: 3rem;
+                    color: white;
+                    margin: 3vh 0 0 5vw;
+                    margin: 5vh 0 0 5vw;
+                }
+                // ABOUT NAVBAR
+                .portfolio_desktop_nav {
+                    margin: 2vh 5vw 0 0;
+                    margin: 6vh 5vw 0 0;
+                    ul {
+                        display: flex;
+                        justify-content: right;
+                        text-decoration: none;
+                        gap: 1.5vw;
+                        margin: 0vh 0vw 0 0;
+                        #selected {
+                            color: $darkblue;
+                            border: 1px solid white;
+                            background-color: white;
+                            padding: .5ch;
+                            border-radius: 5px;
+                        }
+                        li {
+                            list-style: none;
+                            font-size: 1.2rem;
+                            cursor: pointer;
+                            a {
+                               text-decoration: none;
+                               color: white;
+                               font-family: 'Inter', sans-serif;
+                               font-weight: bold;   
+                            }
+                        }
+                    }
+                }
+            }
+            // PORTFOLIO SQUARES (DESKTOP)
+            .portfolio_section_squares {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 2ch;
+                margin: 10vh 0 0 .5ch;
+                .portfolio_square {
+                    background-color: $portfolios;
+                    border: 1px solid $portfolios;
+                    border-radius: 10px;
+                    width: 21.7vw;
+                    height: 35vw;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    box-shadow: 2px 2px 2px 2px black;
+                    #workflow_app {
+                        margin: 0 0 0 5ch;
+                    }
+                    #create_collab {
+                        width: 21vw;
+                        height: 3vw;
+                        margin: 0 0 0 4.5ch;
+                    }
+                    #mps_site {
+                        margin: 0 0 0 6ch;
+                        height: 5vw;
+                    }
+                    #msy {
+                        width: 18vw;
+                    }
+                }
+            }
+        }
+    }
+    // SKILLS SECTION (DESKTOP)
+    #skills_section_id {
+        .skills_section_class {
+            background-color: $nextgreen;
+            height: 105vh;
+            height: 105ch;
+            // display: flex;
+            // align-items: center;
+            // justify-content: center;
+
+            // SECTION TITLE AND NAVBAR
+            .title_nav {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: row-reverse;
+                margin: 0vh 0 0 0;
+                // SKILLS TITLE
+                .section_title {
+                    font-family: 'Inter', sans-serif;
+                    font-weight: bold;
+                    font-size: 3rem;
+                    color: white;
+                    margin: 3vh 0 0 5vw;
+                    margin: 5vh 0 0 5vw;
+                }
+                // SKILLS NAVBAR
+                .skills_desktop_nav {
+                    margin: 2vh 5vw 0 0;
+                    margin: 6vh 5vw 0 0;
+                    ul {
+                        display: flex;
+                        justify-content: right;
+                        text-decoration: none;
+                        gap: 1.5vw;
+                        margin: 0vh 0vw 0 0;
+                        #selected {
+                            color: $nextgreen;
+                            border: 1px solid white;
+                            background-color: white;
+                            padding: .5ch;
+                            border-radius: 5px;
+                        }
+                        li {
+                            list-style: none;
+                            font-size: 1.2rem;
+                            cursor: pointer;
+                            a {
+                               text-decoration: none;
+                               color: white;
+                               font-family: 'Inter', sans-serif;
+                               font-weight: bold;   
+                            }
+                        }
+                    }
+                }
+            }
+            // SKILLS CONTENT
+            .skills_section_circles {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 1.5ch;
+                gap: 3.5ch;
+                gap: 7ch;
+                margin: 15vh 0 0 -10vw;
+                
+                .skills_first_6 {
+                    display: flex;
+                    margin: 0 0ch 0 16.5ch;
+                    // background-color: #507E81;
+                    .skills_circles_one {
+                        display: flex;
+                        gap: 2ch;
+                        gap: 4.4ch;
+                        .skill_circle {
+                            .skill_back {
+                                width: 12.5vw;
+                                height: 12.5vw;
+                                // width: 11.5vw;
+                                // height: 11.5vw;
+                                border: 3px solid $darkblue;
+                                background-color: $skillsteal;
+                                border-radius: 50%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                box-shadow: 2px 2px 4px black;
+                                .skill_front {
+                                    width: 11.5vw;
+                                    height: 11.5vw;
+                                    // width: 10.5vw;
+                                    // height: 10.5vw;
+                                    border: none;
+                                    background-color: $darkblue;
+                                    border-radius: 50%;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    .shield {
+                                        width: 4vw;
+                                        height: 4vw;
+                                    }
+                                    // HTML
+                                    #html {
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                    }
+                                    #html.dissapear {
+                                        opacity: 0;
+                                    }
+                                    #html_description {
+                                        opacity: 0;
+                                    }
+                                    #html_description.show {
+                                        transition: .5s all ease-in;
+                                    }
+                                    // CSS
+                                    #css {
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                    }
+                                    #css.dissapear {
+                                        opacity: 0;
+                                    }
+                                    #css_description {
+                                        opacity: 0;
+                                    }
+                                    #css_description.show {
+                                        transition: .5s all ease-in;
+                                    }
+                                    // SASS
+                                    #sass {
+                                        width: 4vw;
+                                        height: 4vw;
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                        margin: -.5vh 0 0 .5vw;
+                                    }
+                                    #sass.dissapear {
+                                        opacity: 0;
+                                    }
+                                    #sass_description {
+                                        opacity: 0;
+                                    }
+                                    #sass_description.show {
+                                        transition: .5s all ease-in;
+                                    }
+                                    // JS
+                                    #javascript {
+                                        width: 5vw;
+                                        height: 5vw;
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                        margin: 0 0 0 0vw;
+                                    }
+                                    #javascript.dissapear {
+                                        opacity: 0;
+                                    }
+                                    #javascript_description {
+                                        opacity: 0;
+                                    }
+                                    #javascript_description.show {
+                                        transition: .5s all ease-in;
+                                    }
+                                    // PYTHON
+                                    #python {
+                                        width: 3.5vw;
+                                        height: 3.5vw;
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                        margin: -.5vh 0 0 0;
+                                    }
+                                    #python.dissapear {
+                                        opacity: 0;
+                                    }
+                                    #python_description {
+                                        opacity: 0;
+                                    }
+                                    // REACT
+                                    #react {
+                                        width: 3.8vw;
+                                        height: 3.8vw;
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                    }
+                                    #react.dissapear {
+                                        opacity: 0;
+                                    }
+                                    #react_description {
+                                        opacity: 0;
+                                    }
+                                    #react_description.show {
+                                        transition: .5s all ease-in;
+                                    }
+                                }
+                            }
+                        }
+                        // Move JS Circle by margin
+                        #js_circle {
+                            // background-color: #58a6ff;
+                            margin: 0 0 0 4.4ch;
+                        }
+                    }
+                }
+                .skills_second_6 {
+                    display: flex;
+                    margin: 0 0 0 16.5ch;
+                    .skills_circles_one {
+                        display: flex;
+                        gap: 2ch;
+                        gap: 4.4ch;
+                        // margin: 0 0 0 1ch;
+                        .skill_circle {
+                            .skill_back {
+                                width: 12.5vw;
+                                height: 12.5vw;
+                                // width: 11.5vw;
+                                // height: 11.5vw;
+                                border: 3px solid $darkblue;
+                                background-color: $skillsteal;
+                                border-radius: 50%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                box-shadow: 2px 2px 4px black;
+                                .skill_front {
+                                    width: 11.5vw;
+                                    height: 11.5vw;
+                                    // width: 10.5vw;
+                                    // height: 10.5vw;
+                                    border: none;
+                                    background-color: $darkblue;
+                                    border-radius: 50%;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+                                
+                                 // FIGMA
+                                 #figma {
+                                    width: 4.5vw;
+                                    height: 4.5vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                }
+                                #figma.dissapear {
+                                    opacity: 0;
+                                }
+                                #figma_description {
+                                    opacity: 0;
+                                }
+                                #figma_description.show {
+                                    transition: .5s all ease-in; 
+                                }
+                                // FIREBASE
+                                #firebase {
+                                    width: 2.7vw;
+                                    height: 3.7vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                }
+                                #firebase.dissapear {
+                                    opacity: 0;
+                                }
+                                #firebase_description {
+                                    opacity: 0;
+                                }
+                                #firebase_description.show {
+                                    transition: .5s all ease-in; 
+                                }
+                                // MONGO
+                                #mongo {
+                                    width: 1.8vw;
+                                    height: 4.2vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                    margin: 0vh 0 0 0;
+                                }
+                                #mongo.dissapear {
+                                    opacity: 0;
+                                }
+                                #mongo_description {
+                                    opacity: 0;
+                                }
+                                #mongo_description.show {
+                                    transition: .5s all ease-in;
+                                }
+                                // DJANGO
+                                #django {
+                                    width: 3.5vw;
+                                    height: 3.5vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                    margin: 0vh .5vw 0 0; 
+                                }
+                                #django.dissapear {
+                                    opacity: 0;
+                                }
+                                #django_description {
+                                    opacity: 0;
+                                }
+                                #django_description.show {
+                                    transition: .5s all ease-in;
+                                }
+                                // AWS
+                                #aws {
+                                    width: 4.5vw;
+                                    height: 4.5vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                    margin: 0vh 0vw 0 0;  
+                                }
+                                #aws.dissapear {
+                                    opacity: 0;
+                                }
+                                #aws_description {
+                                    opacity: 0;
+                                }
+                                #aws_description.show {
+                                    transition: .5s all ease-in;
+                                }
+                                // HEROKU
+                                #heroku {
+                                    width: 4vw;
+                                    height: 4vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                    margin: -.5vhvh 0vw 0 0;  
+                                }
+                                #heroku.dissapear {
+                                    opacity: 0;
+                                }
+                                #heroku_description {
+                                    opacity: 0;
+                                }
+                                #heroku_description.show {
+                                    transition: .5s all ease-in;
+                                }
+                            }
+                        }
+                         // Move Django Circle by margin
+                        #django_circle {
+                            // background-color: #00C6C3;
+                            margin: 0 0 0 4.4ch;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // EXPERIENCE SECTION (DESKTOP)
+    #experience_section_id {
+        .experience_section_class {
+            background-color: $darkblue;
+            height: 105vh;
+            height: 105ch;
+            display: flex;
+            flex-direction: column;
+            .title_nav {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: row-reverse;
+                margin: 0vh 0 0 0;
+                // EXPERIENCE NAVBAR
+                .experience_desktop_nav {
+                    margin: 6vh 5vw 0 0;
+                    ul {
+                        display: flex;
+                        justify-content: right;
+                        text-decoration: none;
+                        gap: 1.5vw;
+                        margin: 0vh 0vw 0 0;
+                        #selected {
+                            color: $darkblue;
+                            border: 1px solid white;
+                            background-color: white;
+                            padding: .5ch;
+                            border-radius: 5px;
+                        }
+                        li {
+                            list-style: none;
+                            font-size: 1.2rem;
+                            cursor: pointer;
+                            a {
+                               text-decoration: none;
+                               color: white;
+                               font-family: 'Inter', sans-serif;
+                               font-weight: bold;   
+                            }
+                        }
+                    }
+                }
+                // EXPERIENCE TITLE
+                .section_title {
+                    font-family: 'Inter', sans-serif;
+                    font-weight: bold;
+                    font-size: 3rem;
+                    color: white;
+                    margin: 3vh 0 0 5vw;
+                    margin: 5vh 0 0 5vw;
+                }
+            }
+            // EXPERIENCE SECTION CONTENT
+            .experience_section_squares {
+                margin: 12vh 0 0 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 12ch;
+                gap: 2ch;
+                .experience_1_square {
+                    width: 29.2vw;
+                    height: 35vw;
+                    border: 1px solid $portfolios;
+                    border-radius: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 3ch;
+                    background-color: $portfolios;
+                    box-shadow: 2px 2px 2px 2px black;
+                    #courdevelops {
+                        width: 8vw;
+                        height: 8vw;
+                    }
+                    .job_1_description {
+                        font-family: 'Inter', sans-serif;
+                        display: flex;
+                        flex-direction: column;
+                        .experience_company {
+                            color: white;
+                            font-size: 1.2rem;
+                            // font-size: 18px;
+                            font-weight: bold;
+                        }
+                        .experience_position {
+                            color: $descriptionblue;
+                            // color: $jobdescription;
+                            font-size: 1rem;
+                        }
+                    }
+                }
+                .experience_2_square {
+                    width: 29.2vw;
+                    height: 35vw;
+                    border: 1px solid $portfolios;
+                    border-radius: 10px;
+                    background-color: $portfolios;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 3ch;
+                    box-shadow: 2px 2px 2px 2px black;
+                    #slea {
+                        width: 7vw;
+                        height: 7vw;
+                    }
+                    .job_2_description {
+                        font-family: 'Inter', sans-serif;
+                        display: flex;
+                        flex-direction: column;
+                        .experience_company {
+                            color: white;
+                            font-size: 1.2rem;
+                            // font-size: 18px;
+                            font-weight: bold;
+                        }
+                        .experience_position {
+                            color: $descriptionblue;
+                            // color: $jobdescription;
+                            font-size: 1rem;
+                        }
+                    }
+                }
+                .experience_3_square {
+                    width: 29.2vw;
+                    height: 35vw;
+                    border: 1px solid $portfolios;
+                    border-radius: 10px;
+                    background-color: $portfolios;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 3ch;
+                    box-shadow: 2px 2px 2px 2px black;
+                    #r1rcm {
+                        width: 6.5vw;
+                        height: 6.5vw;
+                    }
+                    .job_3_description {
+                        font-family: 'Inter', sans-serif;
+                        display: flex;
+                        flex-direction: column;
+                        .experience_company {
+                            color: white;
+                            font-size: 1.2rem;
+                            // font-size: 18px;
+                            font-weight: bold;
+                        }
+                        .experience_position {
+                            color: $descriptionblue;
+                            // color: $jobdescription;
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    } 
+    // BLOG SECTION (DESKTOP)
+    #blog_section_id {
+        .blog_section_class {
+            background-color: $nextgreen;
+            height: 105vh;
+            height: 105ch;
+            // NAVBAR BLOG
+            .title_nav {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: row-reverse;
+                margin: 0vh 0 0 0;
+                // EXPERIENCE NAVBAR
+                .blog_desktop_nav {
+                    margin: 6vh 5vw 0 0;
+                    ul {
+                        display: flex;
+                        justify-content: right;
+                        text-decoration: none;
+                        gap: 1.5vw;
+                        margin: 0vh 0vw 0 0;
+                        #selected {
+                            color: $nextgreen;
+                            border: 1px solid white;
+                            background-color: white;
+                            padding: .5ch;
+                            border-radius: 5px;
+                        }
+                        li {
+                            list-style: none;
+                            font-size: 1.2rem;
+                            cursor: pointer;
+                            a {
+                               text-decoration: none;
+                               color: white;
+                               font-family: 'Inter', sans-serif;
+                               font-weight: bold;   
+                            }
+                        }
+                    }
+                }
+                // BLOG TITLE
+                .section_title {
+                    font-family: 'Inter', sans-serif;
+                    font-weight: bold;
+                    font-size: 3rem;
+                    color: white;
+                    margin: 3vh 0 0 5vw;
+                    margin: 5vh 0 0 5vw;
+                }
+            }
+            // BLOG CIRCLES
+            .blog_circles {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: -7vh 0 0 .8vw;
+                gap: 5ch;
+            }
+            // BLOG CIRCLE 
+            .blog_entry {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .blog_back_circle {
+                        z-index: 100;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 26vw;
+                        height: 26vw;
+                        width: 28vw;
+                        height: 28vw;
+                        border-radius: 50%;
+                        background-color: $skillsteal;
+                        border: 2px solid $darkblue;
+                        box-shadow: 2px 2px 4px black;
+                        .blog_front_circle {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 24vw;
+                            height: 24vw;
+                            width: 26vw;
+                            height: 26vw;
+                            border-radius: 50%;
+                            background-color: $darkblue;
+                            color: white;
+                            font-family: 'Inter', sans-serif;
+                            font-weight: bold;
+                            font-size: 1.5rem;
+                            border: none;
+                        }
+                }
+            }
+            .blog_square {
+                display: none;
+            }
+        }
+    }
+    // CONTACT SECTION (DESKTOP)
+    #contact_section_id {
+        .contact_section_class {
+            background-color: $darkblue;
+            height: 100vh;
+            height: 100ch;
+            // NAVBAR CONTACT
+            .title_nav {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: row-reverse;
+                margin: 0vh 0 0 0;
+                // CONTACT NAVBAR
+                .contact_desktop_nav {
+                    margin: 6vh 5vw 0 0;
+                    ul {
+                        display: flex;
+                        justify-content: right;
+                        text-decoration: none;
+                        gap: 1.5vw;
+                        margin: 0vh 0vw 0 0;
+                        #selected {
+                            color: $darkblue;
+                            border: 1px solid white;
+                            background-color: white;
+                            padding: .5ch;
+                            border-radius: 5px;
+                        }
+                        li {
+                            list-style: none;
+                            font-size: 1.2rem;
+                            cursor: pointer;
+                            a {
+                               text-decoration: none;
+                               color: white;
+                               font-family: 'Inter', sans-serif;
+                               font-weight: bold;   
+                            }
+                        }
+                    }
+                }
+                // CONTACT TITLE
+                .section_title {
+                    font-family: 'Inter', sans-serif;
+                    font-weight: bold;
+                    font-size: 3rem;
+                    color: white;
+                    margin: 3vh 0 0 5vw;
+                    margin: 5vh 0 0 5vw;
+                }
+            }
+            // CONTACT CONTENT
+            .contact_section_form {
+                // background-color: honeydew;
+                height: 50vh;
+                form {
+                    display: flex;
+                    // flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 5.5vh;
+                    margin: 15vh 0 0 0;
+                    .name_email {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 8ch;
+                        margin: -21vh 0 0 0;
+                        .input_div {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 1ch;
+                            label {
+                                font-family: 'Inter', sans-serif;
+                                font-size: 1.5vw;
+                                font-size: 1.5rem;
+                                color: white;
+                            }
+                            input {
+                                background-color: $portfolios;
+                                border: none;
+                                border-radius: 10px;
+                                border-radius: 25px;
+                                width: 41vw;
+                                height: 7vw;
+                                outline: none;
+                                color: white;
+                                text-align: center;
+                            }
+                            input:focus {
+                                background-color: $portfolios;
+                                color: white;
+                                text-align: center;
+                            }
+                        }
+                    }
+                   .message_submit {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 3ch;
+                        margin: -5vh 0 0 0;
+                        .input_div {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 1ch;
+                            label {
+                                font-family: 'Inter', sans-serif;
+                                font-size: 1.5vw;
+                                font-size: 1.5rem;
+                                color: white;
+                            }
+                            textarea {
+                                background-color: $portfolios;
+                                height: 33vh;
+                                width: 41vw;
+                                border: none;
+                                border-radius: 10px;
+                                border-radius: 25px;
+                                resize: none;
+                                outline: none;
+                                padding: 12px 20px;
+                                color: white;
+                                text-align: center;
+                            }
+                            textarea:focus {
+                                background-color: $portfolios;
+                                color: white;
+                                text-align: center;
+                            }
+                        }
+                        .submit_button {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            margin: 3vh 0 0 0;
+                            #submitemail {
+                                background-color: $portfolios;
+                                // background-color: red;
+                                border: none;
+                                box-shadow: 3px 3px 2px $boxshadowcircles;
+                                border-radius: 10px;
+                                border-radius: 25px;
+                                width: 41.5vw;
+                                width: 44vw;
+                                height: 6vw;
+                                p {
+                                    color: rgb(255, 255, 255);
+                                    font-size: 1.5rem;
+                                    // font-weight: bold;
+                                    font-family: 'Inter', sans-serif;
+                                    // font-size: 2vw;
+                                }
+                            }
+                        }
+                   }
+                }
+                // FOOTER (1280 DESKTOP)
+                .poweredby {
+                    margin: -9vh 52vw 0 0;
+                    small {
+                         // SOCIALS (1280 DESKTOP)
+                        .home_socials {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            // gap: 3vh;
+                            gap: 77px;
+                            // margin: 0vh 0 0 5vw;
+                            margin: 1vh 0 0 4vw;
+                            #github {
+                                width: 4vw;
+                                height: 4vw;
+                            }
+                            #twitter {
+                                width: 4vw;
+                                height: 4vw;
+                            }
+                            #linkedin {
+                                width: 4vw;
+                                height: 4vw;
+                            }
+                            #instagram {
+                                width: 4.5vw;
+                                height: 4.5vw;
+                            }
+                        }
+                    }
+                    .copyrights {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 2.5ch;
+                        // margin: 4vh 0 0 -1vw;
+                        margin: 12vh 0 0 25vw;
+                        width: 100%;
+                        // background-color: yellow;
+                        p {
+                            color: $portfolios;
+                            font-size: 4vw;
+                            font-size: 1.2rem;
+                            // font-weight: bold;
+                            font-family: 'Inter', sans-serif;
+                            // background-color: red;
+                            margin-right: -3vw;
+                        }
+                        #copyright_courdevs {
+                            margin: 0vh 0 0 1.9vw;
+                            width: 3vw;
+                            height: 3vw;
+                            // background-color: red;
+                        }
+                        .courdev {
+                            margin: 0 3vw 0 0vw;
+                            color: $firstblue;
+                            font-family: 'Inter', sans-serif;
+                            font-size: 4vw;
+                            font-size: 1rem;
+                        }
+                        #phone {
+                            width: 2.5vw;
+                            height: 2.5vw;
+                            margin-left: 0vw;
+                        }
+                        .courdev_num {
+                            font-family: 'Inter', sans-serif;
+                            color: $firstblue;
+                            font-size: 1rem;
+                            margin-left: -.8rem;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
 // EVEN BIGGER DESKTOP (1500px)
 @media screen and (min-width: 1500px) {
-    body {
+    // body {
+    //     display: none;
+    // }
+    // DESKTOP NAVBAR
+    .desktop_nav {
+        margin: 7vh 5vw 0 0;
+        ul {
+            display: flex;
+            justify-content: right;
+            text-decoration: none;
+            gap: 1.5vw;
+            margin: 0vh 0vw 0 0;
+            #selected {
+                color: $darkblue;
+                border: 1px solid white;
+                background-color: white;
+                padding: .5ch;
+                border-radius: 5px;
+            }
+            li {
+                list-style: none;
+                font-size: 1.2rem;
+                a {
+                   text-decoration: none;
+                   color: white;
+                   font-family: 'Inter', sans-serif;
+                   font-weight: bold;   
+                }
+            }
+        }
+    }
+    // MOBILE NAVBAR
+    nav {
         display: none;
+    }
+    // HOME SECTION
+    #home_section_id {
+        .home_section_class {
+            background-color: $darkblue;
+            height: 100vh;
+            height: 100ch;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .home_section_content {
+                // background-color: #00313E;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: -15vh 0 0 0;  
+                margin: -5vh 0vw 0 0;  
+                gap: 25vw;
+                // BIG HOME LOGO
+                .logo_div {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 0 -5vw 0 0;
+                    .back_logo {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background-color: white;
+                        border-radius: 50%;
+                        width: 28vw;
+                        height: 28vw;
+                        width: 32vw;
+                        height: 32vw;
+                        .front_logo {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            #logo_home {
+                                width: 26vw;
+                                height: 26vw;
+                                width: 30vw;
+                                height: 30vw;
+                            }
+                        }
+                    }
+                }
+                 // BIG HOME WORDS
+                 .word_content {
+                    // background-color: #00C6C3;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 2.5ch;
+                    // background-color: yellow;
+                    margin-right: 15ch;
+                    margin: 0 0ch 0 -10ch;
+                    // NAME - DESCRIPTION
+                    .name_description {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        gap: 1ch;
+                        .home_name {
+                            font-size: 2.5rem;
+                            color: white;
+                            font-family: 'Inter', sans-serif;
+                        }
+                        .job_description {
+                            font-size: 1.5rem;
+                            color: $descriptionblue;
+                            font-family: 'Inter', sans-serif;
+                            border: 1px solid $portfolios;
+                            border-radius: 10px;
+                            background-color: $portfolios;
+                            width: 26vw;
+                            height: 4vw;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                    }
+                    // HOME SLOGAN
+                    .home_slogan {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        p {
+                            font-size: 1.3rem;
+                            color: white;
+                            font-family: 'Inter', sans-serif;
+                            font-weight: bold;
+                            text-align: center;
+                        }
+                    }
+                    // HOME SOCIALS DESKTOP
+                    .home_socials {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 3.5vw;
+                        #github {
+                            width: 3vw;
+                            height: 3vw;
+                        }
+                        #twitter {
+                            width: 3vw;
+                            height: 3vw;
+                        }
+                        #linkedin {
+                            width: 3vw;
+                            height: 3vw;
+                        }
+                        #instagram {
+                            width: 3.5vw;
+                            height: 3.5vw;
+                        }
+                    }
+                    // LEARN MORE BUTTON
+                    .learn_more {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 4vw;
+                        width: 24vw;
+                        border: 1px solid $portfolios;
+                        border-radius: 25px;
+                        background-color: $portfolios;
+                        margin: 0 0 0 1ch;
+                        .words_arrow {
+                            a {
+                                color: $descriptionblue;
+                                text-decoration: none;
+                                font-size: 1rem;
+                                font-family: 'Inter', sans-serif;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // ABOUT SECTION (DESKTOP)
+    #about_section_id {
+        .about_section_class {
+            background-color: $nextgreen;
+            height: 105vh;
+            height: 105ch;
+            display: flex;
+            flex-direction: column;
+            // align-items: center;
+            // justify-content: center;
+            
+            // SECTION TITLE AND NAVBAR
+            .title_nav {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: row-reverse;
+                // background-color: orange;
+                margin: 0vh 0 0 0;
+                // ABOUT TITLE
+                .section_title {
+                    font-family: 'Inter', sans-serif;
+                    font-weight: bold;
+                    font-size: 3rem;
+                    color: white;
+                    margin: 3vh 0 0 5vw;
+                    margin: 5vh 0 0 5vw;
+                }
+                // ABOUT NAVBAR
+                .about_desktop_nav {
+                    margin: 2vh 5vw 0 0;
+                    margin: 6vh 5vw 0 0;
+                    ul {
+                        display: flex;
+                        justify-content: right;
+                        text-decoration: none;
+                        gap: 1.5vw;
+                        margin: 0vh 0vw 0 0;
+                        #selected {
+                            color: $nextgreen;
+                            border: 1px solid white;
+                            background-color: white;
+                            padding: .5ch;
+                            border-radius: 5px;
+                        }
+                        li {
+                            list-style: none;
+                            font-size: 1.2rem;
+                            cursor: pointer;
+                            a {
+                               text-decoration: none;
+                               color: white;
+                               font-family: 'Inter', sans-serif;
+                               font-weight: bold;   
+                            }
+                        }
+                    }
+                }
+            }
+            // ABOUT CONTENT
+            .about_section_content {
+                display: flex;
+                flex-direction: column;
+                width: 80%;
+                color: white;
+                margin: 8vh 0 0 5vw;
+                font-family: 'Inter', sans-serif;
+                font-size: 1.3rem;
+                line-height: 3ch;
+                .brand_is {
+                    .brand {
+                        display: flex;
+                        justify-content: left;
+                        align-items: center;
+                        gap: 1.4vw;
+                        padding: 7vh 0 7vh 0;
+                    }
+                    #about_logo {
+                        width: 8vw;
+                        height: 8vw;
+                    }
+                }
+            }
+            // DOWNLOAD RESUME
+            .download_resume {
+                margin: 8vh 0 0 5vw;
+                border-radius: 25px;
+                background-color: white;
+                width: 24vw;
+                height: 4vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                a {
+                    font-size: 1.1rem;
+                    font-family: 'Inter', sans-serif;
+                    font-weight: bold;
+                    text-decoration: none;
+                    color: $nextgreen;
+                }
+            }
+        }
+    }
+    // PORTFOLIO SECTION (DESKTOP)
+    #portfolio_section_id {
+        .portfolio_section_class {
+            background-color: $darkblue;
+            height: 105vh;
+            height: 105ch;
+            display: flex;
+            flex-direction: column;
+             // SECTION TITLE AND NAVBAR
+             .title_nav {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: row-reverse;
+                margin: 0vh 0 0 0;
+                // ABOUT TITLE
+                .section_title {
+                    font-family: 'Inter', sans-serif;
+                    font-weight: bold;
+                    font-size: 3rem;
+                    color: white;
+                    margin: 3vh 0 0 5vw;
+                    margin: 5vh 0 0 5vw;
+                }
+                // ABOUT NAVBAR
+                .portfolio_desktop_nav {
+                    margin: 2vh 5vw 0 0;
+                    margin: 6vh 5vw 0 0;
+                    ul {
+                        display: flex;
+                        justify-content: right;
+                        text-decoration: none;
+                        gap: 1.5vw;
+                        margin: 0vh 0vw 0 0;
+                        #selected {
+                            color: $darkblue;
+                            border: 1px solid white;
+                            background-color: white;
+                            padding: .5ch;
+                            border-radius: 5px;
+                        }
+                        li {
+                            list-style: none;
+                            font-size: 1.2rem;
+                            cursor: pointer;
+                            a {
+                               text-decoration: none;
+                               color: white;
+                               font-family: 'Inter', sans-serif;
+                               font-weight: bold;   
+                            }
+                        }
+                    }
+                }
+            }
+            // PORTFOLIO SQUARES (DESKTOP)
+            .portfolio_section_squares {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 2ch;
+                margin: 10vh 0 0 .5ch;
+                .portfolio_square {
+                    background-color: $portfolios;
+                    border: 1px solid $portfolios;
+                    border-radius: 10px;
+                    width: 21.7vw;
+                    height: 35vw;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    box-shadow: 2px 2px 2px 2px black;
+                    #workflow_app {
+                        margin: 0 0 0 5ch;
+                    }
+                    #create_collab {
+                        width: 21vw;
+                        height: 3vw;
+                        margin: 0 0 0 4.5ch;
+                    }
+                    #mps_site {
+                        margin: 0 0 0 6ch;
+                        height: 5vw;
+                    }
+                    #msy {
+                        width: 18vw;
+                    }
+                }
+            }
+        }
+    }
+    // SKILLS SECTION (DESKTOP)
+    #skills_section_id {
+        .skills_section_class {
+            background-color: $nextgreen;
+            height: 105vh;
+            height: 105ch;
+            // display: flex;
+            // align-items: center;
+            // justify-content: center;
+
+            // SECTION TITLE AND NAVBAR
+            .title_nav {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: row-reverse;
+                margin: 0vh 0 0 0;
+                // SKILLS TITLE
+                .section_title {
+                    font-family: 'Inter', sans-serif;
+                    font-weight: bold;
+                    font-size: 3rem;
+                    color: white;
+                    margin: 3vh 0 0 5vw;
+                    margin: 5vh 0 0 5vw;
+                }
+                // SKILLS NAVBAR
+                .skills_desktop_nav {
+                    margin: 2vh 5vw 0 0;
+                    margin: 6vh 5vw 0 0;
+                    ul {
+                        display: flex;
+                        justify-content: right;
+                        text-decoration: none;
+                        gap: 1.5vw;
+                        margin: 0vh 0vw 0 0;
+                        #selected {
+                            color: $nextgreen;
+                            border: 1px solid white;
+                            background-color: white;
+                            padding: .5ch;
+                            border-radius: 5px;
+                        }
+                        li {
+                            list-style: none;
+                            font-size: 1.2rem;
+                            cursor: pointer;
+                            a {
+                               text-decoration: none;
+                               color: white;
+                               font-family: 'Inter', sans-serif;
+                               font-weight: bold;   
+                            }
+                        }
+                    }
+                }
+            }
+            // SKILLS CONTENT
+            .skills_section_circles {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 1.5ch;
+                gap: 3.5ch;
+                gap: 7ch;
+                margin: 15vh 0 0 -10vw;
+                
+                .skills_first_6 {
+                    display: flex;
+                    margin: 0 0ch 0 16.5ch;
+                    // background-color: #507E81;
+                    .skills_circles_one {
+                        display: flex;
+                        gap: 2ch;
+                        gap: 4.4ch;
+                        .skill_circle {
+                            .skill_back {
+                                width: 12.5vw;
+                                height: 12.5vw;
+                                // width: 11.5vw;
+                                // height: 11.5vw;
+                                border: 3px solid $darkblue;
+                                background-color: $skillsteal;
+                                border-radius: 50%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                box-shadow: 2px 2px 4px black;
+                                .skill_front {
+                                    width: 11.5vw;
+                                    height: 11.5vw;
+                                    // width: 10.5vw;
+                                    // height: 10.5vw;
+                                    border: none;
+                                    background-color: $darkblue;
+                                    border-radius: 50%;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    .shield {
+                                        width: 4vw;
+                                        height: 4vw;
+                                    }
+                                    // HTML
+                                    #html {
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                    }
+                                    #html.dissapear {
+                                        opacity: 0;
+                                    }
+                                    #html_description {
+                                        opacity: 0;
+                                    }
+                                    #html_description.show {
+                                        transition: .5s all ease-in;
+                                    }
+                                    // CSS
+                                    #css {
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                    }
+                                    #css.dissapear {
+                                        opacity: 0;
+                                    }
+                                    #css_description {
+                                        opacity: 0;
+                                    }
+                                    #css_description.show {
+                                        transition: .5s all ease-in;
+                                    }
+                                    // SASS
+                                    #sass {
+                                        width: 4vw;
+                                        height: 4vw;
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                        margin: -.5vh 0 0 .5vw;
+                                    }
+                                    #sass.dissapear {
+                                        opacity: 0;
+                                    }
+                                    #sass_description {
+                                        opacity: 0;
+                                    }
+                                    #sass_description.show {
+                                        transition: .5s all ease-in;
+                                    }
+                                    // JS
+                                    #javascript {
+                                        width: 5vw;
+                                        height: 5vw;
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                        margin: 0 0 0 0vw;
+                                    }
+                                    #javascript.dissapear {
+                                        opacity: 0;
+                                    }
+                                    #javascript_description {
+                                        opacity: 0;
+                                    }
+                                    #javascript_description.show {
+                                        transition: .5s all ease-in;
+                                    }
+                                    // PYTHON
+                                    #python {
+                                        width: 3.5vw;
+                                        height: 3.5vw;
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                        margin: -.5vh 0 0 0;
+                                    }
+                                    #python.dissapear {
+                                        opacity: 0;
+                                    }
+                                    #python_description {
+                                        opacity: 0;
+                                    }
+                                    // REACT
+                                    #react {
+                                        width: 3.8vw;
+                                        height: 3.8vw;
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                    }
+                                    #react.dissapear {
+                                        opacity: 0;
+                                    }
+                                    #react_description {
+                                        opacity: 0;
+                                    }
+                                    #react_description.show {
+                                        transition: .5s all ease-in;
+                                    }
+                                }
+                            }
+                        }
+                        // Move JS Circle by margin
+                        #js_circle {
+                            // background-color: #58a6ff;
+                            margin: 0 0 0 4.4ch;
+                        }
+                    }
+                }
+                .skills_second_6 {
+                    display: flex;
+                    margin: 0 0 0 16.5ch;
+                    .skills_circles_one {
+                        display: flex;
+                        gap: 2ch;
+                        gap: 4.4ch;
+                        // margin: 0 0 0 1ch;
+                        .skill_circle {
+                            .skill_back {
+                                width: 12.5vw;
+                                height: 12.5vw;
+                                // width: 11.5vw;
+                                // height: 11.5vw;
+                                border: 3px solid $darkblue;
+                                background-color: $skillsteal;
+                                border-radius: 50%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                box-shadow: 2px 2px 4px black;
+                                .skill_front {
+                                    width: 11.5vw;
+                                    height: 11.5vw;
+                                    // width: 10.5vw;
+                                    // height: 10.5vw;
+                                    border: none;
+                                    background-color: $darkblue;
+                                    border-radius: 50%;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+                                
+                                 // FIGMA
+                                 #figma {
+                                    width: 4.5vw;
+                                    height: 4.5vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                }
+                                #figma.dissapear {
+                                    opacity: 0;
+                                }
+                                #figma_description {
+                                    opacity: 0;
+                                }
+                                #figma_description.show {
+                                    transition: .5s all ease-in; 
+                                }
+                                // FIREBASE
+                                #firebase {
+                                    width: 2.7vw;
+                                    height: 3.7vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                }
+                                #firebase.dissapear {
+                                    opacity: 0;
+                                }
+                                #firebase_description {
+                                    opacity: 0;
+                                }
+                                #firebase_description.show {
+                                    transition: .5s all ease-in; 
+                                }
+                                // MONGO
+                                #mongo {
+                                    width: 1.8vw;
+                                    height: 4.2vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                    margin: 0vh 0 0 0;
+                                }
+                                #mongo.dissapear {
+                                    opacity: 0;
+                                }
+                                #mongo_description {
+                                    opacity: 0;
+                                }
+                                #mongo_description.show {
+                                    transition: .5s all ease-in;
+                                }
+                                // DJANGO
+                                #django {
+                                    width: 3.5vw;
+                                    height: 3.5vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                    margin: 0vh .5vw 0 0; 
+                                }
+                                #django.dissapear {
+                                    opacity: 0;
+                                }
+                                #django_description {
+                                    opacity: 0;
+                                }
+                                #django_description.show {
+                                    transition: .5s all ease-in;
+                                }
+                                // AWS
+                                #aws {
+                                    width: 4.5vw;
+                                    height: 4.5vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                    margin: 0vh 0vw 0 0;  
+                                }
+                                #aws.dissapear {
+                                    opacity: 0;
+                                }
+                                #aws_description {
+                                    opacity: 0;
+                                }
+                                #aws_description.show {
+                                    transition: .5s all ease-in;
+                                }
+                                // HEROKU
+                                #heroku {
+                                    width: 4vw;
+                                    height: 4vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                    margin: -.5vhvh 0vw 0 0;  
+                                }
+                                #heroku.dissapear {
+                                    opacity: 0;
+                                }
+                                #heroku_description {
+                                    opacity: 0;
+                                }
+                                #heroku_description.show {
+                                    transition: .5s all ease-in;
+                                }
+                            }
+                        }
+                         // Move Django Circle by margin
+                        #django_circle {
+                            // background-color: #00C6C3;
+                            margin: 0 0 0 4.4ch;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // EXPERIENCE SECTION (DESKTOP)
+    #experience_section_id {
+        .experience_section_class {
+            background-color: $darkblue;
+            height: 105vh;
+            height: 105ch;
+            display: flex;
+            flex-direction: column;
+            .title_nav {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: row-reverse;
+                margin: 0vh 0 0 0;
+                // EXPERIENCE NAVBAR
+                .experience_desktop_nav {
+                    margin: 6vh 5vw 0 0;
+                    ul {
+                        display: flex;
+                        justify-content: right;
+                        text-decoration: none;
+                        gap: 1.5vw;
+                        margin: 0vh 0vw 0 0;
+                        #selected {
+                            color: $darkblue;
+                            border: 1px solid white;
+                            background-color: white;
+                            padding: .5ch;
+                            border-radius: 5px;
+                        }
+                        li {
+                            list-style: none;
+                            font-size: 1.2rem;
+                            cursor: pointer;
+                            a {
+                               text-decoration: none;
+                               color: white;
+                               font-family: 'Inter', sans-serif;
+                               font-weight: bold;   
+                            }
+                        }
+                    }
+                }
+                // EXPERIENCE TITLE
+                .section_title {
+                    font-family: 'Inter', sans-serif;
+                    font-weight: bold;
+                    font-size: 3rem;
+                    color: white;
+                    margin: 3vh 0 0 5vw;
+                    margin: 5vh 0 0 5vw;
+                }
+            }
+            // EXPERIENCE SECTION CONTENT
+            .experience_section_squares {
+                margin: 12vh 0 0 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 12ch;
+                gap: 2ch;
+                .experience_1_square {
+                    width: 29.2vw;
+                    height: 35vw;
+                    border: 1px solid $portfolios;
+                    border-radius: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 3ch;
+                    background-color: $portfolios;
+                    box-shadow: 2px 2px 2px 2px black;
+                    #courdevelops {
+                        width: 8vw;
+                        height: 8vw;
+                    }
+                    .job_1_description {
+                        font-family: 'Inter', sans-serif;
+                        display: flex;
+                        flex-direction: column;
+                        .experience_company {
+                            color: white;
+                            font-size: 1.2rem;
+                            // font-size: 18px;
+                            font-weight: bold;
+                        }
+                        .experience_position {
+                            color: $descriptionblue;
+                            // color: $jobdescription;
+                            font-size: 1rem;
+                        }
+                    }
+                }
+                .experience_2_square {
+                    width: 29.2vw;
+                    height: 35vw;
+                    border: 1px solid $portfolios;
+                    border-radius: 10px;
+                    background-color: $portfolios;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 3ch;
+                    box-shadow: 2px 2px 2px 2px black;
+                    #slea {
+                        width: 7vw;
+                        height: 7vw;
+                    }
+                    .job_2_description {
+                        font-family: 'Inter', sans-serif;
+                        display: flex;
+                        flex-direction: column;
+                        .experience_company {
+                            color: white;
+                            font-size: 1.2rem;
+                            // font-size: 18px;
+                            font-weight: bold;
+                        }
+                        .experience_position {
+                            color: $descriptionblue;
+                            // color: $jobdescription;
+                            font-size: 1rem;
+                        }
+                    }
+                }
+                .experience_3_square {
+                    width: 29.2vw;
+                    height: 35vw;
+                    border: 1px solid $portfolios;
+                    border-radius: 10px;
+                    background-color: $portfolios;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 3ch;
+                    box-shadow: 2px 2px 2px 2px black;
+                    #r1rcm {
+                        width: 6.5vw;
+                        height: 6.5vw;
+                    }
+                    .job_3_description {
+                        font-family: 'Inter', sans-serif;
+                        display: flex;
+                        flex-direction: column;
+                        .experience_company {
+                            color: white;
+                            font-size: 1.2rem;
+                            // font-size: 18px;
+                            font-weight: bold;
+                        }
+                        .experience_position {
+                            color: $descriptionblue;
+                            // color: $jobdescription;
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    } 
+    // BLOG SECTION (DESKTOP)
+    #blog_section_id {
+        .blog_section_class {
+            background-color: $nextgreen;
+            height: 105vh;
+            height: 105ch;
+            // NAVBAR BLOG
+            .title_nav {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: row-reverse;
+                margin: 0vh 0 0 0;
+                // EXPERIENCE NAVBAR
+                .blog_desktop_nav {
+                    margin: 6vh 5vw 0 0;
+                    ul {
+                        display: flex;
+                        justify-content: right;
+                        text-decoration: none;
+                        gap: 1.5vw;
+                        margin: 0vh 0vw 0 0;
+                        #selected {
+                            color: $nextgreen;
+                            border: 1px solid white;
+                            background-color: white;
+                            padding: .5ch;
+                            border-radius: 5px;
+                        }
+                        li {
+                            list-style: none;
+                            font-size: 1.2rem;
+                            cursor: pointer;
+                            a {
+                               text-decoration: none;
+                               color: white;
+                               font-family: 'Inter', sans-serif;
+                               font-weight: bold;   
+                            }
+                        }
+                    }
+                }
+                // BLOG TITLE
+                .section_title {
+                    font-family: 'Inter', sans-serif;
+                    font-weight: bold;
+                    font-size: 3rem;
+                    color: white;
+                    margin: 3vh 0 0 5vw;
+                    margin: 5vh 0 0 5vw;
+                }
+            }
+            // BLOG CIRCLES
+            .blog_circles {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: -7vh 0 0 .8vw;
+                gap: 5ch;
+            }
+            // BLOG CIRCLE 
+            .blog_entry {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .blog_back_circle {
+                        z-index: 100;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 26vw;
+                        height: 26vw;
+                        width: 28vw;
+                        height: 28vw;
+                        border-radius: 50%;
+                        background-color: $skillsteal;
+                        border: 2px solid $darkblue;
+                        box-shadow: 2px 2px 4px black;
+                        .blog_front_circle {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 24vw;
+                            height: 24vw;
+                            width: 26vw;
+                            height: 26vw;
+                            border-radius: 50%;
+                            background-color: $darkblue;
+                            color: white;
+                            font-family: 'Inter', sans-serif;
+                            font-weight: bold;
+                            font-size: 1.5rem;
+                            border: none;
+                        }
+                }
+            }
+            .blog_square {
+                display: none;
+            }
+        }
+    }
+    // CONTACT SECTION (DESKTOP)
+    #contact_section_id {
+        .contact_section_class {
+            background-color: $darkblue;
+            height: 100vh;
+            height: 100ch;
+            // NAVBAR CONTACT
+            .title_nav {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: row-reverse;
+                margin: 0vh 0 0 0;
+                // CONTACT NAVBAR
+                .contact_desktop_nav {
+                    margin: 6vh 5vw 0 0;
+                    ul {
+                        display: flex;
+                        justify-content: right;
+                        text-decoration: none;
+                        gap: 1.5vw;
+                        margin: 0vh 0vw 0 0;
+                        #selected {
+                            color: $darkblue;
+                            border: 1px solid white;
+                            background-color: white;
+                            padding: .5ch;
+                            border-radius: 5px;
+                        }
+                        li {
+                            list-style: none;
+                            font-size: 1.2rem;
+                            cursor: pointer;
+                            a {
+                               text-decoration: none;
+                               color: white;
+                               font-family: 'Inter', sans-serif;
+                               font-weight: bold;   
+                            }
+                        }
+                    }
+                }
+                // CONTACT TITLE
+                .section_title {
+                    font-family: 'Inter', sans-serif;
+                    font-weight: bold;
+                    font-size: 3rem;
+                    color: white;
+                    margin: 3vh 0 0 5vw;
+                    margin: 5vh 0 0 5vw;
+                }
+            }
+            // CONTACT CONTENT
+            .contact_section_form {
+                // background-color: honeydew;
+                height: 50vh;
+                form {
+                    display: flex;
+                    // flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 5.5vh;
+                    margin: 15vh 0 0 0;
+                    .name_email {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 8ch;
+                        margin: -21vh 0 0 0;
+                        .input_div {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 1ch;
+                            label {
+                                font-family: 'Inter', sans-serif;
+                                font-size: 1.5vw;
+                                font-size: 1.5rem;
+                                color: white;
+                            }
+                            input {
+                                background-color: $portfolios;
+                                border: none;
+                                border-radius: 10px;
+                                border-radius: 25px;
+                                width: 41vw;
+                                height: 7vw;
+                                outline: none;
+                                color: white;
+                                text-align: center;
+                            }
+                            input:focus {
+                                background-color: $portfolios;
+                                color: white;
+                                text-align: center;
+                            }
+                        }
+                    }
+                   .message_submit {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 3ch;
+                        margin: -5vh 0 0 0;
+                        .input_div {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 1ch;
+                            label {
+                                font-family: 'Inter', sans-serif;
+                                font-size: 1.5vw;
+                                font-size: 1.5rem;
+                                color: white;
+                            }
+                            textarea {
+                                background-color: $portfolios;
+                                height: 33vh;
+                                width: 41vw;
+                                border: none;
+                                border-radius: 10px;
+                                border-radius: 25px;
+                                resize: none;
+                                outline: none;
+                                padding: 12px 20px;
+                                color: white;
+                                text-align: center;
+                            }
+                            textarea:focus {
+                                background-color: $portfolios;
+                                color: white;
+                                text-align: center;
+                            }
+                        }
+                        .submit_button {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            margin: 3vh 0 0 0;
+                            #submitemail {
+                                background-color: $portfolios;
+                                // background-color: red;
+                                border: none;
+                                box-shadow: 3px 3px 2px $boxshadowcircles;
+                                border-radius: 10px;
+                                border-radius: 25px;
+                                width: 41.5vw;
+                                width: 44vw;
+                                height: 6vw;
+                                p {
+                                    color: rgb(255, 255, 255);
+                                    font-size: 1.5rem;
+                                    // font-weight: bold;
+                                    font-family: 'Inter', sans-serif;
+                                    // font-size: 2vw;
+                                }
+                            }
+                        }
+                   }
+                }
+                // FOOTER (1280 DESKTOP)
+                .poweredby {
+                    margin: -9vh 52vw 0 0;
+                    small {
+                         // SOCIALS (1280 DESKTOP)
+                        .home_socials {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            // gap: 3vh;
+                            gap: 77px;
+                            // margin: 0vh 0 0 5vw;
+                            margin: 1vh 0 0 4vw;
+                            #github {
+                                width: 4vw;
+                                height: 4vw;
+                            }
+                            #twitter {
+                                width: 4vw;
+                                height: 4vw;
+                            }
+                            #linkedin {
+                                width: 4vw;
+                                height: 4vw;
+                            }
+                            #instagram {
+                                width: 4.5vw;
+                                height: 4.5vw;
+                            }
+                        }
+                    }
+                    .copyrights {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 2.5ch;
+                        // margin: 4vh 0 0 -1vw;
+                        margin: 12vh 0 0 25vw;
+                        width: 100%;
+                        // background-color: yellow;
+                        p {
+                            color: $portfolios;
+                            font-size: 4vw;
+                            font-size: 1.2rem;
+                            // font-weight: bold;
+                            font-family: 'Inter', sans-serif;
+                            // background-color: red;
+                            margin-right: -3vw;
+                        }
+                        #copyright_courdevs {
+                            margin: 0vh 0 0 1.9vw;
+                            width: 3vw;
+                            height: 3vw;
+                            // background-color: red;
+                        }
+                        .courdev {
+                            margin: 0 3vw 0 0vw;
+                            color: $firstblue;
+                            font-family: 'Inter', sans-serif;
+                            font-size: 4vw;
+                            font-size: 1rem;
+                        }
+                        #phone {
+                            width: 2.5vw;
+                            height: 2.5vw;
+                            margin-left: 0vw;
+                        }
+                        .courdev_num {
+                            font-family: 'Inter', sans-serif;
+                            color: $firstblue;
+                            font-size: 1rem;
+                            margin-left: -.8rem;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
