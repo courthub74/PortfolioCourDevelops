@@ -19949,7 +19949,7 @@ $savethis: #7273ad;
                     gap: 3ch;
                     background-color: $portfolios;
                     box-shadow: 2px 2px 2px 2px black;
-                    cursor: pointer;
+                    // cursor: pointer;
                     #courdevelops {
                         width: 8vw;
                         height: 8vw;
@@ -19970,6 +19970,9 @@ $savethis: #7273ad;
                             font-size: 1.2rem;
                         }
                     }
+                    .job_1_description:hover {
+                        opacity: 0;
+                    }
                 }
                 .experience_2_square {
                     width: 29.2vw;
@@ -19983,7 +19986,7 @@ $savethis: #7273ad;
                     justify-content: center;
                     gap: 3ch;
                     box-shadow: 2px 2px 2px 2px black;
-                    cursor: pointer;
+                    // cursor: pointer;
                     #slea {
                         width: 7vw;
                         height: 7vw;
@@ -20004,6 +20007,9 @@ $savethis: #7273ad;
                             font-size: 1.2rem;
                         }
                     }
+                    .job_2_description:hover {
+                        opacity: 0;
+                    }
                 }
                 .experience_3_square {
                     width: 29.2vw;
@@ -20017,7 +20023,7 @@ $savethis: #7273ad;
                     justify-content: center;
                     gap: 3ch;
                     box-shadow: 2px 2px 2px 2px black;
-                    cursor: pointer;
+                    // cursor: pointer;
                     #r1rcm {
                         width: 6.5vw;
                         height: 6.5vw;
@@ -20037,6 +20043,9 @@ $savethis: #7273ad;
                             // color: $jobdescription;
                             font-size: 1.2rem;
                         }
+                    }
+                    .job_3_description:hover {
+                        opacity: 0;
                     }
                 }
             }
@@ -20207,12 +20216,13 @@ $savethis: #7273ad;
                     justify-content: center;
                     align-items: center;
                     gap: 5.5vh;
+                    gap: 9ch;
                     margin: 15vh 0 0 0;
                     .name_email {
                         display: flex;
                         flex-direction: column;
                         gap: 8ch;
-                        margin: -21vh 0 0 0;
+                        margin: -23vh 0 0 0;
                         .input_div {
                             display: flex;
                             flex-direction: column;
@@ -20260,7 +20270,7 @@ $savethis: #7273ad;
                             }
                             textarea {
                                 background-color: $portfolios;
-                                height: 33vh;
+                                height: 37vh;
                                 width: 41vw;
                                 border: none;
                                 border-radius: 10px;
@@ -20292,7 +20302,7 @@ $savethis: #7273ad;
                                 border-radius: 10px;
                                 border-radius: 25px;
                                 width: 41.5vw;
-                                width: 44vw;
+                                width: 43.8vw;
                                 height: 6vw;
                                 p {
                                     color: rgb(255, 255, 255);
@@ -20307,7 +20317,7 @@ $savethis: #7273ad;
                 }
                 // FOOTER (1280 DESKTOP)
                 .poweredby {
-                    margin: -9vh 52vw 0 0;
+                    margin: -12vh 52vw 0 0;
                     small {
                          // SOCIALS (1280 DESKTOP)
                         .home_socials {
@@ -20317,7 +20327,7 @@ $savethis: #7273ad;
                             // gap: 3vh;
                             gap: 77px;
                             // margin: 0vh 0 0 5vw;
-                            margin: 1vh 0 0 4vw;
+                            margin: 1.8vh 0 0 4vw;
                             #github {
                                 width: 4vw;
                                 height: 4vw;
@@ -20342,7 +20352,7 @@ $savethis: #7273ad;
                         align-items: center;
                         gap: 2.5ch;
                         // margin: 4vh 0 0 -1vw;
-                        margin: 12vh 0 0 25vw;
+                        margin: 11vh 0 0 25vw;
                         width: 100%;
                         // background-color: yellow;
                         p {
