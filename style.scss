@@ -19186,14 +19186,14 @@ $savethis: #7273ad;
                 align-items: center;
                 justify-content: center;
                 margin: -15vh 0 0 0;  
-                margin: -5vh 0vw 0 0;  
-                gap: 25vw;
+                margin: -5vh 0vw 0 -5vw;  
+                gap: 30vw;
                 // BIG HOME LOGO
                 .logo_div {
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    margin: 0 -5vw 0 0;
+                    margin: 0 -5ch 0 0;
                     .back_logo {
                         display: flex;
                         align-items: center;
@@ -19224,8 +19224,11 @@ $savethis: #7273ad;
                     flex-direction: column;
                     gap: 2.5ch;
                     // background-color: yellow;
-                    margin-right: 15ch;
-                    margin: 0 0ch 0 -10ch;
+                    // margin-right: 15ch;
+                    margin: 0 0ch 0 -30ch;
+                    position: relative;
+                    left: 60px;
+                    // right: 100ch;
                     // NAME - DESCRIPTION
                     .name_description {
                         display: flex;
@@ -19233,12 +19236,12 @@ $savethis: #7273ad;
                         align-items: center;
                         gap: 1ch;
                         .home_name {
-                            font-size: 2.5rem;
+                            font-size: 3rem;
                             color: white;
                             font-family: 'Inter', sans-serif;
                         }
                         .job_description {
-                            font-size: 1.5rem;
+                            font-size: 1.8rem;
                             color: $descriptionblue;
                             font-family: 'Inter', sans-serif;
                             border: 1px solid $portfolios;
@@ -19257,7 +19260,7 @@ $savethis: #7273ad;
                         align-items: center;
                         justify-content: center;
                         p {
-                            font-size: 1.3rem;
+                            font-size: 1.5rem;
                             color: white;
                             font-family: 'Inter', sans-serif;
                             font-weight: bold;
@@ -19292,17 +19295,17 @@ $savethis: #7273ad;
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                        height: 4vw;
+                        height: 3.5vw;
                         width: 24vw;
                         border: 1px solid $portfolios;
-                        border-radius: 25px;
+                        border-radius: 45px;
                         background-color: $portfolios;
                         margin: 0 0 0 1ch;
                         .words_arrow {
                             a {
                                 color: $descriptionblue;
                                 text-decoration: none;
-                                font-size: 1rem;
+                                font-size: 1.2rem;
                                 font-family: 'Inter', sans-serif;
                                 font-weight: bold;
                             }
