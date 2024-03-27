@@ -19367,7 +19367,7 @@ $savethis: #7273ad;
                     font-size: 3.5rem;
                     color: white;
                     margin: 3vh 0 0 5vw;
-                    margin: 5vh 0 0 5vw;
+                    margin: 5vh 0 0 8vw;
                 }
                 // ABOUT NAVBAR
                 .about_desktop_nav {
@@ -19406,7 +19406,7 @@ $savethis: #7273ad;
                 flex-direction: column;
                 width: 80%;
                 color: white;
-                margin: 10vh 0 0 5vw;
+                margin: 10vh 0 0 8vw;
                 font-family: 'Inter', sans-serif;
                 font-size: 1.3rem;
                 line-height: 3ch;
@@ -19426,7 +19426,7 @@ $savethis: #7273ad;
             }
             // DOWNLOAD RESUME
             .download_resume {
-                margin: 8vh 0 0 5vw;
+                margin: 8vh 0 0 8vw;
                 border-radius: 25px;
                 background-color: white;
                 height: 3.5vw;
@@ -19466,7 +19466,7 @@ $savethis: #7273ad;
                     font-size: 3.5rem;
                     color: white;
                     margin: 3vh 0 0 5vw;
-                    margin: 5vh 0 0 5vw;
+                    margin: 5vh 0 0 8vw;
                 }
                 // ABOUT NAVBAR
                 .portfolio_desktop_nav {
@@ -19504,13 +19504,14 @@ $savethis: #7273ad;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                gap: 2ch;
-                margin: 10vh 0 0 .5ch;
+                gap: 6ch;
+                margin: 12vh 0 0 0ch;
                 .portfolio_square {
                     background-color: $portfolios;
                     border: 1px solid $portfolios;
                     border-radius: 10px;
                     width: 21.7vw;
+                    width: 26vw;
                     height: 35vw;
                     display: flex;
                     justify-content: center;
@@ -19563,7 +19564,7 @@ $savethis: #7273ad;
                     font-size: 3.5rem;
                     color: white;
                     margin: 3vh 0 0 5vw;
-                    margin: 5vh 0 0 5vw;
+                    margin: 5vh 0 0 8vw;
                 }
                 // SKILLS NAVBAR
                 .skills_desktop_nav {
@@ -19604,25 +19605,22 @@ $savethis: #7273ad;
                 align-items: center;
                 gap: 7ch;
                 gap: 3ch;
-                margin: 15vh 0 0 -10vw;
+                margin: 17vh 0 0 -12vw;
                 
                 .skills_first_6 {
                     display: flex;
-                    margin: 0 0ch 0 16.5ch;
-                    margin: 0 0 0 20ch;
-                    // background-color: yellow;
-                    // gap: 2ch;
-                    // background-color: #507E81;
+                    margin: 0 0 0 23ch;
+                    gap: 1.5ch;
                     .skills_circles_one {
                         display: flex;
-                        gap: 4.5ch;
-                        gap: 5ch;
-                        // background-color: yellow;
-                        // margin: 0 0 0 5ch;
+                        // gap: 5ch;
+                        gap: 6.5ch;
                         .skill_circle {
                             .skill_back {
                                 width: 12.5vw;
                                 height: 12.5vw;
+                                width: 11vw;
+                                height: 11vw;
                                 // width: 11.5vw;
                                 // height: 11.5vw;
                                 border: 3px solid $darkblue;
@@ -19635,6 +19633,8 @@ $savethis: #7273ad;
                                 .skill_front {
                                     width: 11.5vw;
                                     height: 11.5vw;
+                                    width: 10vw;
+                                    height: 10vw;
                                     // width: 10.5vw;
                                     // height: 10.5vw;
                                     border: none;
@@ -19754,18 +19754,20 @@ $savethis: #7273ad;
                 .skills_second_6 {
                     display: flex;
                     margin: 0 0 0 16.5ch;
-                    margin: 0 0 0 20ch;
-                    // gap: 4.5ch;
+                    margin: 0 0 0 23ch;
+                    gap: 1.5ch;
                     // background-color: #36395D;
                     .skills_circles_one {
                         display: flex;
                         gap: 4.4ch;
-                        gap: 5ch;
+                        gap: 6.5ch;
                         // margin: 0 0 0 1ch;
                         .skill_circle {
                             .skill_back {
                                 width: 12.5vw;
                                 height: 12.5vw;
+                                width: 11vw;
+                                height: 11vw;
                                 // width: 11.5vw;
                                 // height: 11.5vw;
                                 border: 3px solid $darkblue;
@@ -19778,8 +19780,8 @@ $savethis: #7273ad;
                                 .skill_front {
                                     width: 11.5vw;
                                     height: 11.5vw;
-                                    // width: 10.5vw;
-                                    // height: 10.5vw;
+                                    width: 10vw;
+                                    height: 10vw;
                                     border: none;
                                     background-color: $darkblue;
                                     border-radius: 50%;
@@ -20133,7 +20135,7 @@ $savethis: #7273ad;
                     font-size: 3rem;
                     color: white;
                     margin: 3vh 0 0 5vw;
-                    margin: 5vh 0 0 5vw;
+                    margin: 5vh 0 0 8vw;
                 }
             }
             // BLOG CIRCLES
@@ -20192,7 +20194,7 @@ $savethis: #7273ad;
         .contact_section_class {
             background-color: $darkblue;
             height: 100vh;
-            height: 110ch;
+            height: 100ch;
             // NAVBAR CONTACT
             .title_nav {
                 display: flex;
@@ -20236,7 +20238,7 @@ $savethis: #7273ad;
                     font-size: 3rem;
                     color: white;
                     margin: 3vh 0 0 5vw;
-                    margin: 5vh 0 0 5vw;
+                    margin: 5vh 0 0 8vw;
                 }
             }
             // CONTACT CONTENT
@@ -20248,14 +20250,14 @@ $savethis: #7273ad;
                     // flex-direction: column;
                     justify-content: center;
                     align-items: center;
-                    gap: 5.5vh;
-                    gap: 9ch;
+                    gap: 20ch;
                     margin: 15vh 0 0 0;
+                    // background-color: yellow;
                     .name_email {
                         display: flex;
                         flex-direction: column;
                         gap: 8ch;
-                        margin: -23vh 0 0 0;
+                        margin: -21vh 0 0 0;
                         .input_div {
                             display: flex;
                             flex-direction: column;
@@ -20271,8 +20273,8 @@ $savethis: #7273ad;
                                 border: none;
                                 border-radius: 10px;
                                 border-radius: 25px;
-                                width: 41vw;
-                                height: 7vw;
+                                width: 35vw;
+                                height: 5vw;
                                 outline: none;
                                 color: white;
                                 text-align: center;
@@ -20303,8 +20305,9 @@ $savethis: #7273ad;
                             }
                             textarea {
                                 background-color: $portfolios;
-                                height: 37vh;
-                                width: 41vw;
+                                height: 30vh;
+                                // height: 15vw;
+                                width: 35vw;
                                 border: none;
                                 border-radius: 10px;
                                 border-radius: 25px;
@@ -20334,12 +20337,11 @@ $savethis: #7273ad;
                                 box-shadow: 3px 3px 2px $boxshadowcircles;
                                 border-radius: 10px;
                                 border-radius: 25px;
-                                width: 41.5vw;
-                                width: 43.8vw;
-                                height: 6vw;
+                                width: 38vw;
+                                height: 5vw;
                                 p {
                                     color: rgb(255, 255, 255);
-                                    font-size: 1.5rem;
+                                    font-size: 1.2rem;
                                     // font-weight: bold;
                                     font-family: 'Inter', sans-serif;
                                     // font-size: 2vw;
@@ -20361,6 +20363,7 @@ $savethis: #7273ad;
                             gap: 77px;
                             // margin: 0vh 0 0 5vw;
                             margin: 1.8vh 0 0 4vw;
+                            margin: 3vh 0 0 4vw;
                             #github {
                                 width: 4vw;
                                 height: 4vw;

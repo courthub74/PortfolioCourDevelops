@@ -16136,7 +16136,7 @@
     font-size: 3.5rem;
     color: white;
     margin: 3vh 0 0 5vw;
-    margin: 5vh 0 0 5vw;
+    margin: 5vh 0 0 8vw;
   }
   #about_section_id .about_section_class .title_nav .about_desktop_nav {
     margin: 2vh 5vw 0 0;
@@ -16172,7 +16172,7 @@
     flex-direction: column;
     width: 80%;
     color: white;
-    margin: 10vh 0 0 5vw;
+    margin: 10vh 0 0 8vw;
     font-family: "Inter", sans-serif;
     font-size: 1.3rem;
     line-height: 3ch;
@@ -16189,7 +16189,7 @@
     height: 8vw;
   }
   #about_section_id .about_section_class .download_resume {
-    margin: 8vh 0 0 5vw;
+    margin: 8vh 0 0 8vw;
     border-radius: 25px;
     background-color: white;
     height: 3.5vw;
@@ -16225,7 +16225,7 @@
     font-size: 3.5rem;
     color: white;
     margin: 3vh 0 0 5vw;
-    margin: 5vh 0 0 5vw;
+    margin: 5vh 0 0 8vw;
   }
   #portfolio_section_id .portfolio_section_class .title_nav .portfolio_desktop_nav {
     margin: 2vh 5vw 0 0;
@@ -16260,14 +16260,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2ch;
-    margin: 10vh 0 0 0.5ch;
+    gap: 6ch;
+    margin: 12vh 0 0 0ch;
   }
   #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square {
     background-color: #36395D;
     border: 1px solid #36395D;
     border-radius: 10px;
     width: 21.7vw;
+    width: 26vw;
     height: 35vw;
     display: flex;
     justify-content: center;
@@ -16310,7 +16311,7 @@
     font-size: 3.5rem;
     color: white;
     margin: 3vh 0 0 5vw;
-    margin: 5vh 0 0 5vw;
+    margin: 5vh 0 0 8vw;
   }
   #skills_section_id .skills_section_class .title_nav .skills_desktop_nav {
     margin: 2vh 5vw 0 0;
@@ -16348,21 +16349,22 @@
     align-items: center;
     gap: 7ch;
     gap: 3ch;
-    margin: 15vh 0 0 -10vw;
+    margin: 17vh 0 0 -12vw;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_first_6 {
     display: flex;
-    margin: 0 0ch 0 16.5ch;
-    margin: 0 0 0 20ch;
+    margin: 0 0 0 23ch;
+    gap: 1.5ch;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_first_6 .skills_circles_one {
     display: flex;
-    gap: 4.5ch;
-    gap: 5ch;
+    gap: 6.5ch;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_first_6 .skills_circles_one .skill_circle .skill_back {
     width: 12.5vw;
     height: 12.5vw;
+    width: 11vw;
+    height: 11vw;
     border: 3px solid #080E2F;
     background-color: #146166;
     border-radius: 50%;
@@ -16374,6 +16376,8 @@
   #skills_section_id .skills_section_class .skills_section_circles .skills_first_6 .skills_circles_one .skill_circle .skill_back .skill_front {
     width: 11.5vw;
     height: 11.5vw;
+    width: 10vw;
+    height: 10vw;
     border: none;
     background-color: #080E2F;
     border-radius: 50%;
@@ -16479,16 +16483,19 @@
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 {
     display: flex;
     margin: 0 0 0 16.5ch;
-    margin: 0 0 0 20ch;
+    margin: 0 0 0 23ch;
+    gap: 1.5ch;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one {
     display: flex;
     gap: 4.4ch;
-    gap: 5ch;
+    gap: 6.5ch;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one .skill_circle .skill_back {
     width: 12.5vw;
     height: 12.5vw;
+    width: 11vw;
+    height: 11vw;
     border: 3px solid #080E2F;
     background-color: #146166;
     border-radius: 50%;
@@ -16500,6 +16507,8 @@
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one .skill_circle .skill_back .skill_front {
     width: 11.5vw;
     height: 11.5vw;
+    width: 10vw;
+    height: 10vw;
     border: none;
     background-color: #080E2F;
     border-radius: 50%;
@@ -16818,7 +16827,7 @@
     font-size: 3rem;
     color: white;
     margin: 3vh 0 0 5vw;
-    margin: 5vh 0 0 5vw;
+    margin: 5vh 0 0 8vw;
   }
   #blog_section_id .blog_section_class .blog_circles {
     display: flex;
@@ -16870,7 +16879,7 @@
   #contact_section_id .contact_section_class {
     background-color: #080E2F;
     height: 100vh;
-    height: 110ch;
+    height: 100ch;
   }
   #contact_section_id .contact_section_class .title_nav {
     display: flex;
@@ -16913,7 +16922,7 @@
     font-size: 3rem;
     color: white;
     margin: 3vh 0 0 5vw;
-    margin: 5vh 0 0 5vw;
+    margin: 5vh 0 0 8vw;
   }
   #contact_section_id .contact_section_class .contact_section_form {
     height: 50vh;
@@ -16922,15 +16931,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5.5vh;
-    gap: 9ch;
+    gap: 20ch;
     margin: 15vh 0 0 0;
   }
   #contact_section_id .contact_section_class .contact_section_form form .name_email {
     display: flex;
     flex-direction: column;
     gap: 8ch;
-    margin: -23vh 0 0 0;
+    margin: -21vh 0 0 0;
   }
   #contact_section_id .contact_section_class .contact_section_form form .name_email .input_div {
     display: flex;
@@ -16948,8 +16956,8 @@
     border: none;
     border-radius: 10px;
     border-radius: 25px;
-    width: 41vw;
-    height: 7vw;
+    width: 35vw;
+    height: 5vw;
     outline: none;
     color: white;
     text-align: center;
@@ -16979,8 +16987,8 @@
   }
   #contact_section_id .contact_section_class .contact_section_form form .message_submit .input_div textarea {
     background-color: #36395D;
-    height: 37vh;
-    width: 41vw;
+    height: 30vh;
+    width: 35vw;
     border: none;
     border-radius: 10px;
     border-radius: 25px;
@@ -17009,13 +17017,12 @@
     box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.521);
     border-radius: 10px;
     border-radius: 25px;
-    width: 41.5vw;
-    width: 43.8vw;
-    height: 6vw;
+    width: 38vw;
+    height: 5vw;
   }
   #contact_section_id .contact_section_class .contact_section_form form .message_submit .submit_button #submitemail p {
     color: rgb(255, 255, 255);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: "Inter", sans-serif;
   }
   #contact_section_id .contact_section_class .contact_section_form .poweredby {
@@ -17027,6 +17034,7 @@
     justify-content: center;
     gap: 77px;
     margin: 1.8vh 0 0 4vw;
+    margin: 3vh 0 0 4vw;
   }
   #contact_section_id .contact_section_class .contact_section_form .poweredby small .home_socials #github {
     width: 4vw;
