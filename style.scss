@@ -18261,12 +18261,13 @@ $savethis: #7273ad;
                 justify-content: center;
                 align-items: center;
                 gap: 2ch;
-                margin: 10vh 0 0 .5ch;
+                margin: 10vh 0 0 0ch;
                 .portfolio_square {
                     background-color: $portfolios;
                     border: 1px solid $portfolios;
                     border-radius: 10px;
                     width: 21.7vw;
+                    width: 29.2vw;
                     height: 35vw;
                     display: flex;
                     justify-content: center;
@@ -18984,12 +18985,12 @@ $savethis: #7273ad;
                     justify-content: center;
                     align-items: center;
                     gap: 5.5vh;
-                    margin: 15vh 0 0 0;
+                    margin: 20vh 0 0 0;
                     .name_email {
                         display: flex;
                         flex-direction: column;
                         gap: 8ch;
-                        margin: -21vh 0 0 0;
+                        margin: -26vh 0 0 0;
                         .input_div {
                             display: flex;
                             flex-direction: column;
@@ -18997,7 +18998,7 @@ $savethis: #7273ad;
                             label {
                                 font-family: 'Inter', sans-serif;
                                 font-size: 1.5vw;
-                                font-size: 1.5rem;
+                                font-size: 1.2rem;
                                 color: white;
                             }
                             input {
@@ -19007,6 +19008,7 @@ $savethis: #7273ad;
                                 border-radius: 25px;
                                 width: 41vw;
                                 height: 7vw;
+                                height: 5vw;
                                 outline: none;
                                 color: white;
                                 text-align: center;
@@ -19022,7 +19024,7 @@ $savethis: #7273ad;
                         display: flex;
                         flex-direction: column;
                         gap: 3ch;
-                        margin: -5vh 0 0 0;
+                        margin: -9vh 0 0 0;
                         .input_div {
                             display: flex;
                             flex-direction: column;
@@ -19030,12 +19032,13 @@ $savethis: #7273ad;
                             label {
                                 font-family: 'Inter', sans-serif;
                                 font-size: 1.5vw;
-                                font-size: 1.5rem;
+                                font-size: 1.2rem;
                                 color: white;
                             }
                             textarea {
                                 background-color: $portfolios;
                                 height: 33vh;
+                                height: 29vh;
                                 width: 41vw;
                                 border: none;
                                 border-radius: 10px;
@@ -19066,10 +19069,10 @@ $savethis: #7273ad;
                                 border-radius: 25px;
                                 width: 41.5vw;
                                 width: 44vw;
-                                height: 6vw;
+                                height: 5vw;
                                 p {
                                     color: rgb(255, 255, 255);
-                                    font-size: 1.5rem;
+                                    font-size: 1.2rem;
                                     // font-weight: bold;
                                     font-family: 'Inter', sans-serif;
                                     // font-size: 2vw;
@@ -19545,7 +19548,7 @@ $savethis: #7273ad;
         .skills_section_class {
             background-color: $nextgreen;
             height: 105vh;
-            height: 110ch;
+            height: 105ch;
             // display: flex;
             // align-items: center;
             // justify-content: center;
@@ -19604,7 +19607,7 @@ $savethis: #7273ad;
                 justify-content: center;
                 align-items: center;
                 gap: 7ch;
-                gap: 3ch;
+                gap: 5ch;
                 margin: 17vh 0 0 -12vw;
                 
                 .skills_first_6 {
@@ -19909,7 +19912,7 @@ $savethis: #7273ad;
         .experience_section_class {
             background-color: $darkblue;
             height: 105vh;
-            height: 110ch;
+            height: 105ch;
             display: flex;
             flex-direction: column;
             .title_nav {
@@ -20091,7 +20094,7 @@ $savethis: #7273ad;
         .blog_section_class {
             background-color: $nextgreen;
             height: 105vh;
-            height: 110ch;
+            height: 105ch;
             // NAVBAR BLOG
             .title_nav {
                 display: flex;

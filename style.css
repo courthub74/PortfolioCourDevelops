@@ -15148,13 +15148,14 @@
     justify-content: center;
     align-items: center;
     gap: 2ch;
-    margin: 10vh 0 0 0.5ch;
+    margin: 10vh 0 0 0ch;
   }
   #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square {
     background-color: #36395D;
     border: 1px solid #36395D;
     border-radius: 10px;
     width: 21.7vw;
+    width: 29.2vw;
     height: 35vw;
     display: flex;
     justify-content: center;
@@ -15800,13 +15801,13 @@
     justify-content: center;
     align-items: center;
     gap: 5.5vh;
-    margin: 15vh 0 0 0;
+    margin: 20vh 0 0 0;
   }
   #contact_section_id .contact_section_class .contact_section_form form .name_email {
     display: flex;
     flex-direction: column;
     gap: 8ch;
-    margin: -21vh 0 0 0;
+    margin: -26vh 0 0 0;
   }
   #contact_section_id .contact_section_class .contact_section_form form .name_email .input_div {
     display: flex;
@@ -15816,7 +15817,7 @@
   #contact_section_id .contact_section_class .contact_section_form form .name_email .input_div label {
     font-family: "Inter", sans-serif;
     font-size: 1.5vw;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: white;
   }
   #contact_section_id .contact_section_class .contact_section_form form .name_email .input_div input {
@@ -15826,6 +15827,7 @@
     border-radius: 25px;
     width: 41vw;
     height: 7vw;
+    height: 5vw;
     outline: none;
     color: white;
     text-align: center;
@@ -15839,7 +15841,7 @@
     display: flex;
     flex-direction: column;
     gap: 3ch;
-    margin: -5vh 0 0 0;
+    margin: -9vh 0 0 0;
   }
   #contact_section_id .contact_section_class .contact_section_form form .message_submit .input_div {
     display: flex;
@@ -15849,12 +15851,13 @@
   #contact_section_id .contact_section_class .contact_section_form form .message_submit .input_div label {
     font-family: "Inter", sans-serif;
     font-size: 1.5vw;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: white;
   }
   #contact_section_id .contact_section_class .contact_section_form form .message_submit .input_div textarea {
     background-color: #36395D;
     height: 33vh;
+    height: 29vh;
     width: 41vw;
     border: none;
     border-radius: 10px;
@@ -15884,11 +15887,11 @@
     border-radius: 25px;
     width: 41.5vw;
     width: 44vw;
-    height: 6vw;
+    height: 5vw;
   }
   #contact_section_id .contact_section_class .contact_section_form form .message_submit .submit_button #submitemail p {
     color: rgb(255, 255, 255);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: "Inter", sans-serif;
   }
   #contact_section_id .contact_section_class .contact_section_form .poweredby {
@@ -16296,7 +16299,7 @@
   #skills_section_id .skills_section_class {
     background-color: #00313E;
     height: 105vh;
-    height: 110ch;
+    height: 105ch;
   }
   #skills_section_id .skills_section_class .title_nav {
     display: flex;
@@ -16348,7 +16351,7 @@
     justify-content: center;
     align-items: center;
     gap: 7ch;
-    gap: 3ch;
+    gap: 5ch;
     margin: 17vh 0 0 -12vw;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_first_6 {
@@ -16618,7 +16621,7 @@
   #experience_section_id .experience_section_class {
     background-color: #080E2F;
     height: 105vh;
-    height: 110ch;
+    height: 105ch;
     display: flex;
     flex-direction: column;
   }
@@ -16784,7 +16787,7 @@
   #blog_section_id .blog_section_class {
     background-color: #00313E;
     height: 105vh;
-    height: 110ch;
+    height: 105ch;
   }
   #blog_section_id .blog_section_class .title_nav {
     display: flex;
