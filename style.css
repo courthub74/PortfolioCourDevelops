@@ -15958,7 +15958,7 @@
 }
 @media screen and (min-width: 1500px) {
   .desktop_nav {
-    margin: 7vh 5vw 0 0;
+    margin: 7vh 8vw 0 0;
   }
   .desktop_nav ul {
     display: flex;
@@ -16000,8 +16000,8 @@
     align-items: center;
     justify-content: center;
     margin: -15vh 0 0 0;
-    margin: -5vh 0vw 0 -5vw;
-    gap: 30vw;
+    margin: -10vh 0vw 0 -5vw;
+    gap: 25vw;
   }
   #home_section_id .home_section_class .home_section_content .logo_div {
     display: flex;
@@ -16017,8 +16017,8 @@
     border-radius: 50%;
     width: 28vw;
     height: 28vw;
-    width: 32vw;
-    height: 32vw;
+    width: 30vw;
+    height: 30vw;
   }
   #home_section_id .home_section_class .home_section_content .logo_div .back_logo .front_logo {
     display: flex;
@@ -16028,8 +16028,8 @@
   #home_section_id .home_section_class .home_section_content .logo_div .back_logo .front_logo #logo_home {
     width: 26vw;
     height: 26vw;
-    width: 30vw;
-    height: 30vw;
+    width: 28vw;
+    height: 28vw;
   }
   #home_section_id .home_section_class .home_section_content .word_content {
     display: flex;
@@ -16038,6 +16038,7 @@
     margin: 0 0ch 0 -30ch;
     position: relative;
     left: 60px;
+    left: 75px;
   }
   #home_section_id .home_section_class .home_section_content .word_content .name_description {
     display: flex;
@@ -16127,7 +16128,7 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row-reverse;
-    margin: 0vh 0 0 0;
+    margin: 0vh 3vw 0 0;
   }
   #about_section_id .about_section_class .title_nav .section_title {
     font-family: "Inter", sans-serif;
@@ -16216,7 +16217,7 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row-reverse;
-    margin: 0vh 0 0 0;
+    margin: 0vh 3vw 0 0;
   }
   #portfolio_section_id .portfolio_section_class .title_nav .section_title {
     font-family: "Inter", sans-serif;
@@ -16301,7 +16302,7 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row-reverse;
-    margin: 0vh 0 0 0;
+    margin: 0vh 3vw 0 0;
   }
   #skills_section_id .skills_section_class .title_nav .section_title {
     font-family: "Inter", sans-serif;
@@ -16617,7 +16618,7 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row-reverse;
-    margin: 0vh 0 0 0;
+    margin: 0vh 3vw 0 0;
   }
   #experience_section_id .experience_section_class .title_nav .experience_desktop_nav {
     margin: 6vh 5vw 0 0;
@@ -16653,18 +16654,19 @@
     font-size: 3rem;
     color: white;
     margin: 3vh 0 0 5vw;
-    margin: 5vh 0 0 5vw;
+    margin: 5vh 0 0 8vw;
   }
   #experience_section_id .experience_section_class .experience_section_squares {
     margin: 12vh 0 0 0;
+    margin: 12vh 0 0 0vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 12ch;
-    gap: 2ch;
+    gap: 6ch;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_1_square {
     width: 29.2vw;
+    width: 26vw;
     height: 35vw;
     border: 1px solid #36395D;
     border-radius: 10px;
@@ -16700,6 +16702,7 @@
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_2_square {
     width: 29.2vw;
+    width: 26vw;
     height: 35vw;
     border: 1px solid #36395D;
     border-radius: 10px;
@@ -16735,6 +16738,7 @@
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_3_square {
     width: 29.2vw;
+    width: 26vw;
     height: 35vw;
     border: 1px solid #36395D;
     border-radius: 10px;
@@ -16778,7 +16782,7 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row-reverse;
-    margin: 0vh 0 0 0;
+    margin: 0vh 3vw 0 0;
   }
   #blog_section_id .blog_section_class .title_nav .blog_desktop_nav {
     margin: 6vh 5vw 0 0;
@@ -16873,7 +16877,7 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row-reverse;
-    margin: 0vh 0 0 0;
+    margin: 0vh 3vw 0 0;
   }
   #contact_section_id .contact_section_class .title_nav .contact_desktop_nav {
     margin: 6vh 5vw 0 0;
