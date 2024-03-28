@@ -15885,35 +15885,32 @@ $savethis: #7273ad;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                gap: 1.1ch;
-                margin: 10vh 0 0 0;
+                gap: 3.7ch;
+                margin: 14vh 0 0 0;
                 .portfolio_square {
                     background-color: $portfolios;
                     border: 1px solid $portfolios;
                     border-radius: 10px;
-                    width: 20.8vw;
-                    height: 25vw;
-                    height: 35vw;
+                    width: 27vw;
+                    height: 30vw;
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     box-shadow: 2px 2px 2px 2px black;
                     #workflow_app {
-                        // width: 12em;
-                        // height: 2.5em;
-                        width: 21vw;
+                        width: 23vw;
                         margin: 0 0 0 2vw;
                     }
                     #create_collab {
                         // width: 11em;
                         // height: 1.8em;
-                        width: 21vw;
-                        margin: 0 0 0 2vw;
+                        width: 23vw;
+                        margin: 0 0 0 2.5vw;
                     }
                     #mps_site {
                         // width: 12em;
                         // height: 3.3em;
-                        width: 14vw;
+                        width: 16vw;
                         margin: 0 0 0 4.5vw;
                     }
                     #msy {
@@ -16520,7 +16517,7 @@ $savethis: #7273ad;
                     // flex-direction: column;
                     justify-content: center;
                     align-items: center;
-                    gap: 4vh;
+                    gap: 6vh;
                     // margin: -10vh 0 0 0;
                     // background-color: #00C6C3;
                     height: 100%;
@@ -16530,7 +16527,7 @@ $savethis: #7273ad;
                         flex-direction: column;
                         gap: 4ch;
                         // background-color: antiquewhite;
-                        margin: -30vh 0 0 0;
+                        margin: -31vh 0 0 0;
                         .input_div {
                             display: flex;
                             flex-direction: column;
@@ -16543,7 +16540,7 @@ $savethis: #7273ad;
                             input {
                                 background-color: $portfolios;
                                 border: none;
-                                border-radius: 5px;
+                                border-radius: 10px;
                                 width: 40vw;
                                 height: 5.5vw;
                             }
@@ -16567,7 +16564,7 @@ $savethis: #7273ad;
                             input {
                                 background-color: $portfolios;
                                 border: none;
-                                border-radius: 5px;
+                                border-radius: 10px;
                                 width: 40vw;
                                 height: 7vw;
                             }
@@ -16609,7 +16606,7 @@ $savethis: #7273ad;
                     // margin: -51vh 0 0 0;
                     small {
                         .home_socials {
-                            margin: -43vh 43vw 0 0;
+                            margin: -44vh 44vw 0 0;
                             display: flex;
                             justify-content: center;
                             align-items: center;
@@ -16644,18 +16641,19 @@ $savethis: #7273ad;
                             align-items: center;
                             gap: 3vw;
                             margin: -2vh 0 0 -46vw;
-                            margin: -2vh 0 0 -44vw;
-                            // margin: 5vh 0 0 -45vw;
+                            margin: -2vh 0 0 -43vw;
+                            // background-color: #00313E;
                             #copyright_courdevs {
                                 margin: 0vh 0 0 -2vw;
+                                // margin: 0 0 0 -8vw;
                                 width: 3.5vw;
                                 height: 3.5vw;
                             }
                             p {
                                 color: $portfolios;
-                                font-size: 1.2rem;
                                 font-size: 1rem;
                                 font-family: 'Inter', sans-serif;
+                                margin: 0 0 0 -2.5vw;
                             }
                             .courdev {
                                 color: $firstblue;
@@ -16667,12 +16665,12 @@ $savethis: #7273ad;
                             #phone {
                                 width: 2vw;
                                 height: 2vw;
-                                margin: 0 0 0 -2vw;
+                                margin: 0 0 0 -3vw;
                             }
                             .courdev_num {
                                 color: $firstblue;
                                 font-family: 'Inter', sans-serif;
-                                margin: 0 0 0 -2vw;
+                                margin: 0 0 0 -3vw;
                                 font-size: 1.2rem;
                                 font-size: 1rem;
                             }

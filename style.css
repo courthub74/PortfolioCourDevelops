@@ -13062,31 +13062,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1.1ch;
-    margin: 10vh 0 0 0;
+    gap: 3.7ch;
+    margin: 14vh 0 0 0;
   }
   #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square {
     background-color: #36395D;
     border: 1px solid #36395D;
     border-radius: 10px;
-    width: 20.8vw;
-    height: 25vw;
-    height: 35vw;
+    width: 27vw;
+    height: 30vw;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 2px 2px 2px 2px black;
   }
   #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square #workflow_app {
-    width: 21vw;
+    width: 23vw;
     margin: 0 0 0 2vw;
   }
   #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square #create_collab {
-    width: 21vw;
-    margin: 0 0 0 2vw;
+    width: 23vw;
+    margin: 0 0 0 2.5vw;
   }
   #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square #mps_site {
-    width: 14vw;
+    width: 16vw;
     margin: 0 0 0 4.5vw;
   }
   #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square #msy {
@@ -13602,14 +13601,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 4vh;
+    gap: 6vh;
     height: 100%;
   }
   #contact_section_id .contact_section_class .contact_section_form form .name_email {
     display: flex;
     flex-direction: column;
     gap: 4ch;
-    margin: -30vh 0 0 0;
+    margin: -31vh 0 0 0;
   }
   #contact_section_id .contact_section_class .contact_section_form form .name_email .input_div {
     display: flex;
@@ -13624,7 +13623,7 @@
   #contact_section_id .contact_section_class .contact_section_form form .name_email .input_div input {
     background-color: #36395D;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 40vw;
     height: 5.5vw;
   }
@@ -13647,7 +13646,7 @@
   #contact_section_id .contact_section_class .contact_section_form form .message_submit .input_div input {
     background-color: #36395D;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 40vw;
     height: 7vw;
   }
@@ -13678,7 +13677,7 @@
     font-size: 1.5rem;
   }
   #contact_section_id .contact_section_class .contact_section_form .poweredby small .home_socials {
-    margin: -43vh 43vw 0 0;
+    margin: -44vh 44vw 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13713,7 +13712,7 @@
     align-items: center;
     gap: 3vw;
     margin: -2vh 0 0 -46vw;
-    margin: -2vh 0 0 -44vw;
+    margin: -2vh 0 0 -43vw;
   }
   #contact_section_id .contact_section_class .contact_section_form .poweredby .copy_name .copyrights #copyright_courdevs {
     margin: 0vh 0 0 -2vw;
@@ -13722,9 +13721,9 @@
   }
   #contact_section_id .contact_section_class .contact_section_form .poweredby .copy_name .copyrights p {
     color: #36395D;
-    font-size: 1.2rem;
     font-size: 1rem;
     font-family: "Inter", sans-serif;
+    margin: 0 0 0 -2.5vw;
   }
   #contact_section_id .contact_section_class .contact_section_form .poweredby .copy_name .copyrights .courdev {
     color: #58a6ff;
@@ -13736,12 +13735,12 @@
   #contact_section_id .contact_section_class .contact_section_form .poweredby .copy_name .copyrights #phone {
     width: 2vw;
     height: 2vw;
-    margin: 0 0 0 -2vw;
+    margin: 0 0 0 -3vw;
   }
   #contact_section_id .contact_section_class .contact_section_form .poweredby .copy_name .copyrights .courdev_num {
     color: #58a6ff;
     font-family: "Inter", sans-serif;
-    margin: 0 0 0 -2vw;
+    margin: 0 0 0 -3vw;
     font-size: 1.2rem;
     font-size: 1rem;
   }
