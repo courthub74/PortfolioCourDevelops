@@ -14042,14 +14042,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2ch;
-    margin: 10vh 0 0 0.5ch;
+    gap: 5ch;
+    margin: 12vh 0 0 0.5ch;
   }
   #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square {
     background-color: #36395D;
     border: 1px solid #36395D;
     border-radius: 10px;
     width: 21.7vw;
+    width: 28vw;
     height: 35vw;
     display: flex;
     justify-content: center;
@@ -14433,15 +14434,16 @@
     margin: 5vh 0 0 5vw;
   }
   #experience_section_id .experience_section_class .experience_section_squares {
-    margin: 12vh 0 0 0;
+    margin: 14vh 0 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 12ch;
-    gap: 2ch;
+    gap: 5ch;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_1_square {
     width: 29.2vw;
+    width: 28vw;
     height: 35vw;
     border: 1px solid #36395D;
     border-radius: 10px;
@@ -14477,6 +14479,7 @@
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_2_square {
     width: 29.2vw;
+    width: 28vw;
     height: 35vw;
     border: 1px solid #36395D;
     border-radius: 10px;
@@ -14512,6 +14515,7 @@
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_3_square {
     width: 29.2vw;
+    width: 28vw;
     height: 35vw;
     border: 1px solid #36395D;
     border-radius: 10px;
@@ -16211,7 +16215,7 @@
   #portfolio_section_id .portfolio_section_class {
     background-color: #080E2F;
     height: 105vh;
-    height: 115ch;
+    height: 110ch;
     display: flex;
     flex-direction: column;
   }
@@ -16263,7 +16267,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 6ch;
+    gap: 5ch;
     margin: 12vh 0 0 0ch;
   }
   #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square {
@@ -16298,8 +16302,7 @@
   }
   #skills_section_id .skills_section_class {
     background-color: #00313E;
-    height: 105vh;
-    height: 105ch;
+    height: 110ch;
   }
   #skills_section_id .skills_section_class .title_nav {
     display: flex;
@@ -16621,7 +16624,7 @@
   #experience_section_id .experience_section_class {
     background-color: #080E2F;
     height: 105vh;
-    height: 105ch;
+    height: 110ch;
     display: flex;
     flex-direction: column;
   }
@@ -16674,7 +16677,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 6ch;
+    gap: 5ch;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_1_square {
     width: 29.2vw;
@@ -16698,6 +16701,7 @@
     font-family: "Inter", sans-serif;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_1_square .job_1_description .experience_company {
     color: white;
@@ -16734,6 +16738,7 @@
     font-family: "Inter", sans-serif;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_2_square .job_2_description .experience_company {
     color: white;
@@ -16770,6 +16775,7 @@
     font-family: "Inter", sans-serif;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_3_square .job_3_description .experience_company {
     color: white;
@@ -16787,7 +16793,7 @@
   #blog_section_id .blog_section_class {
     background-color: #00313E;
     height: 105vh;
-    height: 105ch;
+    height: 110ch;
   }
   #blog_section_id .blog_section_class .title_nav {
     display: flex;
@@ -16838,7 +16844,7 @@
     align-items: center;
     height: 100vh;
     margin: -7vh 0 0 0.8vw;
-    gap: 5ch;
+    gap: 5.5ch;
   }
   #blog_section_id .blog_section_class .blog_entry {
     display: flex;
@@ -16852,8 +16858,6 @@
     align-items: center;
     width: 26vw;
     height: 26vw;
-    width: 28vw;
-    height: 28vw;
     border-radius: 50%;
     background-color: #146166;
     border: 2px solid #080E2F;
@@ -16865,8 +16869,6 @@
     align-items: center;
     width: 24vw;
     height: 24vw;
-    width: 26vw;
-    height: 26vw;
     border-radius: 50%;
     background-color: #080E2F;
     color: white;
@@ -16882,7 +16884,7 @@
   #contact_section_id .contact_section_class {
     background-color: #080E2F;
     height: 100vh;
-    height: 100ch;
+    height: 110ch;
   }
   #contact_section_id .contact_section_class .title_nav {
     display: flex;
@@ -16934,7 +16936,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20ch;
+    gap: 17ch;
     margin: 15vh 0 0 0;
   }
   #contact_section_id .contact_section_class .contact_section_form form .name_email {
@@ -17037,7 +17039,7 @@
     justify-content: center;
     gap: 77px;
     margin: 1.8vh 0 0 4vw;
-    margin: 3vh 0 0 4vw;
+    margin: 3.5vh 0 0 5.5vw;
   }
   #contact_section_id .contact_section_class .contact_section_form .poweredby small .home_socials #github {
     width: 4vw;

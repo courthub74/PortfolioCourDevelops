@@ -17028,13 +17028,14 @@ $savethis: #7273ad;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                gap: 2ch;
-                margin: 10vh 0 0 .5ch;
+                gap: 5ch;
+                margin: 12vh 0 0 .5ch;
                 .portfolio_square {
                     background-color: $portfolios;
                     border: 1px solid $portfolios;
                     border-radius: 10px;
                     width: 21.7vw;
+                    width: 28vw;
                     height: 35vw;
                     display: flex;
                     justify-content: center;
@@ -17468,14 +17469,15 @@ $savethis: #7273ad;
             }
             // EXPERIENCE SECTION CONTENT
             .experience_section_squares {
-                margin: 12vh 0 0 0;
+                margin: 14vh 0 0 0;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 gap: 12ch;
-                gap: 2ch;
+                gap: 5ch;
                 .experience_1_square {
                     width: 29.2vw;
+                    width: 28vw;
                     height: 35vw;
                     border: 1px solid $portfolios;
                     border-radius: 10px;
@@ -17513,6 +17515,7 @@ $savethis: #7273ad;
                 }
                 .experience_2_square {
                     width: 29.2vw;
+                    width: 28vw;
                     height: 35vw;
                     border: 1px solid $portfolios;
                     border-radius: 10px;
@@ -17550,6 +17553,7 @@ $savethis: #7273ad;
                 }
                 .experience_3_square {
                     width: 29.2vw;
+                    width: 28vw;
                     height: 35vw;
                     border: 1px solid $portfolios;
                     border-radius: 10px;
@@ -19161,7 +19165,7 @@ $savethis: #7273ad;
     }
 }
 
-// EVEN BIGGER DESKTOP (1500px)
+// EVEN BIGGER DESKTOP (1500px) My Laptop
 @media screen and (min-width: 1500px) {
     // body {
     //     display: none;
@@ -19202,6 +19206,7 @@ $savethis: #7273ad;
     #home_section_id {
         .home_section_class {
             background-color: $darkblue;
+            // background-color: #00313E;
             height: 100vh;
             height: 100ch;
             display: flex;
@@ -19452,7 +19457,7 @@ $savethis: #7273ad;
         .portfolio_section_class {
             background-color: $darkblue;
             height: 105vh;
-            height: 115ch;
+            height: 110ch;
             display: flex;
             flex-direction: column;
              // SECTION TITLE AND NAVBAR
@@ -19507,7 +19512,7 @@ $savethis: #7273ad;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                gap: 6ch;
+                gap: 5ch;
                 margin: 12vh 0 0 0ch;
                 .portfolio_square {
                     background-color: $portfolios;
@@ -19547,8 +19552,8 @@ $savethis: #7273ad;
     #skills_section_id {
         .skills_section_class {
             background-color: $nextgreen;
-            height: 105vh;
-            height: 105ch;
+            // height: 100vh;
+            height: 110ch;
             // display: flex;
             // align-items: center;
             // justify-content: center;
@@ -19912,7 +19917,7 @@ $savethis: #7273ad;
         .experience_section_class {
             background-color: $darkblue;
             height: 105vh;
-            height: 105ch;
+            height: 110ch;
             display: flex;
             flex-direction: column;
             .title_nav {
@@ -19967,7 +19972,7 @@ $savethis: #7273ad;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                gap: 6ch;
+                gap: 5ch;
                 // gap: 2ch;
                 .experience_1_square {
                     width: 29.2vw;
@@ -19991,6 +19996,7 @@ $savethis: #7273ad;
                         font-family: 'Inter', sans-serif;
                         display: flex;
                         flex-direction: column;
+                        cursor: pointer;
                         .experience_company {
                             color: white;
                             font-size: 1.5rem;
@@ -20030,6 +20036,7 @@ $savethis: #7273ad;
                         font-family: 'Inter', sans-serif;
                         display: flex;
                         flex-direction: column;
+                        cursor: pointer;
                         .experience_company {
                             color: white;
                             font-size: 1.5rem;
@@ -20069,6 +20076,7 @@ $savethis: #7273ad;
                         font-family: 'Inter', sans-serif;
                         display: flex;
                         flex-direction: column;
+                        cursor: pointer;
                         .experience_company {
                             color: white;
                             font-size: 1.5rem;
@@ -20094,7 +20102,7 @@ $savethis: #7273ad;
         .blog_section_class {
             background-color: $nextgreen;
             height: 105vh;
-            height: 105ch;
+            height: 110ch;
             // NAVBAR BLOG
             .title_nav {
                 display: flex;
@@ -20148,7 +20156,7 @@ $savethis: #7273ad;
                 align-items: center;
                 height: 100vh;
                 margin: -7vh 0 0 .8vw;
-                gap: 5ch;
+                gap: 5.5ch;
             }
             // BLOG CIRCLE 
             .blog_entry {
@@ -20162,8 +20170,8 @@ $savethis: #7273ad;
                         align-items: center;
                         width: 26vw;
                         height: 26vw;
-                        width: 28vw;
-                        height: 28vw;
+                        // width: 28vw;
+                        // height: 28vw;
                         border-radius: 50%;
                         background-color: $skillsteal;
                         border: 2px solid $darkblue;
@@ -20174,8 +20182,8 @@ $savethis: #7273ad;
                             align-items: center;
                             width: 24vw;
                             height: 24vw;
-                            width: 26vw;
-                            height: 26vw;
+                            // width: 26vw;
+                            // height: 26vw;
                             border-radius: 50%;
                             background-color: $darkblue;
                             color: white;
@@ -20197,7 +20205,7 @@ $savethis: #7273ad;
         .contact_section_class {
             background-color: $darkblue;
             height: 100vh;
-            height: 100ch;
+            height: 110ch;
             // NAVBAR CONTACT
             .title_nav {
                 display: flex;
@@ -20253,7 +20261,7 @@ $savethis: #7273ad;
                     // flex-direction: column;
                     justify-content: center;
                     align-items: center;
-                    gap: 20ch;
+                    gap: 17ch;
                     margin: 15vh 0 0 0;
                     // background-color: yellow;
                     .name_email {
@@ -20366,7 +20374,7 @@ $savethis: #7273ad;
                             gap: 77px;
                             // margin: 0vh 0 0 5vw;
                             margin: 1.8vh 0 0 4vw;
-                            margin: 3vh 0 0 4vw;
+                            margin: 3.5vh 0 0 5.5vw;
                             #github {
                                 width: 4vw;
                                 height: 4vw;
