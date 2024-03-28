@@ -20441,7 +20441,7 @@ $savethis: #7273ad;
     // }
     // DESKTOP NAVBAR
     .desktop_nav {
-        margin: 7vh 5vw 0 0;
+        margin: 7vh 10vw 0 0;
         ul {
             display: flex;
             justify-content: right;
@@ -20457,7 +20457,7 @@ $savethis: #7273ad;
             }
             li {
                 list-style: none;
-                font-size: 1.2rem;
+                font-size: 1.5rem;
                 a {
                    text-decoration: none;
                    color: white;
@@ -20476,7 +20476,7 @@ $savethis: #7273ad;
         .home_section_class {
             background-color: $darkblue;
             height: 100vh;
-            height: 100ch;
+            height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -20486,8 +20486,8 @@ $savethis: #7273ad;
                 align-items: center;
                 justify-content: center;
                 margin: -15vh 0 0 0;  
-                margin: -5vh 0vw 0 -5vw;  
-                gap: 30vw;
+                margin: -15vh 0vw 0 -5vw;  
+                gap: 28vw;
                 // BIG HOME LOGO
                 .logo_div {
                     display: flex;
@@ -20502,8 +20502,8 @@ $savethis: #7273ad;
                         border-radius: 50%;
                         width: 26vw;
                         height: 26vw;
-                        // width: 32vw;
-                        // height: 32vw;
+                        width: 24vw;
+                        height: 24vw;
                         .front_logo {
                             display: flex;
                             justify-content: center;
@@ -20511,8 +20511,8 @@ $savethis: #7273ad;
                             #logo_home {
                                 width: 24vw;
                                 height: 24vw;
-                                // width: 30vw;
-                                // height: 30vw;
+                                width: 22vw;
+                                height: 22vw;
                             }
                         }
                     }
@@ -20522,7 +20522,7 @@ $savethis: #7273ad;
                     // background-color: #00C6C3;
                     display: flex;
                     flex-direction: column;
-                    gap: 2.5ch;
+                    gap: 3ch;
                     // background-color: yellow;
                     // margin-right: 15ch;
                     margin: 0 0ch 0 -30ch;
@@ -20536,7 +20536,7 @@ $savethis: #7273ad;
                         align-items: center;
                         gap: 1ch;
                         .home_name {
-                            font-size: 3rem;
+                            font-size: 2.8rem;
                             color: white;
                             font-family: 'Inter', sans-serif;
                         }
@@ -20548,7 +20548,8 @@ $savethis: #7273ad;
                             border-radius: 10px;
                             background-color: $portfolios;
                             width: 26vw;
-                            height: 4vw;
+                            width: 20vw;
+                            height: 3vw;
                             display: flex;
                             align-items: center;
                             justify-content: center;
@@ -20574,20 +20575,24 @@ $savethis: #7273ad;
                         justify-content: center;
                         gap: 3.5vw;
                         #github {
-                            width: 3vw;
-                            height: 3vw;
+                            width: 2vw;
+                            height: 2vw;
+                            cursor: pointer;
                         }
                         #twitter {
-                            width: 3vw;
-                            height: 3vw;
+                            width: 2vw;
+                            height: 2vw;
+                            cursor: pointer;
                         }
                         #linkedin {
-                            width: 3vw;
-                            height: 3vw;
+                            width: 2vw;
+                            height: 2vw;
+                            cursor: pointer;
                         }
                         #instagram {
-                            width: 3.5vw;
-                            height: 3.5vw;
+                            width: 2.5vw;
+                            height: 2.5vw;
+                            cursor: pointer;
                         }
                     }
                     // LEARN MORE BUTTON
@@ -20597,6 +20602,8 @@ $savethis: #7273ad;
                         align-items: center;
                         height: 3.5vw;
                         width: 24vw;
+                        height: 3vw;
+                        width: 19.5vw;
                         border: 1px solid $portfolios;
                         border-radius: 45px;
                         background-color: $portfolios;
@@ -20620,7 +20627,7 @@ $savethis: #7273ad;
         .about_section_class {
             background-color: $nextgreen;
             height: 105vh;
-            height: 115ch;
+            height: 105vh;
             display: flex;
             flex-direction: column;
             // align-items: center;
@@ -20646,7 +20653,7 @@ $savethis: #7273ad;
                 // ABOUT NAVBAR
                 .about_desktop_nav {
                     margin: 2vh 5vw 0 0;
-                    margin: 6vh 5vw 0 0;
+                    margin: 6vh 10vw 0 0;
                     ul {
                         display: flex;
                         justify-content: right;
@@ -20662,7 +20669,7 @@ $savethis: #7273ad;
                         }
                         li {
                             list-style: none;
-                            font-size: 1.2rem;
+                            font-size: 1.5rem;
                             cursor: pointer;
                             a {
                                text-decoration: none;
@@ -20705,6 +20712,8 @@ $savethis: #7273ad;
                 background-color: white;
                 height: 3.5vw;
                 width: 24vw;
+                height: 3vw;
+                width: 19.5vw;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -20723,7 +20732,7 @@ $savethis: #7273ad;
         .portfolio_section_class {
             background-color: $darkblue;
             height: 105vh;
-            height: 115ch;
+            height: 105vh;
             display: flex;
             flex-direction: column;
              // SECTION TITLE AND NAVBAR
@@ -20745,7 +20754,7 @@ $savethis: #7273ad;
                 // ABOUT NAVBAR
                 .portfolio_desktop_nav {
                     margin: 2vh 5vw 0 0;
-                    margin: 6vh 5vw 0 0;
+                    margin: 6vh 10vw 0 0;
                     ul {
                         display: flex;
                         justify-content: right;
@@ -20761,7 +20770,7 @@ $savethis: #7273ad;
                         }
                         li {
                             list-style: none;
-                            font-size: 1.2rem;
+                            font-size: 1.5rem;
                             cursor: pointer;
                             a {
                                text-decoration: none;
@@ -20778,33 +20787,34 @@ $savethis: #7273ad;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                gap: 2ch;
-                margin: 10vh 0 0 .5ch;
+                gap: 4ch;
+                margin: 10vh 0 0 0ch;
                 .portfolio_square {
                     background-color: $portfolios;
                     border: 1px solid $portfolios;
                     border-radius: 10px;
-                    width: 21.7vw;
-                    height: 35vw;
+                    width: 25vw;
+                    width: 20vw;
+                    height: 30vw;
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     box-shadow: 2px 2px 2px 2px black;
                     cursor: pointer;
                     #workflow_app {
-                        width: 20vw;
-                        height: 4.5vw;
+                        width: 17vw;
+                        height: 3.8vw;
                         margin: 0 0 0 5ch;
                         // background-color: #00313E;
                     }
                     #create_collab {
-                        width: 21vw;
-                        height: 3vw;
+                        width: 14.8vw;
+                        height: 2.2vw;
                         margin: 0 0 0 4.5ch;
                     }
                     #mps_site {
                         margin: 0 0 0 6ch;
-                        height: 5vw;
+                        height: 3.5vw;
                     }
                     #msy {
                         width: 18vw;
