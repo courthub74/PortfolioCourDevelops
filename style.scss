@@ -14586,7 +14586,7 @@ $savethis: #7273ad;
                     flex-direction: column;
                     // justify-content: center;
                     align-items: center;
-                    gap: 7ch;
+                    gap: 10ch;
                     margin: 5vh 0 0 0;
                     .portfolio_square {
                         background-color: $portfolios;
@@ -15524,23 +15524,23 @@ $savethis: #7273ad;
                         }
                         #copyright_courdevs {
                             margin: 0vh 0vw 0 1.5vw;
+                            margin: 0 -1.5ch 0 0;
                             width: 5.5w;
                             height: 5.5vw;
                             // background-color: red;
                         }
                         .courdev {
-                            // margin: 0 -2vw 0 0vw;
+                            // margin: 0 -2ch 0 0;
                             color: $firstblue;
                             font-family: 'Inter', sans-serif;
-                            font-size: 4vw;
-                            font-size: .8rem;
                             font-size: 1.5rem;
+                            margin-right: 1ch;
                         }
-                        // #phone {
-                        //     width: 4.5vw;
-                        //     height: 4.5vw;
-                        //     margin-left: -5vw;
-                        // }
+                        #phone {
+                            width: 4.5vw;
+                            height: 4.5vw;
+                            // margin-left: -5vw;
+                        }
                         .courdev_num {
                             font-family: 'Inter', sans-serif;
                             color: $firstblue;
