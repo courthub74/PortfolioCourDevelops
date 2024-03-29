@@ -254,6 +254,7 @@
     border-radius: 10px;
     width: 85.5vw;
     height: 30vw;
+    height: 45vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -3748,6 +3749,7 @@
     border: 1px solid #36395D;
     border-radius: 10px;
     width: 20.8vw;
+    width: 27vw;
     height: 25vw;
     display: flex;
     justify-content: center;
@@ -4648,6 +4650,7 @@
     justify-content: center;
     align-items: center;
     gap: 1.1ch;
+    gap: 6vh;
     margin: 10vh 0 0 0;
   }
   #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square {
@@ -4655,6 +4658,7 @@
     border: 1px solid #36395D;
     border-radius: 10px;
     width: 20.8vw;
+    width: 27vw;
     height: 25vw;
     display: flex;
     justify-content: center;
