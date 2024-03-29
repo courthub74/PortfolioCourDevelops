@@ -1113,9 +1113,9 @@
   #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square {
     background-color: #36395D;
     border: 1px solid #36395D;
+    border: none;
     border-radius: 10px;
     width: 85.5vw;
-    height: 30vw;
     height: 43vw;
     display: flex;
     justify-content: center;
@@ -2597,6 +2597,64 @@
     color: #58a6ff;
     font-size: 0.7rem;
     margin-left: -1rem;
+  }
+}
+@media screen and (width: 411px) {
+  #about_section_id .about_section_class {
+    background-color: #00313E;
+    height: 115vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  #about_section_id .about_section_class .about_desktop_nav ul {
+    display: none;
+  }
+  #about_section_id .about_section_class .section_title {
+    font-family: "Inter", sans-serif;
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin: 5vh 0 0 7vw;
+  }
+  #about_section_id .about_section_class .about_section_content {
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+    line-height: 2.5ch;
+    width: 80%;
+    margin: 5vh 0 0 7vw;
+  }
+  #about_section_id .about_section_class .about_section_content .brand_is {
+    font-family: "Inter", sans-serif;
+    align-items: center;
+  }
+  #about_section_id .about_section_class .about_section_content .brand_is .brand {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 1ch;
+    margin: 3vh 0 3vh 0;
+  }
+  #about_section_id .about_section_class .about_section_content .brand_is .brand #about_logo {
+    width: 19vw;
+    height: 19vw;
+  }
+  #about_section_id .about_section_class .download_resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh 0 0 7vw;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 25px;
+    width: 15em;
+    height: 3em;
+  }
+  #about_section_id .about_section_class .download_resume a {
+    color: #00313E;
+    text-decoration: none;
+    font-size: 1.2rem;
   }
 }
 @media screen and (min-width: 540px) and (max-width: 599px) {
