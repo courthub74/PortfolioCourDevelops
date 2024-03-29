@@ -1107,6 +1107,7 @@
     flex-direction: column;
     align-items: center;
     gap: 4ch;
+    gap: 5vh;
     margin: 5vh 0 0 0;
   }
   #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square {
@@ -1115,6 +1116,7 @@
     border-radius: 10px;
     width: 85.5vw;
     height: 30vw;
+    height: 43vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1966,7 +1968,8 @@
     flex-direction: column;
     align-items: center;
     gap: 4ch;
-    margin: 5vh 0 0 0;
+    gap: 6ch;
+    margin: 6vh 0 0 0;
   }
   #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square {
     background-color: #36395D;
@@ -1974,6 +1977,7 @@
     border-radius: 10px;
     width: 85.5vw;
     height: 35vw;
+    height: 43vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2258,7 +2262,8 @@
     justify-content: center;
     align-items: center;
     gap: 5vh;
-    margin: 5vh 0 0 0;
+    gap: 6ch;
+    margin: 6vh 0 0 0;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_1_square {
     width: 85.5vw;

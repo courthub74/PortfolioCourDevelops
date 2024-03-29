@@ -1372,15 +1372,18 @@ $savethis: #7273ad;
                     // justify-content: center;
                     align-items: center;
                     gap: 4ch;
+                    gap: 5vh;
                     margin: 5vh 0 0 0;
                     .portfolio_square {
                         background-color: $portfolios;
                         border: 1px solid $portfolios;
+                        // background-color: red;
                         border-radius: 10px;
                         // width: 24.4em;
                         // height: 9em;
                         width: 85.5vw;
                         height: 30vw;
+                        height: 43vw;
                         display: flex;
                         justify-content: center;
                         align-items: center;
@@ -2290,6 +2293,7 @@ $savethis: #7273ad;
     #about_section_id {
         .about_section_class {
             background-color: $nextgreen;
+            // background-color: red;
             height: 115vh;
             color: white;
             display: flex;
@@ -2386,7 +2390,8 @@ $savethis: #7273ad;
                     // justify-content: center;
                     align-items: center;
                     gap: 4ch;
-                    margin: 5vh 0 0 0;
+                    gap: 6ch;
+                    margin: 6vh 0 0 0;
                     .portfolio_square {
                         background-color: $portfolios;
                         border: 1px solid $portfolios;
@@ -2395,6 +2400,7 @@ $savethis: #7273ad;
                         // height: 9em;
                         width: 85.5vw;
                         height: 35vw;
+                        height: 43vw;
                         display: flex;
                         justify-content: center;
                         align-items: center;
@@ -2712,7 +2718,8 @@ $savethis: #7273ad;
                 justify-content: center;
                 align-items: center;
                 gap: 5vh;
-                margin: 5vh 0 0 0;
+                gap: 6ch;
+                margin: 6vh 0 0 0;
                 // experience squares
 
                 // Courdevelops
