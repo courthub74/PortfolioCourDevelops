@@ -1088,7 +1088,7 @@
   }
   #portfolio_section_id .portfolio_section_class {
     background-color: #080E2F;
-    height: 110vh;
+    height: 105vh;
     display: flex;
     flex-direction: column;
   }
@@ -1729,6 +1729,11 @@
     color: #58a6ff;
     font-size: 0.8rem;
     margin-left: -1rem;
+  }
+}
+@media screen and (width: 390px) {
+  body {
+    display: none;
   }
 }
 @media screen and (min-width: 401px) and (max-width: 539px) {
