@@ -8242,15 +8242,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1.1ch;
+    gap: 6vh;
     margin: 10vh 0 0 0;
   }
   #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square {
     background-color: #36395D;
     border: 1px solid #36395D;
     border-radius: 10px;
-    width: 20.8vw;
     height: 25vw;
+    width: 27vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15221,7 +15221,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2ch;
+    gap: 5ch;
     margin: 10vh 0 0 0ch;
   }
   #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square {
@@ -15229,7 +15229,7 @@
     border: 1px solid #36395D;
     border-radius: 10px;
     width: 21.7vw;
-    width: 29.2vw;
+    width: 28vw;
     height: 35vw;
     display: flex;
     justify-content: center;
@@ -15618,10 +15618,11 @@
     justify-content: center;
     align-items: center;
     gap: 12ch;
-    gap: 2ch;
+    gap: 5ch;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_1_square {
     width: 29.2vw;
+    width: 28vw;
     height: 35vw;
     border: 1px solid #36395D;
     border-radius: 10px;
@@ -15657,6 +15658,7 @@
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_2_square {
     width: 29.2vw;
+    width: 28vw;
     height: 35vw;
     border: 1px solid #36395D;
     border-radius: 10px;
@@ -15692,6 +15694,7 @@
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_3_square {
     width: 29.2vw;
+    width: 28vw;
     height: 35vw;
     border: 1px solid #36395D;
     border-radius: 10px;
@@ -16338,14 +16341,14 @@
     justify-content: center;
     align-items: center;
     gap: 5ch;
-    margin: 12vh 0 0 0ch;
+    margin: 10vh 0 0 0ch;
   }
   #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square {
     background-color: #36395D;
     border: 1px solid #36395D;
     border-radius: 10px;
     width: 21.7vw;
-    width: 26vw;
+    width: 26.2vw;
     height: 35vw;
     display: flex;
     justify-content: center;
