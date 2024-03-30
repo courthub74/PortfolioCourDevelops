@@ -11131,14 +11131,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1.1ch;
+    gap: 5.6vh;
     margin: 10vh 0 0 0;
   }
   #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square {
     background-color: #36395D;
     border: 1px solid #36395D;
     border-radius: 10px;
-    width: 20.8vw;
+    width: 27vw;
     height: 25vw;
     display: flex;
     justify-content: center;
@@ -11455,7 +11455,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5vh;
+    gap: 5.5vh;
     margin: 10vh 0 0 0.5vw;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_1_square {
