@@ -1732,6 +1732,114 @@
     margin-left: -1rem;
   }
 }
+@media screen and (width: 360px) {
+  #about_section_id .about_section_class {
+    background-color: #00313E;
+    height: 120vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  #about_section_id .about_section_class .about_desktop_nav ul {
+    display: none;
+  }
+  #about_section_id .about_section_class .section_title {
+    font-family: "Inter", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 5vh 0 0 7vw;
+  }
+  #about_section_id .about_section_class .about_section_content {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    line-height: 2.5ch;
+    width: 80%;
+    margin: 5vh 0 0 7vw;
+  }
+  #about_section_id .about_section_class .about_section_content .brand_is {
+    font-family: "Inter", sans-serif;
+    align-items: center;
+  }
+  #about_section_id .about_section_class .about_section_content .brand_is .brand {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 1ch;
+    margin: 3vh 0 3vh 0;
+  }
+  #about_section_id .about_section_class .about_section_content .brand_is .brand #about_logo {
+    width: 19vw;
+    height: 19vw;
+  }
+  #about_section_id .about_section_class .download_resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh 0 0 7vw;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 25px;
+    width: 13em;
+    height: 2.5em;
+  }
+  #about_section_id .about_section_class .download_resume a {
+    color: #00313E;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  #portfolio_section_id .portfolio_section_class {
+    background-color: #080E2F;
+    height: 105vh;
+    display: flex;
+    flex-direction: column;
+  }
+  #portfolio_section_id .portfolio_section_class .portfolio_desktop_nav ul {
+    display: none;
+  }
+  #portfolio_section_id .portfolio_section_class .section_title {
+    font-family: "Inter", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    margin: 5vh 0 0 7vw;
+  }
+  #portfolio_section_id .portfolio_section_class .portfolio_section_squares {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4ch;
+    gap: 5vh;
+    margin: 5vh 0 0 0;
+  }
+  #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square {
+    background-color: #36395D;
+    border: 1px solid #36395D;
+    border: none;
+    border-radius: 10px;
+    width: 85.5vw;
+    height: 41vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px 2px black;
+  }
+  #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square #workflow_app {
+    width: 65vw;
+    margin: 1vh 0 0 8vw;
+  }
+  #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square #create_collab {
+    margin: 0 0 0 8.5vw;
+  }
+  #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square #mps_site {
+    width: 45vw;
+    margin: 0 0 0 12vw;
+  }
+  #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square #msy {
+    width: 55vw;
+  }
+}
 @media screen and (min-width: 401px) and (max-width: 539px) {
   nav {
     background-color: #080E2F;

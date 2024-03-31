@@ -2091,86 +2091,154 @@ $savethis: #7273ad;
 ////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////
-/// 390px (IPHONE 12)
-// @media screen and (width: 390px) {
-//     body {
-//         display: none;
-//     }
-//     // ABOUT SECTION (PORTRAIT)
-//     #about_section_id {
-//         .about_section_class {
-//             background-color: $nextgreen;
-//             // background-color: red;
-//             height: 115vh;
-//             color: white;
-//             display: flex;
-//             flex-direction: column;
-//             .about_desktop_nav {
-//                 ul {
-//                     display: none;
-//                 }
-//             }
-//             .section_title {
-//                 font-family: 'Inter', sans-serif;
-//                 // font-size: 6vw;
-//                 font-size: 2.5rem;
-//                 font-weight: bold;
-//                 margin: 5vh 0 0 7vw;
-//             }
-//             .about_section_content {
-//                 font-family: 'Inter', sans-serif;
-//                 // font-size: 2.2vw;
-//                 font-size: 1rem;
-//                 // font-size: 1.2rem;
-//                 line-height: 2.5ch;
-//                 width: 80%;
-//                 margin: 5vh 0 0 7vw;
-//                 .brand_is {
-//                     font-family: 'Inter', sans-serif;
-//                     // font-size: 2.5vw;
-//                     // display: flex;
-//                     align-items: center;
-//                     // margin: 0 0 0 -3vw;
-//                     // gap: 2vw;
-//                     .brand {
-//                         display: flex;
-//                         justify-content: left;
-//                         align-items: center;
-//                         gap: 1ch;
-//                         margin: 3vh 0 3vh 0;
-//                         #about_logo {
-//                             // width: 25.5vw;
-//                             // height: 25.5vw;
-//                             width: 19vw;
-//                             height: 19vw;
-//                         }
-//                     }
-//                 }
-//             }
-//             .download_resume {
-//                 display: flex;
-//                 justify-content: center;
-//                 align-items: center;
-//                 margin: 5vh 0 0 7vw;
-//                 font-family: 'Inter', sans-serif;
-//                 font-weight: bold;
-//                 border: 1px solid white;
-//                 background-color: white;
-//                 border-radius: 25px;
-//                 // width: 28vw;
-//                 // height: 4vw;
-//                 width: 13em;
-//                 height: 2.5em;
-//                 // padding: .5ch .5ch;
-//                 a {
-//                     color: $nextgreen;
-//                     text-decoration: none;
-//                     font-size: 1rem;
-//                 }
-//             }
-//         }
-//     }
-// }
+/// 360px (Galaxy 5)
+@media screen and (width: 360px) {
+    // body {
+    //     display: none;
+    // }
+    // ABOUT SECTION (PORTRAIT)
+    #about_section_id {
+        .about_section_class {
+            background-color: $nextgreen;
+            // background-color: red;
+            height: 120vh;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            .about_desktop_nav {
+                ul {
+                    display: none;
+                }
+            }
+            .section_title {
+                font-family: 'Inter', sans-serif;
+                // font-size: 6vw;
+                font-size: 2.5rem;
+                font-weight: bold;
+                margin: 5vh 0 0 7vw;
+            }
+            .about_section_content {
+                font-family: 'Inter', sans-serif;
+                // font-size: 2.2vw;
+                font-size: 1rem;
+                // font-size: 1.2rem;
+                line-height: 2.5ch;
+                width: 80%;
+                margin: 5vh 0 0 7vw;
+                .brand_is {
+                    font-family: 'Inter', sans-serif;
+                    // font-size: 2.5vw;
+                    // display: flex;
+                    align-items: center;
+                    // margin: 0 0 0 -3vw;
+                    // gap: 2vw;
+                    .brand {
+                        display: flex;
+                        justify-content: left;
+                        align-items: center;
+                        gap: 1ch;
+                        margin: 3vh 0 3vh 0;
+                        #about_logo {
+                            // width: 25.5vw;
+                            // height: 25.5vw;
+                            width: 19vw;
+                            height: 19vw;
+                        }
+                    }
+                }
+            }
+            .download_resume {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 5vh 0 0 7vw;
+                font-family: 'Inter', sans-serif;
+                font-weight: bold;
+                border: 1px solid white;
+                background-color: white;
+                border-radius: 25px;
+                // width: 28vw;
+                // height: 4vw;
+                width: 13em;
+                height: 2.5em;
+                // padding: .5ch .5ch;
+                a {
+                    color: $nextgreen;
+                    text-decoration: none;
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+    // PORTFOLIO SECTION (PORTRAIT)
+    #portfolio_section_id {
+        .portfolio_section_class {
+            background-color: $darkblue;
+            // background-color: red;
+            height: 105vh;
+            display: flex;
+            flex-direction: column;
+            .portfolio_desktop_nav {
+                ul {
+                    display: none;
+                }
+            }
+            .section_title {
+                font-family: 'Inter', sans-serif;
+                font-size: 2.5rem;
+                font-weight: bold;
+                color: white;
+                margin: 5vh 0 0 7vw;
+            }
+            // .portfolio_section_content {
+            //     margin: 5vh 0 0 0;
+            //     background-color: #00C6C3;
+                .portfolio_section_squares {
+                    display: flex;
+                    flex-direction: column;
+                    // justify-content: center;
+                    align-items: center;
+                    gap: 4ch;
+                    gap: 5vh;
+                    margin: 5vh 0 0 0;
+                    .portfolio_square {
+                        background-color: $portfolios;
+                        // background-color: red;
+                        border: 1px solid $portfolios;
+                        border: none;
+                        border-radius: 10px;
+                        width: 85.5vw;
+                        height: 41vw;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        box-shadow: 2px 2px 2px 2px black;
+                        #workflow_app {
+                            // width: 18em;
+                            // height: 4em;
+                            width: 65vw;
+                            margin: 1vh 0 0 8vw;
+                        }
+                        #create_collab {
+                            margin: 0 0 0 8.5vw;
+                        }
+                        #mps_site {
+                            // width: 12em;
+                            // height: 4em;
+                            width: 45vw;
+                            margin: 0 0 0 12vw;
+                        }
+                        #msy {
+                            // width: 15em;
+                            // height: 4em;
+                            width: 55vw;
+                        }
+                    }
+                }
+            }
+        
+    }
+}
 
 /////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////
