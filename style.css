@@ -13925,6 +13925,11 @@
     font-size: 1rem;
   }
 }
+@media screen and (min-width: 1200px) and (max-width: 1279px) {
+  body {
+    display: none;
+  }
+}
 @media screen and (min-width: 1280px) {
   .desktop_nav {
     margin: 7vh 5vw 0 0;
@@ -17456,7 +17461,7 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row-reverse;
-    margin: 0vh 0 0 0;
+    margin: 0vh 0 0 5vw;
   }
   #about_section_id .about_section_class .title_nav .section_title {
     font-family: "Inter", sans-serif;
@@ -17500,7 +17505,7 @@
     flex-direction: column;
     width: 80%;
     color: white;
-    margin: 10vh 0 0 5vw;
+    margin: 10vh 0 0 10vw;
     font-family: "Inter", sans-serif;
     font-size: 1.3rem;
     line-height: 3ch;
@@ -17517,7 +17522,7 @@
     height: 8vw;
   }
   #about_section_id .about_section_class .download_resume {
-    margin: 8vh 0 0 5vw;
+    margin: 8vh 0 0 10vw;
     border-radius: 25px;
     background-color: white;
     height: 3.5vw;
@@ -17546,7 +17551,7 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row-reverse;
-    margin: 0vh 0 0 0;
+    margin: 0vh 0 0 5vw;
   }
   #portfolio_section_id .portfolio_section_class .title_nav .section_title {
     font-family: "Inter", sans-serif;
@@ -17589,8 +17594,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 13ch;
-    margin: 12vh 12ch 0 0ch;
+    gap: 7ch;
+    margin: 12vh 0ch 0 0ch;
   }
   #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square {
     background-color: #36395D;
@@ -17611,12 +17616,13 @@
   }
   #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square #create_collab {
     width: 14.8vw;
+    width: 14vw;
     height: 2.2vw;
     margin: 0 0 0 4.5ch;
   }
   #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square #mps_site {
     margin: 0 0 0 6ch;
-    height: 3.5vw;
+    height: 4vw;
   }
   #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square #msy {
     width: 18vw;
@@ -17631,7 +17637,7 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row-reverse;
-    margin: 0vh 0 0 0;
+    margin: 0vh 0 0 5vw;
   }
   #skills_section_id .skills_section_class .title_nav .section_title {
     font-family: "Inter", sans-serif;
@@ -17675,18 +17681,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 7ch;
     margin: 15vh 0 0 -10vw;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_first_6 {
     display: flex;
     margin: 0 0ch 0 16.5ch;
     margin: 0 0 0 25ch;
-    gap: 6ch;
+    gap: 2.5ch;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_first_6 .skills_circles_one {
     display: flex;
-    gap: 12ch;
+    gap: 6.5vh;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_first_6 .skills_circles_one .skill_circle {
     margin: 0 0 0 0;
@@ -17813,11 +17818,11 @@
     display: flex;
     margin: 0 0 0 16.5ch;
     margin: 0 0 0 25ch;
-    gap: 6ch;
+    gap: 2.5ch;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one {
     display: flex;
-    gap: 12ch;
+    gap: 6.5vh;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one .skill_circle .skill_back {
     width: 11.5vw;
