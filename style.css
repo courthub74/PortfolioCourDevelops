@@ -15840,7 +15840,7 @@
   #blog_section_id .blog_section_class {
     background-color: #00313E;
     height: 105vh;
-    height: 105ch;
+    height: 103ch;
   }
   #blog_section_id .blog_section_class .title_nav {
     display: flex;
@@ -15890,7 +15890,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: -7vh 0 0 0.8vw;
+    margin: -12vh 0 0 0.8vw;
     gap: 5ch;
   }
   #blog_section_id .blog_section_class .blog_entry {
@@ -17538,7 +17538,6 @@
   #portfolio_section_id .portfolio_section_class {
     background-color: #080E2F;
     height: 105vh;
-    height: 105vh;
     display: flex;
     flex-direction: column;
   }
@@ -17590,15 +17589,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 4ch;
-    margin: 10vh 0 0 0ch;
+    gap: 13ch;
+    margin: 12vh 12ch 0 0ch;
   }
   #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square {
     background-color: #36395D;
     border: 1px solid #36395D;
     border-radius: 10px;
-    width: 25vw;
-    width: 20vw;
+    width: 24.5vw;
     height: 30vw;
     display: flex;
     justify-content: center;

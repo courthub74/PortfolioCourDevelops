@@ -19061,7 +19061,7 @@ $savethis: #7273ad;
         .blog_section_class {
             background-color: $nextgreen;
             height: 105vh;
-            height: 105ch;
+            height: 103ch;
             // NAVBAR BLOG
             .title_nav {
                 display: flex;
@@ -19114,7 +19114,7 @@ $savethis: #7273ad;
                 justify-content: center;
                 align-items: center;
                 height: 100vh;
-                margin: -7vh 0 0 .8vw;
+                margin: -12vh 0 0 .8vw;
                 gap: 5ch;
             }
             // BLOG CIRCLE 
@@ -20971,7 +20971,6 @@ $savethis: #7273ad;
         .portfolio_section_class {
             background-color: $darkblue;
             height: 105vh;
-            height: 105vh;
             display: flex;
             flex-direction: column;
              // SECTION TITLE AND NAVBAR
@@ -21026,15 +21025,17 @@ $savethis: #7273ad;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                gap: 4ch;
-                margin: 10vh 0 0 0ch;
+                gap: 13ch;
+                margin: 12vh 12ch 0 0ch;
                 .portfolio_square {
                     background-color: $portfolios;
+                    // background-color: red;
                     border: 1px solid $portfolios;
                     border-radius: 10px;
-                    width: 25vw;
-                    width: 20vw;
+                    // width: 25vw;
+                    width: 24.5vw;
                     height: 30vw;
+                    // height: 15vw;
                     display: flex;
                     justify-content: center;
                     align-items: center;
