@@ -21068,19 +21068,16 @@ $savethis: #7273ad;
         .skills_section_class {
             background-color: $nextgreen;
             height: 105vh;
-            height: 110ch;
-            // display: flex;
-            // align-items: center;
-            // justify-content: center;
+            height: 105vh;
 
             // SECTION TITLE AND NAVBAR
-            .title_nav {
+             .title_nav {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
                 flex-direction: row-reverse;
                 margin: 0vh 0 0 0;
-                // SKILLS TITLE
+                // ABOUT TITLE
                 .section_title {
                     font-family: 'Inter', sans-serif;
                     font-weight: bold;
@@ -21089,10 +21086,10 @@ $savethis: #7273ad;
                     margin: 3vh 0 0 5vw;
                     margin: 5vh 0 0 5vw;
                 }
-                // SKILLS NAVBAR
+                // ABOUT NAVBAR
                 .skills_desktop_nav {
                     margin: 2vh 5vw 0 0;
-                    margin: 6vh 5vw 0 0;
+                    margin: 6vh 10vw 0 0;
                     ul {
                         display: flex;
                         justify-content: right;
@@ -21100,7 +21097,7 @@ $savethis: #7273ad;
                         gap: 1.5vw;
                         margin: 0vh 0vw 0 0;
                         #selected {
-                            color: $nextgreen;
+                            color: $darkblue;
                             border: 1px solid white;
                             background-color: white;
                             padding: .5ch;
@@ -21108,7 +21105,7 @@ $savethis: #7273ad;
                         }
                         li {
                             list-style: none;
-                            font-size: 1.2rem;
+                            font-size: 1.5rem;
                             cursor: pointer;
                             a {
                                text-decoration: none;
@@ -21127,28 +21124,29 @@ $savethis: #7273ad;
                 justify-content: center;
                 align-items: center;
                 gap: 7ch;
-                gap: 3ch;
+                // gap: 3ch;
                 margin: 15vh 0 0 -10vw;
                 
                 .skills_first_6 {
                     display: flex;
                     margin: 0 0ch 0 16.5ch;
-                    margin: 0 0 0 20ch;
+                    margin: 0 0 0 25ch;
                     // background-color: yellow;
-                    // gap: 2ch;
+                    gap: 6ch;
                     // background-color: #507E81;
                     .skills_circles_one {
                         display: flex;
-                        gap: 4.5ch;
-                        gap: 5ch;
+                        gap: 12ch;
                         // background-color: yellow;
                         // margin: 0 0 0 5ch;
                         .skill_circle {
+                        // background-color: #00C6C3;
+                        margin: 0 0 0 0;
                             .skill_back {
-                                width: 12.5vw;
-                                height: 12.5vw;
-                                // width: 11.5vw;
-                                // height: 11.5vw;
+                                // width: 12.5vw;
+                                // height: 12.5vw;
+                                width: 10.5vw;
+                                height: 10.5vw;
                                 border: 3px solid $darkblue;
                                 background-color: $skillsteal;
                                 border-radius: 50%;
@@ -21159,8 +21157,8 @@ $savethis: #7273ad;
                                 .skill_front {
                                     width: 11.5vw;
                                     height: 11.5vw;
-                                    // width: 10.5vw;
-                                    // height: 10.5vw;
+                                    width: 9.5vw;
+                                    height: 9.5vw;
                                     border: none;
                                     background-color: $darkblue;
                                     border-radius: 50%;
@@ -21278,20 +21276,19 @@ $savethis: #7273ad;
                 .skills_second_6 {
                     display: flex;
                     margin: 0 0 0 16.5ch;
-                    margin: 0 0 0 20ch;
-                    // gap: 4.5ch;
+                    margin: 0 0 0 25ch;
+                    gap: 6ch;
                     // background-color: #36395D;
                     .skills_circles_one {
                         display: flex;
-                        gap: 4.4ch;
-                        gap: 5ch;
+                        gap: 12ch;
                         // margin: 0 0 0 1ch;
                         .skill_circle {
                             .skill_back {
-                                width: 12.5vw;
-                                height: 12.5vw;
-                                // width: 11.5vw;
-                                // height: 11.5vw;
+                                width: 11.5vw;
+                                height: 11.5vw;
+                                width: 10.5vw;
+                                height: 10.5vw;
                                 border: 3px solid $darkblue;
                                 background-color: $skillsteal;
                                 border-radius: 50%;
@@ -21300,10 +21297,10 @@ $savethis: #7273ad;
                                 align-items: center;
                                 box-shadow: 2px 2px 4px black;
                                 .skill_front {
-                                    width: 11.5vw;
-                                    height: 11.5vw;
-                                    // width: 10.5vw;
-                                    // height: 10.5vw;
+                                    width: 10.5vw;
+                                    height: 10.5vw;
+                                    width: 9.5vw;
+                                    height: 9.5vw;
                                     border: none;
                                     background-color: $darkblue;
                                     border-radius: 50%;
@@ -21488,8 +21485,8 @@ $savethis: #7273ad;
                 gap: 12ch;
                 gap: 2ch;
                 .experience_1_square {
-                    width: 29.2vw;
-                    height: 35vw;
+                    width: 24.5vw;
+                    height: 30vw;
                     border: 1px solid $portfolios;
                     border-radius: 10px;
                     display: flex;

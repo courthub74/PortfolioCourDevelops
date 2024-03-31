@@ -17624,7 +17624,7 @@
   #skills_section_id .skills_section_class {
     background-color: #00313E;
     height: 105vh;
-    height: 110ch;
+    height: 105vh;
   }
   #skills_section_id .skills_section_class .title_nav {
     display: flex;
@@ -17643,7 +17643,7 @@
   }
   #skills_section_id .skills_section_class .title_nav .skills_desktop_nav {
     margin: 2vh 5vw 0 0;
-    margin: 6vh 5vw 0 0;
+    margin: 6vh 10vw 0 0;
   }
   #skills_section_id .skills_section_class .title_nav .skills_desktop_nav ul {
     display: flex;
@@ -17653,7 +17653,7 @@
     margin: 0vh 0vw 0 0;
   }
   #skills_section_id .skills_section_class .title_nav .skills_desktop_nav ul #selected {
-    color: #00313E;
+    color: #080E2F;
     border: 1px solid white;
     background-color: white;
     padding: 0.5ch;
@@ -17661,7 +17661,7 @@
   }
   #skills_section_id .skills_section_class .title_nav .skills_desktop_nav ul li {
     list-style: none;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     cursor: pointer;
   }
   #skills_section_id .skills_section_class .title_nav .skills_desktop_nav ul li a {
@@ -17676,22 +17676,24 @@
     justify-content: center;
     align-items: center;
     gap: 7ch;
-    gap: 3ch;
     margin: 15vh 0 0 -10vw;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_first_6 {
     display: flex;
     margin: 0 0ch 0 16.5ch;
-    margin: 0 0 0 20ch;
+    margin: 0 0 0 25ch;
+    gap: 6ch;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_first_6 .skills_circles_one {
     display: flex;
-    gap: 4.5ch;
-    gap: 5ch;
+    gap: 12ch;
+  }
+  #skills_section_id .skills_section_class .skills_section_circles .skills_first_6 .skills_circles_one .skill_circle {
+    margin: 0 0 0 0;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_first_6 .skills_circles_one .skill_circle .skill_back {
-    width: 12.5vw;
-    height: 12.5vw;
+    width: 10.5vw;
+    height: 10.5vw;
     border: 3px solid #080E2F;
     background-color: #146166;
     border-radius: 50%;
@@ -17703,6 +17705,8 @@
   #skills_section_id .skills_section_class .skills_section_circles .skills_first_6 .skills_circles_one .skill_circle .skill_back .skill_front {
     width: 11.5vw;
     height: 11.5vw;
+    width: 9.5vw;
+    height: 9.5vw;
     border: none;
     background-color: #080E2F;
     border-radius: 50%;
@@ -17808,16 +17812,18 @@
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 {
     display: flex;
     margin: 0 0 0 16.5ch;
-    margin: 0 0 0 20ch;
+    margin: 0 0 0 25ch;
+    gap: 6ch;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one {
     display: flex;
-    gap: 4.4ch;
-    gap: 5ch;
+    gap: 12ch;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one .skill_circle .skill_back {
-    width: 12.5vw;
-    height: 12.5vw;
+    width: 11.5vw;
+    height: 11.5vw;
+    width: 10.5vw;
+    height: 10.5vw;
     border: 3px solid #080E2F;
     background-color: #146166;
     border-radius: 50%;
@@ -17827,8 +17833,10 @@
     box-shadow: 2px 2px 4px black;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one .skill_circle .skill_back .skill_front {
-    width: 11.5vw;
-    height: 11.5vw;
+    width: 10.5vw;
+    height: 10.5vw;
+    width: 9.5vw;
+    height: 9.5vw;
     border: none;
     background-color: #080E2F;
     border-radius: 50%;
@@ -17994,8 +18002,8 @@
     gap: 2ch;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_1_square {
-    width: 29.2vw;
-    height: 35vw;
+    width: 24.5vw;
+    height: 30vw;
     border: 1px solid #36395D;
     border-radius: 10px;
     display: flex;
