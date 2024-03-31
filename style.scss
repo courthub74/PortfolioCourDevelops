@@ -1296,6 +1296,7 @@ $savethis: #7273ad;
                 font-family: 'Inter', sans-serif;
                 // font-size: 2.2vw;
                 font-size: 1rem;
+                font-size: 1.2rem;
                 line-height: 2.5ch;
                 width: 80%;
                 margin: 5vh 0 0 7vw;
@@ -2095,6 +2096,80 @@ $savethis: #7273ad;
 //     body {
 //         display: none;
 //     }
+//     // ABOUT SECTION (PORTRAIT)
+//     #about_section_id {
+//         .about_section_class {
+//             background-color: $nextgreen;
+//             // background-color: red;
+//             height: 115vh;
+//             color: white;
+//             display: flex;
+//             flex-direction: column;
+//             .about_desktop_nav {
+//                 ul {
+//                     display: none;
+//                 }
+//             }
+//             .section_title {
+//                 font-family: 'Inter', sans-serif;
+//                 // font-size: 6vw;
+//                 font-size: 2.5rem;
+//                 font-weight: bold;
+//                 margin: 5vh 0 0 7vw;
+//             }
+//             .about_section_content {
+//                 font-family: 'Inter', sans-serif;
+//                 // font-size: 2.2vw;
+//                 font-size: 1rem;
+//                 // font-size: 1.2rem;
+//                 line-height: 2.5ch;
+//                 width: 80%;
+//                 margin: 5vh 0 0 7vw;
+//                 .brand_is {
+//                     font-family: 'Inter', sans-serif;
+//                     // font-size: 2.5vw;
+//                     // display: flex;
+//                     align-items: center;
+//                     // margin: 0 0 0 -3vw;
+//                     // gap: 2vw;
+//                     .brand {
+//                         display: flex;
+//                         justify-content: left;
+//                         align-items: center;
+//                         gap: 1ch;
+//                         margin: 3vh 0 3vh 0;
+//                         #about_logo {
+//                             // width: 25.5vw;
+//                             // height: 25.5vw;
+//                             width: 19vw;
+//                             height: 19vw;
+//                         }
+//                     }
+//                 }
+//             }
+//             .download_resume {
+//                 display: flex;
+//                 justify-content: center;
+//                 align-items: center;
+//                 margin: 5vh 0 0 7vw;
+//                 font-family: 'Inter', sans-serif;
+//                 font-weight: bold;
+//                 border: 1px solid white;
+//                 background-color: white;
+//                 border-radius: 25px;
+//                 // width: 28vw;
+//                 // height: 4vw;
+//                 width: 13em;
+//                 height: 2.5em;
+//                 // padding: .5ch .5ch;
+//                 a {
+//                     color: $nextgreen;
+//                     text-decoration: none;
+//                     font-size: 1rem;
+//                 }
+//             }
+//         }
+//     }
 // }
 
 /////////////////////////////////////////////////////////////////
@@ -2328,7 +2403,7 @@ $savethis: #7273ad;
             .about_section_content {
                 font-family: 'Inter', sans-serif;
                 // font-size: 2.2vw;
-                font-size: 1.3rem;
+                font-size: 1.2rem;
                 line-height: 2.5ch;
                 width: 80%;
                 margin: 5vh 0 0 7vw;
