@@ -18571,6 +18571,7 @@
     font-family: "Inter", sans-serif;
     font-weight: bold;
     font-size: 3.5rem;
+    font-size: 4rem;
     color: white;
     margin: 3vh 0 0 5vw;
     margin: 5vh 0 0 5vw;
@@ -18619,7 +18620,7 @@
     justify-content: left;
     align-items: center;
     gap: 1.4vw;
-    padding: 7vh 0 7vh 0;
+    padding: 5vh 0 5vh 0;
   }
   #about_section_id .about_section_class .about_section_content .brand_is #about_logo {
     width: 8vw;
@@ -18661,6 +18662,7 @@
     font-family: "Inter", sans-serif;
     font-weight: bold;
     font-size: 3.5rem;
+    font-size: 4rem;
     color: white;
     margin: 3vh 0 0 5vw;
     margin: 5vh 0 0 5vw;
@@ -18720,8 +18722,8 @@
   }
   #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square #create_collab {
     width: 14.8vw;
-    width: 14vw;
-    height: 2.2vw;
+    width: 17.5vw;
+    height: 3vw;
     margin: 0 0 0 4.5ch;
   }
   #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square #mps_site {
@@ -18747,6 +18749,7 @@
     font-family: "Inter", sans-serif;
     font-weight: bold;
     font-size: 3.5rem;
+    font-size: 4rem;
     color: white;
     margin: 3vh 0 0 5vw;
     margin: 5vh 0 0 5vw;
@@ -19064,10 +19067,20 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row-reverse;
-    margin: 0vh 0 0 0;
+    margin: 0vh 0 0 5vw;
+  }
+  #experience_section_id .experience_section_class .title_nav .section_title {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    font-size: 4rem;
+    color: white;
+    margin: 3vh 0 0 5vw;
+    margin: 5vh 0 0 5vw;
   }
   #experience_section_id .experience_section_class .title_nav .experience_desktop_nav {
-    margin: 6vh 5vw 0 0;
+    margin: 2vh 5vw 0 0;
+    margin: 6vh 10vw 0 0;
   }
   #experience_section_id .experience_section_class .title_nav .experience_desktop_nav ul {
     display: flex;
@@ -19085,7 +19098,7 @@
   }
   #experience_section_id .experience_section_class .title_nav .experience_desktop_nav ul li {
     list-style: none;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     cursor: pointer;
   }
   #experience_section_id .experience_section_class .title_nav .experience_desktop_nav ul li a {
@@ -19093,14 +19106,6 @@
     color: white;
     font-family: "Inter", sans-serif;
     font-weight: bold;
-  }
-  #experience_section_id .experience_section_class .title_nav .section_title {
-    font-family: "Inter", sans-serif;
-    font-weight: bold;
-    font-size: 3rem;
-    color: white;
-    margin: 3vh 0 0 5vw;
-    margin: 5vh 0 0 5vw;
   }
   #experience_section_id .experience_section_class .experience_section_squares {
     margin: 12vh 0 0 0;

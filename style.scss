@@ -22132,6 +22132,7 @@ $savethis: #7273ad;
                     font-family: 'Inter', sans-serif;
                     font-weight: bold;
                     font-size: 3.5rem;
+                    font-size: 4rem;
                     color: white;
                     margin: 3vh 0 0 5vw;
                     margin: 5vh 0 0 5vw;
@@ -22184,7 +22185,7 @@ $savethis: #7273ad;
                         justify-content: left;
                         align-items: center;
                         gap: 1.4vw;
-                        padding: 7vh 0 7vh 0;
+                        padding: 5vh 0 5vh 0;
                     }
                     #about_logo {
                         width: 8vw;
@@ -22233,6 +22234,7 @@ $savethis: #7273ad;
                     font-family: 'Inter', sans-serif;
                     font-weight: bold;
                     font-size: 3.5rem;
+                    font-size: 4rem;
                     color: white;
                     margin: 3vh 0 0 5vw;
                     margin: 5vh 0 0 5vw;
@@ -22297,8 +22299,9 @@ $savethis: #7273ad;
                     }
                     #create_collab {
                         width: 14.8vw;
-                        width: 14vw;
-                        height: 2.2vw;
+                        width: 17.5vw;
+                        // height: 3vw;
+                        height: 3vw;
                         margin: 0 0 0 4.5ch;
                     }
                     #mps_site {
@@ -22331,6 +22334,7 @@ $savethis: #7273ad;
                     font-family: 'Inter', sans-serif;
                     font-weight: bold;
                     font-size: 3.5rem;
+                    font-size: 4rem;
                     color: white;
                     margin: 3vh 0 0 5vw;
                     margin: 5vh 0 0 5vw;
@@ -22680,15 +22684,28 @@ $savethis: #7273ad;
             height: 110ch;
             display: flex;
             flex-direction: column;
+            // SECTION TITLE AND NAVBAR
             .title_nav {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
                 flex-direction: row-reverse;
-                margin: 0vh 0 0 0;
-                // EXPERIENCE NAVBAR
+                // background-color: orange;
+                margin: 0vh 0 0 5vw;
+                // ABOUT TITLE
+                .section_title {
+                    font-family: 'Inter', sans-serif;
+                    font-weight: bold;
+                    font-size: 3.5rem;
+                    font-size: 4rem;
+                    color: white;
+                    margin: 3vh 0 0 5vw;
+                    margin: 5vh 0 0 5vw;
+                }
+                // ABOUT NAVBAR
                 .experience_desktop_nav {
-                    margin: 6vh 5vw 0 0;
+                    margin: 2vh 5vw 0 0;
+                    margin: 6vh 10vw 0 0;
                     ul {
                         display: flex;
                         justify-content: right;
@@ -22704,7 +22721,7 @@ $savethis: #7273ad;
                         }
                         li {
                             list-style: none;
-                            font-size: 1.2rem;
+                            font-size: 1.5rem;
                             cursor: pointer;
                             a {
                                text-decoration: none;
@@ -22714,15 +22731,6 @@ $savethis: #7273ad;
                             }
                         }
                     }
-                }
-                // EXPERIENCE TITLE
-                .section_title {
-                    font-family: 'Inter', sans-serif;
-                    font-weight: bold;
-                    font-size: 3rem;
-                    color: white;
-                    margin: 3vh 0 0 5vw;
-                    margin: 5vh 0 0 5vw;
                 }
             }
             // EXPERIENCE SECTION CONTENT
