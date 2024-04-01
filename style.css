@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@400&display=swap");
 * {
   margin: 0;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
 }
 * body {
   background-color: #080E2F;
@@ -171,7 +173,7 @@
   }
   #about_section_id .about_section_class {
     background-color: #00313E;
-    height: 105vh;
+    height: 135vh;
     color: white;
     display: flex;
     flex-direction: column;
@@ -277,7 +279,7 @@
   }
   #skills_section_id .skills_section_class {
     background-color: #00313E;
-    height: 100vh;
+    height: 105vh;
     display: flex;
     flex-direction: column;
   }
@@ -651,7 +653,7 @@
   }
   #blog_section_id .blog_section_class {
     background-color: #00313E;
-    height: 100vh;
+    height: 105vh;
     display: flex;
     flex-direction: column;
   }
@@ -807,7 +809,7 @@
   }
   #contact_section_id .contact_section_class .contact_section_form form .message_submit .submit_button #submitemail p {
     color: white;
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
   #contact_section_id .contact_section_class .contact_section_form .poweredby small .home_socials {
     display: flex;
@@ -19134,8 +19136,8 @@
     box-shadow: 2px 2px 2px 2px black;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_1_square #courdevelops {
-    width: 8vw;
-    height: 8vw;
+    width: 6vw;
+    height: 6vw;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_1_square .job_1_description {
     font-family: "Inter", sans-serif;
@@ -19170,7 +19172,9 @@
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_2_square #slea {
     width: 7vw;
+    width: 5.5vw;
     height: 7vw;
+    height: 5.5vw;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_2_square .job_2_description {
     font-family: "Inter", sans-serif;
@@ -19204,8 +19208,8 @@
     box-shadow: 2px 2px 2px 2px black;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_3_square #r1rcm {
-    width: 6.5vw;
-    height: 6.5vw;
+    width: 5vw;
+    height: 5vw;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_3_square .job_3_description {
     font-family: "Inter", sans-serif;
