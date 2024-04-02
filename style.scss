@@ -20655,51 +20655,53 @@ $savethis: #7273ad;
 
 // EVEN BIGGER DESKTOP (1500px) My Laptop
 @media screen and (min-width: 1500px) {
-    // body {
-    //     display: none;
-    // }
-    // DESKTOP NAVBAR
-    .desktop_nav {
-        margin: 7vh 8vw 0 0;
-        ul {
-            display: flex;
-            justify-content: right;
-            text-decoration: none;
-            gap: 1.5vw;
-            margin: 0vh 0vw 0 0;
-            #selected {
-                color: $darkblue;
-                border: 1px solid white;
-                background-color: white;
-                padding: .5ch;
-                border-radius: 5px;
-            }
-            li {
-                list-style: none;
-                font-size: 1.2rem;
-                a {
-                   text-decoration: none;
-                   color: white;
-                   font-family: 'Inter', sans-serif;
-                   font-weight: bold;   
-                }
-            }
-        }
-    }
-    // MOBILE NAVBAR
-    nav {
-        display: none;
-    }
     // HOME SECTION
     #home_section_id {
         .home_section_class {
+            // body {
+            //     display: none;
+            // }
             background-color: $darkblue;
-            // background-color: #00313E;
             height: 100vh;
-            height: 100ch;
             display: flex;
-            align-items: center;
-            justify-content: center;
+            flex-direction: column;
+            // align-items: center;
+            // justify-content: center;
+
+            // DESKTOP NAVBAR
+            .desktop_nav {
+                // margin: -20vh 8vw 0 0;
+                background-color: #00C6C3;
+                // The List Part
+                ul {
+                    display: flex;
+                    justify-content: right;
+                    text-decoration: none;
+                    gap: 1.5vw;
+                    margin: 0vh 0vw 0 0;
+                    #selected {
+                        color: $darkblue;
+                        border: 1px solid white;
+                        background-color: white;
+                        padding: .5ch;
+                        border-radius: 5px;
+                    }
+                    li {
+                        list-style: none;
+                        font-size: 1.2rem;
+                        a {
+                        text-decoration: none;
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        font-weight: bold;   
+                        }
+                    }
+                }
+            }
+            // MOBILE NAVBAR
+            nav {
+                display: none;
+            }
             .home_section_content {
                 // background-color: #00313E;
                 display: flex;

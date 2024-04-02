@@ -17261,43 +17261,41 @@
   }
 }
 @media screen and (min-width: 1500px) {
-  .desktop_nav {
-    margin: 7vh 8vw 0 0;
+  #home_section_id .home_section_class {
+    background-color: #080E2F;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
-  .desktop_nav ul {
+  #home_section_id .home_section_class .desktop_nav {
+    background-color: #00C6C3;
+  }
+  #home_section_id .home_section_class .desktop_nav ul {
     display: flex;
     justify-content: right;
     text-decoration: none;
     gap: 1.5vw;
     margin: 0vh 0vw 0 0;
   }
-  .desktop_nav ul #selected {
+  #home_section_id .home_section_class .desktop_nav ul #selected {
     color: #080E2F;
     border: 1px solid white;
     background-color: white;
     padding: 0.5ch;
     border-radius: 5px;
   }
-  .desktop_nav ul li {
+  #home_section_id .home_section_class .desktop_nav ul li {
     list-style: none;
     font-size: 1.2rem;
   }
-  .desktop_nav ul li a {
+  #home_section_id .home_section_class .desktop_nav ul li a {
     text-decoration: none;
     color: white;
     font-family: "Inter", sans-serif;
     font-weight: bold;
   }
-  nav {
+  #home_section_id .home_section_class nav {
     display: none;
-  }
-  #home_section_id .home_section_class {
-    background-color: #080E2F;
-    height: 100vh;
-    height: 100ch;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
   #home_section_id .home_section_class .home_section_content {
     display: flex;
