@@ -73,7 +73,32 @@ $savethis: #7273ad;
     #home_section_id {
         .home_section_class {
             // This is the whole blue home section
-            
+            .desktop_nav {
+                // move margin of whole thing here
+                margin: 6vh 5vw 0 0;
+                ul {
+                    display: flex;
+                    justify-content: right;
+                    gap: 3ch;
+                    li {
+                        list-style: none;
+                        font-size: 1.2rem;
+                        a {
+                            text-decoration: none;
+                            color: white;
+                            font-family: 'Inter', sans-serif;
+                            font-weight: bold;
+                        }
+                        #selected {
+                            color: $darkblue;
+                            border: 1px solid white;
+                            background-color: white;
+                            padding: .5ch;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+            }
         }
     }
 }

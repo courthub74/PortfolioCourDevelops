@@ -9,4 +9,32 @@
 }
 * body .container {
   background-color: #080E2F;
+}
+
+@media screen and (min-width: 1500px) {
+  #home_section_id .home_section_class .desktop_nav {
+    margin: 6vh 5vw 0 0;
+  }
+  #home_section_id .home_section_class .desktop_nav ul {
+    display: flex;
+    justify-content: right;
+    gap: 3ch;
+  }
+  #home_section_id .home_section_class .desktop_nav ul li {
+    list-style: none;
+    font-size: 1.2rem;
+  }
+  #home_section_id .home_section_class .desktop_nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+  }
+  #home_section_id .home_section_class .desktop_nav ul li #selected {
+    color: #080E2F;
+    border: 1px solid white;
+    background-color: white;
+    padding: 0.5ch;
+    border-radius: 5px;
+  }
 }/*# sourceMappingURL=style.css.map */
