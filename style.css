@@ -1737,7 +1737,7 @@
 @media screen and (width: 360px) {
   #about_section_id .about_section_class {
     background-color: #00313E;
-    height: 120vh;
+    height: 135vh;
     color: white;
     display: flex;
     flex-direction: column;
@@ -1832,6 +1832,7 @@
     margin: 1vh 0 0 8vw;
   }
   #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square #create_collab {
+    width: 65vw;
     margin: 0 0 0 8.5vw;
   }
   #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square #mps_site {
@@ -1839,7 +1840,10 @@
     margin: 0 0 0 12vw;
   }
   #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square #msy {
-    width: 55vw;
+    width: 50vw;
+  }
+  #contact_section_id .contact_section_class {
+    height: 102vh;
   }
 }
 @media screen and (min-width: 401px) and (max-width: 539px) {
@@ -2004,7 +2008,7 @@
   }
   #about_section_id .about_section_class {
     background-color: #00313E;
-    height: 115vh;
+    height: 125vh;
     color: white;
     display: flex;
     flex-direction: column;
@@ -2020,7 +2024,7 @@
   }
   #about_section_id .about_section_class .about_section_content {
     font-family: "Inter", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 2.5ch;
     width: 80%;
     margin: 5vh 0 0 7vw;

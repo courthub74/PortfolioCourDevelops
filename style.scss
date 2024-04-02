@@ -2103,7 +2103,7 @@ $savethis: #7273ad;
         .about_section_class {
             background-color: $nextgreen;
             // background-color: red;
-            height: 120vh;
+            height: 135vh;
             color: white;
             display: flex;
             flex-direction: column;
@@ -2222,6 +2222,7 @@ $savethis: #7273ad;
                             margin: 1vh 0 0 8vw;
                         }
                         #create_collab {
+                            width: 65vw;
                             margin: 0 0 0 8.5vw;
                         }
                         #mps_site {
@@ -2233,12 +2234,19 @@ $savethis: #7273ad;
                         #msy {
                             // width: 15em;
                             // height: 4em;
-                            width: 55vw;
+                            width: 50vw;
                         }
                     }
                 }
             }
         
+    }
+    // CONTACT SECTION
+    #contact_section_id {
+        .contact_section_class {
+            // background-color: red;
+            height: 102vh;
+        }
     }
 }
 
@@ -2454,7 +2462,7 @@ $savethis: #7273ad;
         .about_section_class {
             background-color: $nextgreen;
             // background-color: red;
-            height: 115vh;
+            height: 125vh;
             color: white;
             display: flex;
             flex-direction: column;
@@ -2473,7 +2481,7 @@ $savethis: #7273ad;
             .about_section_content {
                 font-family: 'Inter', sans-serif;
                 // font-size: 2.2vw;
-                font-size: 1.2rem;
+                font-size: 1.1rem;
                 line-height: 2.5ch;
                 width: 80%;
                 margin: 5vh 0 0 7vw;
