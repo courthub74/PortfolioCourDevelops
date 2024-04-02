@@ -12,29 +12,140 @@
 }
 
 @media screen and (min-width: 1500px) {
-  #home_section_id .home_section_class .desktop_nav {
-    margin: 6vh 5vw 0 0;
+  #home_section_id .desktop_nav {
+    margin: 6vh 7vw 0 0;
   }
-  #home_section_id .home_section_class .desktop_nav ul {
+  #home_section_id .desktop_nav ul {
     display: flex;
     justify-content: right;
     gap: 3ch;
+    gap: 5ch;
   }
-  #home_section_id .home_section_class .desktop_nav ul li {
+  #home_section_id .desktop_nav ul li {
     list-style: none;
     font-size: 1.2rem;
   }
-  #home_section_id .home_section_class .desktop_nav ul li a {
+  #home_section_id .desktop_nav ul li a {
     text-decoration: none;
     color: white;
     font-family: "Inter", sans-serif;
     font-weight: bold;
   }
-  #home_section_id .home_section_class .desktop_nav ul li #selected {
+  #home_section_id .desktop_nav ul li #selected {
     color: #080E2F;
     border: 1px solid white;
     background-color: white;
     padding: 0.5ch;
     border-radius: 5px;
+  }
+  #home_section_id .mobile_nav {
+    display: none;
+  }
+  #home_section_id .home_section_class .home_section_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: -10vh 0 0 -5vw;
+    gap: 30ch;
+  }
+  #home_section_id .home_section_class .home_section_content .logo_div {
+    width: 30.5em;
+    height: 30.5em;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #home_section_id .home_section_class .home_section_content .logo_div .back_logo {
+    background-color: white;
+    width: 30.5em;
+    height: 30.5em;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #home_section_id .home_section_class .home_section_content .logo_div .back_logo .front_logo #logo_home {
+    width: 28em;
+    height: 28em;
+  }
+  #home_section_id .home_section_class .home_section_content .word_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5ch;
+  }
+  #home_section_id .home_section_class .home_section_content .word_content .name_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #home_section_id .home_section_class .home_section_content .word_content .name_description .home_name {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 3rem;
+  }
+  #home_section_id .home_section_class .home_section_content .word_content .name_description .job_description {
+    color: #8091ED;
+    background-color: #36395D;
+    font-family: "Inter", sans-serif;
+    font-size: 1.6rem;
+    width: 16em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+  #home_section_id .home_section_class .home_section_content .word_content .home_slogan {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    margin: 0.3em;
+  }
+  #home_section_id .home_section_class .home_section_content .word_content .home_socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8ch;
+  }
+  #home_section_id .home_section_class .home_section_content .word_content .home_socials #github {
+    width: 3em;
+    height: 3em;
+  }
+  #home_section_id .home_section_class .home_section_content .word_content .home_socials #twitter {
+    width: 3em;
+    height: 3em;
+  }
+  #home_section_id .home_section_class .home_section_content .word_content .home_socials #linkedin {
+    width: 3em;
+    height: 3em;
+  }
+  #home_section_id .home_section_class .home_section_content .word_content .home_socials #instagram {
+    width: 3.5em;
+    height: 3.5em;
+  }
+  #home_section_id .home_section_class .home_section_content .word_content .learn_more {
+    width: 26em;
+    height: 3em;
+    background-color: #36395D;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #home_section_id .home_section_class .home_section_content .word_content .learn_more a {
+    color: #8091ED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
   }
 }/*# sourceMappingURL=style.css.map */
