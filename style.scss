@@ -223,4 +223,53 @@ $savethis: #7273ad;
             }
         }
     }
+    // ABOUT SECTION DESKTOP 1500
+    #about_section_id {
+        .about_section_class {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: $nextgreen;
+            height: 100vh;
+            .title_nav {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row-reverse;
+                // ABOUT NAVBAR
+                .about_desktop_nav {
+                    // move margin of whole thing here
+                    margin: 6vh 7vw 0 0;
+                    ul {
+                        display: flex;
+                        justify-content: right;
+                        gap: 3ch;
+                        gap: 5ch;
+                        li {
+                            list-style: none;
+                            font-size: 1.2rem;
+                            a {
+                                text-decoration: none;
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                font-weight: bold;
+                            }
+                            #selected {
+                                color: $darkblue;
+                                border: 1px solid white;
+                                background-color: white;
+                                padding: .5ch;
+                                border-radius: 5px;
+                            }
+                        }
+                    }
+                    .section_title {
+                        p {
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
