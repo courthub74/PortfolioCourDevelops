@@ -154,7 +154,7 @@
     justify-content: center;
     align-items: center;
     background-color: #00313E;
-    height: 100vh;
+    height: 105vh;
   }
   #about_section_id .about_section_class .title_nav {
     display: flex;
@@ -187,7 +187,20 @@
     padding: 0.5ch;
     border-radius: 5px;
   }
-  #about_section_id .about_section_class .title_nav .about_desktop_nav .section_title p {
+  #about_section_id .about_section_class .title_nav .section_title p {
     color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+  }
+  #about_section_id .about_section_class .about_section_content {
+    color: white;
+  }
+  #about_section_id .about_section_class .about_section_content .brand_is .brand {
+    color: white;
+  }
+  #about_section_id .about_section_class .about_section_content .brand_is .brand #about_logo {
+    width: 15em;
+    height: 15em;
   }
 }/*# sourceMappingURL=style.css.map */

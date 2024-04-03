@@ -231,7 +231,7 @@ $savethis: #7273ad;
             justify-content: center;
             align-items: center;
             background-color: $nextgreen;
-            height: 100vh;
+            height: 105vh;
             .title_nav {
                 display: flex;
                 justify-content: space-between;
@@ -263,9 +263,25 @@ $savethis: #7273ad;
                             }
                         }
                     }
-                    .section_title {
-                        p {
-                            color: white;
+                }
+                .section_title {
+                    p {
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        font-weight: bold;
+                        font-size: 4rem;
+                    }
+                }
+            }
+            // ABOUT SECTION CONTENT
+            .about_section_content {
+                color: white;
+                .brand_is {
+                    .brand {
+                        color: white;
+                        #about_logo {
+                            width: 15em;
+                            height: 15em;
                         }
                     }
                 }
