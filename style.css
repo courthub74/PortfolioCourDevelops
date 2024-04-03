@@ -243,4 +243,76 @@
     font-size: 1.2rem;
     text-decoration: none;
   }
+  #portfolio_section_id .portfolio_section_class {
+    display: flex;
+    flex-direction: column;
+    background-color: #080E2F;
+    height: 105vh;
+  }
+  #portfolio_section_id .portfolio_section_class .title_nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin: 10ch 15ch 0 0;
+  }
+  #portfolio_section_id .portfolio_section_class .title_nav .portfolio_desktop_nav ul {
+    display: flex;
+    justify-content: right;
+    gap: 3ch;
+    gap: 5ch;
+  }
+  #portfolio_section_id .portfolio_section_class .title_nav .portfolio_desktop_nav ul li {
+    list-style: none;
+    font-size: 1.2rem;
+  }
+  #portfolio_section_id .portfolio_section_class .title_nav .portfolio_desktop_nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+  }
+  #portfolio_section_id .portfolio_section_class .title_nav .portfolio_desktop_nav ul li #selected {
+    color: #080E2F;
+    border: 1px solid white;
+    background-color: white;
+    padding: 0.5ch;
+    border-radius: 5px;
+  }
+  #portfolio_section_id .portfolio_section_class .title_nav .section_title p {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    margin: -0.8ch 0 0 3ch;
+  }
+  #portfolio_section_id .portfolio_section_class .portfolio_section_squares {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10ch;
+    margin: 10ch 0 0 0;
+  }
+  #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35em;
+    height: 45em;
+    background-color: #36395D;
+    border-radius: 55px;
+    border: 1px solid #36395D;
+    cursor: pointer;
+  }
+  #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square #workflow_app {
+    width: 25em;
+    margin: 0 0 0 5ch;
+  }
+  #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square #create_collab {
+    width: 26em;
+    margin: 0 0 0 5ch;
+  }
+  #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square #mps_site {
+    width: 15em;
+    margin: 0 0 0 7ch;
+  }
 }/*# sourceMappingURL=style.css.map */

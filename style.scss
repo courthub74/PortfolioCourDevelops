@@ -332,4 +332,87 @@ $savethis: #7273ad;
             }
         }
     }
+    // PORTFOLIO SECTION 1500
+    #portfolio_section_id {
+        .portfolio_section_class {
+            display: flex;
+            flex-direction: column;
+            background-color: $darkblue;
+            height: 105vh;
+            .title_nav {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row-reverse;
+                margin: 10ch 15ch 0 0;
+                // background-color: #7273ad;
+                // ABOUT NAVBAR
+                .portfolio_desktop_nav {
+                    // move margin of whole thing here
+                    ul {
+                        display: flex;
+                        justify-content: right;
+                        gap: 3ch;
+                        gap: 5ch;
+                        li {
+                            list-style: none;
+                            font-size: 1.2rem;
+                            a {
+                                text-decoration: none;
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                font-weight: bold;
+                            }
+                            #selected {
+                                color: $darkblue;
+                                border: 1px solid white;
+                                background-color: white;
+                                padding: .5ch;
+                                border-radius: 5px;
+                            }
+                        }
+                    }
+                }
+                .section_title {
+                    p {
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        font-weight: bold;
+                        font-size: 4rem;
+                        margin: -.8ch 0 0 3ch;
+                    }
+                }
+            }
+            // PORTFOLIO SECTION SQUARES
+            .portfolio_section_squares {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10ch;
+                margin: 10ch 0 0 0;
+                .portfolio_square {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 35em;
+                    height: 45em;
+                    background-color: $portfolios;
+                    border-radius: 55px;
+                    border: 1px solid $portfolios;
+                    cursor: pointer;
+                    #workflow_app {
+                        width: 25em;
+                        margin: 0 0 0 5ch;
+                    }
+                    #create_collab {
+                        width: 26em;
+                        margin: 0 0 0 5ch;
+                    }
+                    #mps_site {
+                        width: 15em;
+                        margin: 0 0 0 7ch;
+                    }
+                }
+            }
+        }
+    }
 }
