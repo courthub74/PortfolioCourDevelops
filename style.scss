@@ -387,7 +387,584 @@ $savethis: #7273ad;
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                gap: 6ch;
+                
+                margin: 15ch 0 0 0;
+                .portfolio_square {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 29em;
+                    height: 45em;
+                    background-color: $portfolios;
+                    border-radius: 55px;
+                    border: 1px solid $portfolios;
+                    cursor: pointer;
+                    #workflow_app {
+                        width: 25em;
+                        margin: 0 0 0 5ch;
+                    }
+                    #create_collab {
+                        width: 26em;
+                        margin: 0 0 0 5ch;
+                    }
+                    #mps_site {
+                        width: 15em;
+                        margin: 0 0 0 7ch;
+                    }
+                }
+            }
+        }
+    }
+    // SKILLS SECTION 1500
+    #skills_section_id {
+        .skills_section_class {
+            display: flex;
+            flex-direction: column;
+            background-color: $nextgreen;
+            height: 105vh;
+            .title_nav {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row-reverse;
+                margin: 10ch 15ch 0 0;
+                // background-color: #7273ad;
+                // ABOUT NAVBAR
+                .skills_desktop_nav {
+                    // move margin of whole thing here
+                    ul {
+                        display: flex;
+                        justify-content: right;
+                        gap: 3ch;
+                        gap: 5ch;
+                        li {
+                            list-style: none;
+                            font-size: 1.2rem;
+                            a {
+                                text-decoration: none;
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                font-weight: bold;
+                            }
+                            #selected {
+                                color: $darkblue;
+                                border: 1px solid white;
+                                background-color: white;
+                                padding: .5ch;
+                                border-radius: 5px;
+                            }
+                        }
+                    }
+                }
+                .section_title {
+                    p {
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        font-weight: bold;
+                        font-size: 4rem;
+                        margin: -.8ch 0 0 3ch;
+                    }
+                }
+            }
+            // SKILLS SECTION CONTENT
+            .skills_section_circles {
+                margin: 15ch 0 0 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
                 gap: 10ch;
+                // FIRST 6 CIRCLES
+                .skills_first_6 {
+                    // Middle of the circles
+                    display: flex;
+                    gap: 3ch;
+                    .skills_circles_one {
+                        // The Three sided circles
+                        display: flex;
+                        gap: 3ch;
+                        .skill_circle {
+                            // each circles space
+                            // background-color: #00C6C3;
+                            .skill_back {
+                                background-color: $skillsteal;
+                                width: 10em;
+                                height: 10em;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                .skill_front {
+                                    background-color: $darkblue;
+                                    border: none;
+                                    width: 8em;
+                                    height: 8em;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    .shield {
+                                        width: 4em;
+                                        height: 4em;
+                                    }
+                                    // HTML
+                                    #html {
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                    }
+                                    #html.dissapear {
+                                        opacity: 0;
+                                    }
+                                    #html_description {
+                                        opacity: 0;
+                                    }
+                                    #html_description.show {
+                                        transition: .5s all ease-in;
+                                    }
+                                    // CSS
+                                    #css {
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                    }
+                                    #css.dissapear {
+                                        opacity: 0;
+                                    }
+                                    #css_description {
+                                        opacity: 0;
+                                    }
+                                    #css_description.show {
+                                        transition: .5s all ease-in;
+                                    }
+                                    // SASS
+                                    #sass {
+                                        width: 4em;
+                                        height: 4em;
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                        // margin: -.5vh 0 0 1.5vw;
+                                    }
+                                    #sass.dissapear {
+                                        opacity: 0;
+                                    }
+                                    #sass_description {
+                                        opacity: 0;
+                                    }
+                                    #sass_description.show {
+                                        transition: .5s all ease-in;
+                                    }
+                                    // JS
+                                    #javascript {
+                                        width: 5em;
+                                        height: 5em;
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                        margin: 0 0 0 .5vw;
+                                    }
+                                    #javascript.dissapear {
+                                        opacity: 0;
+                                    }
+                                    #javascript_description {
+                                        opacity: 0;
+                                    }
+                                    #javascript_description.show {
+                                        transition: .5s all ease-in;
+                                    }
+                                    // PYTHON
+                                    #python {
+                                        width: 3.5em;
+                                        height: 3.5em;
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                        margin: -.5vh 0 0 0;
+                                    }
+                                    #python.dissapear {
+                                        opacity: 0;
+                                    }
+                                    #python_description {
+                                        opacity: 0;
+                                    }
+                                    // REACT
+                                    #react {
+                                        width: 4em;
+                                        height: 4em;
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                    }
+                                    #react.dissapear {
+                                        opacity: 0;
+                                    }
+                                    #react_description {
+                                        opacity: 0;
+                                    }
+                                    #react_description.show {
+                                        transition: .5s all ease-in;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                // SECOND 6 CIRCLES
+                .skills_second_6 {
+                    display: flex;
+                    gap: 3ch;
+                    .skills_circles_one {
+                        // The Three sided circles
+                        display: flex;
+                        gap: 3ch;
+                        .skill_circle {
+                            // each circles space
+                            // background-color: #00C6C3;
+                            .skill_back {
+                                background-color: $skillsteal;
+                                width: 10em;
+                                height: 10em;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                .skill_front {
+                                    background-color: $darkblue;
+                                    border: none;
+                                    width: 8em;
+                                    height: 8em;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// 1500 px includes My Laptop
+@media screen and (min-width: 1900px) {
+    body {
+        display: none;
+    }
+
+    // HOME SECTION
+    #home_section_id {
+        display: flex;
+        flex-direction: column;
+        background-color: $darkblue;
+        height: 105vh;
+        // DESKTOP NAVBAR
+        .desktop_nav {
+            // move margin of whole thing here
+            // margin: 6vh 7vw 0 0;
+            // background-color: #7273ad;
+            margin: 10ch 15ch 0 0;
+            ul {
+                display: flex;
+                justify-content: right;
+                gap: 3ch;
+                gap: 5ch;
+                li {
+                    list-style: none;
+                    font-size: 1.2rem;
+                    cursor: pointer;
+                    a {
+                        text-decoration: none;
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        font-weight: bold;
+                    }
+                    #selected {
+                        color: $darkblue;
+                        border: 1px solid white;
+                        background-color: white;
+                        padding: .5ch;
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+        // MOBILE NAVBAR
+        .mobile_nav {
+            display: none;
+        } 
+        .home_section_content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // height: 100vh;
+            // margin: -10vh 0 0 -5vw;
+            // margin: -10ch 0 0 0;
+            margin: 15ch 0 0 0;
+            // background-color: red;
+            gap: 30ch;
+            .logo_div {
+                // background-color: red;
+                width: 30.5em;
+                height: 30.5em;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .back_logo {
+                    background-color: white;
+                    width: 30.5em;
+                    height: 30.5em;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .front_logo {
+                        #logo_home {
+                            // width: 25vw;
+                            // height: 25vw;
+                            width: 28em;
+                            height: 28em;
+                        }
+                    }
+                }
+            }
+            // HOME CONTENT WORDS AND SOCIALS
+            .word_content {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 2.5ch;
+                // NAME AND DESCRIPTION
+                .name_description {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    .home_name {
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        font-size: 3rem;
+                    }
+                    .job_description {
+                        color: $descriptionblue;
+                        background-color: $portfolios;
+                        font-family: 'Inter', sans-serif;
+                        font-size: 1.6rem;
+                        width: 16em;
+                        height: 2em;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 5px;
+                        // padding: 1em 1em;
+                    }
+                }
+                .home_slogan {
+                    text-align: center;
+                    font-family: 'Inter', sans-serif;
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                    color: white;
+                    margin: .3em;
+                }
+                .home_socials {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 8ch;
+                    #github {
+                        width: 3em;
+                        height: 3em;
+                    }
+                    #twitter {
+                        width: 3em;
+                        height: 3em;
+                    }
+                    #linkedin {
+                        width: 3em;
+                        height: 3em;
+                    }
+                    #instagram {
+                        width: 3.5em;
+                        height: 3.5em;
+                    }
+                }
+                .learn_more {
+                    width: 26em;
+                    height: 3em;
+                    background-color: $portfolios;
+                    border-radius: 25px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    a {
+                        color: $descriptionblue;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-family: 'Inter', sans-serif;
+                        font-size: 1.2rem;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        
+    }
+    // ABOUT SECTION DESKTOP 1500
+    #about_section_id {
+        // background-color: red;
+        .about_section_class {
+            display: flex;
+            flex-direction: column;
+            background-color: $nextgreen;
+            height: 105vh;
+            .title_nav {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row-reverse;
+                margin: 10ch 15ch 0 0;
+                // background-color: #7273ad;
+                // ABOUT NAVBAR
+                .about_desktop_nav {
+                    // move margin of whole thing here
+                    ul {
+                        display: flex;
+                        justify-content: right;
+                        gap: 3ch;
+                        gap: 5ch;
+                        li {
+                            list-style: none;
+                            font-size: 1.2rem;
+                            a {
+                                text-decoration: none;
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                font-weight: bold;
+                            }
+                            #selected {
+                                color: $darkblue;
+                                border: 1px solid white;
+                                background-color: white;
+                                padding: .5ch;
+                                border-radius: 5px;
+                            }
+                        }
+                    }
+                }
+                .section_title {
+                    p {
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        font-weight: bold;
+                        font-size: 4rem;
+                        margin: -.8ch 0 0 3ch;
+                    }
+                }
+            }
+            // ABOUT SECTION CONTENT
+            .about_section_content {
+                margin: 8ch 0 0 16.5ch;
+                width: 86%;
+                line-height: 2.5em;
+                p {
+                    color: white;
+                    font-size: 1.5rem;
+                    font-family: 'Inter', sans-serif;
+                }
+                .brand_is {
+                    margin: 2em 0 2em 0;
+                    .brand {
+                        gap: 2ch;
+                        display: flex;
+                        // justify-content: center;
+                        align-items: center;
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        font-size: 1.5rem;
+                        #about_logo {
+                            width: 6em;
+                            height: 6em;
+                        }
+                    }
+                }
+                p {
+                    color: white;
+                    font-size: 1.5rem;
+                    font-family: 'Inter', sans-serif;
+                }
+            }
+            .download_resume {
+                background-color: white;
+                width: 26em;
+                height: 3em;
+                border-radius: 25px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 5ch 0 0 16.5ch;
+                a {
+                    color: $nextgreen;
+                    font-family: 'Inter', sans-serif;
+                    font-weight: bold;
+                    font-size: 1.2rem;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    // PORTFOLIO SECTION 1500
+    #portfolio_section_id {
+        .portfolio_section_class {
+            display: flex;
+            flex-direction: column;
+            background-color: $darkblue;
+            height: 105vh;
+            .title_nav {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row-reverse;
+                margin: 10ch 15ch 0 0;
+                // background-color: #7273ad;
+                // ABOUT NAVBAR
+                .portfolio_desktop_nav {
+                    // move margin of whole thing here
+                    ul {
+                        display: flex;
+                        justify-content: right;
+                        gap: 3ch;
+                        gap: 5ch;
+                        li {
+                            list-style: none;
+                            font-size: 1.2rem;
+                            a {
+                                text-decoration: none;
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                font-weight: bold;
+                            }
+                            #selected {
+                                color: $darkblue;
+                                border: 1px solid white;
+                                background-color: white;
+                                padding: .5ch;
+                                border-radius: 5px;
+                            }
+                        }
+                    }
+                }
+                .section_title {
+                    p {
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        font-weight: bold;
+                        font-size: 4rem;
+                        margin: -.8ch 0 0 3ch;
+                    }
+                }
+            }
+            // PORTFOLIO SECTION SQUARES
+            .portfolio_section_squares {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10ch;
+                
                 margin: 10ch 0 0 0;
                 .portfolio_square {
                     display: flex;
@@ -395,6 +972,7 @@ $savethis: #7273ad;
                     align-items: center;
                     width: 35em;
                     height: 45em;
+                    
                     background-color: $portfolios;
                     border-radius: 55px;
                     border: 1px solid $portfolios;
