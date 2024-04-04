@@ -700,6 +700,7 @@ $savethis: #7273ad;
                 margin: 12ch 0 0 0;
                 .experience_square {
                     display: flex;
+                    flex-direction: column;
                     justify-content: center;
                     align-items: center;
                     width: 29em;
@@ -713,9 +714,27 @@ $savethis: #7273ad;
                         width: 10em;
                         height: 10em;
                     }
+                    #slea {
+                        width: 9em;
+                        height: 9em;
+                    }
+                    #r1rcm {
+                        width: 8em;
+                        height: 8em;
+                    }
                     // Each Square's Content
                     .experience_job {
-
+                        .job_description {
+                            .experience_company {
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                font-weight: bold;
+                            }
+                            .experience_position {
+                                color: $descriptionblue;
+                                font-family: 'Inter', sans-serif;
+                            }
+                        }
                     }
                 }
             }

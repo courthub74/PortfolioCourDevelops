@@ -561,6 +561,7 @@
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_square {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 29em;
@@ -573,6 +574,23 @@
   #experience_section_id .experience_section_class .experience_section_squares .experience_square #courdevelops {
     width: 10em;
     height: 10em;
+  }
+  #experience_section_id .experience_section_class .experience_section_squares .experience_square #slea {
+    width: 9em;
+    height: 9em;
+  }
+  #experience_section_id .experience_section_class .experience_section_squares .experience_square #r1rcm {
+    width: 8em;
+    height: 8em;
+  }
+  #experience_section_id .experience_section_class .experience_section_squares .experience_square .experience_job .job_description .experience_company {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+  }
+  #experience_section_id .experience_section_class .experience_section_squares .experience_square .experience_job .job_description .experience_position {
+    color: #8091ED;
+    font-family: "Inter", sans-serif;
   }
 }
 @media screen and (min-width: 1900px) {
