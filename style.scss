@@ -415,4 +415,226 @@ $savethis: #7273ad;
             }
         }
     }
+    // SKILLS SECTION 1500
+    #skills_section_id {
+        .skills_section_class {
+            display: flex;
+            flex-direction: column;
+            background-color: $nextgreen;
+            height: 105vh;
+            .title_nav {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row-reverse;
+                margin: 10ch 15ch 0 0;
+                // background-color: #7273ad;
+                // ABOUT NAVBAR
+                .skills_desktop_nav {
+                    // move margin of whole thing here
+                    ul {
+                        display: flex;
+                        justify-content: right;
+                        gap: 3ch;
+                        gap: 5ch;
+                        li {
+                            list-style: none;
+                            font-size: 1.2rem;
+                            a {
+                                text-decoration: none;
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                font-weight: bold;
+                            }
+                            #selected {
+                                color: $darkblue;
+                                border: 1px solid white;
+                                background-color: white;
+                                padding: .5ch;
+                                border-radius: 5px;
+                            }
+                        }
+                    }
+                }
+                .section_title {
+                    p {
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        font-weight: bold;
+                        font-size: 4rem;
+                        margin: -.8ch 0 0 3ch;
+                    }
+                }
+            }
+            // SKILLS SECTION CONTENT
+            .skills_section_circles {
+                margin: 15ch 0 0 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 10ch;
+                // FIRST 6 CIRCLES
+                .skills_first_6 {
+                    // Middle of the circles
+                    display: flex;
+                    gap: 3ch;
+                    .skills_circles_one {
+                        // The Three sided circles
+                        display: flex;
+                        gap: 3ch;
+                        .skill_circle {
+                            // each circles space
+                            // background-color: #00C6C3;
+                            .skill_back {
+                                background-color: $skillsteal;
+                                width: 10em;
+                                height: 10em;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                .skill_front {
+                                    background-color: $darkblue;
+                                    border: none;
+                                    width: 8em;
+                                    height: 8em;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    .shield {
+                                        width: 4em;
+                                        height: 4em;
+                                    }
+                                    // HTML
+                                    #html {
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                    }
+                                    #html.dissapear {
+                                        opacity: 0;
+                                    }
+                                    #html_description {
+                                        opacity: 0;
+                                    }
+                                    #html_description.show {
+                                        transition: .5s all ease-in;
+                                    }
+                                    // CSS
+                                    #css {
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                    }
+                                    #css.dissapear {
+                                        opacity: 0;
+                                    }
+                                    #css_description {
+                                        opacity: 0;
+                                    }
+                                    #css_description.show {
+                                        transition: .5s all ease-in;
+                                    }
+                                    // SASS
+                                    #sass {
+                                        width: 4em;
+                                        height: 4em;
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                        // margin: -.5vh 0 0 1.5vw;
+                                    }
+                                    #sass.dissapear {
+                                        opacity: 0;
+                                    }
+                                    #sass_description {
+                                        opacity: 0;
+                                    }
+                                    #sass_description.show {
+                                        transition: .5s all ease-in;
+                                    }
+                                    // JS
+                                    #javascript {
+                                        width: 5em;
+                                        height: 5em;
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                        margin: 0 0 0 .5vw;
+                                    }
+                                    #javascript.dissapear {
+                                        opacity: 0;
+                                    }
+                                    #javascript_description {
+                                        opacity: 0;
+                                    }
+                                    #javascript_description.show {
+                                        transition: .5s all ease-in;
+                                    }
+                                    // PYTHON
+                                    #python {
+                                        width: 3.5em;
+                                        height: 3.5em;
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                        margin: -.5vh 0 0 0;
+                                    }
+                                    #python.dissapear {
+                                        opacity: 0;
+                                    }
+                                    #python_description {
+                                        opacity: 0;
+                                    }
+                                    // REACT
+                                    #react {
+                                        width: 4em;
+                                        height: 4em;
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                    }
+                                    #react.dissapear {
+                                        opacity: 0;
+                                    }
+                                    #react_description {
+                                        opacity: 0;
+                                    }
+                                    #react_description.show {
+                                        transition: .5s all ease-in;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                // SECOND 6 CIRCLES
+                .skills_second_6 {
+                    display: flex;
+                    gap: 3ch;
+                    .skills_circles_one {
+                        // The Three sided circles
+                        display: flex;
+                        gap: 3ch;
+                        .skill_circle {
+                            // each circles space
+                            // background-color: #00C6C3;
+                            .skill_back {
+                                background-color: $skillsteal;
+                                width: 10em;
+                                height: 10em;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                .skill_front {
+                                    background-color: $darkblue;
+                                    border: none;
+                                    width: 8em;
+                                    height: 8em;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
