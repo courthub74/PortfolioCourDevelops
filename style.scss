@@ -473,11 +473,12 @@ $savethis: #7273ad;
             // SKILLS SECTION CONTENT
             .skills_section_circles {
                 margin: 15ch 0 0 0;
+                // margin: 18ch 0 0 0;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                gap: 10ch;
+                gap: 5ch;
                 // FIRST 6 CIRCLES
                 .skills_first_6 {
                     // Middle of the circles
@@ -494,18 +495,26 @@ $savethis: #7273ad;
                                 background-color: $skillsteal;
                                 width: 10em;
                                 height: 10em;
+                                width: 11.5em;
+                                height: 11.5em;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
+                                border-radius: 50%;
+                                box-shadow: 3px 3px 3px black;
                                 .skill_front {
                                     background-color: $darkblue;
                                     border: none;
-                                    width: 8em;
-                                    height: 8em;
+                                    width: 9.5em;
+                                    height: 9.5em;
+                                    width: 11em;
+                                    height: 11em;
                                     display: flex;
                                     flex-direction: column;
                                     justify-content: center;
                                     align-items: center;
+                                    border-radius: 50%;
+                                    cursor: pointer;
                                     .shield {
                                         width: 4em;
                                         height: 4em;
@@ -544,7 +553,7 @@ $savethis: #7273ad;
                                         height: 4em;
                                         transition: .7s all ease-in;
                                         position: absolute;
-                                        // margin: -.5vh 0 0 1.5vw;
+                                        margin: 0 0 0 .9ch;
                                     }
                                     #sass.dissapear {
                                         opacity: 0;
@@ -561,7 +570,7 @@ $savethis: #7273ad;
                                         height: 5em;
                                         transition: .7s all ease-in;
                                         position: absolute;
-                                        margin: 0 0 0 .5vw;
+                                        // margin: 0 0 0 .5vw;
                                     }
                                     #javascript.dissapear {
                                         opacity: 0;
@@ -574,11 +583,11 @@ $savethis: #7273ad;
                                     }
                                     // PYTHON
                                     #python {
-                                        width: 3.5em;
-                                        height: 3.5em;
+                                        width: 3.8em;
+                                        height: 3.8em;
                                         transition: .7s all ease-in;
                                         position: absolute;
-                                        margin: -.5vh 0 0 0;
+                                        // margin: -.5vh 0 0 0;
                                     }
                                     #python.dissapear {
                                         opacity: 0;
@@ -622,18 +631,125 @@ $savethis: #7273ad;
                                 background-color: $skillsteal;
                                 width: 10em;
                                 height: 10em;
+                                width: 11.5em;
+                                height: 11.5em;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
+                                border-radius: 50%;
+                                box-shadow: 3px 3px 3px black;
                                 .skill_front {
                                     background-color: $darkblue;
                                     border: none;
-                                    width: 8em;
-                                    height: 8em;
+                                    width: 9.5em;
+                                    height: 9.5em;
+                                    width: 11em;
+                                    height: 11em;
                                     display: flex;
                                     flex-direction: column;
                                     justify-content: center;
                                     align-items: center;
+                                    border-radius: 50%;
+                                    // FIGMA
+                                    #figma {
+                                        width: 4em;
+                                        height: 4em;
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                    }
+                                    #figma.dissapear {
+                                        opacity: 0;
+                                    }
+                                    #figma_description {
+                                        opacity: 0;
+                                    }
+                                    #figma_description.show {
+                                        transition: .5s all ease-in; 
+                                    }
+                                    // FIREBASE
+                                    #firebase {
+                                        width: 2.5em;
+                                        height: 3.5em;
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                    }
+                                    #firebase.dissapear {
+                                        opacity: 0;
+                                    }
+                                    #firebase_description {
+                                        opacity: 0;
+                                    }
+                                    #firebase_description.show {
+                                        transition: .5s all ease-in; 
+                                    }
+                                    // MONGO
+                                    #mongo {
+                                        width: 2em;
+                                        height: 4.2em;
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                        margin: 0vh 0 0 0;
+                                    }
+                                    #mongo.dissapear {
+                                        opacity: 0;
+                                    }
+                                    #mongo_description {
+                                        opacity: 0;
+                                    }
+                                    #mongo_description.show {
+                                        transition: .5s all ease-in;
+                                    }
+                                    // DJANGO
+                                    #django {
+                                        width: 4em;
+                                        height: 4em;
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                        margin: 0vh 1ch 0 0; 
+                                    }
+                                    #django.dissapear {
+                                        opacity: 0;
+                                    }
+                                    #django_description {
+                                        opacity: 0;
+                                    }
+                                    #django_description.show {
+                                        transition: .5s all ease-in;
+                                    }
+                                    // AWS
+                                    #aws {
+                                        width: 5em;
+                                        height: 5em;
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                        margin: 0vh 0ch 0 0;  
+                                    }
+                                    #aws.dissapear {
+                                        opacity: 0;
+                                    }
+                                    #aws_description {
+                                        opacity: 0;
+                                    }
+                                    #aws_description.show {
+                                        transition: .5s all ease-in;
+                                    }
+                                    // HEROKU
+                                    #heroku {
+                                        width: 4em;
+                                        height: 4em;
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                        margin: -.5vhvh 0vw 0 0;  
+                                    }
+                                    #heroku.dissapear {
+                                        opacity: 0;
+                                    }
+                                    #heroku_description {
+                                        opacity: 0;
+                                    }
+                                    #heroku_description.show {
+                                        transition: .5s all ease-in;
+                                    }
                                 }
                             }
                         }
@@ -725,14 +841,17 @@ $savethis: #7273ad;
                     // Each Square's Content
                     .experience_job {
                         .job_description {
+                            margin: 2ch 0 0 0;
                             .experience_company {
                                 color: white;
                                 font-family: 'Inter', sans-serif;
                                 font-weight: bold;
+                                font-size: 1.2rem;
                             }
                             .experience_position {
                                 color: $descriptionblue;
                                 font-family: 'Inter', sans-serif;
+                                font-size: 1rem;
                             }
                         }
                     }
