@@ -117,9 +117,9 @@ $savethis: #7273ad;
             // height: 100vh;
             // margin: -10vh 0 0 -5vw;
             // margin: -10ch 0 0 0;
-            margin: 15ch 0 0 0;
+            margin: 15ch 10ch 0 0;
             // background-color: red;
-            gap: 30ch;
+            gap: 10ch;
             .logo_div {
                 // background-color: red;
                 width: 30.5em;
@@ -132,6 +132,8 @@ $savethis: #7273ad;
                     background-color: white;
                     width: 30.5em;
                     height: 30.5em;
+                    width: 26em;
+                    height: 26em;
                     border-radius: 50%;
                     display: flex;
                     justify-content: center;
@@ -142,6 +144,8 @@ $savethis: #7273ad;
                             // height: 25vw;
                             width: 28em;
                             height: 28em;
+                            width: 24em;
+                            height: 24em;
                         }
                     }
                 }
@@ -284,11 +288,11 @@ $savethis: #7273ad;
             // ABOUT SECTION CONTENT
             .about_section_content {
                 margin: 8ch 0 0 16.5ch;
-                width: 86%;
+                width: 82%;
                 line-height: 2.5em;
                 p {
                     color: white;
-                    font-size: 1.5rem;
+                    font-size: 1.2rem;
                     font-family: 'Inter', sans-serif;
                 }
                 .brand_is {
@@ -300,7 +304,7 @@ $savethis: #7273ad;
                         align-items: center;
                         color: white;
                         font-family: 'Inter', sans-serif;
-                        font-size: 1.5rem;
+                        font-size: 1.2rem;
                         #about_logo {
                             width: 6em;
                             height: 6em;
@@ -309,7 +313,7 @@ $savethis: #7273ad;
                 }
                 p {
                     color: white;
-                    font-size: 1.5rem;
+                    font-size: 1.2rem;
                     font-family: 'Inter', sans-serif;
                 }
             }
@@ -321,7 +325,7 @@ $savethis: #7273ad;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                margin: 5ch 0 0 16.5ch;
+                margin: 8ch 0 0 16.5ch;
                 a {
                     color: $nextgreen;
                     font-family: 'Inter', sans-serif;
@@ -389,13 +393,13 @@ $savethis: #7273ad;
                 align-items: center;
                 gap: 6ch;
                 
-                margin: 15ch 0 0 0;
+                margin: 12ch 0 0 0;
                 .portfolio_square {
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     width: 29em;
-                    height: 45em;
+                    height: 40em;
                     background-color: $portfolios;
                     border-radius: 55px;
                     border: 1px solid $portfolios;

@@ -52,8 +52,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 15ch 0 0 0;
-    gap: 30ch;
+    margin: 15ch 10ch 0 0;
+    gap: 10ch;
   }
   #home_section_id .home_section_content .logo_div {
     width: 30.5em;
@@ -67,6 +67,8 @@
     background-color: white;
     width: 30.5em;
     height: 30.5em;
+    width: 26em;
+    height: 26em;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -75,6 +77,8 @@
   #home_section_id .home_section_content .logo_div .back_logo .front_logo #logo_home {
     width: 28em;
     height: 28em;
+    width: 24em;
+    height: 24em;
   }
   #home_section_id .home_section_content .word_content {
     display: flex;
@@ -198,12 +202,12 @@
   }
   #about_section_id .about_section_class .about_section_content {
     margin: 8ch 0 0 16.5ch;
-    width: 86%;
+    width: 82%;
     line-height: 2.5em;
   }
   #about_section_id .about_section_class .about_section_content p {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: "Inter", sans-serif;
   }
   #about_section_id .about_section_class .about_section_content .brand_is {
@@ -215,7 +219,7 @@
     align-items: center;
     color: white;
     font-family: "Inter", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   #about_section_id .about_section_class .about_section_content .brand_is .brand #about_logo {
     width: 6em;
@@ -223,7 +227,7 @@
   }
   #about_section_id .about_section_class .about_section_content p {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: "Inter", sans-serif;
   }
   #about_section_id .about_section_class .download_resume {
@@ -234,7 +238,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5ch 0 0 16.5ch;
+    margin: 8ch 0 0 16.5ch;
   }
   #about_section_id .about_section_class .download_resume a {
     color: #00313E;
@@ -290,14 +294,14 @@
     justify-content: center;
     align-items: center;
     gap: 6ch;
-    margin: 15ch 0 0 0;
+    margin: 12ch 0 0 0;
   }
   #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 29em;
-    height: 45em;
+    height: 40em;
     background-color: #36395D;
     border-radius: 55px;
     border: 1px solid #36395D;
