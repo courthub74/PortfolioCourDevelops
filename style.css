@@ -293,18 +293,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 6ch;
+    gap: 4ch;
     margin: 12ch 0 0 0;
   }
   #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 29em;
+    width: 28em;
     height: 40em;
     background-color: #36395D;
     border-radius: 55px;
     border: 1px solid #36395D;
+    box-shadow: 3px 3px 3px black;
     cursor: pointer;
   }
   #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square #workflow_app {
@@ -362,12 +363,12 @@
     margin: -0.8ch 0 0 3ch;
   }
   #skills_section_id .skills_section_class .skills_section_circles {
-    margin: 15ch 0 0 0;
+    margin: 18ch 0 0 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5ch;
+    gap: 7ch;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_first_6 {
     display: flex;
@@ -379,10 +380,9 @@
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_first_6 .skills_circles_one .skill_circle .skill_back {
     background-color: #146166;
-    width: 10em;
-    height: 10em;
-    width: 11.5em;
-    height: 11.5em;
+    border: 3px solid #080E2F;
+    width: 11em;
+    height: 11em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -392,8 +392,6 @@
   #skills_section_id .skills_section_class .skills_section_circles .skills_first_6 .skills_circles_one .skill_circle .skill_back .skill_front {
     background-color: #080E2F;
     border: none;
-    width: 9.5em;
-    height: 9.5em;
     width: 11em;
     height: 11em;
     display: flex;
@@ -501,10 +499,9 @@
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one .skill_circle .skill_back {
     background-color: #146166;
-    width: 10em;
-    height: 10em;
-    width: 11.5em;
-    height: 11.5em;
+    border: 3px solid #080E2F;
+    width: 11em;
+    height: 11em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -514,8 +511,6 @@
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one .skill_circle .skill_back .skill_front {
     background-color: #080E2F;
     border: none;
-    width: 9.5em;
-    height: 9.5em;
     width: 11em;
     height: 11em;
     display: flex;
@@ -664,7 +659,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 6ch;
+    gap: 4ch;
     margin: 12ch 0 0 0;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_square {
@@ -672,27 +667,28 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 29em;
+    width: 28em;
     height: 40em;
     background-color: #36395D;
     border-radius: 55px;
     border: 1px solid #36395D;
+    box-shadow: 3px 3px 3px black;
     cursor: pointer;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_square #courdevelops {
-    width: 10em;
-    height: 10em;
-  }
-  #experience_section_id .experience_section_class .experience_section_squares .experience_square #slea {
-    width: 9em;
-    height: 9em;
-  }
-  #experience_section_id .experience_section_class .experience_section_squares .experience_square #r1rcm {
     width: 8em;
     height: 8em;
   }
+  #experience_section_id .experience_section_class .experience_section_squares .experience_square #slea {
+    width: 7em;
+    height: 7em;
+  }
+  #experience_section_id .experience_section_class .experience_section_squares .experience_square #r1rcm {
+    width: 6.5em;
+    height: 6.5em;
+  }
   #experience_section_id .experience_section_class .experience_section_squares .experience_square .experience_job .job_description {
-    margin: 2ch 0 0 0;
+    margin: 3ch 0 0 0;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_square .experience_job .job_description .experience_company {
     color: white;
