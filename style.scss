@@ -855,6 +855,7 @@ $savethis: #7273ad;
                             }
                             .experience_position {
                                 color: $descriptionblue;
+                                // color: $jobdescription;
                                 font-family: 'Inter', sans-serif;
                                 font-size: 1rem;
                             }
@@ -864,12 +865,40 @@ $savethis: #7273ad;
                             display: flex;
                             gap: 2ch;
                             color: $descriptionblue;
+                            // color: $jobdescription;
+                            // color: white;
                             font-family: 'Inter',sans-serif;
-                            // background-color: #00C6C3;
                             padding: 2ch 2ch;
-                            // Custom for Job 1
-                            // Custom for Job 2
-                            // Custom for Job 3
+                            // background-color: tan;
+                            font-size: .1.2rem;
+                            font-size: .7rem;
+                        }
+                        // Custom for Job 1
+                        #exp_details_one {
+                            position: relative;
+                            top: 6ch;
+                            right: .5ch;
+                            opacity: 0;
+                        }
+                        #exp_details_one.show {
+                            opacity: 1;
+                        }
+                        // hover job 1
+                            // Has to be done in JS 
+                            // When you hover over one item (job descr 1)
+                                // change the condition of (exp details one)
+                                // to opacity 1
+                        // Custom for Job 2
+                        #exp_details_two {
+                            position: relative;
+                            top: 7ch;
+                            right: .5ch;
+                        }
+                        // Custom for Job 3
+                        #exp_details_three {
+                            position: relative;
+                            top: 7ch;
+                            right: .5ch;
                         }
                     }
                 }
