@@ -808,6 +808,7 @@ $savethis: #7273ad;
                 align-items: center;
                 gap: 4ch;
                 margin: 12ch 0 0 0;
+                // WHOLE SQUARE
                 .experience_square {
                     display: flex;
                     flex-direction: column;
@@ -820,24 +821,32 @@ $savethis: #7273ad;
                     border: 1px solid $portfolios;
                     box-shadow: 3px 3px 3px black;
                     cursor: pointer;
+                    // gap: 3ch;
                     // Each Square's Graphic
                     #courdevelops {
                         width: 8em;
                         height: 8em;
+                        // margin: -5ch 0 0 0;
                     }
                     #slea {
                         width: 7em;
                         height: 7em;
                     }
                     #r1rcm {
-                        width: 6.5em;
-                        height: 6.5em;
+                        width: 6.3em;
+                        height: 6.3em;
                     }
                     // Each Square's Content
                     .experience_job {
                         // Overall Descriptions
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        position: relative;
                         .job_description {
                             margin: 3ch 0 0 0;
+                            // position: absolute;
                             .experience_company {
                                 color: white;
                                 font-family: 'Inter', sans-serif;
@@ -850,7 +859,18 @@ $savethis: #7273ad;
                                 font-size: 1rem;
                             }
                         }
-                        // Detailed Descriptions
+                        .experience_details {
+                            // Overall job details
+                            display: flex;
+                            gap: 2ch;
+                            color: $descriptionblue;
+                            font-family: 'Inter',sans-serif;
+                            // background-color: #00C6C3;
+                            padding: 2ch 2ch;
+                            // Custom for Job 1
+                            // Custom for Job 2
+                            // Custom for Job 3
+                        }
                     }
                 }
             }
