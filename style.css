@@ -738,15 +738,17 @@
     opacity: 0;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_square .experience_job #exp_details_two.show {
+    transition: 0.5s ease-in;
     opacity: 1;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_square .experience_job #exp_details_three {
     position: relative;
-    top: 7ch;
+    top: 8ch;
     right: 0.5ch;
     opacity: 0;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_square .experience_job #exp_details_three.show {
+    transition: 0.5s ease-in;
     opacity: 1;
   }
 }

@@ -871,7 +871,8 @@ $savethis: #7273ad;
                             gap: 2ch;
                             color: $descriptionblue;
                             // color: $jobdescription;
-                            // color: white;
+                            // color: $skillsteal;
+                            // font-weight: bold;
                             font-family: 'Inter',sans-serif;
                             padding: 2ch 2ch;
                             // background-color: tan;
@@ -902,16 +903,18 @@ $savethis: #7273ad;
                             opacity: 0;
                         }
                         #exp_details_two.show {
+                            transition: .5s ease-in;
                             opacity: 1;
                         }
                         // Custom for Job 3
                         #exp_details_three {
                             position: relative;
-                            top: 7ch;
+                            top: 8ch;
                             right: .5ch;
                             opacity: 0;
                         }
                         #exp_details_three.show {
+                            transition: .5s ease-in;
                             opacity: 1;
                         }
                     }
