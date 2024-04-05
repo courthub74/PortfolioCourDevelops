@@ -860,6 +860,11 @@ $savethis: #7273ad;
                                 font-size: 1rem;
                             }
                         }
+                        // job descriptions for js
+                        #job_1_description.dissapear {
+                            transition: .2s ease-out;
+                            opacity: 0;
+                        }
                         .experience_details {
                             // Overall job details
                             display: flex;
@@ -881,6 +886,7 @@ $savethis: #7273ad;
                             opacity: 0;
                         }
                         #exp_details_one.show {
+                            transition: .5s ease-in;
                             opacity: 1;
                         }
                         // hover job 1
@@ -893,12 +899,20 @@ $savethis: #7273ad;
                             position: relative;
                             top: 7ch;
                             right: .5ch;
+                            opacity: 0;
+                        }
+                        #exp_details_two.show {
+                            opacity: 1;
                         }
                         // Custom for Job 3
                         #exp_details_three {
                             position: relative;
                             top: 7ch;
                             right: .5ch;
+                            opacity: 0;
+                        }
+                        #exp_details_three.show {
+                            opacity: 1;
                         }
                     }
                 }
@@ -906,7 +920,7 @@ $savethis: #7273ad;
         }
     }
 }
-// 1500 px includes My Laptop
+// 1900 px includes My Desktops
 @media screen and (min-width: 1900px) {
     body {
         display: none;
