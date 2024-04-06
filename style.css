@@ -898,6 +898,92 @@
   #blog_section_id .blog_section_class .blog_circles .blog_entry .blog_square {
     display: none;
   }
+  #contact_section_id .contact_section_class .title_nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin: 10ch 15ch 0 0;
+  }
+  #contact_section_id .contact_section_class .title_nav .contact_desktop_nav ul {
+    display: flex;
+    justify-content: right;
+    gap: 3ch;
+    gap: 5ch;
+  }
+  #contact_section_id .contact_section_class .title_nav .contact_desktop_nav ul li {
+    list-style: none;
+    font-size: 1.2rem;
+  }
+  #contact_section_id .contact_section_class .title_nav .contact_desktop_nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+  }
+  #contact_section_id .contact_section_class .title_nav .contact_desktop_nav ul li #selected {
+    color: #080E2F;
+    border: 1px solid white;
+    background-color: white;
+    padding: 0.5ch;
+    border-radius: 5px;
+  }
+  #contact_section_id .contact_section_class .title_nav .section_title p {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    margin: -0.8ch 0 0 3ch;
+  }
+  #contact_section_id .contact_section_class .contact_section_form form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #contact_section_id .contact_section_class .contact_section_form form .name_email .input_div {
+    display: flex;
+    flex-direction: column;
+  }
+  #contact_section_id .contact_section_class .contact_section_form form .name_email .input_div label {
+    font-family: "Inter", sans-serif;
+    color: white;
+  }
+  #contact_section_id .contact_section_class .contact_section_form form .name_email .input_div input {
+    background-color: #36395D;
+    border-radius: 10px;
+    border: none;
+    width: 30em;
+    height: 4em;
+  }
+  #contact_section_id .contact_section_class .contact_section_form form .message_submit .input_div {
+    display: flex;
+    flex-direction: column;
+  }
+  #contact_section_id .contact_section_class .contact_section_form form .message_submit .input_div label {
+    font-family: "Inter", sans-serif;
+    color: white;
+  }
+  #contact_section_id .contact_section_class .contact_section_form form .message_submit .input_div textarea {
+    background-color: #36395D;
+    border: none;
+    border-radius: 10px;
+    width: 30em;
+    height: 10em;
+  }
+  #contact_section_id .contact_section_class .contact_section_form form .message_submit .submit_button #submitemail {
+    background-color: #36395D;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30.5em;
+    height: 3em;
+    margin: 2ch 0 0 0;
+  }
+  #contact_section_id .contact_section_class .contact_section_form form .message_submit .submit_button #submitemail p {
+    color: white;
+    font-family: "Inter", sans-serif;
+  }
 }
 @media screen and (min-width: 1900px) {
   body {
