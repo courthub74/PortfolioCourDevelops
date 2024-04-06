@@ -173,3 +173,37 @@ py_button.addEventListener('pointerdown', () => {
     }
     setTimeout(reverse_py, 3000);
 });
+
+//REACT///////////////////////////////////////////////////////////
+
+// REACT Button
+let react_button = document.getElementById('react_skill');
+
+// REACT Logo
+let react_logo = document.getElementById('react');
+
+// REACT Description
+let react_description = document.getElementById('react_description');
+
+// hover over
+react_button.addEventListener('mouseover', function() {
+    react_logo.classList.add('dissapear');
+    react_description.classList.add('show');
+});
+
+// hover out
+react_button.addEventListener('mouseout', function() {
+    react_logo.classList.remove('dissapear');
+    react_description.classList.remove('show');
+});
+
+// pointerdown for Touchscreens
+react_button.addEventListener('pointerdown', () => {
+    react_logo.classList.add('dissapear');
+    react_description.classList.add('show');
+    function reverse_react() {
+        react_logo.classList.remove('dissapear');
+        react_description.classList.remove('show');
+    }
+    setTimeout(reverse_react, 3000);
+});
