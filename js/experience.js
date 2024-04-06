@@ -14,21 +14,26 @@ let job_1_description = document.getElementById('job_1_description');
     // to make appear
 let job_1_details = document.getElementById('exp_details_one');
 
-// click or hover
+// hover over
 job_1_square.addEventListener('mouseover', function() {
-    // make job description dissapear
-    // job_1_description.classList.add('dissapear');
     // make job deets appear
     job_1_details.classList.add('show');
-    // function to reset it all
-    // function job_1_reset() {
 
-    // }
 });
 
-// remove when removing mouse
+// hover out
 job_1_square.addEventListener('mouseout', function() { 
+    // show job deets again
     job_1_details.classList.remove('show');
+});
+
+// pointerdown for Touchscreens
+job_1_square.addEventListener('pointerdown', () => {
+    job_1_details.classList.add('show');
+    function reverse_job_1() {
+        job_1_details.classList.remove('show');
+    }
+    setTimeout(reverse_job_1, 5000);
 });
 
 // query the square
@@ -60,6 +65,15 @@ job_2_square.addEventListener('mouseout', function() {
     job_2_details.classList.remove('show');
 });
 
+// pointerdown for Touchscreens
+job_2_square.addEventListener('pointerdown', () => {
+    job_2_details.classList.add('show');
+    function reverse_job_2() {
+        job_2_details.classList.remove('show');
+    }
+    setTimeout(reverse_job_2, 5000);
+});
+
 // query the square
     // to activate sequence
     let job_3_square = document.getElementById('job_3');
@@ -74,18 +88,21 @@ job_2_square.addEventListener('mouseout', function() {
 
 // click or hover
 job_3_square.addEventListener('mouseover', function() {
-    // make job description dissapear
-    // job_1_description.classList.add('dissapear');
     // make job deets appear
     job_3_details.classList.add('show');
-    // function to reset it all
-    // function job_1_reset() {
-
-    // }
 });
 
 // remove when removing mouse
 job_3_square.addEventListener('mouseout', function() { 
     job_3_details.classList.remove('show');
+});
+
+// pointerdown for Touchscreens
+job_3_square.addEventListener('pointerdown', () => {
+    job_3_details.classList.add('show');
+    function reverse_job_3() {
+        job_3_details.classList.remove('show');
+    }
+    setTimeout(reverse_job_3, 5000);
 });
 
