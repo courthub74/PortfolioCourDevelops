@@ -606,6 +606,7 @@
     margin: 0vh 0 0 0;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one .skill_circle .skill_back .skill_front #mongo.dissapear {
+    transition: 0.5s all ease-out;
     opacity: 0;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one .skill_circle .skill_back .skill_front #mongo_description {
@@ -613,6 +614,10 @@
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one .skill_circle .skill_back .skill_front #mongo_description.show {
     transition: 0.5s all ease-in;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    opacity: 1;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one .skill_circle .skill_back .skill_front #django {
     width: 4em;
@@ -622,6 +627,7 @@
     margin: 0vh 1ch 0 0;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one .skill_circle .skill_back .skill_front #django.dissapear {
+    transition: 0.5s all ease-out;
     opacity: 0;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one .skill_circle .skill_back .skill_front #django_description {
@@ -629,6 +635,10 @@
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one .skill_circle .skill_back .skill_front #django_description.show {
     transition: 0.5s all ease-in;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    opacity: 1;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one .skill_circle .skill_back .skill_front #aws {
     width: 5em;
@@ -638,6 +648,7 @@
     margin: 0vh 0ch 0 0;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one .skill_circle .skill_back .skill_front #aws.dissapear {
+    transition: 0.5s all ease-out;
     opacity: 0;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one .skill_circle .skill_back .skill_front #aws_description {
@@ -645,6 +656,10 @@
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one .skill_circle .skill_back .skill_front #aws_description.show {
     transition: 0.5s all ease-in;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    opacity: 1;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one .skill_circle .skill_back .skill_front #heroku {
     width: 4em;
@@ -654,6 +669,7 @@
     margin: -0.5vhvh 0vw 0 0;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one .skill_circle .skill_back .skill_front #heroku.dissapear {
+    transition: 0.5s all ease-out;
     opacity: 0;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one .skill_circle .skill_back .skill_front #heroku_description {
@@ -661,6 +677,10 @@
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one .skill_circle .skill_back .skill_front #heroku_description.show {
     transition: 0.5s all ease-in;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    opacity: 1;
   }
   #experience_section_id .experience_section_class {
     display: flex;
@@ -799,6 +819,84 @@
   #experience_section_id .experience_section_class .experience_section_squares .experience_square .experience_job #exp_details_three.show {
     transition: 0.5s ease-in;
     opacity: 1;
+  }
+  #blog_section_id .blog_section_class {
+    display: flex;
+    flex-direction: column;
+    background-color: #00313E;
+    height: 105vh;
+  }
+  #blog_section_id .blog_section_class .title_nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin: 10ch 15ch 0 0;
+  }
+  #blog_section_id .blog_section_class .title_nav .blog_desktop_nav ul {
+    display: flex;
+    justify-content: right;
+    gap: 3ch;
+    gap: 5ch;
+  }
+  #blog_section_id .blog_section_class .title_nav .blog_desktop_nav ul li {
+    list-style: none;
+    font-size: 1.2rem;
+  }
+  #blog_section_id .blog_section_class .title_nav .blog_desktop_nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+  }
+  #blog_section_id .blog_section_class .title_nav .blog_desktop_nav ul li #selected {
+    color: #080E2F;
+    border: 1px solid white;
+    background-color: white;
+    padding: 0.5ch;
+    border-radius: 5px;
+  }
+  #blog_section_id .blog_section_class .title_nav .section_title p {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    margin: -0.8ch 0 0 3ch;
+  }
+  #blog_section_id .blog_section_class .blog_circles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 76vh;
+    gap: 3.5ch;
+  }
+  #blog_section_id .blog_section_class .blog_circles .blog_entry .blog_back_circle {
+    width: 25em;
+    height: 25em;
+    background-color: #146166;
+    border: 3px solid #080E2F;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #blog_section_id .blog_section_class .blog_circles .blog_entry .blog_back_circle .blog_front_circle {
+    width: 26em;
+    height: 26em;
+    background-color: #080E2F;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+  }
+  #blog_section_id .blog_section_class .blog_circles .blog_entry .blog_back_circle .blog_front_circle p {
+    font-size: 1.3rem;
+  }
+  #blog_section_id .blog_section_class .blog_circles .blog_entry .blog_square {
+    display: none;
   }
 }
 @media screen and (min-width: 1900px) {

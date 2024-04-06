@@ -736,6 +736,7 @@ $savethis: #7273ad;
                                         margin: 0vh 0 0 0;
                                     }
                                     #mongo.dissapear {
+                                        transition: .5s all ease-out;
                                         opacity: 0;
                                     }
                                     #mongo_description {
@@ -743,6 +744,10 @@ $savethis: #7273ad;
                                     }
                                     #mongo_description.show {
                                         transition: .5s all ease-in;
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 1rem;
+                                        opacity: 1;  
                                     }
                                     // DJANGO
                                     #django {
@@ -753,6 +758,7 @@ $savethis: #7273ad;
                                         margin: 0vh 1ch 0 0; 
                                     }
                                     #django.dissapear {
+                                        transition: .5s all ease-out;
                                         opacity: 0;
                                     }
                                     #django_description {
@@ -760,6 +766,10 @@ $savethis: #7273ad;
                                     }
                                     #django_description.show {
                                         transition: .5s all ease-in;
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 1rem;
+                                        opacity: 1;
                                     }
                                     // AWS
                                     #aws {
@@ -770,6 +780,7 @@ $savethis: #7273ad;
                                         margin: 0vh 0ch 0 0;  
                                     }
                                     #aws.dissapear {
+                                        transition: .5s all ease-out;
                                         opacity: 0;
                                     }
                                     #aws_description {
@@ -777,6 +788,10 @@ $savethis: #7273ad;
                                     }
                                     #aws_description.show {
                                         transition: .5s all ease-in;
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 1rem;
+                                        opacity: 1;
                                     }
                                     // HEROKU
                                     #heroku {
@@ -787,6 +802,7 @@ $savethis: #7273ad;
                                         margin: -.5vhvh 0vw 0 0;  
                                     }
                                     #heroku.dissapear {
+                                        transition: .5s all ease-out;
                                         opacity: 0;
                                     }
                                     #heroku_description {
@@ -794,6 +810,10 @@ $savethis: #7273ad;
                                     }
                                     #heroku_description.show {
                                         transition: .5s all ease-in;
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 1rem;
+                                        opacity: 1;
                                     }
                                 }
                             }
@@ -968,6 +988,98 @@ $savethis: #7273ad;
                             transition: .5s ease-in;
                             opacity: 1;
                         }
+                    }
+                }
+            }
+        }
+    }
+    // BLOG SECTION 1500
+    #blog_section_id {
+        .blog_section_class {
+            display: flex;
+            flex-direction: column;
+            background-color: $nextgreen;
+            height: 105vh;
+            .title_nav {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row-reverse;
+                margin: 10ch 15ch 0 0;
+                // background-color: #7273ad;
+                // ABOUT NAVBAR
+                .blog_desktop_nav {
+                    // move margin of whole thing here
+                    ul {
+                        display: flex;
+                        justify-content: right;
+                        gap: 3ch;
+                        gap: 5ch;
+                        li {
+                            list-style: none;
+                            font-size: 1.2rem;
+                            a {
+                                text-decoration: none;
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                font-weight: bold;
+                            }
+                            #selected {
+                                color: $darkblue;
+                                border: 1px solid white;
+                                background-color: white;
+                                padding: .5ch;
+                                border-radius: 5px;
+                            }
+                        }
+                    }
+                }
+                .section_title {
+                    p {
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        font-weight: bold;
+                        font-size: 4rem;
+                        margin: -.8ch 0 0 3ch;
+                    }
+                }
+            }
+            .blog_circles {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 76vh;
+                gap: 3.5ch;
+                .blog_entry {
+                    // width: 30em;
+                    // height: 30em;
+                    .blog_back_circle {
+                        width: 25em;
+                        height: 25em;
+                        background-color: $skillsteal;
+                        border: 3px solid $darkblue;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .blog_front_circle {
+                            width: 26em;
+                            height: 26em;
+                            background-color: $darkblue;
+                            border: none;
+                            border-radius: 50%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: white;
+                            font-family: 'Inter', sans-serif;
+                            font-weight: bold;
+                            p {
+                                font-size: 1.3rem;
+                            }
+                        }
+                    }
+                    .blog_square {
+                        display: none;
                     }
                 }
             }

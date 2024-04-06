@@ -275,3 +275,31 @@ firebase_button.addEventListener('pointerdown', () => {
     }
     setTimeout(reverse_firebase, 3000);
 });
+
+//MONGO///////////////////////////////////////////////////
+
+// MONGO Button
+let mongo_button = document.getElementById('mongo_skill');
+
+// MONGO Logo
+let mongo_logo = document.getElementById('mongo');
+
+// MONGO Description
+let mongo_description = document.getElementById('mongo_description');
+
+// hover out
+mongo_button.addEventListener('mouseout', function() {
+    mongo_logo.classList.remove('dissapear');
+    mongo_description.classList.remove('show');
+});
+
+// pointerdown for Touchscreens
+mongo_button.addEventListener('pointerdown', () => {
+    mongo_logo.classList.add('dissapear');
+    mongo_description.classList.add('show');
+    function reverse_mongo() {
+        mongo_logo.classList.remove('dissapear');
+        mongo_description.classList.remove('show');
+    }
+    setTimeout(reverse_mongo, 3000);
+});
