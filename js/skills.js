@@ -106,7 +106,7 @@ sass_button.addEventListener('pointerdown', e => {
     setTimeout(reverse_sass, 3000);
 });
 
-// JAVASCRIPT///////////////////////////////////////////////////////
+//JAVASCRIPT///////////////////////////////////////////////////////
 
 // JAVASCRIPT Button
 let js_button = document.getElementById('js_skill');
@@ -138,4 +138,37 @@ js_button.addEventListener('pointerdown', () => {
         js_description.classList.remove('show');
     }
     setTimeout(reverse_js, 3000);
+});
+
+//PYTHON///////////////////////////////////////////////////////////////
+
+// PYTHON Button
+let py_button = document.getElementById('python_skill');
+
+// PYTHON Logo
+let py_logo = document.getElementById('python');
+
+// PYTHON Description
+let py_description = document.getElementById('python_description');
+
+// hover over
+py_button.addEventListener('mouseover', function() {
+    py_logo.classList.add('dissapear');
+    py_description.classList.add('show');
+});
+
+// hover out
+py_button.addEventListener('mouseout', function() {
+    py_logo.classList.remove('dissapear');
+    py_description.classList.remove('show');
+});
+
+// pointerdown for Touchscreens
+py_button.addEventListener('pointerdown', () => {
+    py_logo.classList.add('dissapear');
+    py_description.classList.add('show');
+    function reverse_py() {
+        py_logo.classList.remove('dissapear');
+        py_description.classList.remove('show');
+    }
 });
