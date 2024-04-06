@@ -171,4 +171,5 @@ py_button.addEventListener('pointerdown', () => {
         py_logo.classList.remove('dissapear');
         py_description.classList.remove('show');
     }
+    setTimeout(reverse_py, 3000);
 });
