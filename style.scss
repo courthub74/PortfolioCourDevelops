@@ -563,6 +563,7 @@ $savethis: #7273ad;
                                         margin: 0 0 0 .9ch;
                                     }
                                     #sass.dissapear {
+                                        transition: .5s all ease-out;
                                         opacity: 0;
                                     }
                                     #sass_description {
@@ -570,6 +571,10 @@ $savethis: #7273ad;
                                     }
                                     #sass_description.show {
                                         transition: .5s all ease-in;
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 1rem;
+                                        opacity: 1;
                                     }
                                     // JS
                                     #javascript {
@@ -580,6 +585,7 @@ $savethis: #7273ad;
                                         // margin: 0 0 0 .5vw;
                                     }
                                     #javascript.dissapear {
+                                        transition: .5s all ease-out;
                                         opacity: 0;
                                     }
                                     #javascript_description {
@@ -587,6 +593,10 @@ $savethis: #7273ad;
                                     }
                                     #javascript_description.show {
                                         transition: .5s all ease-in;
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 1rem;
+                                        opacity: 1;
                                     }
                                     // PYTHON
                                     #python {
