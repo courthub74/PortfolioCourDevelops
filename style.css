@@ -11,6 +11,11 @@
   background-color: #080E2F;
 }
 
+@media screen and (min-width: 1200px) and (max-width: 1499px) {
+  body {
+    display: none;
+  }
+}
 @media screen and (min-width: 1500px) {
   #home_section_id {
     display: flex;
@@ -54,7 +59,7 @@
     align-items: center;
     margin: 15ch 10ch 0 0;
     gap: 10ch;
-    gap: 20ch;
+    gap: 17ch;
   }
   #home_section_id .home_section_content .logo_div {
     width: 30.5em;
@@ -560,6 +565,7 @@
     position: absolute;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one .skill_circle .skill_back .skill_front #figma.dissapear {
+    transition: 0.5s all ease-out;
     opacity: 0;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one .skill_circle .skill_back .skill_front #figma_description {
@@ -567,6 +573,10 @@
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one .skill_circle .skill_back .skill_front #figma_description.show {
     transition: 0.5s all ease-in;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    opacity: 1;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one .skill_circle .skill_back .skill_front #firebase {
     width: 2.5em;
@@ -575,6 +585,7 @@
     position: absolute;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one .skill_circle .skill_back .skill_front #firebase.dissapear {
+    transition: 0.5s all ease-out;
     opacity: 0;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one .skill_circle .skill_back .skill_front #firebase_description {
@@ -582,6 +593,10 @@
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one .skill_circle .skill_back .skill_front #firebase_description.show {
     transition: 0.5s all ease-in;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    opacity: 1;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one .skill_circle .skill_back .skill_front #mongo {
     width: 2em;

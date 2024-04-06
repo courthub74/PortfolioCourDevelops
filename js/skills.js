@@ -207,3 +207,71 @@ react_button.addEventListener('pointerdown', () => {
     }
     setTimeout(reverse_react, 3000);
 });
+
+//FIGMA////////////////////////////////////////////////////////
+
+// FIGMA Button
+let figma_button = document.getElementById('figma_skill');
+
+// FIGMA Logo
+let figma_logo = document.getElementById('figma');
+
+// FIGMA Description
+let figma_description = document.getElementById('figma_description');
+
+// hover over
+figma_button.addEventListener('mouseover', function() {
+    figma_logo.classList.add('dissapear');
+    figma_description.classList.add('show');
+});
+
+// hover out
+figma_button.addEventListener('mouseout', function() {
+    figma_logo.classList.remove('dissapear');
+    figma_description.classList.remove('show');
+});
+
+// pointerdown for Touchscreens
+figma_button.addEventListener('pointerdown', () => {
+    figma_logo.classList.add('dissapear');
+    figma_description.classList.add('show');
+    function reverse_figma() {
+        figma_logo.classList.remove('dissapear');
+        figma_description.classList.remove('show');
+    }
+    setTimeout(reverse_figma, 3000);
+});
+
+//FIREBASE///////////////////////////////////////////////////
+
+// FIREBASE Button
+let firebase_button = document.getElementById('firebase_skill');
+
+// FIREBASE Logo
+let firebase_logo = document.getElementById('firebase');
+
+// FIREBASE Description
+let firebase_description = document.getElementById('firebase_description');
+
+// hover over
+firebase_button.addEventListener('mouseover', function() {
+    firebase_logo.classList.add('dissapear');
+    firebase_description.classList.add('show');
+});
+
+// hover out
+firebase_button.addEventListener('mouseout', function() {
+    firebase_logo.classList.remove('dissapear');
+    firebase_description.classList.remove('show');
+});
+
+// pointerdown for Touchscreens
+firebase_button.addEventListener('pointerdown', () => {
+    firebase_logo.classList.add('dissapear');
+    firebase_description.classList.add('show');
+    function reverse_firebase() {
+        firebase_logo.classList.remove('dissapear');
+        firebase_description.classList.remove('show');
+    }
+    setTimeout(reverse_firebase, 3000);
+});

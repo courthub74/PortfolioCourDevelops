@@ -63,6 +63,13 @@ $savethis: #7273ad;
 
 // DESKTOPS 
 
+// 1200 px Helen's Laptop
+@media screen and (min-width: 1200px) and (max-width: 1499px) {
+    body {
+        display: none;
+    }
+}
+
 // 1500 px includes My Laptop
 @media screen and (min-width: 1500px) {
     // body {
@@ -120,7 +127,7 @@ $savethis: #7273ad;
             margin: 15ch 10ch 0 0;
             // background-color: red;
             gap: 10ch;
-            gap: 20ch;
+            gap: 17ch;
             .logo_div {
                 // background-color: red;
                 width: 30.5em;
@@ -686,13 +693,18 @@ $savethis: #7273ad;
                                         position: absolute;
                                     }
                                     #figma.dissapear {
+                                        transition: .5s all ease-out;
                                         opacity: 0;
                                     }
                                     #figma_description {
                                         opacity: 0;
                                     }
                                     #figma_description.show {
-                                        transition: .5s all ease-in; 
+                                        transition: .5s all ease-in;
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 1rem;
+                                        opacity: 1; 
                                     }
                                     // FIREBASE
                                     #firebase {
@@ -702,13 +714,18 @@ $savethis: #7273ad;
                                         position: absolute;
                                     }
                                     #firebase.dissapear {
+                                        transition: .5s all ease-out;
                                         opacity: 0;
                                     }
                                     #firebase_description {
                                         opacity: 0;
                                     }
                                     #firebase_description.show {
-                                        transition: .5s all ease-in; 
+                                        transition: .5s all ease-in;
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 1rem;
+                                        opacity: 1;  
                                     }
                                     // MONGO
                                     #mongo {
