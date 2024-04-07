@@ -1147,41 +1147,50 @@ $savethis: #7273ad;
                     margin: 10ch 0 0 0;
                     // background-color: #00C6C3;
                     height: 100%;
+                    gap: 15ch;
                     .name_email {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 8ch;
+                        margin: -13ch 0 0 0;
                         .input_div {
                             display: flex;
                             flex-direction: column;
                             label {
                                 font-family: 'Inter', sans-serif;
                                 color: white;
+                                font-size: 1.2rem;
                             }
                             input {
                                 background-color: $portfolios;
                                 border-radius: 10px;
                                 border: none;
-                                width: 30em;
-                                height: 4em;
+                                width: 40em;
+                                height: 5em;
                             }
                         }
                     }
                     .message_submit {
+                        margin: -2ch 0 0 0;
                         .input_div {
                             display: flex;
                             flex-direction: column;
                             label {
                                 font-family: 'Inter', sans-serif;
                                 color: white;
+                                font-size: 1.2rem;
                             }
                             textarea {
                                 background-color: $portfolios;
                                 border: none;
                                 border-radius: 10px;
-                                width: 30em;
-                                height: 10em;
+                                width: 40em;
+                                height: 17em;
                                 resize: none;
                             }
                         }
                         .submit_button {
+                            margin: 4ch 0 0 0;
                             #submitemail {
                                 background-color: $portfolios;
                                 border-radius: 10px;
@@ -1189,12 +1198,12 @@ $savethis: #7273ad;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
-                                width: 30.5em;
-                                height: 3em;
-                                margin: 2ch 0 0 0;
+                                width: 40.5em;
+                                height: 5em;
                                 p {
                                     color: white;
                                     font-family: 'Inter', sans-serif;
+                                    font-size: 1.2rem;
                                 }
                             }
                         }
@@ -1237,8 +1246,9 @@ $savethis: #7273ad;
                                 justify-content: center;
                                 align-items: center;
                                 #copyright_courdevs {
-                                    width: 2em;
-                                    height: 2em;
+                                    width: 3em;
+                                    height: 3em;
+                                    margin: 0 1ch 0 0;
                                 }
                                 p {
                                     color: $portfolios;
