@@ -557,6 +557,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    cursor: pointer;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one .skill_circle .skill_back .skill_front #figma {
     width: 4em;
@@ -878,6 +879,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 2px 2px 2px black;
   }
   #blog_section_id .blog_section_class .blog_circles .blog_entry .blog_back_circle .blog_front_circle {
     width: 26em;
@@ -891,12 +893,19 @@
     color: white;
     font-family: "Inter", sans-serif;
     font-weight: bold;
+    cursor: pointer;
   }
   #blog_section_id .blog_section_class .blog_circles .blog_entry .blog_back_circle .blog_front_circle p {
     font-size: 1.3rem;
   }
   #blog_section_id .blog_section_class .blog_circles .blog_entry .blog_square {
     display: none;
+  }
+  #contact_section_id .contact_section_class {
+    display: flex;
+    flex-direction: column;
+    background-color: #080E2F;
+    height: 100vh;
   }
   #contact_section_id .contact_section_class .title_nav {
     display: flex;
@@ -938,6 +947,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10ch 0 0 0;
+    height: 100%;
   }
   #contact_section_id .contact_section_class .contact_section_form form .name_email .input_div {
     display: flex;
@@ -968,6 +979,7 @@
     border-radius: 10px;
     width: 30em;
     height: 10em;
+    resize: none;
   }
   #contact_section_id .contact_section_class .contact_section_form form .message_submit .submit_button #submitemail {
     background-color: #36395D;
@@ -982,6 +994,60 @@
   }
   #contact_section_id .contact_section_class .contact_section_form form .message_submit .submit_button #submitemail p {
     color: white;
+    font-family: "Inter", sans-serif;
+  }
+  #contact_section_id .contact_section_class .contact_section_form .poweredby small {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12ch;
+  }
+  #contact_section_id .contact_section_class .contact_section_form .poweredby small .home_socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8ch;
+    cursor: pointer;
+  }
+  #contact_section_id .contact_section_class .contact_section_form .poweredby small .home_socials #github {
+    width: 3em;
+    height: 3em;
+  }
+  #contact_section_id .contact_section_class .contact_section_form .poweredby small .home_socials #twitter {
+    width: 3em;
+    height: 3em;
+  }
+  #contact_section_id .contact_section_class .contact_section_form .poweredby small .home_socials #linkedin {
+    width: 3em;
+    height: 3em;
+  }
+  #contact_section_id .contact_section_class .contact_section_form .poweredby small .home_socials #instagram {
+    width: 3.5em;
+    height: 3.5em;
+  }
+  #contact_section_id .contact_section_class .contact_section_form .poweredby small .copy_name .copyrights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #contact_section_id .contact_section_class .contact_section_form .poweredby small .copy_name .copyrights #copyright_courdevs {
+    width: 2em;
+    height: 2em;
+  }
+  #contact_section_id .contact_section_class .contact_section_form .poweredby small .copy_name .copyrights p {
+    color: #36395D;
+    font-family: "Inter", sans-serif;
+  }
+  #contact_section_id .contact_section_class .contact_section_form .poweredby small .copy_name .copyrights .courdev {
+    color: #58a6ff;
+    font-family: "Inter", sans-serif;
+  }
+  #contact_section_id .contact_section_class .contact_section_form .poweredby small .copy_name .copyrights #phone {
+    width: 2em;
+    height: 2em;
+  }
+  #contact_section_id .contact_section_class .contact_section_form .poweredby small .copy_name .copyrights .courdev_num {
+    color: #58a6ff;
     font-family: "Inter", sans-serif;
   }
 }

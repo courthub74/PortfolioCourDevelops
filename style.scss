@@ -685,6 +685,7 @@ $savethis: #7273ad;
                                     justify-content: center;
                                     align-items: center;
                                     border-radius: 50%;
+                                    cursor: pointer;
                                     // FIGMA
                                     #figma {
                                         width: 4em;
@@ -1061,6 +1062,7 @@ $savethis: #7273ad;
                         display: flex;
                         justify-content: center;
                         align-items: center;
+                        box-shadow: 2px 2px 2px black;
                         .blog_front_circle {
                             width: 26em;
                             height: 26em;
@@ -1073,6 +1075,7 @@ $savethis: #7273ad;
                             color: white;
                             font-family: 'Inter', sans-serif;
                             font-weight: bold;
+                            cursor: pointer;
                             p {
                                 font-size: 1.3rem;
                             }
@@ -1088,6 +1091,10 @@ $savethis: #7273ad;
     // CONTACT SECTION 1500
     #contact_section_id {
         .contact_section_class {
+            display: flex;
+            flex-direction: column;
+            background-color: $darkblue;
+            height: 100vh;
             .title_nav {
                 display: flex;
                 justify-content: space-between;
@@ -1137,7 +1144,9 @@ $savethis: #7273ad;
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    margin: 10ch 0 0 0;
                     // background-color: #00C6C3;
+                    height: 100%;
                     .name_email {
                         .input_div {
                             display: flex;
@@ -1169,6 +1178,7 @@ $savethis: #7273ad;
                                 border-radius: 10px;
                                 width: 30em;
                                 height: 10em;
+                                resize: none;
                             }
                         }
                         .submit_button {
@@ -1184,6 +1194,66 @@ $savethis: #7273ad;
                                 margin: 2ch 0 0 0;
                                 p {
                                     color: white;
+                                    font-family: 'Inter', sans-serif;
+                                }
+                            }
+                        }
+                    }
+                }
+                .poweredby {
+                    small {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 12ch;
+                        .home_socials {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 8ch;
+                            cursor: pointer;
+                            // background-color: darkgoldenrod;
+                            #github {
+                                width: 3em;
+                                height: 3em;
+                            }
+                            #twitter {
+                                width: 3em;
+                                height: 3em;
+                            }
+                            #linkedin {
+                                width: 3em;
+                                height: 3em;
+                            }
+                            #instagram {
+                                width: 3.5em;
+                                height: 3.5em;
+                            }
+                        }
+                        .copy_name {
+                            // margin: 8ch 0 0 0;
+                            .copyrights {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                #copyright_courdevs {
+                                    width: 2em;
+                                    height: 2em;
+                                }
+                                p {
+                                    color: $portfolios;
+                                    font-family: 'Inter', sans-serif;
+                                }
+                                .courdev {
+                                    color: $firstblue;
+                                    font-family: 'Inter', sans-serif;
+                                }
+                                #phone {
+                                    width: 2em;
+                                    height: 2em;
+                                }
+                                .courdev_num {
+                                    color: $firstblue;
                                     font-family: 'Inter', sans-serif;
                                 }
                             }
