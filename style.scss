@@ -61,12 +61,1250 @@ $savethis: #7273ad;
         // basically the distance of a 0.
     //  works on gap mesurements for me
 
+// MOBILES
+
+// 280 px Smallest Smartphones
+@media screen and (min-width: 280px) and (max-width: 349px) {
+    body {
+        display: none;
+    }
+}
+
+// 350 px Next Size up Smartphones My Phone
+@media screen and (min-width: 350px) and (max-width: 399px) {
+    body {
+        display: none;
+    }
+}
+
+// 400 px Next Size up Smartphones
+@media screen and (min-width: 400px) and (max-width: 499px) {
+    body {
+        display: none;
+    }
+}
+
+// LANDSCAPES
+// TABLETS
 // DESKTOPS 
 
 // 1200 px Helen's Laptop
 @media screen and (min-width: 1200px) and (max-width: 1499px) {
-    body {
-        display: none;
+    // body {
+    //     display: none;
+    // }
+    // HOME SECTION
+    #home_section_id {
+        display: flex;
+        flex-direction: column;
+        background-color: $darkblue;
+        // background-color: yellowgreen;
+        height: 105vh;
+        // DESKTOP NAVBAR
+        .desktop_nav {
+            // move margin of whole thing here
+            // margin: 6vh 7vw 0 0;
+            // background-color: #7273ad;
+            margin: 10ch 15ch 0 0;
+            ul {
+                display: flex;
+                justify-content: right;
+                gap: 3ch;
+                gap: 5ch;
+                li {
+                    list-style: none;
+                    font-size: 1.2rem;
+                    cursor: pointer;
+                    a {
+                        text-decoration: none;
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        font-weight: bold;
+                    }
+                    #selected {
+                        color: $darkblue;
+                        border: 1px solid white;
+                        background-color: white;
+                        padding: .5ch;
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+        // MOBILE NAVBAR
+        .mobile_nav {
+            display: none;
+        } 
+        .home_section_content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // height: 100vh;
+            // margin: -10vh 0 0 -5vw;
+            // margin: -10ch 0 0 0;
+            margin: 15ch 10ch 0 0;
+            // background-color: red;
+            gap: 10ch;
+            gap: 17ch;
+            .logo_div {
+                // background-color: red;
+                width: 30.5em;
+                height: 30.5em;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .back_logo {
+                    background-color: white;
+                    width: 30.5em;
+                    height: 30.5em;
+                    width: 26em;
+                    height: 26em;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .front_logo {
+                        #logo_home {
+                            // width: 25vw;
+                            // height: 25vw;
+                            width: 28em;
+                            height: 28em;
+                            width: 24em;
+                            height: 24em;
+                        }
+                    }
+                }
+            }
+            // HOME CONTENT WORDS AND SOCIALS
+            .word_content {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 2.5ch;
+                // NAME AND DESCRIPTION
+                .name_description {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    .home_name {
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        font-size: 3rem;
+                    }
+                    .job_description {
+                        color: $descriptionblue;
+                        background-color: $portfolios;
+                        font-family: 'Inter', sans-serif;
+                        font-size: 1.6rem;
+                        width: 16em;
+                        height: 2em;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 5px;
+                        // padding: 1em 1em;
+                    }
+                }
+                .home_slogan {
+                    text-align: center;
+                    font-family: 'Inter', sans-serif;
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                    color: white;
+                    margin: .3em;
+                }
+                .home_socials {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 8ch;
+                    #github {
+                        width: 3em;
+                        height: 3em;
+                    }
+                    #twitter {
+                        width: 3em;
+                        height: 3em;
+                    }
+                    #linkedin {
+                        width: 3em;
+                        height: 3em;
+                    }
+                    #instagram {
+                        width: 3.5em;
+                        height: 3.5em;
+                    }
+                }
+                .learn_more {
+                    width: 26em;
+                    height: 3em;
+                    background-color: $portfolios;
+                    border-radius: 25px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    a {
+                        color: $descriptionblue;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-family: 'Inter', sans-serif;
+                        font-size: 1.2rem;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        
+    }
+    // ABOUT SECTION DESKTOP 1500
+    #about_section_id {
+        // background-color: red;
+        .about_section_class {
+            display: flex;
+            flex-direction: column;
+            background-color: $nextgreen;
+            // background-color: yellowgreen;
+            height: 105vh;
+            .title_nav {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row-reverse;
+                margin: 10ch 15ch 0 0;
+                // background-color: #7273ad;
+                // ABOUT NAVBAR
+                .about_desktop_nav {
+                    // move margin of whole thing here
+                    ul {
+                        display: flex;
+                        justify-content: right;
+                        gap: 3ch;
+                        gap: 5ch;
+                        li {
+                            list-style: none;
+                            font-size: 1.2rem;
+                            a {
+                                text-decoration: none;
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                font-weight: bold;
+                            }
+                            #selected {
+                                color: $darkblue;
+                                border: 1px solid white;
+                                background-color: white;
+                                padding: .5ch;
+                                border-radius: 5px;
+                            }
+                        }
+                    }
+                }
+                .section_title {
+                    p {
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        font-weight: bold;
+                        font-size: 4rem;
+                        margin: -.8ch 0 0 3ch;
+                    }
+                }
+            }
+            // ABOUT SECTION CONTENT
+            .about_section_content {
+                margin: 8ch 0 0 16.5ch;
+                width: 82%;
+                line-height: 2.5em;
+                p {
+                    color: white;
+                    font-size: 1.2rem;
+                    font-family: 'Inter', sans-serif;
+                }
+                .brand_is {
+                    margin: 2em 0 2em 0;
+                    .brand {
+                        gap: 2ch;
+                        display: flex;
+                        // justify-content: center;
+                        align-items: center;
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        font-size: 1.2rem;
+                        #about_logo {
+                            width: 6em;
+                            height: 6em;
+                        }
+                    }
+                }
+                p {
+                    color: white;
+                    font-size: 1.2rem;
+                    font-family: 'Inter', sans-serif;
+                }
+            }
+            .download_resume {
+                background-color: white;
+                width: 26em;
+                height: 3em;
+                border-radius: 25px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 8ch 0 0 16.5ch;
+                a {
+                    color: $nextgreen;
+                    font-family: 'Inter', sans-serif;
+                    font-weight: bold;
+                    font-size: 1.2rem;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    // PORTFOLIO SECTION 1200
+    #portfolio_section_id {
+        .portfolio_section_class {
+            display: flex;
+            flex-direction: column;
+            background-color: $darkblue;
+            height: 105vh;
+            .title_nav {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row-reverse;
+                margin: 10ch 15ch 0 0;
+                // background-color: #7273ad;
+                // ABOUT NAVBAR
+                .portfolio_desktop_nav {
+                    // move margin of whole thing here
+                    ul {
+                        display: flex;
+                        justify-content: right;
+                        gap: 3ch;
+                        gap: 5ch;
+                        li {
+                            list-style: none;
+                            font-size: 1.2rem;
+                            a {
+                                text-decoration: none;
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                font-weight: bold;
+                            }
+                            #selected {
+                                color: $darkblue;
+                                border: 1px solid white;
+                                background-color: white;
+                                padding: .5ch;
+                                border-radius: 5px;
+                            }
+                        }
+                    }
+                }
+                .section_title {
+                    p {
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        font-weight: bold;
+                        font-size: 4rem;
+                        margin: -.8ch 0 0 3ch;
+                    }
+                }
+            }
+            // PORTFOLIO SECTION SQUARES
+            .portfolio_section_squares {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 4ch;
+                margin: 12ch 0 0 0;
+                .portfolio_square {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 28em;
+                    height: 40em;
+                    background-color: $portfolios;
+                    border-radius: 55px;
+                    border: 1px solid $portfolios;
+                    box-shadow: 3px 3px 3px black;
+                    cursor: pointer;
+                    #workflow_app {
+                        width: 25em;
+                        margin: 0 0 0 5ch;
+                    }
+                    #create_collab {
+                        width: 26em;
+                        margin: 0 0 0 5ch;
+                    }
+                    #mps_site {
+                        width: 15em;
+                        margin: 0 0 0 7ch;
+                    }
+                }
+            }
+        }
+    }
+    // SKILLS SECTION 1500
+    #skills_section_id {
+        .skills_section_class {
+            display: flex;
+            flex-direction: column;
+            background-color: $nextgreen;
+            height: 105vh;
+            .title_nav {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row-reverse;
+                margin: 10ch 15ch 0 0;
+                // background-color: #7273ad;
+                // ABOUT NAVBAR
+                .skills_desktop_nav {
+                    // move margin of whole thing here
+                    ul {
+                        display: flex;
+                        justify-content: right;
+                        gap: 3ch;
+                        gap: 5ch;
+                        li {
+                            list-style: none;
+                            font-size: 1.2rem;
+                            a {
+                                text-decoration: none;
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                font-weight: bold;
+                            }
+                            #selected {
+                                color: $darkblue;
+                                border: 1px solid white;
+                                background-color: white;
+                                padding: .5ch;
+                                border-radius: 5px;
+                            }
+                        }
+                    }
+                }
+                .section_title {
+                    p {
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        font-weight: bold;
+                        font-size: 4rem;
+                        margin: -.8ch 0 0 3ch;
+                    }
+                }
+            }
+            // SKILLS SECTION CONTENT
+            .skills_section_circles {
+                margin: 18ch 0 0 0;
+                // margin: 18ch 0 0 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 7ch;
+                // FIRST 6 CIRCLES
+                .skills_first_6 {
+                    // Middle of the circles
+                    display: flex;
+                    gap: 3ch;
+                    .skills_circles_one {
+                        // The Three sided circles
+                        display: flex;
+                        gap: 3ch;
+                        .skill_circle {
+                            // each circles space
+                            // background-color: #00C6C3;
+                            .skill_back {
+                                background-color: $skillsteal;
+                                border: 3px solid $darkblue;
+                                width: 11em;
+                                height: 11em;
+                                width: 8em;
+                                height: 8em;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                border-radius: 50%;
+                                box-shadow: 3px 3px 3px black;
+                                .skill_front {
+                                    background-color: $darkblue;
+                                    border: none;
+                                    width: 11em;
+                                    height: 11em;
+                                    width: 8em;
+                                    height: 8em;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    border-radius: 50%;
+                                    cursor: pointer;
+                                    .shield {
+                                        width: 4em;
+                                        height: 4em;
+                                    }
+                                    // HTML
+                                    #html {
+                                        transition: .3s all ease-in;
+                                        position: absolute;
+                                    }
+                                    #html.dissapear {
+                                        transition: .5s all ease-out;
+                                        opacity: 0;
+                                    }
+                                    #html_description {
+                                        opacity: 0;
+                                    }
+                                    #html_description.show {
+                                        transition: .5s all ease-in;
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 1rem;
+                                        opacity: 1;
+                                    }
+                                    // CSS
+                                    #css {
+                                        transition: .3s all ease-in;
+                                        position: absolute;
+                                    }
+                                    #css.dissapear {
+                                        transition: .5s all ease-out;
+                                        opacity: 0;
+                                    }
+                                    #css_description {
+                                        opacity: 0;
+                                    }
+                                    #css_description.show {
+                                        transition: .5s all ease-in;
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 1rem;
+                                        opacity: 1;
+                                    }
+                                    // SASS
+                                    #sass {
+                                        width: 4em;
+                                        height: 4em;
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                        margin: 0 0 0 .9ch;
+                                    }
+                                    #sass.dissapear {
+                                        transition: .5s all ease-out;
+                                        opacity: 0;
+                                    }
+                                    #sass_description {
+                                        opacity: 0;
+                                    }
+                                    #sass_description.show {
+                                        transition: .5s all ease-in;
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 1rem;
+                                        opacity: 1;
+                                    }
+                                    // JS
+                                    #javascript {
+                                        width: 5em;
+                                        height: 5em;
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                        // margin: 0 0 0 .5vw;
+                                    }
+                                    #javascript.dissapear {
+                                        transition: .5s all ease-out;
+                                        opacity: 0;
+                                    }
+                                    #javascript_description {
+                                        opacity: 0;
+                                    }
+                                    #javascript_description.show {
+                                        transition: .5s all ease-in;
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 1rem;
+                                        opacity: 1;
+                                    }
+                                    // PYTHON
+                                    #python {
+                                        width: 3.8em;
+                                        height: 3.8em;
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                        // margin: -.5vh 0 0 0;
+                                    }
+                                    #python.dissapear {
+                                        transition: .5s all ease-out;
+                                        opacity: 0;
+                                    }
+                                    #python_description {
+                                        opacity: 0;
+                                    }
+                                    #python_description.show {
+                                        transition: .5s all ease-in;
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 1rem;
+                                        opacity: 1;
+                                    }
+                                    // REACT
+                                    #react {
+                                        width: 4em;
+                                        height: 4em;
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                    }
+                                    #react.dissapear {
+                                        transition: .5s all ease-out;
+                                        opacity: 0;
+                                    }
+                                    #react_description {
+                                        opacity: 0;
+                                    }
+                                    #react_description.show {
+                                        transition: .5s all ease-in;
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 1rem;
+                                        opacity: 1;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                // SECOND 6 CIRCLES
+                .skills_second_6 {
+                    display: flex;
+                    gap: 3ch;
+                    .skills_circles_one {
+                        // The Three sided circles
+                        display: flex;
+                        gap: 3ch;
+                        .skill_circle {
+                            // each circles space
+                            // background-color: #00C6C3;
+                            .skill_back {
+                                background-color: $skillsteal;
+                                border: 3px solid $darkblue;
+                                width: 11em;
+                                height: 11em;
+                                width: 8em;
+                                height: 8em;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                border-radius: 50%;
+                                box-shadow: 3px 3px 3px black;
+                                .skill_front {
+                                    background-color: $darkblue;
+                                    border: none;
+                                    width: 11em;
+                                    height: 11em;
+                                    width: 8em;
+                                    height: 8em;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    border-radius: 50%;
+                                    cursor: pointer;
+                                    // FIGMA
+                                    #figma {
+                                        width: 4em;
+                                        height: 4em;
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                    }
+                                    #figma.dissapear {
+                                        transition: .5s all ease-out;
+                                        opacity: 0;
+                                    }
+                                    #figma_description {
+                                        opacity: 0;
+                                    }
+                                    #figma_description.show {
+                                        transition: .5s all ease-in;
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 1rem;
+                                        opacity: 1; 
+                                    }
+                                    // FIREBASE
+                                    #firebase {
+                                        width: 2.5em;
+                                        height: 3.5em;
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                    }
+                                    #firebase.dissapear {
+                                        transition: .5s all ease-out;
+                                        opacity: 0;
+                                    }
+                                    #firebase_description {
+                                        opacity: 0;
+                                    }
+                                    #firebase_description.show {
+                                        transition: .5s all ease-in;
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 1rem;
+                                        opacity: 1;  
+                                    }
+                                    // MONGO
+                                    #mongo {
+                                        width: 2em;
+                                        height: 4.2em;
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                        margin: 0vh 0 0 0;
+                                    }
+                                    #mongo.dissapear {
+                                        transition: .5s all ease-out;
+                                        opacity: 0;
+                                    }
+                                    #mongo_description {
+                                        opacity: 0;
+                                    }
+                                    #mongo_description.show {
+                                        transition: .5s all ease-in;
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 1rem;
+                                        opacity: 1;  
+                                    }
+                                    // DJANGO
+                                    #django {
+                                        width: 4em;
+                                        height: 4em;
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                        margin: 0vh 1ch 0 0; 
+                                    }
+                                    #django.dissapear {
+                                        transition: .5s all ease-out;
+                                        opacity: 0;
+                                    }
+                                    #django_description {
+                                        opacity: 0;
+                                    }
+                                    #django_description.show {
+                                        transition: .5s all ease-in;
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 1rem;
+                                        opacity: 1;
+                                    }
+                                    // AWS
+                                    #aws {
+                                        width: 5em;
+                                        height: 5em;
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                        margin: 0vh 0ch 0 0;  
+                                    }
+                                    #aws.dissapear {
+                                        transition: .5s all ease-out;
+                                        opacity: 0;
+                                    }
+                                    #aws_description {
+                                        opacity: 0;
+                                    }
+                                    #aws_description.show {
+                                        transition: .5s all ease-in;
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 1rem;
+                                        opacity: 1;
+                                    }
+                                    // HEROKU
+                                    #heroku {
+                                        width: 4em;
+                                        height: 4em;
+                                        transition: .7s all ease-in;
+                                        position: absolute;
+                                        margin: -.5vhvh 0vw 0 0;  
+                                    }
+                                    #heroku.dissapear {
+                                        transition: .5s all ease-out;
+                                        opacity: 0;
+                                    }
+                                    #heroku_description {
+                                        opacity: 0;
+                                    }
+                                    #heroku_description.show {
+                                        transition: .5s all ease-in;
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 1rem;
+                                        opacity: 1;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // EXPERIENCE SECTION 1500 
+    #experience_section_id {
+        .experience_section_class {
+            display: flex;
+            flex-direction: column;
+            background-color: $darkblue;
+            height: 105vh;
+            .title_nav {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row-reverse;
+                margin: 10ch 15ch 0 0;
+                // background-color: #7273ad;
+                // ABOUT NAVBAR
+                .experience_desktop_nav {
+                    // move margin of whole thing here
+                    ul {
+                        display: flex;
+                        justify-content: right;
+                        gap: 3ch;
+                        gap: 5ch;
+                        li {
+                            list-style: none;
+                            font-size: 1.2rem;
+                            a {
+                                text-decoration: none;
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                font-weight: bold;
+                            }
+                            #selected {
+                                color: $darkblue;
+                                border: 1px solid white;
+                                background-color: white;
+                                padding: .5ch;
+                                border-radius: 5px;
+                            }
+                        }
+                    }
+                }
+                .section_title {
+                    p {
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        font-weight: bold;
+                        font-size: 4rem;
+                        margin: -.8ch 0 0 3ch;
+                    }
+                }
+            }
+            .experience_section_squares {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 4ch;
+                margin: 12ch 0 0 0;
+                // WHOLE SQUARE
+                .experience_square {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    width: 28em;
+                    height: 40em;
+                    background-color: $portfolios;
+                    border-radius: 55px;
+                    border: 1px solid $portfolios;
+                    box-shadow: 3px 3px 3px black;
+                    cursor: pointer;
+                    // gap: 3ch;
+                    // Each Square's Graphic
+                    #courdevelops {
+                        width: 8em;
+                        height: 8em;
+                        // margin: -5ch 0 0 0;
+                    }
+                    #slea {
+                        width: 7em;
+                        height: 7em;
+                    }
+                    #r1rcm {
+                        width: 6.3em;
+                        height: 6.3em;
+                    }
+                    // Each Square's Content
+                    .experience_job {
+                        // Overall Descriptions
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        position: relative;
+                        .job_description {
+                            margin: 3ch 0 0 0;
+                            // position: absolute;
+                            .experience_company {
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                font-weight: bold;
+                                font-size: 1.2rem;
+                            }
+                            .experience_position {
+                                color: $descriptionblue;
+                                // color: $jobdescription;
+                                font-family: 'Inter', sans-serif;
+                                font-size: 1rem;
+                            }
+                        }
+                        // job descriptions for js
+                        #job_1_description.dissapear {
+                            transition: .2s ease-out;
+                            opacity: 0;
+                        }
+                        .experience_details {
+                            // Overall job details
+                            display: flex;
+                            gap: 2ch;
+                            color: $descriptionblue;
+                            // color: $jobdescription;
+                            // color: $skillsteal;
+                            // font-weight: bold;
+                            font-family: 'Inter',sans-serif;
+                            padding: 2ch 2ch;
+                            // background-color: tan;
+                            font-size: .1.2rem;
+                            font-size: .7rem;
+                        }
+                        // Custom for Job 1
+                        #exp_details_one {
+                            position: relative;
+                            top: 6ch;
+                            right: .5ch;
+                            opacity: 0;
+                        }
+                        #exp_details_one.show {
+                            transition: .5s ease-in;
+                            opacity: 1;
+                        }
+                        // hover job 1
+                            // Has to be done in JS 
+                            // When you hover over one item (job descr 1)
+                                // change the condition of (exp details one)
+                                // to opacity 1
+                        // Custom for Job 2
+                        #exp_details_two {
+                            position: relative;
+                            top: 7ch;
+                            right: .5ch;
+                            opacity: 0;
+                        }
+                        #exp_details_two.show {
+                            transition: .5s ease-in;
+                            opacity: 1;
+                        }
+                        // Custom for Job 3
+                        #exp_details_three {
+                            position: relative;
+                            top: 8ch;
+                            right: .5ch;
+                            opacity: 0;
+                        }
+                        #exp_details_three.show {
+                            transition: .5s ease-in;
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // BLOG SECTION 1500
+    #blog_section_id {
+        .blog_section_class {
+            display: flex;
+            flex-direction: column;
+            background-color: $nextgreen;
+            height: 105vh;
+            .title_nav {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row-reverse;
+                margin: 10ch 15ch 0 0;
+                // background-color: #7273ad;
+                // ABOUT NAVBAR
+                .blog_desktop_nav {
+                    // move margin of whole thing here
+                    ul {
+                        display: flex;
+                        justify-content: right;
+                        gap: 3ch;
+                        gap: 5ch;
+                        li {
+                            list-style: none;
+                            font-size: 1.2rem;
+                            a {
+                                text-decoration: none;
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                font-weight: bold;
+                            }
+                            #selected {
+                                color: $darkblue;
+                                border: 1px solid white;
+                                background-color: white;
+                                padding: .5ch;
+                                border-radius: 5px;
+                            }
+                        }
+                    }
+                }
+                .section_title {
+                    p {
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        font-weight: bold;
+                        font-size: 4rem;
+                        margin: -.8ch 0 0 3ch;
+                    }
+                }
+            }
+            .blog_circles {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 76vh;
+                gap: 3.5ch;
+                .blog_entry {
+                    // width: 30em;
+                    // height: 30em;
+                    .blog_back_circle {
+                        width: 25em;
+                        height: 25em;
+                        width: 20em;
+                        height: 20em;
+                        background-color: $skillsteal;
+                        border: 3px solid $darkblue;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        box-shadow: 2px 2px 2px black;
+                        .blog_front_circle {
+                            width: 26em;
+                            height: 26em;
+                            width: 21em;
+                            height: 21em;
+                            background-color: $darkblue;
+                            border: none;
+                            border-radius: 50%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: white;
+                            font-family: 'Inter', sans-serif;
+                            font-weight: bold;
+                            cursor: pointer;
+                            p {
+                                font-size: 1.3rem;
+                            }
+                        }
+                    }
+                    .blog_square {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    // CONTACT SECTION 1500
+    #contact_section_id {
+        .contact_section_class {
+            display: flex;
+            flex-direction: column;
+            background-color: $darkblue;
+            height: 100vh;
+            .title_nav {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row-reverse;
+                margin: 10ch 15ch 0 0;
+                // background-color: #7273ad;
+                // ABOUT NAVBAR
+                .contact_desktop_nav {
+                    // move margin of whole thing here
+                    ul {
+                        display: flex;
+                        justify-content: right;
+                        gap: 3ch;
+                        gap: 5ch;
+                        li {
+                            list-style: none;
+                            font-size: 1.2rem;
+                            a {
+                                text-decoration: none;
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                font-weight: bold;
+                            }
+                            #selected {
+                                color: $darkblue;
+                                border: 1px solid white;
+                                background-color: white;
+                                padding: .5ch;
+                                border-radius: 5px;
+                            }
+                        }
+                    }
+                }
+                .section_title {
+                    p {
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        font-weight: bold;
+                        font-size: 4rem;
+                        margin: -.8ch 0 0 3ch;
+                    }
+                }
+            }
+            .contact_section_form {
+                // background-color: #00C6C3;
+                form {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 7ch 0 0 0;
+                    // background-color: #00C6C3;
+                    height: 100%;
+                    gap: 15ch;
+                    .name_email {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 8ch;
+                        margin: -2ch 0 0 0;
+                        .input_div {
+                            display: flex;
+                            flex-direction: column;
+                            label {
+                                font-family: 'Inter', sans-serif;
+                                color: white;
+                                font-size: 1.2rem;
+                            }
+                            input {
+                                background-color: $portfolios;
+                                border-radius: 10px;
+                                border: none;
+                                width: 40em;
+                                height: 5em;
+                            }
+                        }
+                        .home_socials {
+                            display: flex;
+                            // justify-content: center;
+                            align-items: center;
+                            gap: 11ch;
+                            cursor: pointer;
+                            margin: -2ch 0 0 5ch;
+                            // background-color: darkgoldenrod;
+                            #github {
+                                width: 3em;
+                                height: 3em;
+                            }
+                            #twitter {
+                                width: 3em;
+                                height: 3em;
+                            }
+                            #linkedin {
+                                width: 3em;
+                                height: 3em;
+                            }
+                            #instagram {
+                                width: 3.5em;
+                                height: 3.5em;
+                            }
+                        }
+                    }
+                    .message_submit {
+                        margin: -2ch 0 0 0;
+                        .input_div {
+                            display: flex;
+                            flex-direction: column;
+                            label {
+                                font-family: 'Inter', sans-serif;
+                                color: white;
+                                font-size: 1.2rem;
+                            }
+                            textarea {
+                                background-color: $portfolios;
+                                border: none;
+                                border-radius: 10px;
+                                width: 40em;
+                                height: 17em;
+                                resize: none;
+                            }
+                        }
+                        .submit_button {
+                            margin: 4ch 0 0 0;
+                            #submitemail {
+                                background-color: $portfolios;
+                                border-radius: 10px;
+                                border: none;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                width: 40.5em;
+                                height: 5em;
+                                cursor: pointer;
+                                p {
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: 1.2rem;
+                                }
+                            }
+                        }
+                    }
+                }
+                .poweredby {
+                    small {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 12ch;
+                        .copy_name {
+                            margin: 12ch 0 0 0;
+                            .copyrights {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                #copyright_courdevs {
+                                    width: 3em;
+                                    height: 3em;
+                                    margin: 0 1ch 0 0;
+                                }
+                                p {
+                                    color: $portfolios;
+                                    font-family: 'Inter', sans-serif;
+                                }
+                                .courdev {
+                                    color: $firstblue;
+                                    font-family: 'Inter', sans-serif;
+                                }
+                                #phone {
+                                    width: 2em;
+                                    height: 2em;
+                                }
+                                .courdev_num {
+                                    color: $firstblue;
+                                    font-family: 'Inter', sans-serif;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -81,6 +1319,7 @@ $savethis: #7273ad;
         display: flex;
         flex-direction: column;
         background-color: $darkblue;
+        // background-color: yellowgreen;
         height: 105vh;
         // DESKTOP NAVBAR
         .desktop_nav {
@@ -1280,576 +2519,5 @@ $savethis: #7273ad;
 @media screen and (min-width: 1900px) {
     body {
         display: none;
-    }
-
-    // HOME SECTION
-    #home_section_id {
-        display: flex;
-        flex-direction: column;
-        background-color: $darkblue;
-        height: 105vh;
-        // DESKTOP NAVBAR
-        .desktop_nav {
-            // move margin of whole thing here
-            // margin: 6vh 7vw 0 0;
-            // background-color: #7273ad;
-            margin: 10ch 15ch 0 0;
-            ul {
-                display: flex;
-                justify-content: right;
-                gap: 3ch;
-                gap: 5ch;
-                li {
-                    list-style: none;
-                    font-size: 1.2rem;
-                    cursor: pointer;
-                    a {
-                        text-decoration: none;
-                        color: white;
-                        font-family: 'Inter', sans-serif;
-                        font-weight: bold;
-                    }
-                    #selected {
-                        color: $darkblue;
-                        border: 1px solid white;
-                        background-color: white;
-                        padding: .5ch;
-                        border-radius: 5px;
-                    }
-                }
-            }
-        }
-        // MOBILE NAVBAR
-        .mobile_nav {
-            display: none;
-        } 
-        .home_section_content {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            // height: 100vh;
-            // margin: -10vh 0 0 -5vw;
-            // margin: -10ch 0 0 0;
-            margin: 15ch 0 0 0;
-            // background-color: red;
-            gap: 30ch;
-            .logo_div {
-                // background-color: red;
-                width: 30.5em;
-                height: 30.5em;
-                border-radius: 50%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                .back_logo {
-                    background-color: white;
-                    width: 30.5em;
-                    height: 30.5em;
-                    border-radius: 50%;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    .front_logo {
-                        #logo_home {
-                            // width: 25vw;
-                            // height: 25vw;
-                            width: 28em;
-                            height: 28em;
-                        }
-                    }
-                }
-            }
-            // HOME CONTENT WORDS AND SOCIALS
-            .word_content {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                gap: 2.5ch;
-                // NAME AND DESCRIPTION
-                .name_description {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                    .home_name {
-                        color: white;
-                        font-family: 'Inter', sans-serif;
-                        font-size: 3rem;
-                    }
-                    .job_description {
-                        color: $descriptionblue;
-                        background-color: $portfolios;
-                        font-family: 'Inter', sans-serif;
-                        font-size: 1.6rem;
-                        width: 16em;
-                        height: 2em;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        border-radius: 5px;
-                        // padding: 1em 1em;
-                    }
-                }
-                .home_slogan {
-                    text-align: center;
-                    font-family: 'Inter', sans-serif;
-                    font-size: 1.5rem;
-                    font-weight: bold;
-                    color: white;
-                    margin: .3em;
-                }
-                .home_socials {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    gap: 8ch;
-                    #github {
-                        width: 3em;
-                        height: 3em;
-                    }
-                    #twitter {
-                        width: 3em;
-                        height: 3em;
-                    }
-                    #linkedin {
-                        width: 3em;
-                        height: 3em;
-                    }
-                    #instagram {
-                        width: 3.5em;
-                        height: 3.5em;
-                    }
-                }
-                .learn_more {
-                    width: 26em;
-                    height: 3em;
-                    background-color: $portfolios;
-                    border-radius: 25px;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    a {
-                        color: $descriptionblue;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        font-family: 'Inter', sans-serif;
-                        font-size: 1.2rem;
-                        text-decoration: none;
-                    }
-                }
-            }
-        }
-        
-    }
-    // ABOUT SECTION DESKTOP 1900
-    #about_section_id {
-        // background-color: red;
-        .about_section_class {
-            display: flex;
-            flex-direction: column;
-            background-color: $nextgreen;
-            height: 105vh;
-            .title_nav {
-                display: flex;
-                justify-content: space-between;
-                flex-direction: row-reverse;
-                margin: 10ch 15ch 0 0;
-                // background-color: #7273ad;
-                // ABOUT NAVBAR
-                .about_desktop_nav {
-                    // move margin of whole thing here
-                    ul {
-                        display: flex;
-                        justify-content: right;
-                        gap: 3ch;
-                        gap: 5ch;
-                        li {
-                            list-style: none;
-                            font-size: 1.2rem;
-                            a {
-                                text-decoration: none;
-                                color: white;
-                                font-family: 'Inter', sans-serif;
-                                font-weight: bold;
-                            }
-                            #selected {
-                                color: $darkblue;
-                                border: 1px solid white;
-                                background-color: white;
-                                padding: .5ch;
-                                border-radius: 5px;
-                            }
-                        }
-                    }
-                }
-                .section_title {
-                    p {
-                        color: white;
-                        font-family: 'Inter', sans-serif;
-                        font-weight: bold;
-                        font-size: 4rem;
-                        margin: -.8ch 0 0 3ch;
-                    }
-                }
-            }
-            // ABOUT SECTION CONTENT
-            .about_section_content {
-                margin: 8ch 0 0 16.5ch;
-                width: 86%;
-                line-height: 2.5em;
-                p {
-                    color: white;
-                    font-size: 1.5rem;
-                    font-family: 'Inter', sans-serif;
-                }
-                .brand_is {
-                    margin: 2em 0 2em 0;
-                    .brand {
-                        gap: 2ch;
-                        display: flex;
-                        // justify-content: center;
-                        align-items: center;
-                        color: white;
-                        font-family: 'Inter', sans-serif;
-                        font-size: 1.5rem;
-                        #about_logo {
-                            width: 6em;
-                            height: 6em;
-                        }
-                    }
-                }
-                p {
-                    color: white;
-                    font-size: 1.5rem;
-                    font-family: 'Inter', sans-serif;
-                }
-            }
-            .download_resume {
-                background-color: white;
-                width: 26em;
-                height: 3em;
-                border-radius: 25px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin: 5ch 0 0 16.5ch;
-                a {
-                    color: $nextgreen;
-                    font-family: 'Inter', sans-serif;
-                    font-weight: bold;
-                    font-size: 1.2rem;
-                    text-decoration: none;
-                }
-            }
-        }
-    }
-    // PORTFOLIO SECTION 1500
-    #portfolio_section_id {
-        .portfolio_section_class {
-            display: flex;
-            flex-direction: column;
-            background-color: $darkblue;
-            height: 105vh;
-            .title_nav {
-                display: flex;
-                justify-content: space-between;
-                flex-direction: row-reverse;
-                margin: 10ch 15ch 0 0;
-                // background-color: #7273ad;
-                // ABOUT NAVBAR
-                .portfolio_desktop_nav {
-                    // move margin of whole thing here
-                    ul {
-                        display: flex;
-                        justify-content: right;
-                        gap: 3ch;
-                        gap: 5ch;
-                        li {
-                            list-style: none;
-                            font-size: 1.2rem;
-                            a {
-                                text-decoration: none;
-                                color: white;
-                                font-family: 'Inter', sans-serif;
-                                font-weight: bold;
-                            }
-                            #selected {
-                                color: $darkblue;
-                                border: 1px solid white;
-                                background-color: white;
-                                padding: .5ch;
-                                border-radius: 5px;
-                            }
-                        }
-                    }
-                }
-                .section_title {
-                    p {
-                        color: white;
-                        font-family: 'Inter', sans-serif;
-                        font-weight: bold;
-                        font-size: 4rem;
-                        margin: -.8ch 0 0 3ch;
-                    }
-                }
-            }
-            // PORTFOLIO SECTION SQUARES
-            .portfolio_section_squares {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                gap: 10ch;
-                
-                margin: 10ch 0 0 0;
-                .portfolio_square {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    width: 35em;
-                    height: 45em;
-                    
-                    background-color: $portfolios;
-                    border-radius: 55px;
-                    border: 1px solid $portfolios;
-                    cursor: pointer;
-                    #workflow_app {
-                        width: 25em;
-                        margin: 0 0 0 5ch;
-                    }
-                    #create_collab {
-                        width: 26em;
-                        margin: 0 0 0 5ch;
-                    }
-                    #mps_site {
-                        width: 15em;
-                        margin: 0 0 0 7ch;
-                    }
-                }
-            }
-        }
-    }
-    // SKILLS SECTION 1500
-    #skills_section_id {
-        .skills_section_class {
-            display: flex;
-            flex-direction: column;
-            background-color: $nextgreen;
-            height: 105vh;
-            .title_nav {
-                display: flex;
-                justify-content: space-between;
-                flex-direction: row-reverse;
-                margin: 10ch 15ch 0 0;
-                // background-color: #7273ad;
-                // ABOUT NAVBAR
-                .skills_desktop_nav {
-                    // move margin of whole thing here
-                    ul {
-                        display: flex;
-                        justify-content: right;
-                        gap: 3ch;
-                        gap: 5ch;
-                        li {
-                            list-style: none;
-                            font-size: 1.2rem;
-                            a {
-                                text-decoration: none;
-                                color: white;
-                                font-family: 'Inter', sans-serif;
-                                font-weight: bold;
-                            }
-                            #selected {
-                                color: $darkblue;
-                                border: 1px solid white;
-                                background-color: white;
-                                padding: .5ch;
-                                border-radius: 5px;
-                            }
-                        }
-                    }
-                }
-                .section_title {
-                    p {
-                        color: white;
-                        font-family: 'Inter', sans-serif;
-                        font-weight: bold;
-                        font-size: 4rem;
-                        margin: -.8ch 0 0 3ch;
-                    }
-                }
-            }
-            // SKILLS SECTION CONTENT
-            .skills_section_circles {
-                margin: 15ch 0 0 0;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                gap: 10ch;
-                // FIRST 6 CIRCLES
-                .skills_first_6 {
-                    // Middle of the circles
-                    display: flex;
-                    gap: 3ch;
-                    .skills_circles_one {
-                        // The Three sided circles
-                        display: flex;
-                        gap: 3ch;
-                        .skill_circle {
-                            // each circles space
-                            // background-color: #00C6C3;
-                            .skill_back {
-                                background-color: $skillsteal;
-                                width: 10em;
-                                height: 10em;
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                                .skill_front {
-                                    background-color: $darkblue;
-                                    border: none;
-                                    width: 8em;
-                                    height: 8em;
-                                    display: flex;
-                                    flex-direction: column;
-                                    justify-content: center;
-                                    align-items: center;
-                                    .shield {
-                                        width: 4em;
-                                        height: 4em;
-                                    }
-                                    // HTML
-                                    #html {
-                                        transition: .7s all ease-in;
-                                        position: absolute;
-                                    }
-                                    #html.dissapear {
-                                        opacity: 0;
-                                    }
-                                    #html_description {
-                                        opacity: 0;
-                                    }
-                                    #html_description.show {
-                                        transition: .5s all ease-in;
-                                    }
-                                    // CSS
-                                    #css {
-                                        transition: .7s all ease-in;
-                                        position: absolute;
-                                    }
-                                    #css.dissapear {
-                                        opacity: 0;
-                                    }
-                                    #css_description {
-                                        opacity: 0;
-                                    }
-                                    #css_description.show {
-                                        transition: .5s all ease-in;
-                                    }
-                                    // SASS
-                                    #sass {
-                                        width: 4em;
-                                        height: 4em;
-                                        transition: .7s all ease-in;
-                                        position: absolute;
-                                        // margin: -.5vh 0 0 1.5vw;
-                                    }
-                                    #sass.dissapear {
-                                        opacity: 0;
-                                    }
-                                    #sass_description {
-                                        opacity: 0;
-                                    }
-                                    #sass_description.show {
-                                        transition: .5s all ease-in;
-                                    }
-                                    // JS
-                                    #javascript {
-                                        width: 5em;
-                                        height: 5em;
-                                        transition: .7s all ease-in;
-                                        position: absolute;
-                                        margin: 0 0 0 .5vw;
-                                    }
-                                    #javascript.dissapear {
-                                        opacity: 0;
-                                    }
-                                    #javascript_description {
-                                        opacity: 0;
-                                    }
-                                    #javascript_description.show {
-                                        transition: .5s all ease-in;
-                                    }
-                                    // PYTHON
-                                    #python {
-                                        width: 3.5em;
-                                        height: 3.5em;
-                                        transition: .7s all ease-in;
-                                        position: absolute;
-                                        margin: -.5vh 0 0 0;
-                                    }
-                                    #python.dissapear {
-                                        opacity: 0;
-                                    }
-                                    #python_description {
-                                        opacity: 0;
-                                    }
-                                    // REACT
-                                    #react {
-                                        width: 4em;
-                                        height: 4em;
-                                        transition: .7s all ease-in;
-                                        position: absolute;
-                                    }
-                                    #react.dissapear {
-                                        opacity: 0;
-                                    }
-                                    #react_description {
-                                        opacity: 0;
-                                    }
-                                    #react_description.show {
-                                        transition: .5s all ease-in;
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-                // SECOND 6 CIRCLES
-                .skills_second_6 {
-                    display: flex;
-                    gap: 3ch;
-                    .skills_circles_one {
-                        // The Three sided circles
-                        display: flex;
-                        gap: 3ch;
-                        .skill_circle {
-                            // each circles space
-                            // background-color: #00C6C3;
-                            .skill_back {
-                                background-color: $skillsteal;
-                                width: 10em;
-                                height: 10em;
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                                .skill_front {
-                                    background-color: $darkblue;
-                                    border: none;
-                                    width: 8em;
-                                    height: 8em;
-                                    display: flex;
-                                    flex-direction: column;
-                                    justify-content: center;
-                                    align-items: center;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
     }
 }
