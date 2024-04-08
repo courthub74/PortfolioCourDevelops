@@ -40,7 +40,6 @@
     display: flex;
     justify-content: right;
     gap: 3ch;
-    gap: 5ch;
   }
   #home_section_id .desktop_nav ul li {
     list-style: none;
@@ -190,7 +189,6 @@
     display: flex;
     justify-content: right;
     gap: 3ch;
-    gap: 5ch;
   }
   #about_section_id .about_section_class .title_nav .about_desktop_nav ul li {
     list-style: none;
@@ -279,7 +277,6 @@
     display: flex;
     justify-content: right;
     gap: 3ch;
-    gap: 5ch;
   }
   #portfolio_section_id .portfolio_section_class .title_nav .portfolio_desktop_nav ul li {
     list-style: none;
@@ -352,7 +349,6 @@
     display: flex;
     justify-content: right;
     gap: 3ch;
-    gap: 5ch;
   }
   #skills_section_id .skills_section_class .title_nav .skills_desktop_nav ul li {
     list-style: none;
@@ -717,7 +713,6 @@
     display: flex;
     justify-content: right;
     gap: 3ch;
-    gap: 5ch;
   }
   #experience_section_id .experience_section_class .title_nav .experience_desktop_nav ul li {
     list-style: none;
@@ -855,7 +850,6 @@
     display: flex;
     justify-content: right;
     gap: 3ch;
-    gap: 5ch;
   }
   #blog_section_id .blog_section_class .title_nav .blog_desktop_nav ul li {
     list-style: none;
@@ -939,7 +933,6 @@
     display: flex;
     justify-content: right;
     gap: 3ch;
-    gap: 5ch;
   }
   #contact_section_id .contact_section_class .title_nav .contact_desktop_nav ul li {
     list-style: none;
