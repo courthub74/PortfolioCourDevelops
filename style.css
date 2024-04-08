@@ -34,7 +34,7 @@
     height: 105vh;
   }
   #home_section_id .desktop_nav {
-    margin: 10ch 15ch 0 0;
+    margin: 10ch 10ch 0 0;
   }
   #home_section_id .desktop_nav ul {
     display: flex;
@@ -183,7 +183,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
-    margin: 10ch 15ch 0 0;
+    margin: 10ch 10ch 0 0;
   }
   #about_section_id .about_section_class .title_nav .about_desktop_nav ul {
     display: flex;
@@ -271,7 +271,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
-    margin: 10ch 15ch 0 0;
+    margin: 10ch 10ch 0 0;
   }
   #portfolio_section_id .portfolio_section_class .title_nav .portfolio_desktop_nav ul {
     display: flex;
@@ -343,7 +343,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
-    margin: 10ch 15ch 0 0;
+    margin: 10ch 10ch 0 0;
   }
   #skills_section_id .skills_section_class .title_nav .skills_desktop_nav ul {
     display: flex;
@@ -707,7 +707,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
-    margin: 10ch 15ch 0 0;
+    margin: 10ch 10ch 0 0;
   }
   #experience_section_id .experience_section_class .title_nav .experience_desktop_nav ul {
     display: flex;
@@ -844,7 +844,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
-    margin: 10ch 15ch 0 0;
+    margin: 10ch 10ch 0 0;
   }
   #blog_section_id .blog_section_class .title_nav .blog_desktop_nav ul {
     display: flex;
@@ -927,7 +927,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
-    margin: 10ch 15ch 0 0;
+    margin: 10ch 10ch 0 0;
   }
   #contact_section_id .contact_section_class .title_nav .contact_desktop_nav ul {
     display: flex;
@@ -965,6 +965,7 @@
     margin: 7ch 0 0 0;
     height: 100%;
     gap: 15ch;
+    gap: 10ch;
   }
   #contact_section_id .contact_section_class .contact_section_form form .name_email {
     display: flex;
@@ -985,13 +986,13 @@
     background-color: #36395D;
     border-radius: 10px;
     border: none;
-    width: 40em;
+    width: 30em;
     height: 5em;
   }
   #contact_section_id .contact_section_class .contact_section_form form .name_email .home_socials {
     display: flex;
     align-items: center;
-    gap: 11ch;
+    gap: 6ch;
     cursor: pointer;
     margin: -2ch 0 0 5ch;
   }
@@ -1027,7 +1028,7 @@
     background-color: #36395D;
     border: none;
     border-radius: 10px;
-    width: 40em;
+    width: 30em;
     height: 17em;
     resize: none;
   }
@@ -1041,7 +1042,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40.5em;
+    width: 30.5em;
     height: 5em;
     cursor: pointer;
   }
@@ -1057,7 +1058,7 @@
     gap: 12ch;
   }
   #contact_section_id .contact_section_class .contact_section_form .poweredby small .copy_name {
-    margin: 12ch 0 0 0;
+    margin: 8ch 0 0 0;
   }
   #contact_section_id .contact_section_class .contact_section_form .poweredby small .copy_name .copyrights {
     display: flex;

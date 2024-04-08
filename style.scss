@@ -103,9 +103,7 @@ $savethis: #7273ad;
         // DESKTOP NAVBAR
         .desktop_nav {
             // move margin of whole thing here
-            // margin: 6vh 7vw 0 0;
-            // background-color: #7273ad;
-            margin: 10ch 15ch 0 0;
+            margin: 10ch 10ch 0 0;
             ul {
                 display: flex;
                 justify-content: right;
@@ -270,7 +268,7 @@ $savethis: #7273ad;
                 display: flex;
                 justify-content: space-between;
                 flex-direction: row-reverse;
-                margin: 10ch 15ch 0 0;
+                margin: 10ch 10ch 0 0;
                 // background-color: #7273ad;
                 // ABOUT NAVBAR
                 .about_desktop_nav {
@@ -371,7 +369,7 @@ $savethis: #7273ad;
                 display: flex;
                 justify-content: space-between;
                 flex-direction: row-reverse;
-                margin: 10ch 15ch 0 0;
+                margin: 10ch 10ch 0 0;
                 // background-color: #7273ad;
                 // ABOUT NAVBAR
                 .portfolio_desktop_nav {
@@ -455,7 +453,7 @@ $savethis: #7273ad;
                 display: flex;
                 justify-content: space-between;
                 flex-direction: row-reverse;
-                margin: 10ch 15ch 0 0;
+                margin: 10ch 10ch 0 0;
                 // background-color: #7273ad;
                 // ABOUT NAVBAR
                 .skills_desktop_nav {
@@ -859,7 +857,7 @@ $savethis: #7273ad;
                 display: flex;
                 justify-content: space-between;
                 flex-direction: row-reverse;
-                margin: 10ch 15ch 0 0;
+                margin: 10ch 10ch 0 0;
                 // background-color: #7273ad;
                 // ABOUT NAVBAR
                 .experience_desktop_nav {
@@ -1029,7 +1027,7 @@ $savethis: #7273ad;
                 display: flex;
                 justify-content: space-between;
                 flex-direction: row-reverse;
-                margin: 10ch 15ch 0 0;
+                margin: 10ch 10ch 0 0;
                 // background-color: #7273ad;
                 // ABOUT NAVBAR
                 .blog_desktop_nav {
@@ -1127,7 +1125,7 @@ $savethis: #7273ad;
                 display: flex;
                 justify-content: space-between;
                 flex-direction: row-reverse;
-                margin: 10ch 15ch 0 0;
+                margin: 10ch 10ch 0 0;
                 // background-color: #7273ad;
                 // ABOUT NAVBAR
                 .contact_desktop_nav {
@@ -1176,6 +1174,7 @@ $savethis: #7273ad;
                     // background-color: #00C6C3;
                     height: 100%;
                     gap: 15ch;
+                    gap: 10ch;
                     .name_email {
                         display: flex;
                         flex-direction: column;
@@ -1193,7 +1192,7 @@ $savethis: #7273ad;
                                 background-color: $portfolios;
                                 border-radius: 10px;
                                 border: none;
-                                width: 40em;
+                                width: 30em;
                                 height: 5em;
                             }
                         }
@@ -1201,7 +1200,7 @@ $savethis: #7273ad;
                             display: flex;
                             // justify-content: center;
                             align-items: center;
-                            gap: 11ch;
+                            gap: 6ch;
                             cursor: pointer;
                             margin: -2ch 0 0 5ch;
                             // background-color: darkgoldenrod;
@@ -1237,7 +1236,7 @@ $savethis: #7273ad;
                                 background-color: $portfolios;
                                 border: none;
                                 border-radius: 10px;
-                                width: 40em;
+                                width: 30em;
                                 height: 17em;
                                 resize: none;
                             }
@@ -1251,7 +1250,7 @@ $savethis: #7273ad;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
-                                width: 40.5em;
+                                width: 30.5em;
                                 height: 5em;
                                 cursor: pointer;
                                 p {
@@ -1270,7 +1269,7 @@ $savethis: #7273ad;
                         align-items: center;
                         gap: 12ch;
                         .copy_name {
-                            margin: 12ch 0 0 0;
+                            margin: 8ch 0 0 0;
                             .copyrights {
                                 display: flex;
                                 justify-content: center;
