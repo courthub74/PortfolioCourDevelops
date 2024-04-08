@@ -268,6 +268,7 @@ $savethis: #7273ad;
                 justify-content: space-between;
                 flex-direction: row-reverse;
                 margin: 10ch 10ch 0 0;
+                margin: 10ch 14ch 0 0;
                 // background-color: #7273ad;
                 // ABOUT NAVBAR
                 .about_desktop_nav {
@@ -276,7 +277,7 @@ $savethis: #7273ad;
                         display: flex;
                         justify-content: right;
                         gap: 3ch;
-                        // gap: 5ch;
+                        gap: 2ch;
                         li {
                             list-style: none;
                             font-size: 1.2rem;
@@ -305,17 +306,18 @@ $savethis: #7273ad;
                         font-size: 4rem;
                         font-size: 3rem;
                         // margin: -.8ch 0 0 3ch;
-                        margin: -.8ch 0 0 4ch;
+                        margin: -.8ch 0 0 3ch;
                     }
                 }
             }
             // ABOUT SECTION CONTENT
             .about_section_content {
                 margin: 8ch 0 0 16.5ch;
-                margin: 6ch 0 0 16.5ch;
-                width: 82%;
+                margin: 6ch 0 0 12.5ch;
+                width: 84%;
                 line-height: 2.5em;
-                line-height: 1.8em;
+                line-height: 2em;
+                // background-color: yellow;
                 p {
                     color: white;
                     font-size: 1.1rem;
@@ -330,7 +332,7 @@ $savethis: #7273ad;
                         align-items: center;
                         color: white;
                         font-family: 'Inter', sans-serif;
-                        font-size: 1.2rem;
+                        font-size: 1.1rem;
                         #about_logo {
                             width: 5.5em;
                             height: 5.5em;
@@ -339,7 +341,7 @@ $savethis: #7273ad;
                 }
                 p {
                     color: white;
-                    font-size: 1.2rem;
+                    font-size: 1.1rem;
                     font-family: 'Inter', sans-serif;
                 }
             }
@@ -351,8 +353,8 @@ $savethis: #7273ad;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                margin: 8ch 0 0 16.5ch;
                 margin: 4ch 0 0 16.5ch;
+                margin: 4ch 0 0 12.5ch;
                 a {
                     color: $nextgreen;
                     font-family: 'Inter', sans-serif;
@@ -375,6 +377,7 @@ $savethis: #7273ad;
                 justify-content: space-between;
                 flex-direction: row-reverse;
                 margin: 10ch 10ch 0 0;
+                margin: 10ch 14ch 0 0;
                 // background-color: #7273ad;
                 // ABOUT NAVBAR
                 .portfolio_desktop_nav {
@@ -383,7 +386,7 @@ $savethis: #7273ad;
                         display: flex;
                         justify-content: right;
                         gap: 3ch;
-                        // gap: 5ch;
+                        gap: 2ch;
                         li {
                             list-style: none;
                             font-size: 1.2rem;
@@ -412,7 +415,7 @@ $savethis: #7273ad;
                         font-size: 4rem;
                         font-size: 3rem;
                         // margin: -.8ch 0 0 3ch;
-                        margin: -.8ch 0 0 4ch;
+                        margin: -.8ch 0 0 3ch;
                     }
                 }
             }
@@ -427,8 +430,8 @@ $savethis: #7273ad;
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    width: 22em;
-                    height: 35em;
+                    width: 23em;
+                    height: 33em;
                     background-color: $portfolios;
                     border-radius: 55px;
                     border: 1px solid $portfolios;
@@ -439,11 +442,11 @@ $savethis: #7273ad;
                         margin: 0 0 0 5ch;
                     }
                     #create_collab {
-                        width: 26em;
-                        margin: 0 0 0 5ch;
+                        width: 19em;
+                        margin: 0 0 0 4ch;
                     }
                     #mps_site {
-                        width: 15em;
+                        width: 12em;
                         margin: 0 0 0 7ch;
                     }
                 }
@@ -470,10 +473,11 @@ $savethis: #7273ad;
                         display: flex;
                         justify-content: right;
                         gap: 3ch;
-                        // gap: 5ch;
+                        gap: 2ch;
                         li {
                             list-style: none;
                             font-size: 1.2rem;
+                            font-size: 1rem;
                             a {
                                 text-decoration: none;
                                 color: white;
@@ -481,7 +485,7 @@ $savethis: #7273ad;
                                 font-weight: bold;
                             }
                             #selected {
-                                color: $darkblue;
+                                color: $nextgreen;
                                 border: 1px solid white;
                                 background-color: white;
                                 padding: .5ch;
@@ -496,13 +500,14 @@ $savethis: #7273ad;
                         font-family: 'Inter', sans-serif;
                         font-weight: bold;
                         font-size: 4rem;
+                        font-size: 3rem;
                         margin: -.8ch 0 0 3ch;
                     }
                 }
             }
             // SKILLS SECTION CONTENT
             .skills_section_circles {
-                margin: 18ch 0 0 0;
+                margin: 15ch 0 0 0;
                 // margin: 18ch 0 0 0;
                 display: flex;
                 flex-direction: column;
@@ -513,21 +518,21 @@ $savethis: #7273ad;
                 .skills_first_6 {
                     // Middle of the circles
                     display: flex;
-                    gap: 3ch;
+                    gap: 2ch;
                     .skills_circles_one {
                         // The Three sided circles
                         display: flex;
-                        gap: 3ch;
+                        gap: 2ch;
                         .skill_circle {
                             // each circles space
                             // background-color: #00C6C3;
                             .skill_back {
                                 background-color: $skillsteal;
                                 border: 3px solid $darkblue;
-                                width: 11em;
-                                height: 11em;
                                 width: 8em;
                                 height: 8em;
+                                width: 9em;
+                                height: 9em;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
@@ -536,10 +541,10 @@ $savethis: #7273ad;
                                 .skill_front {
                                     background-color: $darkblue;
                                     border: none;
-                                    width: 11em;
-                                    height: 11em;
                                     width: 8em;
                                     height: 8em;
+                                    width: 9em;
+                                    height: 9em;
                                     display: flex;
                                     flex-direction: column;
                                     justify-content: center;
@@ -683,11 +688,11 @@ $savethis: #7273ad;
                 // SECOND 6 CIRCLES
                 .skills_second_6 {
                     display: flex;
-                    gap: 3ch;
+                    gap: 2ch;
                     .skills_circles_one {
                         // The Three sided circles
                         display: flex;
-                        gap: 3ch;
+                        gap: 2ch;
                         .skill_circle {
                             // each circles space
                             // background-color: #00C6C3;
@@ -696,8 +701,8 @@ $savethis: #7273ad;
                                 border: 3px solid $darkblue;
                                 width: 11em;
                                 height: 11em;
-                                width: 8em;
-                                height: 8em;
+                                width: 9em;
+                                height: 9em;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
@@ -708,8 +713,8 @@ $savethis: #7273ad;
                                     border: none;
                                     width: 11em;
                                     height: 11em;
-                                    width: 8em;
-                                    height: 8em;
+                                    width: 9em;
+                                    height: 9em;
                                     display: flex;
                                     flex-direction: column;
                                     justify-content: center;
@@ -874,10 +879,11 @@ $savethis: #7273ad;
                         display: flex;
                         justify-content: right;
                         gap: 3ch;
-                        // gap: 5ch;
+                        gap: 2ch;
                         li {
                             list-style: none;
                             font-size: 1.2rem;
+                            font-size: 1rem;
                             a {
                                 text-decoration: none;
                                 color: white;
@@ -900,6 +906,7 @@ $savethis: #7273ad;
                         font-family: 'Inter', sans-serif;
                         font-weight: bold;
                         font-size: 4rem;
+                        font-size: 3rem;
                         margin: -.8ch 0 0 3ch;
                     }
                 }
@@ -916,8 +923,8 @@ $savethis: #7273ad;
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
-                    width: 28em;
-                    height: 40em;
+                    width: 23em;
+                    height: 33em;
                     background-color: $portfolios;
                     border-radius: 55px;
                     border: 1px solid $portfolios;
@@ -926,17 +933,17 @@ $savethis: #7273ad;
                     // gap: 3ch;
                     // Each Square's Graphic
                     #courdevelops {
-                        width: 8em;
-                        height: 8em;
+                        width: 7em;
+                        height: 7em;
                         // margin: -5ch 0 0 0;
                     }
                     #slea {
-                        width: 7em;
-                        height: 7em;
+                        width: 6em;
+                        height: 6em;
                     }
                     #r1rcm {
-                        width: 6.3em;
-                        height: 6.3em;
+                        width: 5.5em;
+                        height: 5.5em;
                     }
                     // Each Square's Content
                     .experience_job {
@@ -1044,10 +1051,11 @@ $savethis: #7273ad;
                         display: flex;
                         justify-content: right;
                         gap: 3ch;
-                        // gap: 5ch;
+                        gap: 2ch;
                         li {
                             list-style: none;
                             font-size: 1.2rem;
+                            font-size: 1rem;
                             a {
                                 text-decoration: none;
                                 color: white;
@@ -1055,7 +1063,7 @@ $savethis: #7273ad;
                                 font-weight: bold;
                             }
                             #selected {
-                                color: $darkblue;
+                                color: $nextgreen;
                                 border: 1px solid white;
                                 background-color: white;
                                 padding: .5ch;
@@ -1070,6 +1078,7 @@ $savethis: #7273ad;
                         font-family: 'Inter', sans-serif;
                         font-weight: bold;
                         font-size: 4rem;
+                        font-size: 3rem;
                         margin: -.8ch 0 0 3ch;
                     }
                 }
@@ -1142,10 +1151,11 @@ $savethis: #7273ad;
                         display: flex;
                         justify-content: right;
                         gap: 3ch;
-                        // gap: 5ch;
+                        gap: 2ch;
                         li {
                             list-style: none;
                             font-size: 1.2rem;
+                            font-size: 1rem;
                             a {
                                 text-decoration: none;
                                 color: white;
@@ -1168,6 +1178,7 @@ $savethis: #7273ad;
                         font-family: 'Inter', sans-serif;
                         font-weight: bold;
                         font-size: 4rem;
+                        font-size: 3rem;
                         margin: -.8ch 0 0 3ch;
                     }
                 }
@@ -1200,7 +1211,7 @@ $savethis: #7273ad;
                                 background-color: $portfolios;
                                 border-radius: 10px;
                                 border: none;
-                                width: 30em;
+                                width: 32em;
                                 height: 5em;
                             }
                         }
@@ -1210,7 +1221,7 @@ $savethis: #7273ad;
                             align-items: center;
                             gap: 6ch;
                             cursor: pointer;
-                            margin: -2ch 0 0 5ch;
+                            margin: -2ch 0 0 5.5ch;
                             // background-color: darkgoldenrod;
                             #github {
                                 width: 3em;
@@ -1244,7 +1255,7 @@ $savethis: #7273ad;
                                 background-color: $portfolios;
                                 border: none;
                                 border-radius: 10px;
-                                width: 30em;
+                                width: 32em;
                                 height: 17em;
                                 resize: none;
                             }
@@ -1259,12 +1270,13 @@ $savethis: #7273ad;
                                 justify-content: center;
                                 align-items: center;
                                 width: 30.5em;
+                                width: 32.5em;
                                 height: 5em;
                                 cursor: pointer;
                                 p {
                                     color: white;
                                     font-family: 'Inter', sans-serif;
-                                    font-size: 1.2rem;
+                                    font-size: 1.1rem;
                                 }
                             }
                         }

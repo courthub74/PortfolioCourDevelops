@@ -184,11 +184,13 @@
     justify-content: space-between;
     flex-direction: row-reverse;
     margin: 10ch 10ch 0 0;
+    margin: 10ch 14ch 0 0;
   }
   #about_section_id .about_section_class .title_nav .about_desktop_nav ul {
     display: flex;
     justify-content: right;
     gap: 3ch;
+    gap: 2ch;
   }
   #about_section_id .about_section_class .title_nav .about_desktop_nav ul li {
     list-style: none;
@@ -214,14 +216,14 @@
     font-weight: bold;
     font-size: 4rem;
     font-size: 3rem;
-    margin: -0.8ch 0 0 4ch;
+    margin: -0.8ch 0 0 3ch;
   }
   #about_section_id .about_section_class .about_section_content {
     margin: 8ch 0 0 16.5ch;
-    margin: 6ch 0 0 16.5ch;
-    width: 82%;
+    margin: 6ch 0 0 12.5ch;
+    width: 84%;
     line-height: 2.5em;
-    line-height: 1.8em;
+    line-height: 2em;
   }
   #about_section_id .about_section_class .about_section_content p {
     color: white;
@@ -237,7 +239,7 @@
     align-items: center;
     color: white;
     font-family: "Inter", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   #about_section_id .about_section_class .about_section_content .brand_is .brand #about_logo {
     width: 5.5em;
@@ -245,7 +247,7 @@
   }
   #about_section_id .about_section_class .about_section_content p {
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: "Inter", sans-serif;
   }
   #about_section_id .about_section_class .download_resume {
@@ -256,8 +258,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 8ch 0 0 16.5ch;
     margin: 4ch 0 0 16.5ch;
+    margin: 4ch 0 0 12.5ch;
   }
   #about_section_id .about_section_class .download_resume a {
     color: #00313E;
@@ -277,11 +279,13 @@
     justify-content: space-between;
     flex-direction: row-reverse;
     margin: 10ch 10ch 0 0;
+    margin: 10ch 14ch 0 0;
   }
   #portfolio_section_id .portfolio_section_class .title_nav .portfolio_desktop_nav ul {
     display: flex;
     justify-content: right;
     gap: 3ch;
+    gap: 2ch;
   }
   #portfolio_section_id .portfolio_section_class .title_nav .portfolio_desktop_nav ul li {
     list-style: none;
@@ -307,7 +311,7 @@
     font-weight: bold;
     font-size: 4rem;
     font-size: 3rem;
-    margin: -0.8ch 0 0 4ch;
+    margin: -0.8ch 0 0 3ch;
   }
   #portfolio_section_id .portfolio_section_class .portfolio_section_squares {
     display: flex;
@@ -320,8 +324,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 22em;
-    height: 35em;
+    width: 23em;
+    height: 33em;
     background-color: #36395D;
     border-radius: 55px;
     border: 1px solid #36395D;
@@ -333,11 +337,11 @@
     margin: 0 0 0 5ch;
   }
   #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square #create_collab {
-    width: 26em;
-    margin: 0 0 0 5ch;
+    width: 19em;
+    margin: 0 0 0 4ch;
   }
   #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square #mps_site {
-    width: 15em;
+    width: 12em;
     margin: 0 0 0 7ch;
   }
   #skills_section_id .skills_section_class {
@@ -356,10 +360,12 @@
     display: flex;
     justify-content: right;
     gap: 3ch;
+    gap: 2ch;
   }
   #skills_section_id .skills_section_class .title_nav .skills_desktop_nav ul li {
     list-style: none;
     font-size: 1.2rem;
+    font-size: 1rem;
   }
   #skills_section_id .skills_section_class .title_nav .skills_desktop_nav ul li a {
     text-decoration: none;
@@ -368,7 +374,7 @@
     font-weight: bold;
   }
   #skills_section_id .skills_section_class .title_nav .skills_desktop_nav ul li #selected {
-    color: #080E2F;
+    color: #00313E;
     border: 1px solid white;
     background-color: white;
     padding: 0.5ch;
@@ -379,10 +385,11 @@
     font-family: "Inter", sans-serif;
     font-weight: bold;
     font-size: 4rem;
+    font-size: 3rem;
     margin: -0.8ch 0 0 3ch;
   }
   #skills_section_id .skills_section_class .skills_section_circles {
-    margin: 18ch 0 0 0;
+    margin: 15ch 0 0 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -391,19 +398,19 @@
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_first_6 {
     display: flex;
-    gap: 3ch;
+    gap: 2ch;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_first_6 .skills_circles_one {
     display: flex;
-    gap: 3ch;
+    gap: 2ch;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_first_6 .skills_circles_one .skill_circle .skill_back {
     background-color: #146166;
     border: 3px solid #080E2F;
-    width: 11em;
-    height: 11em;
     width: 8em;
     height: 8em;
+    width: 9em;
+    height: 9em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -413,10 +420,10 @@
   #skills_section_id .skills_section_class .skills_section_circles .skills_first_6 .skills_circles_one .skill_circle .skill_back .skill_front {
     background-color: #080E2F;
     border: none;
-    width: 11em;
-    height: 11em;
     width: 8em;
     height: 8em;
+    width: 9em;
+    height: 9em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -547,19 +554,19 @@
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 {
     display: flex;
-    gap: 3ch;
+    gap: 2ch;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one {
     display: flex;
-    gap: 3ch;
+    gap: 2ch;
   }
   #skills_section_id .skills_section_class .skills_section_circles .skills_second_6 .skills_circles_one .skill_circle .skill_back {
     background-color: #146166;
     border: 3px solid #080E2F;
     width: 11em;
     height: 11em;
-    width: 8em;
-    height: 8em;
+    width: 9em;
+    height: 9em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -571,8 +578,8 @@
     border: none;
     width: 11em;
     height: 11em;
-    width: 8em;
-    height: 8em;
+    width: 9em;
+    height: 9em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -720,10 +727,12 @@
     display: flex;
     justify-content: right;
     gap: 3ch;
+    gap: 2ch;
   }
   #experience_section_id .experience_section_class .title_nav .experience_desktop_nav ul li {
     list-style: none;
     font-size: 1.2rem;
+    font-size: 1rem;
   }
   #experience_section_id .experience_section_class .title_nav .experience_desktop_nav ul li a {
     text-decoration: none;
@@ -743,6 +752,7 @@
     font-family: "Inter", sans-serif;
     font-weight: bold;
     font-size: 4rem;
+    font-size: 3rem;
     margin: -0.8ch 0 0 3ch;
   }
   #experience_section_id .experience_section_class .experience_section_squares {
@@ -757,8 +767,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 28em;
-    height: 40em;
+    width: 23em;
+    height: 33em;
     background-color: #36395D;
     border-radius: 55px;
     border: 1px solid #36395D;
@@ -766,16 +776,16 @@
     cursor: pointer;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_square #courdevelops {
-    width: 8em;
-    height: 8em;
-  }
-  #experience_section_id .experience_section_class .experience_section_squares .experience_square #slea {
     width: 7em;
     height: 7em;
   }
+  #experience_section_id .experience_section_class .experience_section_squares .experience_square #slea {
+    width: 6em;
+    height: 6em;
+  }
   #experience_section_id .experience_section_class .experience_section_squares .experience_square #r1rcm {
-    width: 6.3em;
-    height: 6.3em;
+    width: 5.5em;
+    height: 5.5em;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_square .experience_job {
     display: flex;
@@ -857,10 +867,12 @@
     display: flex;
     justify-content: right;
     gap: 3ch;
+    gap: 2ch;
   }
   #blog_section_id .blog_section_class .title_nav .blog_desktop_nav ul li {
     list-style: none;
     font-size: 1.2rem;
+    font-size: 1rem;
   }
   #blog_section_id .blog_section_class .title_nav .blog_desktop_nav ul li a {
     text-decoration: none;
@@ -869,7 +881,7 @@
     font-weight: bold;
   }
   #blog_section_id .blog_section_class .title_nav .blog_desktop_nav ul li #selected {
-    color: #080E2F;
+    color: #00313E;
     border: 1px solid white;
     background-color: white;
     padding: 0.5ch;
@@ -880,6 +892,7 @@
     font-family: "Inter", sans-serif;
     font-weight: bold;
     font-size: 4rem;
+    font-size: 3rem;
     margin: -0.8ch 0 0 3ch;
   }
   #blog_section_id .blog_section_class .blog_circles {
@@ -940,10 +953,12 @@
     display: flex;
     justify-content: right;
     gap: 3ch;
+    gap: 2ch;
   }
   #contact_section_id .contact_section_class .title_nav .contact_desktop_nav ul li {
     list-style: none;
     font-size: 1.2rem;
+    font-size: 1rem;
   }
   #contact_section_id .contact_section_class .title_nav .contact_desktop_nav ul li a {
     text-decoration: none;
@@ -963,6 +978,7 @@
     font-family: "Inter", sans-serif;
     font-weight: bold;
     font-size: 4rem;
+    font-size: 3rem;
     margin: -0.8ch 0 0 3ch;
   }
   #contact_section_id .contact_section_class .contact_section_form form {
@@ -993,7 +1009,7 @@
     background-color: #36395D;
     border-radius: 10px;
     border: none;
-    width: 30em;
+    width: 32em;
     height: 5em;
   }
   #contact_section_id .contact_section_class .contact_section_form form .name_email .home_socials {
@@ -1001,7 +1017,7 @@
     align-items: center;
     gap: 6ch;
     cursor: pointer;
-    margin: -2ch 0 0 5ch;
+    margin: -2ch 0 0 5.5ch;
   }
   #contact_section_id .contact_section_class .contact_section_form form .name_email .home_socials #github {
     width: 3em;
@@ -1035,7 +1051,7 @@
     background-color: #36395D;
     border: none;
     border-radius: 10px;
-    width: 30em;
+    width: 32em;
     height: 17em;
     resize: none;
   }
@@ -1050,13 +1066,14 @@
     justify-content: center;
     align-items: center;
     width: 30.5em;
+    width: 32.5em;
     height: 5em;
     cursor: pointer;
   }
   #contact_section_id .contact_section_class .contact_section_form form .message_submit .submit_button #submitemail p {
     color: white;
     font-family: "Inter", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   #contact_section_id .contact_section_class .contact_section_form .poweredby small {
     display: flex;
