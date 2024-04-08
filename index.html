@@ -4,40 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CourDevelops</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
     <div class="container">
         <!-- HOME SECTION -->
         <section id="home_section_id">
-            <div class="home_section_class">
-                <!-- DESKTOP NAVBAR -->
-                <div class="desktop_nav">
-                    <!-- <div class="nav_logo_home">
-                        <img src="./img/logos/CourdevelopsPurple.png" alt="logo">
-                    </div> -->
-                    <ul>
-                        <li><a id="selected" href="#home_section_id">Home</a></li>
-                        <li><a href="#about_section_id">About</a></li>
-                        <li><a href="#portfolio_section_id">Portfolio</a></li>
-                        <li><a href="#skills_section_id">Skills</a></li>
-                        <li><a href="#experience_section_id">Experience</a></li>
-                        <li><a href="#blog_section_id">Blog</a></li>
-                        <li><a href="#contact_section_id">Contact</a></li>
-                    </ul>
+           <!-- Maybe Place the NavBar HERE -->
+            <!-- DESKTOP NAVBAR -->
+            <nav class="desktop_nav">
+                <!-- <div class="nav_logo_home">
+                    <img src="./img/logos/CourdevelopsPurple.png" alt="logo">
+                </div> -->
+                <ul>
+                    <li><a id="selected" href="#home_section_id">Home</a></li>
+                    <li><a href="#about_section_id">About</a></li>
+                    <li><a href="#portfolio_section_id">Portfolio</a></li>
+                    <li><a href="#skills_section_id">Skills</a></li>
+                    <li><a href="#experience_section_id">Experience</a></li>
+                    <li><a href="#blog_section_id">Blog</a></li>
+                    <li><a href="#contact_section_id">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- MOBILE NAVBAR -->
+            <nav class="mobile_nav">
+                <div class="you_nav">
+                    <p class="you">Courtney Jacobs</p>
+                    <p class="job">Web Application Maker</p>
                 </div>
-                <!-- MOBILE NAVBAR -->
-                <nav>
-                    <div class="you_nav">
-                        <p class="you">Courtney Jacobs</p>
-                        <p class="job">Web Application Maker</p>
-                    </div>
-                    <!-- <img src="./img/menu/hamburger.png" id="hamburger"> -->
-                    <button class="menu_button_div">
-                        <img src="./img/menu/three_dots_menu.png" id="dots_menu" alt="dots_menu">
-                    </button>
-                </nav>
+                <!-- <img src="./img/menu/hamburger.png" id="hamburger"> -->
+                <button class="menu_button_div">
+                    <img src="./img/menu/three_dots_menu.png" id="dots_menu" alt="dots_menu">
+                </button>
+            </nav>
+            
+                
+                
+                <!-- HOME SECTION CONTENT -->
                 <div class="home_section_content">
 
                     <!-- BIG HOME LOGO -->
@@ -77,7 +81,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            
         </section>
         <!-- ------------- -->
         <!-- ------------- -->
@@ -120,11 +124,12 @@
 
                     <p>
                         From design to development I possess a life long pursuit of making user friendly applications that raise work productivity.    
-                        Honing my skills in Front End and Back End development,  I have exposed  myself and become accomplished in several languages. 
-                        Dedicated coding is a daily part of my life at home. The challenge of problem solving is why I enjoy coding projects. 
+                        Honing my skills in Front End and Back End development,  I have exposed  myself and become accomplished in several languages and technologies. 
+                        Dedicated coding is a daily part of my life at home. The challenge of problem solving is why I enjoy coding projects. <br><br> 
                         My approach is to see the over-arching goal of the companies challenge and to compose the most efficient way there.  
                         Through different avenues of research, I stay current in the relevant technologies in web development.  
                         It would be my pleasure become part of your team! 
+                    </p>
 
                         <div class="brand_is">
                             <!-- <p>I have designed websites, developed logins, and added features 
@@ -135,7 +140,8 @@
                                 </div>
                         </div>
 
-                        When asked if I won the. 6-7 figure lotto would I still want to program ? The answer is YES.  
+                    <p>
+                        When asked if I won the 7 figure lotto would I still want to program? The answer is YES. 
                         I am a product architect that values simplicity. Apps should be easy and effortless for the end user, 
                         allowing more focus on productivity.
                     </p>
@@ -148,6 +154,19 @@
 
             </div>
         </section>
+        <!-- ------------- -->
+        <!-- ------------- -->
+        <!-- ------------- -->
+        <!-- ------------- -->
+        <!-- ------------- -->
+        <!-- ------------- -->
+        <!-- ------------- -->
+        <!-- ------------- -->
+        <!-- ------------- -->
+        <!-- ------------- -->
+        <!-- ------------- -->
+        <!-- ------------- -->
+        <!-- ------------- -->
         <!-- PORTFOLIO SECTION -->
         <section id="portfolio_section_id">
             <div class="portfolio_section_class">
@@ -257,7 +276,7 @@
                                 <!-- Outer Circle -->
                                 <div class="skill_back">
                                     <!-- Inner Circle that's a Button -->
-                                    <button class="skill_front" id="saas_skill">
+                                    <button class="skill_front" id="sass_skill">
                                         <img src="./img/skills/frontend/whiteicons/sass2.png" id="sass" alt="sass">
                                         <div id="sass_description">Sass</div>
                                     </button>
@@ -337,7 +356,7 @@
                                     <!-- Inner Circle that's a Button -->
                                     <button class="skill_front" id="mongo_skill">
                                         <img src="./img/skills/backend/whiteicons/mongo.png" id="mongo" alt="mongo">
-                                        <div class="description" id="mongo_description">Mongo</div>
+                                        <div class="description" id="mongo_description">MongoDB</div>
                                     </button>
                                 </div>
                             </div>
@@ -412,20 +431,35 @@
                 <div class="experience_section_squares">
 
                     <!-- Job 1 -->
-                    <button class="experience_1_square" id="job_1">
+                    <button class="experience_square" id="job_1">
                        <!-- <div class="job_1_img">   
                        </div> -->
 
                        <img src="./img/logos/CourdevelopsWhite.png" id="courdevelops" alt="courdevelops">
 
-                        <div class="job_1_description" id="job_1_description">
-                            <p class="experience_company">CourDevelops</p>
-                            <p class="experience_position">Web Developer</p>
-                        </div>
+                       <div class="experience_job">
+                            <div class="job_description" id="job_1_description">
+                                <p class="experience_company">CourDevelops</p>
+                                <p class="experience_position">Web Developer</p>
+                                <div class="experience_details" id="exp_details_one">
+                                    <!-- <p>Web Applications</p> -->
+                                    <p>UX/UI Design</p>
+                                    <!-- <p>Web Frameworks</p> -->
+                                    <p>Cloud Hosting</p>
+                                </div>
+                            </div>
+                            <!-- <div class="experience_details" id="exp_details_one">
+                                <ul>
+                                    <li>Web Applications</li>
+                                    <li>Web Design</li>
+                                    <li>Web Frameworks</li>
+                                </ul>
+                            </div> -->
+                       </div>
                     </button>
 
                     <!-- Job 2 -->
-                    <button class="experience_2_square" id="job_2">
+                    <button class="experience_square" id="job_2">
                         <!-- <div class="job_2_img">
                             
                         </div> -->
@@ -433,24 +467,34 @@
                         <img src="./img/experience/past jobs/SLEA.png" id="slea" alt="slea">
 
                         <div class="experience_job">
-                            <div class="job_2_description" id="job_2_description">
+                            <div class="job_description" id="job_2_description">
                                 <p class="experience_company">SLEA</p>
                                 <p class="experience_position">Tech Superviser</p>
+                                <div class="experience_details" id="exp_details_two">
+                                    <p>SaaS Tier 2 Tech Support</p>
+                                    <!-- <p>Tier 2 Tech Support</p> -->
+                                    <p>Task Delegation</p>
+                                </div>
                             </div>
                        </div>
                     </button>
 
                     <!-- Job 3 -->
-                    <button class="experience_3_square" id="job_3">
+                    <button class="experience_square" id="job_3">
                         <!-- <div class="job_3_img">
                             
                         </div> -->
                         <img src="./img/experience/past jobs/R1RCM.png" id="r1rcm" alt="r1rcm">
                         
                         <div class="experience_job">
-                            <div class="job_3_description" id="job_3_description">
+                            <div class="job_description" id="job_3_description">
                                 <p class="experience_company">R1RCM</p>
                                 <p class="experience_position">Deskside Support</p>
+                                <div class="experience_details" id="exp_details_three">
+                                    <p>Workstation Configurations</p>
+                                    <p>Group Policy</p>
+                                    <!-- <p>Network Engineering</p> -->
+                                </div>
                             </div>
                        </div>
                     </button>
@@ -565,6 +609,13 @@
                                     <label for="email">Email</label>
                                     <input type="email" name="email" id="email">
                                 </div>
+                                <!-- Home Socials -->
+                                <div class="home_socials">
+                                    <img src="./img/socials/PurpleSocials/GithubPurple.png" id="github" alt="github">
+                                    <img src="./img/socials/PurpleSocials/TwitterPurple.png" id="twitter" alt="twitter">
+                                    <img src="./img/socials/PurpleSocials/LinkedinPurple.png" id="linkedin" alt="linkedin">
+                                    <img src="./img/socials/PurpleSocials/InstagramPurple.png" id="instagram" alt="instagram">
+                                </div>
                             </div>
 
                             <!-- Message and Submit Div -->
@@ -589,12 +640,12 @@
                                 <!-- <img src="./img/logo/grey_logo_courdevelops.png" alt="Logo"> -->
                                 <small>
                                     <!-- SOCIALS -->
-                                    <div class="home_socials">
+                                    <!-- <div class="home_socials">
                                         <img src="./img/socials/PurpleSocials/GithubPurple.png" id="github" alt="github">
                                         <img src="./img/socials/PurpleSocials/TwitterPurple.png" id="twitter" alt="twitter">
                                         <img src="./img/socials/PurpleSocials/LinkedinPurple.png" id="linkedin" alt="linkedin">
                                         <img src="./img/socials/PurpleSocials/InstagramPurple.png" id="instagram" alt="instagram">
-                                    </div>
+                                    </div> -->
                                     <!-- Copy and Name Div -->
                                     <div class="copy_name">
                                         <div class="copyrights">
@@ -618,6 +669,9 @@
         </section>
 
     </div>
+
+    <script src="/js/experience.js"></script>
+    <script src="/js/skills.js"></script>
     
 </body>
 </html>
