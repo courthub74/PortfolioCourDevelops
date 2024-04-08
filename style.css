@@ -947,7 +947,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10ch 0 0 0;
+    margin: 7ch 0 0 0;
     height: 100%;
     gap: 15ch;
   }
@@ -1028,6 +1028,7 @@
     align-items: center;
     width: 40.5em;
     height: 5em;
+    cursor: pointer;
   }
   #contact_section_id .contact_section_class .contact_section_form form .message_submit .submit_button #submitemail p {
     color: white;
@@ -1041,7 +1042,7 @@
     gap: 12ch;
   }
   #contact_section_id .contact_section_class .contact_section_form .poweredby small .copy_name {
-    margin: 8ch 0 0 0;
+    margin: 12ch 0 0 0;
   }
   #contact_section_id .contact_section_class .contact_section_form .poweredby small .copy_name .copyrights {
     display: flex;

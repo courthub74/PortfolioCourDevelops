@@ -1144,7 +1144,7 @@ $savethis: #7273ad;
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    margin: 10ch 0 0 0;
+                    margin: 7ch 0 0 0;
                     // background-color: #00C6C3;
                     height: 100%;
                     gap: 15ch;
@@ -1225,6 +1225,7 @@ $savethis: #7273ad;
                                 align-items: center;
                                 width: 40.5em;
                                 height: 5em;
+                                cursor: pointer;
                                 p {
                                     color: white;
                                     font-family: 'Inter', sans-serif;
@@ -1241,7 +1242,7 @@ $savethis: #7273ad;
                         align-items: center;
                         gap: 12ch;
                         .copy_name {
-                            margin: 8ch 0 0 0;
+                            margin: 12ch 0 0 0;
                             .copyrights {
                                 display: flex;
                                 justify-content: center;
