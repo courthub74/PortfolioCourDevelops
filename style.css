@@ -955,7 +955,7 @@
     display: flex;
     flex-direction: column;
     gap: 8ch;
-    margin: -13ch 0 0 0;
+    margin: -2ch 0 0 0;
   }
   #contact_section_id .contact_section_class .contact_section_form form .name_email .input_div {
     display: flex;
@@ -972,6 +972,29 @@
     border: none;
     width: 40em;
     height: 5em;
+  }
+  #contact_section_id .contact_section_class .contact_section_form form .name_email .home_socials {
+    display: flex;
+    align-items: center;
+    gap: 11ch;
+    cursor: pointer;
+    margin: -2ch 0 0 5ch;
+  }
+  #contact_section_id .contact_section_class .contact_section_form form .name_email .home_socials #github {
+    width: 3em;
+    height: 3em;
+  }
+  #contact_section_id .contact_section_class .contact_section_form form .name_email .home_socials #twitter {
+    width: 3em;
+    height: 3em;
+  }
+  #contact_section_id .contact_section_class .contact_section_form form .name_email .home_socials #linkedin {
+    width: 3em;
+    height: 3em;
+  }
+  #contact_section_id .contact_section_class .contact_section_form form .name_email .home_socials #instagram {
+    width: 3.5em;
+    height: 3.5em;
   }
   #contact_section_id .contact_section_class .contact_section_form form .message_submit {
     margin: -2ch 0 0 0;
@@ -1017,28 +1040,8 @@
     align-items: center;
     gap: 12ch;
   }
-  #contact_section_id .contact_section_class .contact_section_form .poweredby small .home_socials {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8ch;
-    cursor: pointer;
-  }
-  #contact_section_id .contact_section_class .contact_section_form .poweredby small .home_socials #github {
-    width: 3em;
-    height: 3em;
-  }
-  #contact_section_id .contact_section_class .contact_section_form .poweredby small .home_socials #twitter {
-    width: 3em;
-    height: 3em;
-  }
-  #contact_section_id .contact_section_class .contact_section_form .poweredby small .home_socials #linkedin {
-    width: 3em;
-    height: 3em;
-  }
-  #contact_section_id .contact_section_class .contact_section_form .poweredby small .home_socials #instagram {
-    width: 3.5em;
-    height: 3.5em;
+  #contact_section_id .contact_section_class .contact_section_form .poweredby small .copy_name {
+    margin: 8ch 0 0 0;
   }
   #contact_section_id .contact_section_class .contact_section_form .poweredby small .copy_name .copyrights {
     display: flex;

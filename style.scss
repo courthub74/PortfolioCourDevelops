@@ -1152,7 +1152,7 @@ $savethis: #7273ad;
                         display: flex;
                         flex-direction: column;
                         gap: 8ch;
-                        margin: -13ch 0 0 0;
+                        margin: -2ch 0 0 0;
                         .input_div {
                             display: flex;
                             flex-direction: column;
@@ -1167,6 +1167,31 @@ $savethis: #7273ad;
                                 border: none;
                                 width: 40em;
                                 height: 5em;
+                            }
+                        }
+                        .home_socials {
+                            display: flex;
+                            // justify-content: center;
+                            align-items: center;
+                            gap: 11ch;
+                            cursor: pointer;
+                            margin: -2ch 0 0 5ch;
+                            // background-color: darkgoldenrod;
+                            #github {
+                                width: 3em;
+                                height: 3em;
+                            }
+                            #twitter {
+                                width: 3em;
+                                height: 3em;
+                            }
+                            #linkedin {
+                                width: 3em;
+                                height: 3em;
+                            }
+                            #instagram {
+                                width: 3.5em;
+                                height: 3.5em;
                             }
                         }
                     }
@@ -1215,32 +1240,8 @@ $savethis: #7273ad;
                         justify-content: center;
                         align-items: center;
                         gap: 12ch;
-                        .home_socials {
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            gap: 8ch;
-                            cursor: pointer;
-                            // background-color: darkgoldenrod;
-                            #github {
-                                width: 3em;
-                                height: 3em;
-                            }
-                            #twitter {
-                                width: 3em;
-                                height: 3em;
-                            }
-                            #linkedin {
-                                width: 3em;
-                                height: 3em;
-                            }
-                            #instagram {
-                                width: 3.5em;
-                                height: 3.5em;
-                            }
-                        }
                         .copy_name {
-                            // margin: 8ch 0 0 0;
+                            margin: 8ch 0 0 0;
                             .copyrights {
                                 display: flex;
                                 justify-content: center;
