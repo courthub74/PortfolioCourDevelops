@@ -138,13 +138,16 @@ $savethis: #7273ad;
             justify-content: center;
             align-items: center;
             margin: 15ch 10ch 0 0;
+            margin: 13ch 10ch 0 0;
             // background-color: red;
-            gap: 10ch;
-            gap: 17ch;
+            // gap: 10ch;
+            gap: 12ch;
             .logo_div {
                 // background-color: red;
                 width: 30.5em;
                 height: 30.5em;
+                width: 27em;
+                height: 27em;
                 border-radius: 50%;
                 display: flex;
                 justify-content: center;
@@ -153,8 +156,8 @@ $savethis: #7273ad;
                     background-color: white;
                     width: 30.5em;
                     height: 30.5em;
-                    width: 26em;
-                    height: 26em;
+                    width: 24em;
+                    height: 24em;
                     border-radius: 50%;
                     display: flex;
                     justify-content: center;
@@ -165,8 +168,8 @@ $savethis: #7273ad;
                             // height: 25vw;
                             width: 28em;
                             height: 28em;
-                            width: 24em;
-                            height: 24em;
+                            width: 21em;
+                            height: 21em;
                         }
                     }
                 }
@@ -178,6 +181,7 @@ $savethis: #7273ad;
                 justify-content: center;
                 align-items: center;
                 gap: 2.5ch;
+                gap: 2ch;
                 // NAME AND DESCRIPTION
                 .name_description {
                     display: flex;
@@ -187,14 +191,14 @@ $savethis: #7273ad;
                     .home_name {
                         color: white;
                         font-family: 'Inter', sans-serif;
-                        font-size: 3rem;
+                        font-size: 2.5rem;
                     }
                     .job_description {
                         color: $descriptionblue;
                         background-color: $portfolios;
                         font-family: 'Inter', sans-serif;
                         font-size: 1.6rem;
-                        width: 16em;
+                        width: 14em;
                         height: 2em;
                         display: flex;
                         justify-content: center;
@@ -215,7 +219,7 @@ $savethis: #7273ad;
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    gap: 8ch;
+                    gap: 6ch;
                     #github {
                         width: 3em;
                         height: 3em;
@@ -234,7 +238,7 @@ $savethis: #7273ad;
                     }
                 }
                 .learn_more {
-                    width: 26em;
+                    width: 22em;
                     height: 3em;
                     background-color: $portfolios;
                     border-radius: 25px;
@@ -288,7 +292,7 @@ $savethis: #7273ad;
                                 font-weight: bold;
                             }
                             #selected {
-                                color: $darkblue;
+                                color: $nextgreen;
                                 border: 1px solid white;
                                 background-color: white;
                                 padding: .5ch;
@@ -303,18 +307,22 @@ $savethis: #7273ad;
                         font-family: 'Inter', sans-serif;
                         font-weight: bold;
                         font-size: 4rem;
-                        margin: -.8ch 0 0 3ch;
+                        font-size: 3rem;
+                        // margin: -.8ch 0 0 3ch;
+                        margin: -.8ch 0 0 4ch;
                     }
                 }
             }
             // ABOUT SECTION CONTENT
             .about_section_content {
                 margin: 8ch 0 0 16.5ch;
+                margin: 5ch 0 0 16.5ch;
                 width: 82%;
                 line-height: 2.5em;
+                line-height: 2em;
                 p {
                     color: white;
-                    font-size: 1.2rem;
+                    font-size: 1.1rem;
                     font-family: 'Inter', sans-serif;
                 }
                 .brand_is {
@@ -328,8 +336,8 @@ $savethis: #7273ad;
                         font-family: 'Inter', sans-serif;
                         font-size: 1.2rem;
                         #about_logo {
-                            width: 6em;
-                            height: 6em;
+                            width: 5.5em;
+                            height: 5.5em;
                         }
                     }
                 }
@@ -341,13 +349,14 @@ $savethis: #7273ad;
             }
             .download_resume {
                 background-color: white;
-                width: 26em;
+                width: 22em;
                 height: 3em;
                 border-radius: 25px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 margin: 8ch 0 0 16.5ch;
+                margin: 4ch 0 0 16.5ch;
                 a {
                     color: $nextgreen;
                     font-family: 'Inter', sans-serif;
