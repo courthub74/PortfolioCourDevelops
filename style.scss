@@ -312,10 +312,10 @@ $savethis: #7273ad;
             // ABOUT SECTION CONTENT
             .about_section_content {
                 margin: 8ch 0 0 16.5ch;
-                margin: 5ch 0 0 16.5ch;
+                margin: 6ch 0 0 16.5ch;
                 width: 82%;
                 line-height: 2.5em;
-                line-height: 2em;
+                line-height: 1.8em;
                 p {
                     color: white;
                     font-size: 1.1rem;
@@ -345,7 +345,7 @@ $savethis: #7273ad;
             }
             .download_resume {
                 background-color: white;
-                width: 22em;
+                width: 18em;
                 height: 3em;
                 border-radius: 25px;
                 display: flex;
@@ -357,7 +357,7 @@ $savethis: #7273ad;
                     color: $nextgreen;
                     font-family: 'Inter', sans-serif;
                     font-weight: bold;
-                    font-size: 1.2rem;
+                    font-size: 1rem;
                     text-decoration: none;
                 }
             }

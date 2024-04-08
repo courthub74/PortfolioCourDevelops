@@ -218,10 +218,10 @@
   }
   #about_section_id .about_section_class .about_section_content {
     margin: 8ch 0 0 16.5ch;
-    margin: 5ch 0 0 16.5ch;
+    margin: 6ch 0 0 16.5ch;
     width: 82%;
     line-height: 2.5em;
-    line-height: 2em;
+    line-height: 1.8em;
   }
   #about_section_id .about_section_class .about_section_content p {
     color: white;
@@ -250,7 +250,7 @@
   }
   #about_section_id .about_section_class .download_resume {
     background-color: white;
-    width: 22em;
+    width: 18em;
     height: 3em;
     border-radius: 25px;
     display: flex;
@@ -263,7 +263,7 @@
     color: #00313E;
     font-family: "Inter", sans-serif;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-decoration: none;
   }
   #portfolio_section_id .portfolio_section_class {
