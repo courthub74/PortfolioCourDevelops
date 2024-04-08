@@ -112,6 +112,7 @@ $savethis: #7273ad;
                 li {
                     list-style: none;
                     font-size: 1.2rem;
+                    font-size: 1rem;
                     cursor: pointer;
                     a {
                         text-decoration: none;
@@ -138,36 +139,28 @@ $savethis: #7273ad;
             justify-content: center;
             align-items: center;
             margin: 15ch 10ch 0 0;
-            margin: 13ch 10ch 0 0;
+            margin: 13ch 8ch 0 0;
             // background-color: red;
             // gap: 10ch;
-            gap: 12ch;
+            gap: 18ch;
             .logo_div {
                 // background-color: red;
-                width: 30.5em;
-                height: 30.5em;
-                width: 27em;
-                height: 27em;
+                width: 26em;
+                height: 26em;
                 border-radius: 50%;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 .back_logo {
                     background-color: white;
-                    width: 30.5em;
-                    height: 30.5em;
-                    width: 24em;
-                    height: 24em;
+                    width: 23em;
+                    height: 23em;
                     border-radius: 50%;
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     .front_logo {
                         #logo_home {
-                            // width: 25vw;
-                            // height: 25vw;
-                            width: 28em;
-                            height: 28em;
                             width: 21em;
                             height: 21em;
                         }
@@ -192,13 +185,14 @@ $savethis: #7273ad;
                         color: white;
                         font-family: 'Inter', sans-serif;
                         font-size: 2.5rem;
+                        font-size: 2.2rem;
                     }
                     .job_description {
                         color: $descriptionblue;
                         background-color: $portfolios;
                         font-family: 'Inter', sans-serif;
-                        font-size: 1.6rem;
-                        width: 14em;
+                        font-size: 1.4rem;
+                        width: 13em;
                         height: 2em;
                         display: flex;
                         justify-content: center;
@@ -211,6 +205,7 @@ $savethis: #7273ad;
                     text-align: center;
                     font-family: 'Inter', sans-serif;
                     font-size: 1.5rem;
+                    font-size: 1.2rem;
                     font-weight: bold;
                     color: white;
                     margin: .3em;
@@ -219,26 +214,26 @@ $savethis: #7273ad;
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    gap: 6ch;
+                    gap: 4.5ch;
                     #github {
-                        width: 3em;
-                        height: 3em;
+                        width: 2.5em;
+                        height: 2.5em;
                     }
                     #twitter {
-                        width: 3em;
-                        height: 3em;
+                        width: 2.5em;
+                        height: 2.5em;
                     }
                     #linkedin {
-                        width: 3em;
-                        height: 3em;
+                        width: 2.5em;
+                        height: 2.5em;
                     }
                     #instagram {
-                        width: 3.5em;
-                        height: 3.5em;
+                        width: 3em;
+                        height: 3em;
                     }
                 }
                 .learn_more {
-                    width: 22em;
+                    width: 18em;
                     height: 3em;
                     background-color: $portfolios;
                     border-radius: 25px;
@@ -285,6 +280,7 @@ $savethis: #7273ad;
                         li {
                             list-style: none;
                             font-size: 1.2rem;
+                            font-size: 1rem;
                             a {
                                 text-decoration: none;
                                 color: white;
@@ -391,6 +387,7 @@ $savethis: #7273ad;
                         li {
                             list-style: none;
                             font-size: 1.2rem;
+                            font-size: 1rem;
                             a {
                                 text-decoration: none;
                                 color: white;
@@ -413,7 +410,9 @@ $savethis: #7273ad;
                         font-family: 'Inter', sans-serif;
                         font-weight: bold;
                         font-size: 4rem;
-                        margin: -.8ch 0 0 3ch;
+                        font-size: 3rem;
+                        // margin: -.8ch 0 0 3ch;
+                        margin: -.8ch 0 0 4ch;
                     }
                 }
             }
@@ -428,8 +427,8 @@ $savethis: #7273ad;
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    width: 28em;
-                    height: 40em;
+                    width: 22em;
+                    height: 35em;
                     background-color: $portfolios;
                     border-radius: 55px;
                     border: 1px solid $portfolios;
