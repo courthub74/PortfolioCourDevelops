@@ -1221,23 +1221,23 @@ $savethis: #7273ad;
                             align-items: center;
                             gap: 6ch;
                             cursor: pointer;
-                            margin: -2ch 0 0 5.5ch;
+                            margin: -4ch 0 0 8ch;
                             // background-color: darkgoldenrod;
                             #github {
-                                width: 3em;
-                                height: 3em;
+                                width: 2.5em;
+                                height: 2.5em;
                             }
                             #twitter {
-                                width: 3em;
-                                height: 3em;
+                                width: 2.5em;
+                                height: 2.5em;
                             }
                             #linkedin {
-                                width: 3em;
-                                height: 3em;
+                                width: 2.5em;
+                                height: 2.5em;
                             }
                             #instagram {
-                                width: 3.5em;
-                                height: 3.5em;
+                                width: 3em;
+                                height: 3em;
                             }
                         }
                     }
@@ -1269,9 +1269,10 @@ $savethis: #7273ad;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
-                                width: 30.5em;
-                                width: 32.5em;
-                                height: 5em;
+                                padding: 2ch 26ch 2ch 26ch;
+                                // width: 30.5em;
+                                // width: 32.5em;
+                                // height: 5em;
                                 cursor: pointer;
                                 p {
                                     color: white;
@@ -1504,7 +1505,7 @@ $savethis: #7273ad;
             display: flex;
             flex-direction: column;
             background-color: $nextgreen;
-            height: 105vh;
+            height: 115vh;
             .title_nav {
                 display: flex;
                 justify-content: space-between;
@@ -1655,7 +1656,7 @@ $savethis: #7273ad;
                 justify-content: center;
                 align-items: center;
                 gap: 4ch;
-                margin: 12ch 0 0 0;
+                margin: 8ch 0 0 0;
                 .portfolio_square {
                     display: flex;
                     justify-content: center;
@@ -1735,7 +1736,7 @@ $savethis: #7273ad;
             }
             // SKILLS SECTION CONTENT
             .skills_section_circles {
-                margin: 18ch 0 0 0;
+                margin: 12ch 0 0 0;
                 // margin: 18ch 0 0 0;
                 display: flex;
                 flex-direction: column;
@@ -2134,7 +2135,7 @@ $savethis: #7273ad;
                 justify-content: center;
                 align-items: center;
                 gap: 4ch;
-                margin: 12ch 0 0 0;
+                margin: 8ch 0 0 0;
                 // WHOLE SQUARE
                 .experience_square {
                     display: flex;
@@ -2399,15 +2400,15 @@ $savethis: #7273ad;
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    margin: 7ch 0 0 0;
+                    margin: 5ch 0 0 0;
                     // background-color: #00C6C3;
                     height: 100%;
                     gap: 15ch;
                     .name_email {
                         display: flex;
                         flex-direction: column;
-                        gap: 8ch;
-                        margin: -2ch 0 0 0;
+                        gap: 7ch;
+                        margin: 0ch 0 0 0;
                         .input_div {
                             display: flex;
                             flex-direction: column;
@@ -2430,28 +2431,28 @@ $savethis: #7273ad;
                             align-items: center;
                             gap: 11ch;
                             cursor: pointer;
-                            margin: -2ch 0 0 5ch;
+                            margin: -2.5ch 0 0 7ch;
                             // background-color: darkgoldenrod;
                             #github {
-                                width: 3em;
-                                height: 3em;
+                                width: 2.5em;
+                                height: 2.5em;
                             }
                             #twitter {
-                                width: 3em;
-                                height: 3em;
+                                width: 2.5em;
+                                height: 2.5em;
                             }
                             #linkedin {
-                                width: 3em;
-                                height: 3em;
+                                width: 2.5em;
+                                height: 2.5em;
                             }
                             #instagram {
-                                width: 3.5em;
-                                height: 3.5em;
+                                width: 3em;
+                                height: 3em;
                             }
                         }
                     }
                     .message_submit {
-                        margin: -2ch 0 0 0;
+                        margin: -1ch 0 0 0;
                         .input_div {
                             display: flex;
                             flex-direction: column;
@@ -2478,8 +2479,9 @@ $savethis: #7273ad;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
-                                width: 40.5em;
-                                height: 5em;
+                                padding: 2ch 33ch 2ch 33ch;
+                                // width: 39.5em;
+                                // height: 5em;
                                 cursor: pointer;
                                 p {
                                     color: white;
@@ -2497,7 +2499,7 @@ $savethis: #7273ad;
                         align-items: center;
                         gap: 12ch;
                         .copy_name {
-                            margin: 12ch 0 0 0;
+                            margin: 8ch 0 0 0;
                             .copyrights {
                                 display: flex;
                                 justify-content: center;

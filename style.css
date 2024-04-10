@@ -1017,23 +1017,23 @@
     align-items: center;
     gap: 6ch;
     cursor: pointer;
-    margin: -2ch 0 0 5.5ch;
+    margin: -4ch 0 0 8ch;
   }
   #contact_section_id .contact_section_class .contact_section_form form .name_email .home_socials #github {
-    width: 3em;
-    height: 3em;
+    width: 2.5em;
+    height: 2.5em;
   }
   #contact_section_id .contact_section_class .contact_section_form form .name_email .home_socials #twitter {
-    width: 3em;
-    height: 3em;
+    width: 2.5em;
+    height: 2.5em;
   }
   #contact_section_id .contact_section_class .contact_section_form form .name_email .home_socials #linkedin {
-    width: 3em;
-    height: 3em;
+    width: 2.5em;
+    height: 2.5em;
   }
   #contact_section_id .contact_section_class .contact_section_form form .name_email .home_socials #instagram {
-    width: 3.5em;
-    height: 3.5em;
+    width: 3em;
+    height: 3em;
   }
   #contact_section_id .contact_section_class .contact_section_form form .message_submit {
     margin: -2ch 0 0 0;
@@ -1065,9 +1065,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30.5em;
-    width: 32.5em;
-    height: 5em;
+    padding: 2ch 26ch 2ch 26ch;
     cursor: pointer;
   }
   #contact_section_id .contact_section_class .contact_section_form form .message_submit .submit_button #submitemail p {
@@ -1263,7 +1261,7 @@
     display: flex;
     flex-direction: column;
     background-color: #00313E;
-    height: 105vh;
+    height: 115vh;
   }
   #about_section_id .about_section_class .title_nav {
     display: flex;
@@ -1395,7 +1393,7 @@
     justify-content: center;
     align-items: center;
     gap: 4ch;
-    margin: 12ch 0 0 0;
+    margin: 8ch 0 0 0;
   }
   #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square {
     display: flex;
@@ -1464,7 +1462,7 @@
     margin: -0.8ch 0 0 3ch;
   }
   #skills_section_id .skills_section_class .skills_section_circles {
-    margin: 18ch 0 0 0;
+    margin: 12ch 0 0 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1825,7 +1823,7 @@
     justify-content: center;
     align-items: center;
     gap: 4ch;
-    margin: 12ch 0 0 0;
+    margin: 8ch 0 0 0;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_square {
     display: flex;
@@ -2042,15 +2040,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 7ch 0 0 0;
+    margin: 5ch 0 0 0;
     height: 100%;
     gap: 15ch;
   }
   #contact_section_id .contact_section_class .contact_section_form form .name_email {
     display: flex;
     flex-direction: column;
-    gap: 8ch;
-    margin: -2ch 0 0 0;
+    gap: 7ch;
+    margin: 0ch 0 0 0;
   }
   #contact_section_id .contact_section_class .contact_section_form form .name_email .input_div {
     display: flex;
@@ -2073,26 +2071,26 @@
     align-items: center;
     gap: 11ch;
     cursor: pointer;
-    margin: -2ch 0 0 5ch;
+    margin: -2.5ch 0 0 7ch;
   }
   #contact_section_id .contact_section_class .contact_section_form form .name_email .home_socials #github {
-    width: 3em;
-    height: 3em;
+    width: 2.5em;
+    height: 2.5em;
   }
   #contact_section_id .contact_section_class .contact_section_form form .name_email .home_socials #twitter {
-    width: 3em;
-    height: 3em;
+    width: 2.5em;
+    height: 2.5em;
   }
   #contact_section_id .contact_section_class .contact_section_form form .name_email .home_socials #linkedin {
+    width: 2.5em;
+    height: 2.5em;
+  }
+  #contact_section_id .contact_section_class .contact_section_form form .name_email .home_socials #instagram {
     width: 3em;
     height: 3em;
   }
-  #contact_section_id .contact_section_class .contact_section_form form .name_email .home_socials #instagram {
-    width: 3.5em;
-    height: 3.5em;
-  }
   #contact_section_id .contact_section_class .contact_section_form form .message_submit {
-    margin: -2ch 0 0 0;
+    margin: -1ch 0 0 0;
   }
   #contact_section_id .contact_section_class .contact_section_form form .message_submit .input_div {
     display: flex;
@@ -2121,8 +2119,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40.5em;
-    height: 5em;
+    padding: 2ch 33ch 2ch 33ch;
     cursor: pointer;
   }
   #contact_section_id .contact_section_class .contact_section_form form .message_submit .submit_button #submitemail p {
@@ -2137,7 +2134,7 @@
     gap: 12ch;
   }
   #contact_section_id .contact_section_class .contact_section_form .poweredby small .copy_name {
-    margin: 12ch 0 0 0;
+    margin: 8ch 0 0 0;
   }
   #contact_section_id .contact_section_class .contact_section_form .poweredby small .copy_name .copyrights {
     display: flex;
