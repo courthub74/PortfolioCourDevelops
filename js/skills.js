@@ -303,3 +303,88 @@ mongo_button.addEventListener('pointerdown', () => {
     }
     setTimeout(reverse_mongo, 3000);
 });
+
+
+//DJANGO///////////////////////////////////////////////////
+
+// MONGO Button
+let django_button = document.getElementById('django_skill');
+
+// MONGO Logo
+let django_logo = document.getElementById('django');
+
+// MONGO Description
+let django_description = document.getElementById('django_description');
+
+// hover out
+django_button.addEventListener('mouseout', function() {
+    django_logo.classList.remove('dissapear');
+    django_description.classList.remove('show');
+});
+
+// pointerdown for Touchscreens
+django_button.addEventListener('pointerdown', () => {
+    django_logo.classList.add('dissapear');
+    django_description.classList.add('show');
+    function reverse_django() {
+        django_logo.classList.remove('dissapear');
+        django_description.classList.remove('show');
+    }
+    setTimeout(reverse_django, 3000);
+});
+
+//AWS///////////////////////////////////////////////////
+
+// AWS Button
+let aws_button = document.getElementById('aws_skill');
+
+// AWS Logo
+let aws_logo = document.getElementById('aws');
+
+// AWS Description
+let aws_description = document.getElementById('aws_description');
+
+// hover out
+aws_button.addEventListener('mouseout', function() {
+    aws_logo.classList.remove('dissapear');
+    aws_description.classList.remove('show');
+});
+
+// pointerdown for Touchscreens
+aws_button.addEventListener('pointerdown', () => {
+    aws_logo.classList.add('dissapear');
+    aws_description.classList.add('show');
+    function reverse_aws() {
+        aws_logo.classList.remove('dissapear');
+        aws_description.classList.remove('show');
+    }
+    setTimeout(reverse_aws, 3000);
+});
+
+//HEROKU///////////////////////////////////////////////////
+
+// HEROKU Button
+let heroku_button = document.getElementById('heroku_skill');
+
+// HEROKU Logo
+let heroku_logo = document.getElementById('heroku');
+
+// HEROKU Description
+let heroku_description = document.getElementById('heroku_description');
+
+// hover out
+heroku_button.addEventListener('mouseout', function() {
+    heroku_logo.classList.remove('dissapear');
+    heroku_description.classList.remove('show');
+});
+
+// pointerdown for Touchscreens
+heroku_button.addEventListener('pointerdown', () => {
+    heroku_logo.classList.add('dissapear');
+    heroku_description.classList.add('show');
+    function reverse_heroku() {
+        heroku_logo.classList.remove('dissapear');
+        heroku_description.classList.remove('show');
+    }
+    setTimeout(reverse_heroku, 3000);
+});
