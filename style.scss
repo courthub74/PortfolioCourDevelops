@@ -65,15 +65,2011 @@ $savethis: #7273ad;
 
 // 280 px Smallest Smartphones
 @media screen and (min-width: 280px) and (max-width: 349px) {
-    body {
+    // body {
+    //     display: none;
+    // }
+    // NAVBAR (PORTRAIT)
+    nav {
+        background-color: $darkblue;
+        // background-color: rgb(116, 66, 5);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 10vh;
+        .you_nav {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            .you {
+                font-family: 'Inter', sans-serif;
+                font-weight: bold;
+                color: white;
+                // font-size: 5vw;
+            }
+            .job {
+                font-family: 'Inter', sans-serif;
+                // font-size: 4vw;
+                border: 1px solid $portfolios;
+                background-color: $portfolios;
+                color: $descriptionblue;
+                border-radius: 5px;
+            }
+        }
+        // #hamburger {
+        //     // width: 10vw;
+        //     // height: 10vw;
+        //     // margin: 1vh 7vw 0 0;
+        //     margin: 1ch 5ch 0 0;
+        // }
+        .menu_button_div {
+            background-color: $darkblue;
+            margin: 5vh 4.5vh 0 0;
+            border: none;
+            #dots_menu {
+                height: 10vw;
+                width: 10vw;
+            }
+        }
+    }
+    // DESKTOP NAV
+    .desktop_nav {
         display: none;
+    }
+    // HOME SECTION (PORTRAIT)
+    #home_section_id {
+        .home_section_class {
+            background-color: $darkblue;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+            // HOME SECTION CONTENT (PORTRAIT)
+            .home_section_content {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 6ch;
+                margin: -7ch 0 0 0vw;
+                // HOME LOGO (PORTRAIT) 
+                .logo_div {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .back_logo {
+                        border: 1px solid white;
+                        background-color: white;
+                        border-radius: 50%;
+                        width: 50vw;
+                        height: 50vw;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .front_logo {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            img {
+                                width: 45vw;
+                                height: 45vw;
+                                // display: none;
+                            }
+                        }
+                    }
+                }
+                // WORDS AND SOCIALS LOGOS (PORTRAIT)
+                .word_content {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 4ch;
+                    .name_description {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        gap: .5ch;
+                        .home_name {
+                            color: white;
+                            font-family: 'Inter', sans-serif;
+                            // font-size: 8vw;
+                            font-size: 1.9rem;
+                        }
+                        // JOB TITLE (PORTRAIT)
+                        .job_description {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border: 1px solid $portfolios;
+                            border-radius: 5px;
+                            background-color: $portfolios;
+                            color: $descriptionblue;
+                            font-family: 'Inter', sans-serif;
+                            font-size: 1.2rem;
+                            text-align: center;
+                            width: 14em;
+                            height: 2em;
+                            // font-size: 5vw;
+                            // width: 67vw;
+                            // height: 11vw;
+                        }
+                    }
+                    // SLOGAN (PORTRAIT)
+                    .home_slogan {
+                        p {
+                            font-family: 'Inter', sans-serif;
+                            // font-size: 5vw;
+                            font-size: 1.15rem;
+                            font-weight: bold;
+                            color: white;
+                            text-align: center;
+                        }
+                    }
+                    // SOCIALS (PORTRAIT)
+                    .home_socials {
+                        display: flex;
+                        align-items: center;
+                        gap: 3vh;
+                        margin: 0vh 0 0 0;
+                        #github {
+                            width: 9vw;
+                            height: 9vw;
+                        }
+                        #twitter {
+                            width: 9vw;
+                            height: 9vw;
+                        }
+                        #linkedin {
+                            width: 9vw;
+                            height: 9vw;
+                        }
+                        #instagram {
+                            width: 9.8vw;
+                            height: 9.8vw;
+                        }
+                    }
+                    // LEARN MORE BUTTON (PORTRAIT)
+                    .learn_more {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border: 1px solid $portfolios;
+                        border-radius: 5px;
+                        border-radius: 45px;
+                        background-color: $portfolios;
+                        width: 14em;
+                        height: 2.5em;
+                        // width: 55vw;
+                        // height: 10vw;
+                        // padding: .5ch .5ch;
+                        a {
+                            color: $jobdescription;
+                            color: $descriptionblue;
+                            font-family: 'Inter', sans-serif;
+                            // font-size: 4.5vw;
+                            font-size: .9rem;
+                            font-weight: bold;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // ABOUT SECTION (PORTRAIT)
+    #about_section_id {
+        .about_section_class {
+            background-color: $nextgreen;
+            // background-color: red;
+            height: 115vh;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            .about_desktop_nav {
+                ul {
+                    display: none;
+                }
+            }
+            .section_title {
+                font-family: 'Inter', sans-serif;
+                // font-size: 6vw;
+                font-size: 2.5rem;
+                font-weight: bold;
+                margin: 5vh 0 0 7vw;
+            }
+            .about_section_content {
+                font-family: 'Inter', sans-serif;
+                // font-size: 2.2vw;
+                font-size: 1rem;
+                font-size: 1.2rem;
+                line-height: 2.5ch;
+                width: 80%;
+                margin: 5vh 0 0 7vw;
+                .brand_is {
+                    font-family: 'Inter', sans-serif;
+                    // font-size: 2.5vw;
+                    // display: flex;
+                    align-items: center;
+                    // margin: 0 0 0 -3vw;
+                    // gap: 2vw;
+                    .brand {
+                        display: flex;
+                        justify-content: left;
+                        align-items: center;
+                        gap: 1ch;
+                        margin: 3vh 0 3vh 0;
+                        #about_logo {
+                            // width: 25.5vw;
+                            // height: 25.5vw;
+                            width: 19vw;
+                            height: 19vw;
+                        }
+                    }
+                }
+            }
+            .download_resume {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 5vh 0 0 7vw;
+                font-family: 'Inter', sans-serif;
+                font-weight: bold;
+                border: 1px solid white;
+                background-color: white;
+                border-radius: 25px;
+                // width: 28vw;
+                // height: 4vw;
+                width: 13em;
+                height: 2.5em;
+                // padding: .5ch .5ch;
+                a {
+                    color: $nextgreen;
+                    text-decoration: none;
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+    // PORTFOLIO SECTION (PORTRAIT)
+    #portfolio_section_id {
+        .portfolio_section_class {
+            background-color: $darkblue;
+            // background-color: red;
+            height: 105vh;
+            display: flex;
+            flex-direction: column;
+            .portfolio_desktop_nav {
+                ul {
+                    display: none;
+                }
+            }
+            .section_title {
+                font-family: 'Inter', sans-serif;
+                font-size: 2.5rem;
+                font-weight: bold;
+                color: white;
+                margin: 5vh 0 0 7vw;
+            }
+            // .portfolio_section_content {
+            //     margin: 5vh 0 0 0;
+            //     background-color: #00C6C3;
+                .portfolio_section_squares {
+                    display: flex;
+                    flex-direction: column;
+                    // justify-content: center;
+                    align-items: center;
+                    gap: 4ch;
+                    gap: 5vh;
+                    margin: 5vh 0 0 0;
+                    .portfolio_square {
+                        background-color: $portfolios;
+                        border: 1px solid $portfolios;
+                        border: none;
+                        // background-color: red;
+                        border-radius: 10px;
+                        // width: 24.4em;
+                        // height: 9em;
+                        width: 85.5vw;
+                        height: 43vw;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        box-shadow: 2px 2px 2px 2px black;
+                        #workflow_app {
+                            // width: 18em;
+                            // height: 4em;
+                            width: 65vw;
+                            margin: 1vh 0 0 8vw;
+                        }
+                        #create_collab {
+                            margin: 0 0 0 8.5vw;
+                        }
+                        #mps_site {
+                            // width: 12em;
+                            // height: 4em;
+                            width: 45vw;
+                            margin: 0 0 0 12vw;
+                        }
+                        #msy {
+                            // width: 15em;
+                            // height: 4em;
+                            width: 55vw;
+                        }
+                    }
+                }
+            }
+        
+    }
+    // SKILLS SECTIONS (PORTRAIT)
+    #skills_section_id {
+        .skills_section_class {
+            background-color: $nextgreen;
+            height: 105vh;
+            display: flex;
+            flex-direction: column;
+            .skills_desktop_nav {
+                ul {
+                    display: none;
+                }
+            }
+            .section_title {
+                font-family: 'Inter', sans-serif;
+                font-size: 2.5rem;
+                font-weight: bold;
+                color: white;
+                margin: 5vh 0 0 7vw;
+            }
+            .skills_section_circles {
+                margin: 0 0 0 1.3vw;
+                .skills_circles_one {
+                    display: flex;
+                    gap: 2vw;
+                    margin: 5vh 0 0 5vw;
+                    .skill_circle {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        .skill_back {
+                            width: 27vw;
+                            height: 27vw;
+                            width: 26vw;
+                            height: 26vw;
+                            border: 3px solid $darkblue;
+                            background-color: $nextgreen;
+                            background-color: $skillsteal;
+                            box-shadow: 2px 2px $boxshadowcircles;
+                            border-radius: 50%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            .skill_front {
+                                width: 25vw;
+                                height: 25vw;
+                                width: 24vw;
+                                height: 24vw;
+                                border: none;
+                                background-color: $darkblue;
+                                // background-color: $skillsteal;
+                                // box-shadow: 2px 2px $boxshadowcircles;
+                                border-radius: 50%;
+                                position: absolute;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                .shield {
+                                    width: 11vw;
+                                    height: 11vw;
+                                }
+                                // HTML
+                                #html {
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                }
+                                #html.dissapear {
+                                    opacity: 0;
+                                }
+                                #html_description {
+                                    opacity: 0;
+                                }
+                                #html_description.show {
+                                    transition: .5s all ease-in;
+                                }
+                                // CSS
+                                #css {
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                }
+                                #css.dissapear {
+                                    opacity: 0;
+                                }
+                                #css_description {
+                                    opacity: 0;
+                                }
+                                #css_description.show {
+                                    transition: .5s all ease-in;
+                                }
+                                // SASS
+                                #sass {
+                                    width: 11vw;
+                                    height: 11vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                    margin: -.5vh 0 0 1.5vw;
+                                }
+                                #sass.dissapear {
+                                    opacity: 0;
+                                }
+                                #sass_description {
+                                    opacity: 0;
+                                }
+                                #sass_description.show {
+                                    transition: .5s all ease-in;
+                                }
+                                // JS
+                                #javascript {
+                                    width: 13vw;
+                                    height: 13vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                    margin: 0 0 0 .5vw;
+                                }
+                                #javascript.dissapear {
+                                    opacity: 0;
+                                }
+                                #javascript_description {
+                                    opacity: 0;
+                                }
+                                #javascript_description.show {
+                                    transition: .5s all ease-in;
+                                }
+                                // PYTHON
+                                #python {
+                                    width: 9.5vw;
+                                    height: 9.5vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                    margin: -.5vh 0 0 0;
+                                }
+                                #python.dissapear {
+                                    opacity: 0;
+                                }
+                                #python_description {
+                                    opacity: 0;
+                                }
+                                // REACT
+                                #react {
+                                    width: 10.5vw;
+                                    height: 10.5vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                }
+                                #react.dissapear {
+                                    opacity: 0;
+                                }
+                                #react_description {
+                                    opacity: 0;
+                                }
+                                #react_description.show {
+                                    transition: .5s all ease-in;
+                                }
+                                // FIGMA
+                                #figma {
+                                    width: 11.5vw;
+                                    height: 11.5vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                }
+                                #figma.dissapear {
+                                    opacity: 0;
+                                }
+                                #figma_description {
+                                    opacity: 0;
+                                }
+                                #figma_description.show {
+                                    transition: .5s all ease-in; 
+                                }
+                                // FIREBASE
+                                #firebase {
+                                    width: 7vw;
+                                    height: 9.8vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                }
+                                #firebase.dissapear {
+                                    opacity: 0;
+                                }
+                                #firebase_description {
+                                    opacity: 0;
+                                }
+                                #firebase_description.show {
+                                    transition: .5s all ease-in; 
+                                }
+                                // MONGO
+                                #mongo {
+                                    width: 4.5vw;
+                                    height: 10vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                    margin: 0vh 0 0 0;
+                                }
+                                #mongo.dissapear {
+                                    opacity: 0;
+                                }
+                                #mongo_description {
+                                    opacity: 0;
+                                }
+                                #mongo_description.show {
+                                    transition: .5s all ease-in;
+                                }
+                                // DJANGO
+                                #django {
+                                    width: 9vw;
+                                    height: 9vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                    margin: 0vh 1vw 0 0; 
+                                }
+                                #django.dissapear {
+                                    opacity: 0;
+                                }
+                                #django_description {
+                                    opacity: 0;
+                                }
+                                #django_description.show {
+                                    transition: .5s all ease-in;
+                                }
+                                // AWS
+                                #aws {
+                                    width: 11vw;
+                                    height: 11vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                    margin: 0vh 0vw 0 0;  
+                                }
+                                #aws.dissapear {
+                                    opacity: 0;
+                                }
+                                #aws_description {
+                                    opacity: 0;
+                                }
+                                #aws_description.show {
+                                    transition: .5s all ease-in;
+                                }
+                                // HEROKU
+                                #heroku {
+                                    width: 10vw;
+                                    height: 10vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                    margin: -.5vhvh 0vw 0 0;  
+                                }
+                                #heroku.dissapear {
+                                    opacity: 0;
+                                }
+                                #heroku_description {
+                                    opacity: 0;
+                                }
+                                #heroku_description.show {
+                                    transition: .5s all ease-in;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // EXPERIENCE SECTION (PORTRAIT)
+    #experience_section_id {
+        .experience_section_class {
+            background-color: $darkblue;
+            height: 110vh;
+            display: flex;
+            flex-direction: column;
+            .experience_desktop_nav {
+                ul {
+                    display: none;
+                }
+            }
+            .section_title {
+                font-family: 'Inter', sans-serif;
+                font-size: 2.5rem;
+                font-weight: bold;
+                color: white;
+                margin: 5vh 0 0 7vw;
+            }
+            .experience_section_squares {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 5vh;
+                margin: 5vh 0 0 0;
+                // experience squares
+
+                // Courdevelops
+                .experience_1_square {
+                    width: 85.5vw;
+                    height: 43vw;
+                    border-radius: 10px;
+                    background-color: $portfolios;
+                    border: none;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    box-shadow: 2px 2px 2px 2px black;
+
+                    // Square stuff
+                    // logo
+                    #courdevelops {
+                        width: 17vw;
+                        height: 17vw;
+                        width: 22vw;
+                        height: 22vw;
+                        margin: 0 0 0 -9.5vw;
+                    }
+                    // text
+                    .job_1_description {
+                        position: relative;
+                        left: 25px;
+                        left: 23px;
+                        font-family: 'Inter', sans-serif;
+                        display: flex;
+                        flex-direction: column;
+                        gap: .3ch;
+                        .experience_company {
+                            color: white;
+                            font-size: 1rem;
+                            // font-size: 18px;
+                            font-weight: bold;
+                        }
+                        .experience_position {
+                            color: $descriptionblue;
+                            // color: $jobdescription;
+                            font-size: .9rem;
+                        }
+                    }
+                }
+                // slea
+                .experience_2_square {
+                    width: 85.5vw;
+                    height: 43vw;
+                    border-radius: 10px;
+                    background-color: $portfolios;
+                    border: none;
+                    border: none;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    box-shadow: 2px 2px 2px 2px black;
+
+                    // Square stuff
+                    // logo
+                    #slea {
+                        width: 16vw;
+                        height: 16vw;
+                        width: 21vw;
+                        height: 21vw;
+                        margin: 0 0 0 -10vw;
+                    }
+                    // text
+                    .job_2_description {
+                        position: relative;
+                        left: 26px;
+                        font-family: 'Inter', sans-serif;
+                        display: flex;
+                        flex-direction: column;
+                        gap: .3ch;
+                        .experience_company {
+                            color: white;
+                            font-size: 1rem;
+                            font-weight: bold;
+                        }
+                        .experience_position {
+                            color: $descriptionblue;
+                            font-size: .9rem;
+
+                        }
+                    }
+                }
+                .experience_3_square {
+                    width: 85.5vw;
+                    height: 43vw;
+                    border-radius: 10px;
+                    background-color: $portfolios;
+                    border: none;
+                    border: none;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    box-shadow: 2px 2px 2px 2px black;
+
+                    // Square stuff
+                    // logo
+                    #r1rcm {
+                        width: 15vw;
+                        height: 15vw;
+                        width: 19vw;
+                        height: 19vw;
+                        margin: 0 0 0 -7vw;
+                    }
+                    // text
+                    .job_3_description {
+                        position: relative;
+                        left: 23px;
+                        font-family: 'Inter', sans-serif;
+                        display: flex;
+                        flex-direction: column;
+                        gap: .3ch;
+                        .experience_company {
+                            color: white;
+                            font-size: 1rem;
+                            font-weight: bold;
+                        }
+                        .experience_position {
+                            color: $descriptionblue;
+                            font-size: .9rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // BLOG SECTION (PORTRAIT)
+    #blog_section_id {
+        .blog_section_class {
+            background-color: $nextgreen;
+            height: 110vh;
+            display: flex;
+            flex-direction: column;
+            // justify-content: center;
+            // align-items: center;
+            .blog_desktop_nav {
+                ul {
+                    display: none;
+                }
+            }
+            .section_title {
+                font-family: 'Inter', sans-serif;
+                font-size: 2.5rem;
+                font-weight: bold;
+                color: white;
+                margin: 5vh 0 0 7vw;
+            }
+            .blog_circles {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 5vh;
+                margin: 6vh 0 0 -1.5vw;
+                .blog_entry {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .blog_back_circle {
+                        z-index: 100;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 40vw;
+                        height: 40vw;
+                        border-radius: 50%;
+                        background-color: $skillsteal;
+                        margin: 0 -25vw 0 0;
+                        border: 3px solid $darkblue;
+                        // box-shadow: 2px 2px 2px 2px black;
+                        .blog_front_circle {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 37vw;
+                            height: 37vw;
+                            border-radius: 50%;
+                            background-color: $darkblue;
+                            color: white;
+                            font-family: 'Inter', sans-serif;
+                            font-weight: bold;
+                            font-size: 1.2rem;
+                            border: none;
+                        }
+                    }
+                    .blog_square {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 70vw;
+                        height: 30vw;
+                        background-color: $darkblue;
+                        border-radius: 10px;
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        font-size: .9rem;
+                        box-shadow: 2px 2px 2px 2px black;
+                        P {
+                            margin: 0 0 0 20vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // CONTACT SECTION (PORTRAIT)
+    #contact_section_id {
+        .contact_section_class {
+            display: flex;
+            flex-direction: column;
+            height: 110vh;
+            background-color: $darkblue;
+            .contact_desktop_nav {
+                ul {
+                    display: none;
+                }
+            }
+            .section_title {
+                font-family: 'Inter', sans-serif;
+                font-size: 2.5rem;
+                font-weight: bold;
+                color: white;
+                margin: 5vh 0 0 7vw;
+            }
+            .contact_section_form {
+                height: 80vh;
+                margin: 5vh 0vw 0 0;
+                form {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 3vh;
+                    .name_email {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 2ch;
+                        .input_div {
+                            display: flex;
+                            flex-direction: column;
+                            label {
+                                font-family: 'Inter', sans-serif;
+                                font-size: 5vw;
+                                color: white;
+                            }
+                            input {
+                                background-color: $portfolios;
+                                border: none;
+                                border-radius: 10px;
+                                width: 82vw;
+                                height: 10vw;
+                            }
+                        }
+                    }
+                   .message_submit {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 2ch;
+                        .input_div {
+                            display: flex;
+                            flex-direction: column;
+                            label {
+                                font-family: 'Inter', sans-serif;
+                                font-size: 5vw;
+                                color: white;
+                            }
+                            textarea {
+                                background-color: $portfolios;
+                                height: 37vh;
+                                width: 82vw;
+                                border: none;
+                                border-radius: 15px;
+                                resize: none;
+                            }
+                        }
+                        .submit_button {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            #submitemail {
+                                background-color: $portfolios;
+                                // background-color: red;
+                                border: none;
+                                box-shadow: 3px 3px 2px $boxshadowcircles;
+                                border-radius: 10px;
+                                width: 40.5vw;
+                                width: 82vw;
+                                height: 5.5vw;
+                                height: 10vw;
+                                p {
+                                    color: white;
+                                    font-size: 1rem;
+                                    // font-size: 2vw;
+                                }
+                            }
+                        }
+                   }
+                    
+                }
+                // FOOTER (PORTRAIT)
+                .poweredby {
+                    small {
+                         // SOCIALS (PORTRAIT)
+                        .home_socials {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            // gap: 3vh;
+                            gap: 55px;
+                            // margin: 0vh 0 0 5vw;
+                            margin: 2vh 0 0 0;
+                            #github {
+                                width: 9vw;
+                                height: 9vw;
+                            }
+                            #twitter {
+                                width: 9vw;
+                                height: 9vw;
+                            }
+                            #linkedin {
+                                width: 9vw;
+                                height: 9vw;
+                            }
+                            #instagram {
+                                width: 9.8vw;
+                                height: 9.8vw;
+                            }
+                        }
+                    }
+                    .copyrights {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 2.5ch;
+                        // margin: 4vh 0 0 -1vw;
+                        margin: 4vh 0 0 0;
+                        width: 100%;
+                        // background-color: yellow;
+                        p {
+                            color: $portfolios;
+                            font-size: 4vw;
+                            font-size: .8rem;
+                            // font-weight: bold;
+                            font-family: 'Inter', sans-serif;
+                            // background-color: red;
+                            margin-right: -2vw;
+                        }
+                        #copyright_courdevs {
+                            margin: 0vh -3vw 0 0;
+                            width: 5vw;
+                            height: 5vw;
+                            // background-color: red;
+                        }
+                        .courdev {
+                            // margin: 0 -2vw 0 0vw;
+                            color: $firstblue;
+                            font-family: 'Inter', sans-serif;
+                            font-size: 4vw;
+                            font-size: .8rem;
+                        }
+                        #phone {
+                            width: 6.5vw;
+                            height: 6.5vw;
+                            margin-left: -3vw;
+                        }
+                        .courdev_num {
+                            font-family: 'Inter', sans-serif;
+                            color: $firstblue;
+                            font-size: .8rem;
+                            margin-left: -1rem;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
 // 350 px Next Size up Smartphones My Phone
 @media screen and (min-width: 350px) and (max-width: 399px) {
-    body {
-        display: none;
+    // body {
+    //     display: none;
+    // }
+    // NAVBAR (PORTRAIT)
+    #home_section_id {
+        nav {
+            background-color: $darkblue;
+            // background-color: rgb(116, 66, 5);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 10vh;
+            .you_nav {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                opacity: 0;
+                .you {
+                    font-family: 'Inter', sans-serif;
+                    font-weight: bold;
+                    color: white;
+                    // font-size: 5vw;
+                }
+                .job {
+                    font-family: 'Inter', sans-serif;
+                    // font-size: 4vw;
+                    border: 1px solid $portfolios;
+                    background-color: $portfolios;
+                    color: $descriptionblue;
+                    border-radius: 5px;
+                }
+            }
+            // #hamburger {
+            //     // width: 10vw;
+            //     // height: 10vw;
+            //     // margin: 1vh 7vw 0 0;
+            //     margin: 1ch 5ch 0 0;
+            // }
+            .menu_button_div {
+                background-color: $darkblue;
+                margin: 5vh 4.5vh 0 0;
+                border: none;
+                #dots_menu {
+                    height: 10vw;
+                    width: 10vw;
+                }
+            }
+        }
+        // DESKTOP NAV
+        .desktop_nav {
+            display: none;
+        }
+        // HOME SECTION (PORTRAIT)
+        .home_section_content {
+            background-color: $darkblue;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+            gap: 8ch;
+            // HOME LOGO (PORTRAIT) 
+            .logo_div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: -8ch;
+                .back_logo {
+                    border: 1px solid white;
+                    background-color: white;
+                    border-radius: 50%;
+                    // width: 50vw;
+                    // height: 50vw;
+                    width: 11em;
+                    height: 11em;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .front_logo {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        img {
+                            width: 10em;
+                            height: 10em;
+                            // display: none;
+                        }
+                    }
+                }
+            }
+            // WORDS AND SOCIALS LOGOS (PORTRAIT)
+            .word_content {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 4ch;
+                .name_description {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: .5ch;
+                    .home_name {
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        // font-size: 8vw;
+                        font-size: 1.9rem;
+                    }
+                    // JOB TITLE (PORTRAIT)
+                    .job_description {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border: 1px solid $portfolios;
+                        border-radius: 5px;
+                        background-color: $portfolios;
+                        color: $descriptionblue;
+                        font-family: 'Inter', sans-serif;
+                        font-size: 1.2rem;
+                        text-align: center;
+                        // width: 14em;
+                        // height: 2em;
+                        padding: .5em 1.1em .5em 1.1em;
+                    }
+                }
+                // SLOGAN (PORTRAIT)
+                .home_slogan {
+                    p {
+                        font-family: 'Inter', sans-serif;
+                        // font-size: 5vw;
+                        font-size: 1.15rem;
+                        font-weight: bold;
+                        color: white;
+                        text-align: center;
+                    }
+                }
+                // SOCIALS (PORTRAIT)
+                .home_socials {
+                    display: flex;
+                    align-items: center;
+                    gap: 4vh;
+                    margin: 0vh 0 0 0;
+                    #github {
+                        width: 9vw;
+                        height: 9vw;
+                    }
+                    #twitter {
+                        width: 9vw;
+                        height: 9vw;
+                    }
+                    #linkedin {
+                        width: 9vw;
+                        height: 9vw;
+                    }
+                    #instagram {
+                        width: 9.8vw;
+                        height: 9.8vw;
+                    }
+                }
+                // LEARN MORE BUTTON (PORTRAIT)
+                .learn_more {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border: 1px solid $portfolios;
+                    border-radius: 5px;
+                    border-radius: 45px;
+                    background-color: $portfolios;
+                    // width: 14em;
+                    // height: 2.5em;
+                    padding: .8em 5em .8em 5em;
+                    a {
+                        color: $jobdescription;
+                        color: $descriptionblue;
+                        font-family: 'Inter', sans-serif;
+                        // font-size: 4.5vw;
+                        font-size: .9rem;
+                        font-weight: bold;
+                        text-decoration: none;
+                    }
+                }
+            }
+            
+        } 
+    }
+    // ABOUT SECTION (PORTRAIT)
+    #about_section_id {
+        .about_section_class {
+            background-color: $nextgreen;
+            // background-color: red;
+            height: 115vh;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            .about_desktop_nav {
+                ul {
+                    display: none;
+                }
+            }
+            .section_title {
+                font-family: 'Inter', sans-serif;
+                // font-size: 6vw;
+                font-size: 2.5rem;
+                font-weight: bold;
+                margin: 5vh 0 0 7vw;
+            }
+            .about_section_content {
+                font-family: 'Inter', sans-serif;
+                font-size: 1rem;
+                line-height: 2.5ch;
+                width: 80%;
+                margin: 2vh 0 0 7vw;
+                .brand_is {
+                    font-family: 'Inter', sans-serif;
+                    // font-size: 2.5vw;
+                    // display: flex;
+                    align-items: center;
+                    // margin: 0 0 0 -3vw;
+                    // gap: 2vw;
+                    .brand {
+                        display: flex;
+                        justify-content: left;
+                        align-items: center;
+                        gap: 1ch;
+                        margin: 3vh 0 3vh 0;
+                        #about_logo {
+                            // width: 25.5vw;
+                            // height: 25.5vw;
+                            width: 19vw;
+                            height: 19vw;
+                        }
+                    }
+                }
+            }
+            .download_resume {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 5vh 0 0 7vw;
+                font-family: 'Inter', sans-serif;
+                font-weight: bold;
+                border: 1px solid white;
+                background-color: white;
+                border-radius: 25px;
+                // width: 28vw;
+                // height: 4vw;
+                width: 13em;
+                height: 2.5em;
+                // padding: .5ch .5ch;
+                a {
+                    color: $nextgreen;
+                    text-decoration: none;
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+    // PORTFOLIO SECTION (PORTRAIT)
+    #portfolio_section_id {
+        .portfolio_section_class {
+            background-color: $darkblue;
+            // background-color: red;
+            height: 105vh;
+            display: flex;
+            flex-direction: column;
+            .portfolio_desktop_nav {
+                ul {
+                    display: none;
+                }
+            }
+            .section_title {
+                font-family: 'Inter', sans-serif;
+                font-size: 2.5rem;
+                font-weight: bold;
+                color: white;
+                margin: 5vh 0 0 7vw;
+            }
+            // .portfolio_section_content {
+            //     margin: 5vh 0 0 0;
+            //     background-color: #00C6C3;
+                .portfolio_section_squares {
+                    display: flex;
+                    flex-direction: column;
+                    // justify-content: center;
+                    align-items: center;
+                    gap: 4ch;
+                    gap: 5vh;
+                    margin: 5vh 0 0 0;
+                    .portfolio_square {
+                        background-color: $portfolios;
+                        border: 1px solid $portfolios;
+                        border: none;
+                        // background-color: red;
+                        border-radius: 10px;
+                        // width: 24.4em;
+                        // height: 9em;
+                        width: 85.5vw;
+                        height: 43vw;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        box-shadow: 2px 2px 2px 2px black;
+                        #workflow_app {
+                            // width: 18em;
+                            // height: 4em;
+                            width: 65vw;
+                            margin: 1vh 0 0 8vw;
+                        }
+                        #create_collab {
+                            margin: 0 0 0 8.5vw;
+                        }
+                        #mps_site {
+                            // width: 12em;
+                            // height: 4em;
+                            width: 45vw;
+                            margin: 0 0 0 12vw;
+                        }
+                        #msy {
+                            // width: 15em;
+                            // height: 4em;
+                            width: 55vw;
+                        }
+                    }
+                }
+            }
+        
+    }
+    // SKILLS SECTIONS (PORTRAIT)
+    #skills_section_id {
+        .skills_section_class {
+            background-color: $nextgreen;
+            height: 105vh;
+            display: flex;
+            flex-direction: column;
+            .skills_desktop_nav {
+                ul {
+                    display: none;
+                }
+            }
+            .section_title {
+                font-family: 'Inter', sans-serif;
+                font-size: 2.5rem;
+                font-weight: bold;
+                color: white;
+                margin: 5vh 0 0 7vw;
+            }
+            .skills_section_circles {
+                margin: 0 0 0 1.3vw;
+                .skills_circles_one {
+                    display: flex;
+                    gap: 2vw;
+                    margin: 5vh 0 0 5vw;
+                    .skill_circle {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        .skill_back {
+                            width: 27vw;
+                            height: 27vw;
+                            width: 26vw;
+                            height: 26vw;
+                            border: 3px solid $darkblue;
+                            background-color: $nextgreen;
+                            background-color: $skillsteal;
+                            box-shadow: 2px 2px $boxshadowcircles;
+                            border-radius: 50%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            .skill_front {
+                                width: 25vw;
+                                height: 25vw;
+                                width: 24vw;
+                                height: 24vw;
+                                border: none;
+                                background-color: $darkblue;
+                                // background-color: $skillsteal;
+                                // box-shadow: 2px 2px $boxshadowcircles;
+                                border-radius: 50%;
+                                position: absolute;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                .shield {
+                                    width: 11vw;
+                                    height: 11vw;
+                                }
+                                // HTML
+                                #html {
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                }
+                                #html.dissapear {
+                                    opacity: 0;
+                                }
+                                #html_description {
+                                    opacity: 0;
+                                }
+                                #html_description.show {
+                                    transition: .5s all ease-in;
+                                }
+                                // CSS
+                                #css {
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                }
+                                #css.dissapear {
+                                    opacity: 0;
+                                }
+                                #css_description {
+                                    opacity: 0;
+                                }
+                                #css_description.show {
+                                    transition: .5s all ease-in;
+                                }
+                                // SASS
+                                #sass {
+                                    width: 11vw;
+                                    height: 11vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                    margin: -.5vh 0 0 1.5vw;
+                                }
+                                #sass.dissapear {
+                                    opacity: 0;
+                                }
+                                #sass_description {
+                                    opacity: 0;
+                                }
+                                #sass_description.show {
+                                    transition: .5s all ease-in;
+                                }
+                                // JS
+                                #javascript {
+                                    width: 13vw;
+                                    height: 13vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                    margin: 0 0 0 .5vw;
+                                }
+                                #javascript.dissapear {
+                                    opacity: 0;
+                                }
+                                #javascript_description {
+                                    opacity: 0;
+                                }
+                                #javascript_description.show {
+                                    transition: .5s all ease-in;
+                                }
+                                // PYTHON
+                                #python {
+                                    width: 9.5vw;
+                                    height: 9.5vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                    margin: -.5vh 0 0 0;
+                                }
+                                #python.dissapear {
+                                    opacity: 0;
+                                }
+                                #python_description {
+                                    opacity: 0;
+                                }
+                                // REACT
+                                #react {
+                                    width: 10.5vw;
+                                    height: 10.5vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                }
+                                #react.dissapear {
+                                    opacity: 0;
+                                }
+                                #react_description {
+                                    opacity: 0;
+                                }
+                                #react_description.show {
+                                    transition: .5s all ease-in;
+                                }
+                                // FIGMA
+                                #figma {
+                                    width: 11.5vw;
+                                    height: 11.5vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                }
+                                #figma.dissapear {
+                                    opacity: 0;
+                                }
+                                #figma_description {
+                                    opacity: 0;
+                                }
+                                #figma_description.show {
+                                    transition: .5s all ease-in; 
+                                }
+                                // FIREBASE
+                                #firebase {
+                                    width: 7vw;
+                                    height: 9.8vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                }
+                                #firebase.dissapear {
+                                    opacity: 0;
+                                }
+                                #firebase_description {
+                                    opacity: 0;
+                                }
+                                #firebase_description.show {
+                                    transition: .5s all ease-in; 
+                                }
+                                // MONGO
+                                #mongo {
+                                    width: 4.5vw;
+                                    height: 10vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                    margin: 0vh 0 0 0;
+                                }
+                                #mongo.dissapear {
+                                    opacity: 0;
+                                }
+                                #mongo_description {
+                                    opacity: 0;
+                                }
+                                #mongo_description.show {
+                                    transition: .5s all ease-in;
+                                }
+                                // DJANGO
+                                #django {
+                                    width: 9vw;
+                                    height: 9vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                    margin: 0vh 1vw 0 0; 
+                                }
+                                #django.dissapear {
+                                    opacity: 0;
+                                }
+                                #django_description {
+                                    opacity: 0;
+                                }
+                                #django_description.show {
+                                    transition: .5s all ease-in;
+                                }
+                                // AWS
+                                #aws {
+                                    width: 11vw;
+                                    height: 11vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                    margin: 0vh 0vw 0 0;  
+                                }
+                                #aws.dissapear {
+                                    opacity: 0;
+                                }
+                                #aws_description {
+                                    opacity: 0;
+                                }
+                                #aws_description.show {
+                                    transition: .5s all ease-in;
+                                }
+                                // HEROKU
+                                #heroku {
+                                    width: 10vw;
+                                    height: 10vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                    margin: -.5vhvh 0vw 0 0;  
+                                }
+                                #heroku.dissapear {
+                                    opacity: 0;
+                                }
+                                #heroku_description {
+                                    opacity: 0;
+                                }
+                                #heroku_description.show {
+                                    transition: .5s all ease-in;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // EXPERIENCE SECTION (PORTRAIT)
+    #experience_section_id {
+        .experience_section_class {
+            background-color: $darkblue;
+            height: 110vh;
+            display: flex;
+            flex-direction: column;
+            .experience_desktop_nav {
+                ul {
+                    display: none;
+                }
+            }
+            .section_title {
+                font-family: 'Inter', sans-serif;
+                font-size: 2.5rem;
+                font-weight: bold;
+                color: white;
+                margin: 5vh 0 0 7vw;
+            }
+            .experience_section_squares {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 5vh;
+                margin: 5vh 0 0 0;
+                // experience squares
+
+                // Courdevelops
+                .experience_1_square {
+                    width: 85.5vw;
+                    height: 43vw;
+                    border-radius: 10px;
+                    background-color: $portfolios;
+                    border: none;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    box-shadow: 2px 2px 2px 2px black;
+
+                    // Square stuff
+                    // logo
+                    #courdevelops {
+                        width: 17vw;
+                        height: 17vw;
+                        width: 22vw;
+                        height: 22vw;
+                        margin: 0 0 0 -9.5vw;
+                    }
+                    // text
+                    .job_1_description {
+                        position: relative;
+                        left: 25px;
+                        left: 23px;
+                        font-family: 'Inter', sans-serif;
+                        display: flex;
+                        flex-direction: column;
+                        gap: .3ch;
+                        .experience_company {
+                            color: white;
+                            font-size: 1rem;
+                            // font-size: 18px;
+                            font-weight: bold;
+                        }
+                        .experience_position {
+                            color: $descriptionblue;
+                            // color: $jobdescription;
+                            font-size: .9rem;
+                        }
+                    }
+                }
+                // slea
+                .experience_2_square {
+                    width: 85.5vw;
+                    height: 43vw;
+                    border-radius: 10px;
+                    background-color: $portfolios;
+                    border: none;
+                    border: none;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    box-shadow: 2px 2px 2px 2px black;
+
+                    // Square stuff
+                    // logo
+                    #slea {
+                        width: 16vw;
+                        height: 16vw;
+                        width: 21vw;
+                        height: 21vw;
+                        margin: 0 0 0 -10vw;
+                    }
+                    // text
+                    .job_2_description {
+                        position: relative;
+                        left: 26px;
+                        font-family: 'Inter', sans-serif;
+                        display: flex;
+                        flex-direction: column;
+                        gap: .3ch;
+                        .experience_company {
+                            color: white;
+                            font-size: 1rem;
+                            font-weight: bold;
+                        }
+                        .experience_position {
+                            color: $descriptionblue;
+                            font-size: .9rem;
+
+                        }
+                    }
+                }
+                .experience_3_square {
+                    width: 85.5vw;
+                    height: 43vw;
+                    border-radius: 10px;
+                    background-color: $portfolios;
+                    border: none;
+                    border: none;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    box-shadow: 2px 2px 2px 2px black;
+
+                    // Square stuff
+                    // logo
+                    #r1rcm {
+                        width: 15vw;
+                        height: 15vw;
+                        width: 19vw;
+                        height: 19vw;
+                        margin: 0 0 0 -7vw;
+                    }
+                    // text
+                    .job_3_description {
+                        position: relative;
+                        left: 23px;
+                        font-family: 'Inter', sans-serif;
+                        display: flex;
+                        flex-direction: column;
+                        gap: .3ch;
+                        .experience_company {
+                            color: white;
+                            font-size: 1rem;
+                            font-weight: bold;
+                        }
+                        .experience_position {
+                            color: $descriptionblue;
+                            font-size: .9rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // BLOG SECTION (PORTRAIT)
+    #blog_section_id {
+        .blog_section_class {
+            background-color: $nextgreen;
+            height: 110vh;
+            display: flex;
+            flex-direction: column;
+            // justify-content: center;
+            // align-items: center;
+            .blog_desktop_nav {
+                ul {
+                    display: none;
+                }
+            }
+            .section_title {
+                font-family: 'Inter', sans-serif;
+                font-size: 2.5rem;
+                font-weight: bold;
+                color: white;
+                margin: 5vh 0 0 7vw;
+            }
+            .blog_circles {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 5vh;
+                margin: 6vh 0 0 -1.5vw;
+                .blog_entry {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .blog_back_circle {
+                        z-index: 100;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 40vw;
+                        height: 40vw;
+                        border-radius: 50%;
+                        background-color: $skillsteal;
+                        margin: 0 -25vw 0 0;
+                        border: 3px solid $darkblue;
+                        // box-shadow: 2px 2px 2px 2px black;
+                        .blog_front_circle {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 37vw;
+                            height: 37vw;
+                            border-radius: 50%;
+                            background-color: $darkblue;
+                            color: white;
+                            font-family: 'Inter', sans-serif;
+                            font-weight: bold;
+                            font-size: 1.2rem;
+                            border: none;
+                        }
+                    }
+                    .blog_square {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 70vw;
+                        height: 30vw;
+                        background-color: $darkblue;
+                        border-radius: 10px;
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        font-size: .9rem;
+                        box-shadow: 2px 2px 2px 2px black;
+                        P {
+                            margin: 0 0 0 20vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // CONTACT SECTION (PORTRAIT)
+    #contact_section_id {
+        .contact_section_class {
+            display: flex;
+            flex-direction: column;
+            height: 110vh;
+            background-color: $darkblue;
+            .contact_desktop_nav {
+                ul {
+                    display: none;
+                }
+            }
+            .section_title {
+                font-family: 'Inter', sans-serif;
+                font-size: 2.5rem;
+                font-weight: bold;
+                color: white;
+                margin: 5vh 0 0 7vw;
+            }
+            .contact_section_form {
+                height: 80vh;
+                margin: 5vh 0vw 0 0;
+                form {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 3vh;
+                    .name_email {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 2ch;
+                        .input_div {
+                            display: flex;
+                            flex-direction: column;
+                            label {
+                                font-family: 'Inter', sans-serif;
+                                font-size: 5vw;
+                                color: white;
+                            }
+                            input {
+                                background-color: $portfolios;
+                                border: none;
+                                border-radius: 10px;
+                                width: 82vw;
+                                height: 10vw;
+                            }
+                        }
+                    }
+                   .message_submit {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 2ch;
+                        .input_div {
+                            display: flex;
+                            flex-direction: column;
+                            label {
+                                font-family: 'Inter', sans-serif;
+                                font-size: 5vw;
+                                color: white;
+                            }
+                            textarea {
+                                background-color: $portfolios;
+                                height: 37vh;
+                                width: 82vw;
+                                border: none;
+                                border-radius: 15px;
+                                resize: none;
+                            }
+                        }
+                        .submit_button {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            #submitemail {
+                                background-color: $portfolios;
+                                // background-color: red;
+                                border: none;
+                                box-shadow: 3px 3px 2px $boxshadowcircles;
+                                border-radius: 10px;
+                                width: 40.5vw;
+                                width: 82vw;
+                                height: 5.5vw;
+                                height: 10vw;
+                                p {
+                                    color: white;
+                                    font-size: 1rem;
+                                    // font-size: 2vw;
+                                }
+                            }
+                        }
+                   }
+                    
+                }
+                // FOOTER (PORTRAIT)
+                .poweredby {
+                    small {
+                         // SOCIALS (PORTRAIT)
+                        .home_socials {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            // gap: 3vh;
+                            gap: 55px;
+                            // margin: 0vh 0 0 5vw;
+                            margin: 2vh 0 0 0;
+                            #github {
+                                width: 9vw;
+                                height: 9vw;
+                            }
+                            #twitter {
+                                width: 9vw;
+                                height: 9vw;
+                            }
+                            #linkedin {
+                                width: 9vw;
+                                height: 9vw;
+                            }
+                            #instagram {
+                                width: 9.8vw;
+                                height: 9.8vw;
+                            }
+                        }
+                    }
+                    .copyrights {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 2.5ch;
+                        // margin: 4vh 0 0 -1vw;
+                        margin: 4vh 0 0 0;
+                        width: 100%;
+                        // background-color: yellow;
+                        p {
+                            color: $portfolios;
+                            font-size: 4vw;
+                            font-size: .8rem;
+                            // font-weight: bold;
+                            font-family: 'Inter', sans-serif;
+                            // background-color: red;
+                            margin-right: -2vw;
+                        }
+                        #copyright_courdevs {
+                            margin: 0vh -3vw 0 0;
+                            width: 5vw;
+                            height: 5vw;
+                            // background-color: red;
+                        }
+                        .courdev {
+                            // margin: 0 -2vw 0 0vw;
+                            color: $firstblue;
+                            font-family: 'Inter', sans-serif;
+                            font-size: 4vw;
+                            font-size: .8rem;
+                        }
+                        #phone {
+                            width: 6.5vw;
+                            height: 6.5vw;
+                            margin-left: -3vw;
+                        }
+                        .courdev_num {
+                            font-family: 'Inter', sans-serif;
+                            color: $firstblue;
+                            font-size: .8rem;
+                            margin-left: -1rem;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -371,7 +2367,9 @@ $savethis: #7273ad;
             display: flex;
             flex-direction: column;
             background-color: $darkblue;
+            // background-color: #00313E;
             height: 105vh;
+            
             .title_nav {
                 display: flex;
                 justify-content: space-between;
@@ -430,8 +2428,11 @@ $savethis: #7273ad;
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    // padding: 30ch 5ch 30ch 5ch;
                     width: 23em;
                     height: 33em;
+                    // width: 35%;
+                    // height: 80%;
                     background-color: $portfolios;
                     border-radius: 55px;
                     border: 1px solid $portfolios;
@@ -439,6 +2440,7 @@ $savethis: #7273ad;
                     cursor: pointer;
                     #workflow_app {
                         width: 25em;
+                        width: 19em;
                         margin: 0 0 0 5ch;
                     }
                     #create_collab {
