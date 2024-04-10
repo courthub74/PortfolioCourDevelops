@@ -1435,8 +1435,6 @@ $savethis: #7273ad;
                         justify-content: center;
                         align-items: center;
                         .skill_back {
-                            width: 27vw;
-                            height: 27vw;
                             width: 26vw;
                             height: 26vw;
                             border: 3px solid $darkblue;
@@ -1448,10 +1446,8 @@ $savethis: #7273ad;
                             justify-content: center;
                             align-items: center;
                             .skill_front {
-                                width: 25vw;
-                                height: 25vw;
-                                width: 24vw;
-                                height: 24vw;
+                                width: 22vw;
+                                height: 22vw;
                                 border: none;
                                 background-color: $darkblue;
                                 // background-color: $skillsteal;
@@ -1578,13 +1574,18 @@ $savethis: #7273ad;
                                     position: absolute;
                                 }
                                 #react.dissapear {
+                                    transition: .7s all ease-out;
                                     opacity: 0;
                                 }
                                 #react_description {
                                     opacity: 0;
                                 }
                                 #react_description.show {
-                                    transition: .5s all ease-in;
+                                    transition: .7s all ease-in;
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: .8rem;
+                                    opacity: 1;
                                 }
                                 // FIGMA
                                 #figma {
@@ -1594,13 +1595,18 @@ $savethis: #7273ad;
                                     position: absolute;
                                 }
                                 #figma.dissapear {
+                                    transition: .7s all ease-out;
                                     opacity: 0;
                                 }
                                 #figma_description {
                                     opacity: 0;
                                 }
                                 #figma_description.show {
-                                    transition: .5s all ease-in; 
+                                    transition: .7s all ease-in;
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: .8rem;
+                                    opacity: 1;
                                 }
                                 // FIREBASE
                                 #firebase {
@@ -1610,13 +1616,18 @@ $savethis: #7273ad;
                                     position: absolute;
                                 }
                                 #firebase.dissapear {
+                                    transition: .7s all ease-out;
                                     opacity: 0;
                                 }
                                 #firebase_description {
                                     opacity: 0;
                                 }
                                 #firebase_description.show {
-                                    transition: .5s all ease-in; 
+                                    transition: .7s all ease-in;
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: .8rem;
+                                    opacity: 1; 
                                 }
                                 // MONGO
                                 #mongo {
@@ -1627,13 +1638,18 @@ $savethis: #7273ad;
                                     margin: 0vh 0 0 0;
                                 }
                                 #mongo.dissapear {
+                                    transition: .7s all ease-out;
                                     opacity: 0;
                                 }
                                 #mongo_description {
                                     opacity: 0;
                                 }
                                 #mongo_description.show {
-                                    transition: .5s all ease-in;
+                                    transition: .7s all ease-in;
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: .8rem;
+                                    opacity: 1; 
                                 }
                                 // DJANGO
                                 #django {
@@ -1644,13 +1660,18 @@ $savethis: #7273ad;
                                     margin: 0vh 1vw 0 0; 
                                 }
                                 #django.dissapear {
+                                    transition: .7s all ease-out;
                                     opacity: 0;
                                 }
                                 #django_description {
                                     opacity: 0;
                                 }
                                 #django_description.show {
-                                    transition: .5s all ease-in;
+                                    transition: .7s all ease-in;
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: .8rem;
+                                    opacity: 1; 
                                 }
                                 // AWS
                                 #aws {
@@ -1661,13 +1682,18 @@ $savethis: #7273ad;
                                     margin: 0vh 0vw 0 0;  
                                 }
                                 #aws.dissapear {
+                                    transition: .7s all ease-out;
                                     opacity: 0;
                                 }
                                 #aws_description {
                                     opacity: 0;
                                 }
                                 #aws_description.show {
-                                    transition: .5s all ease-in;
+                                    transition: .7s all ease-in;
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: .8rem;
+                                    opacity: 1; 
                                 }
                                 // HEROKU
                                 #heroku {
@@ -1678,13 +1704,18 @@ $savethis: #7273ad;
                                     margin: -.5vhvh 0vw 0 0;  
                                 }
                                 #heroku.dissapear {
+                                    transition: .7s all ease-out;
                                     opacity: 0;
                                 }
                                 #heroku_description {
                                     opacity: 0;
                                 }
                                 #heroku_description.show {
-                                    transition: .5s all ease-in;
+                                    transition: .7s all ease-in;
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: .8rem;
+                                    opacity: 1; 
                                 }
                             }
                         }
