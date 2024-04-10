@@ -1267,7 +1267,7 @@ $savethis: #7273ad;
         .about_section_class {
             background-color: $nextgreen;
             // background-color: red;
-            height: 115vh;
+            height: 120vh;
             color: white;
             display: flex;
             flex-direction: column;
@@ -1313,22 +1313,21 @@ $savethis: #7273ad;
             }
             .download_resume {
                 display: flex;
-                justify-content: center;
-                align-items: center;
-                margin: 5vh 0 0 7vw;
+                // justify-content: center;
+                // align-items: center;
+                margin: 3vh 0 0 5vw;
                 font-family: 'Inter', sans-serif;
                 font-weight: bold;
-                border: 1px solid white;
-                background-color: white;
+                // border: 1px solid white;
+                // background-color: white;
                 border-radius: 25px;
-                // width: 28vw;
-                // height: 4vw;
                 width: 13em;
                 height: 2.5em;
-                // padding: .5ch .5ch;
+                padding: .5em .5em;
                 a {
                     color: $nextgreen;
-                    text-decoration: none;
+                    color: white;
+                    // text-decoration: none;
                     font-size: 1rem;
                 }
             }
@@ -1386,6 +1385,7 @@ $savethis: #7273ad;
                             margin: 1vh 0 0 8vw;
                         }
                         #create_collab {
+                            width: 60vw;
                             margin: 0 0 0 8.5vw;
                         }
                         #mps_site {
@@ -1397,7 +1397,7 @@ $savethis: #7273ad;
                         #msy {
                             // width: 15em;
                             // height: 4em;
-                            width: 55vw;
+                            width: 45vw;
                         }
                     }
                 }
@@ -1424,7 +1424,7 @@ $savethis: #7273ad;
                 margin: 5vh 0 0 7vw;
             }
             .skills_section_circles {
-                margin: 0 0 0 1.3vw;
+                margin: 2ch 0 0 1.3vw;
                 .skills_circles_one {
                     display: flex;
                     gap: 2vw;
@@ -1472,13 +1472,18 @@ $savethis: #7273ad;
                                     position: absolute;
                                 }
                                 #html.dissapear {
+                                    transition: .7s all ease-out;
                                     opacity: 0;
                                 }
                                 #html_description {
                                     opacity: 0;
                                 }
                                 #html_description.show {
-                                    transition: .5s all ease-in;
+                                    transition: .7s all ease-in;
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: .8rem;
+                                    opacity: 1;
                                 }
                                 // CSS
                                 #css {
@@ -1486,13 +1491,18 @@ $savethis: #7273ad;
                                     position: absolute;
                                 }
                                 #css.dissapear {
+                                    transition: .7s all ease-out;
                                     opacity: 0;
                                 }
                                 #css_description {
                                     opacity: 0;
                                 }
                                 #css_description.show {
-                                    transition: .5s all ease-in;
+                                    transition: .7s all ease-in;
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: .8rem;
+                                    opacity: 1;
                                 }
                                 // SASS
                                 #sass {
@@ -1503,13 +1513,18 @@ $savethis: #7273ad;
                                     margin: -.5vh 0 0 1.5vw;
                                 }
                                 #sass.dissapear {
+                                    transition: .7s all ease-out;
                                     opacity: 0;
                                 }
                                 #sass_description {
                                     opacity: 0;
                                 }
                                 #sass_description.show {
-                                    transition: .5s all ease-in;
+                                    transition: .7s all ease-in;
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: .8rem;
+                                    opacity: 1;
                                 }
                                 // JS
                                 #javascript {
@@ -1520,13 +1535,18 @@ $savethis: #7273ad;
                                     margin: 0 0 0 .5vw;
                                 }
                                 #javascript.dissapear {
+                                    transition: .7s all ease-out;
                                     opacity: 0;
                                 }
                                 #javascript_description {
                                     opacity: 0;
                                 }
                                 #javascript_description.show {
-                                    transition: .5s all ease-in;
+                                    transition: .7s all ease-in;
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: .8rem;
+                                    opacity: 1;
                                 }
                                 // PYTHON
                                 #python {
@@ -1537,10 +1557,18 @@ $savethis: #7273ad;
                                     margin: -.5vh 0 0 0;
                                 }
                                 #python.dissapear {
+                                    transition: .7s all ease-out;
                                     opacity: 0;
                                 }
                                 #python_description {
                                     opacity: 0;
+                                }
+                                #python_description.show {
+                                    transition: .7s all ease-in;
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: .8rem;
+                                    opacity: 1;
                                 }
                                 // REACT
                                 #react {
