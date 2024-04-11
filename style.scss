@@ -1760,71 +1760,76 @@ $savethis: #7273ad;
                     border-radius: 10px;
                     background-color: $portfolios;
                     border: none;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
+                    // display: flex;
+                    // align-items: center;
+                    // justify-content: center;
                     box-shadow: 2px 2px 2px 2px black;
 
                     // Square stuff
                     // Courdevelops
-                    #courdevelops {
-                        width: 23vw;
-                        height: 23vw;
-                        margin: 0 0 0 -9.5vw;
-                    }
-                    // text
-                    .experience_job {
-                        .job_description {
-                            position: relative;
-                            left: 25px;
-                            left: 23px;
-                            font-family: 'Inter', sans-serif;
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: center;
-                            align-items: center;
-                            gap: .3ch;
-                            margin: 0ch 0 0 0;
-                            .experience_description {
-                                transition: .3s all ease-in;
-                                position: absolute;
-                                .experience_company {
-                                    color: white;
-                                    font-size: 1rem;
-                                    // font-size: 18px;
-                                    font-weight: bold;
+                    .button_1_contents {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        #courdevelops {
+                            width: 5em;
+                            height: 5em;
+                            margin: 0 0 0 -15ch;
+                        }
+                        // text
+                        .experience_job {
+                            .job_description {
+                                position: relative;
+                                left: 52px;
+                                font-family: 'Inter', sans-serif;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                gap: .3ch;
+                                margin: 0ch 0 0 0;
+                                // background-color: #00C6C3;
+                                .experience_description {
+                                    transition: .3s all ease-in;
+                                    position: absolute;
+                                    .experience_company {
+                                        color: white;
+                                        font-size: 1rem;
+                                        // font-size: 18px;
+                                        font-weight: bold;
+                                    }
+                                    // Just the position for smartphone
+                                    .experience_position {
+                                        color: $descriptionblue;
+                                        // color: $jobdescription;
+                                        font-size: .9rem;
+                                    }
                                 }
-                                // Just the position for smartphone
-                                .experience_position {
+                                // Experience 1 position dissapear
+                                    // when hovered upon
+                                #job_1_position.dissapear {
+                                    transition: .5s all ease-out;
+                                    opacity: 0;
+                                }
+                                // Experience 1 details
+                                #exp_details_one {
+                                    opacity: 0;
+                                }
+                                // Experience 1  details show
+                                #exp_details_one.show {
+                                    transition: .5s all ease-in;
+                                    // color: white;
+                                    // font-family: 'Inter', sans-serif;
+                                    // font-size: .6rem;
                                     color: $descriptionblue;
-                                    // color: $jobdescription;
-                                    font-size: .9rem;
+                                    margin: 4ch 0 0 0;
+                                    opacity: 1;
                                 }
+                                // The 
+                                // .experience_details {
+                                //     color: $descriptionblue;
+                                // }
                             }
-                            // Experience 1 position dissapear
-                                // when hovered upon
-                            #job_1_position.dissapear {
-                                transition: .5s all ease-out;
-                                opacity: 0;
-                            }
-                            // Experience 1 details
-                            #exp_details_one {
-                                opacity: 0;
-                            }
-                            // Experience 1  details show
-                            #exp_details_one.show {
-                                transition: .5s all ease-in;
-                                // color: white;
-                                // font-family: 'Inter', sans-serif;
-                                // font-size: .6rem;
-                                color: $descriptionblue;
-                                margin: 4ch 0 0 0;
-                                opacity: 1;
-                            }
-                            // The 
-                            // .experience_details {
-                            //     color: $descriptionblue;
-                            // }
                         }
                     }
                 }
@@ -1835,57 +1840,72 @@ $savethis: #7273ad;
                     border-radius: 10px;
                     background-color: $portfolios;
                     border: none;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
+                    // display: flex;
+                    // align-items: center;
+                    // justify-content: center;
                     box-shadow: 2px 2px 2px 2px black;
 
                     // Square stuff
-                    // logo
-                    #slea {
-                        width: 21vw;
-                        height: 21vw;
-                        margin: 0 0ch 0 0;
-                    }
-                    // text
-                    .experience_job {
-                        .job_description {
-                            position: relative;
-                            left: 7px;
-                            font-family: 'Inter', sans-serif;
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: center;
-                            align-items: center;
-                            gap: .3ch;
-                            .experience_description {
-                                transition: .3s all ease-in;
-                                position: absolute;
-                                .experience_company {
-                                    color: white;
-                                    font-size: 1rem;
-                                    font-weight: bold;
+                    // SLEA
+                    .button_2_contents {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        // gap: 5ch;
+                        #slea {
+                            width: 5em;
+                            height: 5em;
+                            margin: 0 0ch 0 -10ch;
+                        }
+                        // text
+                        .experience_job {
+                            // background-color: red;
+                            .job_description {
+                                position: relative;
+                                left: 36px;
+                                font-family: 'Inter', sans-serif;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                gap: .3ch;
+                                .experience_description {
+                                    transition: .3s all ease-in;
+                                    position: absolute;
+                                    .experience_company {
+                                        color: white;
+                                        font-size: 1rem;
+                                        font-weight: bold;
+                                        // background-color: #00C6C3;
+                                        // width: 130%;
+                                    }
+                                    .experience_position {
+                                        color: $descriptionblue;
+                                        font-size: .9rem;
+                                        // margin: 0 0 0 1ch;
+                                        // width: 120%;
+                                    }
                                 }
-                                .experience_position {
+                                #job_2_position.dissapear {
+                                    transition: .5s all ease-out;
+                                    opacity: 0;
+                                }
+                                #exp_details_two {
+                                    // margin: 4ch 0 0 1ch;
+                                    // color: $descriptionblue;
+                                    // color: wheat;
+                                    // margin: 0 0 0 7ch;
+                                    opacity: 0;
+                                }
+                                #exp_details_two.show {
+                                    transition: .5s all ease-in;
+                                    // color: white;
+                                    // font-family: 'Inter', sans-serif;
+                                    // font-size: .6rem;
                                     color: $descriptionblue;
-                                    font-size: .9rem;
+                                    margin: 4ch 0 0 0ch;
+                                    opacity: 1;
                                 }
-                            }
-                            #job_2_position.dissapear {
-                                transition: .5s all ease-out;
-                                opacity: 0;
-                            }
-                            #exp_details_two {
-                                opacity: 0;
-                            }
-                            #exp_details_two.show {
-                                transition: .5s all ease-in;
-                                // color: white;
-                                // font-family: 'Inter', sans-serif;
-                                // font-size: .6rem;
-                                color: $descriptionblue;
-                                margin: 4ch 0 0 0;
-                                opacity: 1;
                             }
                         }
                     }
@@ -1903,51 +1923,57 @@ $savethis: #7273ad;
                     box-shadow: 2px 2px 2px 2px black;
 
                     // Square stuff
-                    // logo
-                    #r1rcm {
-                        width: 15vw;
-                        height: 15vw;
-                        width: 19vw;
-                        height: 19vw;
-                        margin: 0 0 0 -7vw;
-                    }
-                    // text
-                    .experience_job {
-                        .job_description {
-                            position: relative;
-                            left: 23px;
-                            font-family: 'Inter', sans-serif;
-                            display: flex;
-                            flex-direction: column;
-                            gap: .3ch;
-                            .experience_description {
-                                transition: .3s all ease-in;
-                                position: absolute;
-                                .experience_company {
-                                    color: white;
-                                    font-size: 1rem;
-                                    font-weight: bold;
+                    // R1RCM
+                    .button_3_contents {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        #r1rcm {
+                            width: 4.5em;
+                            height: 4.5em;
+                            margin: 0 0 0 -7vw;
+                        }
+                        // text
+                        .experience_job {
+                            .job_description {
+                                position: relative;
+                                left: 23px;
+                                font-family: 'Inter', sans-serif;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                gap: .3ch;
+                                .experience_description {
+                                    transition: .3s all ease-in;
+                                    position: absolute;
+                                    .experience_company {
+                                        color: white;
+                                        font-size: 1rem;
+                                        font-weight: bold;
+                                        // background-color: #00C6C3;
+                                    }
+                                    .experience_position {
+                                        color: $descriptionblue;
+                                        font-size: .9rem;
+                                    }
                                 }
-                                .experience_position {
+                                #job_3_position.dissapear {
+                                    transition: .5s all ease-out;
+                                    opacity: 0;
+                                }
+                                #exp_details_three {
+                                    opacity: 0;
+                                }
+                                #exp_details_three.show {
+                                    transition: .5s all ease-in;
+                                    // color: white;
+                                    // font-family: 'Inter', sans-serif;
+                                    // font-size: .6rem;
                                     color: $descriptionblue;
-                                    font-size: .9rem;
+                                    margin: 4ch 0 0 0;
+                                    opacity: 1;
                                 }
-                            }
-                            #job_3_position.dissapear {
-                                transition: .5s all ease-out;
-                                opacity: 0;
-                            }
-                            #exp_details_three {
-                                opacity: 0;
-                            }
-                            #exp_details_three.show {
-                                transition: .5s all ease-in;
-                                // color: white;
-                                // font-family: 'Inter', sans-serif;
-                                // font-size: .6rem;
-                                color: $descriptionblue;
-                                margin: 4ch 0 0 0;
-                                opacity: 1;
                             }
                         }
                     }
