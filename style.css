@@ -1645,7 +1645,7 @@
     justify-content: center;
     align-items: center;
     gap: 5vh;
-    margin: 6vh 0 0 -1.5vw;
+    margin: 7vh 0 0 -1.5vw;
   }
   #blog_section_id .blog_section_class .blog_circles .blog_entry {
     display: flex;
@@ -1741,6 +1741,9 @@
     border-radius: 10px;
     width: 82vw;
     height: 10vw;
+  }
+  #contact_section_id .contact_section_class .contact_section_form form .name_email .home_socials {
+    display: none;
   }
   #contact_section_id .contact_section_class .contact_section_form form .message_submit {
     display: flex;

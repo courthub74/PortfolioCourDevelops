@@ -2005,7 +2005,7 @@ $savethis: #7273ad;
                 justify-content: center;
                 align-items: center;
                 gap: 5vh;
-                margin: 6vh 0 0 -1.5vw;
+                margin: 7vh 0 0 -1.5vw;
                 .blog_entry {
                     display: flex;
                     justify-content: center;
@@ -2104,6 +2104,9 @@ $savethis: #7273ad;
                                 width: 82vw;
                                 height: 10vw;
                             }
+                        }
+                        .home_socials {
+                            display: none;
                         }
                     }
                    .message_submit {
