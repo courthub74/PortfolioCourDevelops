@@ -1027,7 +1027,7 @@
   }
   #about_section_id .about_section_class {
     background-color: #00313E;
-    height: 135vh;
+    height: 120vh;
     color: white;
     display: flex;
     flex-direction: column;
@@ -1847,7 +1847,7 @@
     margin-left: -1rem;
   }
 }
-@media screen and (min-width: 800px), (max-width: 999px), (orientation: landscape) {
+@media screen and (min-width: 800px) and (max-width: 999px) {
   #home_section_id nav {
     background-color: #080E2F;
     display: flex;
