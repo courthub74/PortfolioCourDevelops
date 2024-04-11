@@ -1535,11 +1535,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 0.3ch;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_2_square .button_2_contents .experience_job .job_description .experience_description {
     transition: 0.3s all ease-in;
     position: absolute;
+    gap: 0.3ch;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_2_square .button_2_contents .experience_job .job_description .experience_description .experience_company {
     color: white;
@@ -1549,6 +1549,8 @@
   #experience_section_id .experience_section_class .experience_section_squares .experience_2_square .button_2_contents .experience_job .job_description .experience_description .experience_position {
     color: #8091ED;
     font-size: 0.9rem;
+    margin: 0 0 0 -1ch;
+    width: 120%;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_2_square .button_2_contents .experience_job .job_description #job_2_position.dissapear {
     transition: 0.5s all ease-out;

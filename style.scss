@@ -1840,9 +1840,6 @@ $savethis: #7273ad;
                     border-radius: 10px;
                     background-color: $portfolios;
                     border: none;
-                    // display: flex;
-                    // align-items: center;
-                    // justify-content: center;
                     box-shadow: 2px 2px 2px 2px black;
 
                     // Square stuff
@@ -1867,11 +1864,11 @@ $savethis: #7273ad;
                                 display: flex;
                                 flex-direction: column;
                                 justify-content: center;
-                                align-items: center;
-                                gap: .3ch;
+                                align-items: center; 
                                 .experience_description {
                                     transition: .3s all ease-in;
                                     position: absolute;
+                                    gap: .3ch;
                                     .experience_company {
                                         color: white;
                                         font-size: 1rem;
@@ -1882,8 +1879,8 @@ $savethis: #7273ad;
                                     .experience_position {
                                         color: $descriptionblue;
                                         font-size: .9rem;
-                                        // margin: 0 0 0 1ch;
-                                        // width: 120%;
+                                        margin: 0 0 0 -1ch;
+                                        width: 120%;
                                     }
                                 }
                                 #job_2_position.dissapear {
