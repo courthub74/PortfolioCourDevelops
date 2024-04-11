@@ -2496,12 +2496,94 @@ $savethis: #7273ad;
             }
         }
     }
+    // PORTFOLIO SECTION 800 AND LANDSCAPE
+    #portfolio_section_id {
+        .portfolio_section_class {
+            background-color: $darkblue;
+            // background-color: red;
+            height: 105vh;
+            display: flex;
+            flex-direction: column;
+            .portfolio_desktop_nav {
+                ul {
+                    display: none;
+                }
+            }
+            .section_title {
+                font-family: 'Inter', sans-serif;
+                font-size: 2.3rem;
+                font-weight: bold;
+                color: white;
+                margin: 5vh 0 0 7vw;
+            }
+            // .portfolio_section_content {
+            //     margin: 5vh 0 0 0;
+            //     background-color: #00C6C3;
+                .portfolio_section_squares {
+                    display: flex;
+                    flex-direction: column;
+                    // justify-content: center;
+                    align-items: center;
+                    gap: 4ch;
+                    gap: 5ch;
+                    margin: 7vh 0 0 0;
+                    .portfolio_square {
+                        background-color: $portfolios;
+                        border: 1px solid $portfolios;
+                        border: none;
+                        // background-color: red;
+                        border-radius: 10px;
+                        // width: 24.4em;
+                        // height: 9em;
+                        width: 85.5vw;
+                        height: 15vw;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        box-shadow: 2px 2px 2px 2px black;
+                        #workflow_app {
+                            // width: 18em;
+                            // height: 4em;
+                            width: 15em;
+                            margin: 1vh 0 0 8vw;
+                        }
+                        #create_collab {
+                            width: 16em;
+                            margin: 0 0 0 8.5vw;
+                        }
+                        #mps_site {
+                            // width: 12em;
+                            // height: 4em;
+                            width: 12em;
+                            margin: 0 0 0 10ch;
+                        }
+                        #msy {
+                            // width: 15em;
+                            // height: 4em;
+                            width: 45vw;
+                        }
+                    }
+                }
+            }
+    }
 }
+
+
 
 // LANDSCAPES
 // TABLETS
 // DESKTOPS 
 
+
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
 // 1200 px Helen's Laptop
 @media screen and (min-width: 1200px) and (max-width: 1499px) {
     // body {

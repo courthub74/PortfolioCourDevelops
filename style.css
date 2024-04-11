@@ -2055,6 +2055,57 @@
     color: white;
     font-size: 1rem;
   }
+  #portfolio_section_id .portfolio_section_class {
+    background-color: #080E2F;
+    height: 105vh;
+    display: flex;
+    flex-direction: column;
+  }
+  #portfolio_section_id .portfolio_section_class .portfolio_desktop_nav ul {
+    display: none;
+  }
+  #portfolio_section_id .portfolio_section_class .section_title {
+    font-family: "Inter", sans-serif;
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: white;
+    margin: 5vh 0 0 7vw;
+  }
+  #portfolio_section_id .portfolio_section_class .portfolio_section_squares {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4ch;
+    gap: 5ch;
+    margin: 7vh 0 0 0;
+  }
+  #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square {
+    background-color: #36395D;
+    border: 1px solid #36395D;
+    border: none;
+    border-radius: 10px;
+    width: 85.5vw;
+    height: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px 2px black;
+  }
+  #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square #workflow_app {
+    width: 15em;
+    margin: 1vh 0 0 8vw;
+  }
+  #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square #create_collab {
+    width: 16em;
+    margin: 0 0 0 8.5vw;
+  }
+  #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square #mps_site {
+    width: 12em;
+    margin: 0 0 0 10ch;
+  }
+  #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square #msy {
+    width: 45vw;
+  }
 }
 @media screen and (min-width: 1200px) and (max-width: 1499px) {
   #home_section_id {
