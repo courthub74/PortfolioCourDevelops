@@ -2501,7 +2501,7 @@ $savethis: #7273ad;
         .portfolio_section_class {
             background-color: $darkblue;
             // background-color: red;
-            height: 105vh;
+            height: 165vh;
             display: flex;
             flex-direction: column;
             .portfolio_desktop_nav {
@@ -2565,6 +2565,326 @@ $savethis: #7273ad;
                     }
                 }
             }
+    }
+    // SKILLS SECTION 800 LANDSCAPE
+    #skills_section_id {
+        .skills_section_class {
+            background-color: $nextgreen;
+            height: 105vh;
+            display: flex;
+            flex-direction: column;
+            .skills_desktop_nav {
+                ul {
+                    display: none;
+                }
+            }
+            .section_title {
+                font-family: 'Inter', sans-serif;
+                font-size: 2.5rem;
+                font-weight: bold;
+                color: white;
+                margin: 5vh 0 0 7vw;
+            }
+            .skills_section_circles {
+                margin: 2ch 0 0 1.3vw;
+                .skills_circles_one {
+                    display: flex;
+                    gap: 2vw;
+                    margin: 5vh 0 0 5vw;
+                    .skill_circle {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        .skill_back {
+                            width: 26vw;
+                            height: 26vw;
+                            border: 3px solid $darkblue;
+                            background-color: $nextgreen;
+                            background-color: $skillsteal;
+                            box-shadow: 2px 2px $boxshadowcircles;
+                            border-radius: 50%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            .skill_front {
+                                width: 22vw;
+                                height: 22vw;
+                                border: none;
+                                background-color: $darkblue;
+                                // background-color: $skillsteal;
+                                // box-shadow: 2px 2px $boxshadowcircles;
+                                border-radius: 50%;
+                                position: absolute;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                .shield {
+                                    width: 11vw;
+                                    height: 11vw;
+                                }
+                                // HTML
+                                #html {
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                }
+                                #html.dissapear {
+                                    transition: .7s all ease-out;
+                                    opacity: 0;
+                                }
+                                #html_description {
+                                    opacity: 0;
+                                }
+                                #html_description.show {
+                                    transition: .7s all ease-in;
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: .8rem;
+                                    opacity: 1;
+                                }
+                                // CSS
+                                #css {
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                }
+                                #css.dissapear {
+                                    transition: .7s all ease-out;
+                                    opacity: 0;
+                                }
+                                #css_description {
+                                    opacity: 0;
+                                }
+                                #css_description.show {
+                                    transition: .7s all ease-in;
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: .8rem;
+                                    opacity: 1;
+                                }
+                                // SASS
+                                #sass {
+                                    width: 11vw;
+                                    height: 11vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                    margin: -.5vh 0 0 1.5vw;
+                                }
+                                #sass.dissapear {
+                                    transition: .7s all ease-out;
+                                    opacity: 0;
+                                }
+                                #sass_description {
+                                    opacity: 0;
+                                }
+                                #sass_description.show {
+                                    transition: .7s all ease-in;
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: .8rem;
+                                    opacity: 1;
+                                }
+                                // JS
+                                #javascript {
+                                    width: 13vw;
+                                    height: 13vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                    margin: 0 0 0 .5vw;
+                                }
+                                #javascript.dissapear {
+                                    transition: .7s all ease-out;
+                                    opacity: 0;
+                                }
+                                #javascript_description {
+                                    opacity: 0;
+                                }
+                                #javascript_description.show {
+                                    transition: .7s all ease-in;
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: .8rem;
+                                    opacity: 1;
+                                }
+                                // PYTHON
+                                #python {
+                                    width: 9.5vw;
+                                    height: 9.5vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                    margin: -.5vh 0 0 0;
+                                }
+                                #python.dissapear {
+                                    transition: .7s all ease-out;
+                                    opacity: 0;
+                                }
+                                #python_description {
+                                    opacity: 0;
+                                }
+                                #python_description.show {
+                                    transition: .7s all ease-in;
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: .8rem;
+                                    opacity: 1;
+                                }
+                                // REACT
+                                #react {
+                                    width: 10.5vw;
+                                    height: 10.5vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                }
+                                #react.dissapear {
+                                    transition: .7s all ease-out;
+                                    opacity: 0;
+                                }
+                                #react_description {
+                                    opacity: 0;
+                                }
+                                #react_description.show {
+                                    transition: .7s all ease-in;
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: .8rem;
+                                    opacity: 1;
+                                }
+                                // FIGMA
+                                #figma {
+                                    width: 11.5vw;
+                                    height: 11.5vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                }
+                                #figma.dissapear {
+                                    transition: .7s all ease-out;
+                                    opacity: 0;
+                                }
+                                #figma_description {
+                                    opacity: 0;
+                                }
+                                #figma_description.show {
+                                    transition: .7s all ease-in;
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: .8rem;
+                                    opacity: 1;
+                                }
+                                // FIREBASE
+                                #firebase {
+                                    width: 7vw;
+                                    height: 9.8vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                }
+                                #firebase.dissapear {
+                                    transition: .7s all ease-out;
+                                    opacity: 0;
+                                }
+                                #firebase_description {
+                                    opacity: 0;
+                                }
+                                #firebase_description.show {
+                                    transition: .7s all ease-in;
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: .8rem;
+                                    opacity: 1; 
+                                }
+                                // MONGO
+                                #mongo {
+                                    width: 4.5vw;
+                                    height: 10vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                    margin: 0vh 0 0 0;
+                                }
+                                #mongo.dissapear {
+                                    transition: .7s all ease-out;
+                                    opacity: 0;
+                                }
+                                #mongo_description {
+                                    opacity: 0;
+                                }
+                                #mongo_description.show {
+                                    transition: .7s all ease-in;
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: .8rem;
+                                    opacity: 1; 
+                                }
+                                // DJANGO
+                                #django {
+                                    width: 9vw;
+                                    height: 9vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                    margin: 0vh 1vw 0 0; 
+                                }
+                                #django.dissapear {
+                                    transition: .7s all ease-out;
+                                    opacity: 0;
+                                }
+                                #django_description {
+                                    opacity: 0;
+                                }
+                                #django_description.show {
+                                    transition: .7s all ease-in;
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: .8rem;
+                                    opacity: 1; 
+                                }
+                                // AWS
+                                #aws {
+                                    width: 11vw;
+                                    height: 11vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                    margin: 0vh 0vw 0 0;  
+                                }
+                                #aws.dissapear {
+                                    transition: .7s all ease-out;
+                                    opacity: 0;
+                                }
+                                #aws_description {
+                                    opacity: 0;
+                                }
+                                #aws_description.show {
+                                    transition: .7s all ease-in;
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: .8rem;
+                                    opacity: 1; 
+                                }
+                                // HEROKU
+                                #heroku {
+                                    width: 10vw;
+                                    height: 10vw;
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                    margin: -.5vhvh 0vw 0 0;  
+                                }
+                                #heroku.dissapear {
+                                    transition: .7s all ease-out;
+                                    opacity: 0;
+                                }
+                                #heroku_description {
+                                    opacity: 0;
+                                }
+                                #heroku_description.show {
+                                    transition: .7s all ease-in;
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: .8rem;
+                                    opacity: 1; 
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
