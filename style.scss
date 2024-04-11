@@ -1800,7 +1800,7 @@ $savethis: #7273ad;
                                     font-size: .9rem;
                                 }
                             }
-                            // Experience 1 dissapear
+                            // Experience 1 position dissapear
                                 // when hovered upon
                             #job_1_position.dissapear {
                                 transition: .5s all ease-out;
@@ -1812,17 +1812,18 @@ $savethis: #7273ad;
                             }
                             // Experience 1  details show
                             #exp_details_one.show {
-                                transition: .2s all ease-in;
+                                transition: .5s all ease-in;
                                 // color: white;
                                 // font-family: 'Inter', sans-serif;
                                 // font-size: .6rem;
+                                color: $descriptionblue;
                                 margin: 4ch 0 0 0;
                                 opacity: 1;
                             }
-
-                            .experience_details {
-                                color: $descriptionblue;
-                            }
+                            // The 
+                            // .experience_details {
+                            //     color: $descriptionblue;
+                            // }
                         }
                     }
                 }
@@ -3069,7 +3070,7 @@ $savethis: #7273ad;
                         .experience_details {
                             // Overall job details
                             display: flex;
-                            gap: 2ch;
+                            gap: 1.5ch;
                             color: $descriptionblue;
                             // color: $jobdescription;
                             // color: $skillsteal;
@@ -3078,7 +3079,7 @@ $savethis: #7273ad;
                             padding: 2ch 2ch;
                             // background-color: tan;
                             font-size: .1.2rem;
-                            font-size: .7rem;
+                            font-size: .8rem;
                         }
                         // Custom for Job 1
                         #exp_details_one {
@@ -4296,8 +4297,8 @@ $savethis: #7273ad;
                             font-family: 'Inter',sans-serif;
                             padding: 2ch 2ch;
                             // background-color: tan;
-                            font-size: .1.2rem;
-                            font-size: .7rem;
+                            font-size: .9rem;
+                            // font-size: .7rem;
                         }
                         // Custom for Job 1
                         #exp_details_one {

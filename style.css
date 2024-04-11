@@ -1503,12 +1503,10 @@
     opacity: 0;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_square .experience_job .job_description #exp_details_one.show {
-    transition: 0.2s all ease-in;
+    transition: 0.5s all ease-in;
+    color: #8091ED;
     margin: 4ch 0 0 0;
     opacity: 1;
-  }
-  #experience_section_id .experience_section_class .experience_section_squares .experience_square .experience_job .job_description .experience_details {
-    color: #8091ED;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_2_square {
     width: 85.5vw;
@@ -2597,12 +2595,12 @@
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_square .experience_job .experience_details {
     display: flex;
-    gap: 2ch;
+    gap: 1.5ch;
     color: #8091ED;
     font-family: "Inter", sans-serif;
     padding: 2ch 2ch;
     font-size: 0.1 0.2rem;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_square .experience_job #exp_details_one {
     position: relative;
@@ -3664,8 +3662,7 @@
     color: #8091ED;
     font-family: "Inter", sans-serif;
     padding: 2ch 2ch;
-    font-size: 0.1 0.2rem;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_square .experience_job #exp_details_one {
     position: relative;
