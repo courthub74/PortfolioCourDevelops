@@ -1750,10 +1750,11 @@ $savethis: #7273ad;
                 align-items: center;
                 gap: 5vh;
                 margin: 5vh 0 0 0;
+                // background-color: #00C6C3;
                 // experience squares
 
                 // Courdevelops
-                .experience_square {
+                .experience_square{
                     width: 85.5vw;
                     height: 43vw;
                     border-radius: 10px;
@@ -1767,31 +1768,61 @@ $savethis: #7273ad;
                     // Square stuff
                     // logo
                     #courdevelops {
-                        // width: 17vw;
-                        // height: 17vw;
-                        width: 12vw;
-                        height: 12vw;
+                        width: 23vw;
+                        height: 23vw;
                         margin: 0 0 0 -9.5vw;
                     }
-                    // text
-                    .job_1_description {
-                        position: relative;
-                        left: 25px;
-                        left: 23px;
-                        font-family: 'Inter', sans-serif;
-                        display: flex;
-                        flex-direction: column;
-                        gap: .3ch;
-                        .experience_company {
-                            color: white;
-                            font-size: 1rem;
-                            // font-size: 18px;
-                            font-weight: bold;
-                        }
-                        .experience_position {
-                            color: $descriptionblue;
-                            // color: $jobdescription;
-                            font-size: .9rem;
+                    .experience_job {
+                        // text
+                        .job_description {
+                            position: relative;
+                            left: 25px;
+                            left: 23px;
+                            font-family: 'Inter', sans-serif;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            gap: .3ch;
+                            margin: 0ch 0 0 0;
+                            .experience_description {
+                                transition: .3s all ease-in;
+                                position: absolute;
+                                .experience_company {
+                                    color: white;
+                                    font-size: 1rem;
+                                    // font-size: 18px;
+                                    font-weight: bold;
+                                }
+                                .experience_position {
+                                    color: $descriptionblue;
+                                    // color: $jobdescription;
+                                    font-size: .9rem;
+                                }
+                            }
+                            // Experience 1 dissapear
+                                // when hovered upon
+                            #job_1_position.dissapear {
+                                transition: .5s all ease-out;
+                                opacity: 0;
+                            }
+                            // Experience 1 details
+                            #exp_details_one {
+                                opacity: 0;
+                            }
+                            // Experience 1  details show
+                            #exp_details_one.show {
+                                transition: .2s all ease-in;
+                                // color: white;
+                                // font-family: 'Inter', sans-serif;
+                                // font-size: .6rem;
+                                margin: 4ch 0 0 0;
+                                opacity: 1;
+                            }
+
+                            .experience_details {
+                                color: $descriptionblue;
+                            }
                         }
                     }
                 }
