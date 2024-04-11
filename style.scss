@@ -1749,7 +1749,7 @@ $savethis: #7273ad;
                 justify-content: center;
                 align-items: center;
                 gap: 5vh;
-                margin: 5vh 0 0 0;
+                margin: 7vh 0 0 0;
                 // background-color: #00C6C3;
                 // experience squares
 
@@ -1912,21 +1912,43 @@ $savethis: #7273ad;
                         margin: 0 0 0 -7vw;
                     }
                     // text
-                    .job_3_description {
-                        position: relative;
-                        left: 23px;
-                        font-family: 'Inter', sans-serif;
-                        display: flex;
-                        flex-direction: column;
-                        gap: .3ch;
-                        .experience_company {
-                            color: white;
-                            font-size: 1rem;
-                            font-weight: bold;
-                        }
-                        .experience_position {
-                            color: $descriptionblue;
-                            font-size: .9rem;
+                    .experience_job {
+                        .job_description {
+                            position: relative;
+                            left: 23px;
+                            font-family: 'Inter', sans-serif;
+                            display: flex;
+                            flex-direction: column;
+                            gap: .3ch;
+                            .experience_description {
+                                transition: .3s all ease-in;
+                                position: absolute;
+                                .experience_company {
+                                    color: white;
+                                    font-size: 1rem;
+                                    font-weight: bold;
+                                }
+                                .experience_position {
+                                    color: $descriptionblue;
+                                    font-size: .9rem;
+                                }
+                            }
+                            #job_3_position.dissapear {
+                                transition: .5s all ease-out;
+                                opacity: 0;
+                            }
+                            #exp_details_three {
+                                opacity: 0;
+                            }
+                            #exp_details_three.show {
+                                transition: .5s all ease-in;
+                                // color: white;
+                                // font-family: 'Inter', sans-serif;
+                                // font-size: .6rem;
+                                color: $descriptionblue;
+                                margin: 4ch 0 0 0;
+                                opacity: 1;
+                            }
                         }
                     }
                 }

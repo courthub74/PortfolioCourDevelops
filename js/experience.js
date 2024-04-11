@@ -93,6 +93,11 @@ job_2_square.addEventListener('pointerdown', () => {
         // to make appear
     let job_3_details = document.getElementById('exp_details_three');
 
+    // query the job activities
+        // to make dissapear
+    let job_3_position = document.getElementById('job_3_position');
+
+
 // click or hover
 job_3_square.addEventListener('mouseover', function() {
     // make job deets appear
@@ -107,8 +112,10 @@ job_3_square.addEventListener('mouseout', function() {
 // pointerdown for Touchscreens
 job_3_square.addEventListener('pointerdown', () => {
     job_3_details.classList.add('show');
+    job_3_position.classList.add('dissapear');
     function reverse_job_3() {
         job_3_details.classList.remove('show');
+        job_3_position.classList.remove('dissapear');
     }
     setTimeout(reverse_job_3, 5000);
 });

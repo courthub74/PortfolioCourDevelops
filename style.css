@@ -1452,7 +1452,7 @@
     justify-content: center;
     align-items: center;
     gap: 5vh;
-    margin: 5vh 0 0 0;
+    margin: 7vh 0 0 0;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_square {
     width: 85.5vw;
@@ -1579,7 +1579,7 @@
     height: 19vw;
     margin: 0 0 0 -7vw;
   }
-  #experience_section_id .experience_section_class .experience_section_squares .experience_3_square .job_3_description {
+  #experience_section_id .experience_section_class .experience_section_squares .experience_3_square .experience_job .job_description {
     position: relative;
     left: 23px;
     font-family: "Inter", sans-serif;
@@ -1587,14 +1587,31 @@
     flex-direction: column;
     gap: 0.3ch;
   }
-  #experience_section_id .experience_section_class .experience_section_squares .experience_3_square .job_3_description .experience_company {
+  #experience_section_id .experience_section_class .experience_section_squares .experience_3_square .experience_job .job_description .experience_description {
+    transition: 0.3s all ease-in;
+    position: absolute;
+  }
+  #experience_section_id .experience_section_class .experience_section_squares .experience_3_square .experience_job .job_description .experience_description .experience_company {
     color: white;
     font-size: 1rem;
     font-weight: bold;
   }
-  #experience_section_id .experience_section_class .experience_section_squares .experience_3_square .job_3_description .experience_position {
+  #experience_section_id .experience_section_class .experience_section_squares .experience_3_square .experience_job .job_description .experience_description .experience_position {
     color: #8091ED;
     font-size: 0.9rem;
+  }
+  #experience_section_id .experience_section_class .experience_section_squares .experience_3_square .experience_job .job_description #job_3_position.dissapear {
+    transition: 0.5s all ease-out;
+    opacity: 0;
+  }
+  #experience_section_id .experience_section_class .experience_section_squares .experience_3_square .experience_job .job_description #exp_details_three {
+    opacity: 0;
+  }
+  #experience_section_id .experience_section_class .experience_section_squares .experience_3_square .experience_job .job_description #exp_details_three.show {
+    transition: 0.5s all ease-in;
+    color: #8091ED;
+    margin: 4ch 0 0 0;
+    opacity: 1;
   }
   #blog_section_id .blog_section_class {
     background-color: #00313E;
