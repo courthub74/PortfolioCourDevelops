@@ -1848,6 +1848,9 @@
   }
 }
 @media screen and (min-width: 800px) and (max-width: 999px) {
+  body {
+    display: none;
+  }
   #home_section_id nav {
     background-color: #080E2F;
     display: flex;
