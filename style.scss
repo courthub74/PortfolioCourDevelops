@@ -2233,10 +2233,268 @@ $savethis: #7273ad;
     }
 }
 
-// 400 px Next Size up Smartphones
-@media screen and (min-width: 400px) and (max-width: 499px) {
-    body {
-        display: none;
+// 800 px Landscapes including my phone
+@media screen and (min-width: 800px), (max-width: 999px), (orientation: landscape) {
+    // body {
+    //     display: none;
+    // }
+    // NAVBAR (PORTRAIT)
+    #home_section_id {
+        nav {
+            background-color: $darkblue;
+            // background-color: rgb(116, 66, 5);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 10vh;
+            .you_nav {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                opacity: 0;
+                .you {
+                    font-family: 'Inter', sans-serif;
+                    font-weight: bold;
+                    color: white;
+                    // font-size: 5vw;
+                }
+                .job {
+                    font-family: 'Inter', sans-serif;
+                    // font-size: 4vw;
+                    border: 1px solid $portfolios;
+                    background-color: $portfolios;
+                    color: $descriptionblue;
+                    border-radius: 5px;
+                }
+            }
+            // #hamburger {
+            //     // width: 10vw;
+            //     // height: 10vw;
+            //     // margin: 1vh 7vw 0 0;
+            //     margin: 1ch 5ch 0 0;
+            // }
+            .menu_button_div {
+                background-color: $darkblue;
+                margin: 8ch 8ch 0 0;
+                border: none;
+                #dots_menu {
+                    height: 3em;
+                    width: 3em;
+                }
+            }
+        }
+        // DESKTOP NAV
+        .desktop_nav {
+            display: none;
+        }
+        // HOME SECTION (PORTRAIT)
+        .home_section_content {
+            background-color: $darkblue;
+            display: flex;
+            // flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            gap: 12ch;
+            margin: -2ch 0 0 0;
+            // HOME LOGO (PORTRAIT) 
+            .logo_div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 0ch;
+                .back_logo {
+                    border: 1px solid white;
+                    background-color: white;
+                    border-radius: 50%;
+                    // width: 50vw;
+                    // height: 50vw;
+                    width: 12em;
+                    height: 12em;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .front_logo {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        img {
+                            width: 11em;
+                            height: 11em;
+                            // display: none;
+                        }
+                    }
+                }
+            }
+            // WORDS AND SOCIALS LOGOS (PORTRAIT)
+            .word_content {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 1ch;
+                .name_description {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: .5ch;
+                    .home_name {
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        // font-size: 8vw;
+                        font-size: 1.5rem;
+                    }
+                    // JOB TITLE (PORTRAIT)
+                    .job_description {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border: 1px solid $portfolios;
+                        border-radius: 5px;
+                        background-color: $portfolios;
+                        color: $descriptionblue;
+                        font-family: 'Inter', sans-serif;
+                        font-size: 1rem;
+                        text-align: center;
+                        // width: 14em;
+                        // height: 2em;
+                        padding: .5em 1em .5em 1em;
+                    }
+                }
+                // SLOGAN (PORTRAIT)
+                .home_slogan {
+                    p {
+                        font-family: 'Inter', sans-serif;
+                        // font-size: 5vw;
+                        font-size: 1rem;
+                        font-weight: bold;
+                        color: white;
+                        text-align: center;
+                    }
+                }
+                // SOCIALS (PORTRAIT)
+                .home_socials {
+                    display: flex;
+                    align-items: center;
+                    gap: 5vh;
+                    margin: 0vh 0 0 0;
+                    #github {
+                        width: 2em;
+                        height: 2em;
+                    }
+                    #twitter {
+                        width: 2em;
+                        height: 2em;
+                    }
+                    #linkedin {
+                        width: 2em;
+                        height: 2em;
+                    }
+                    #instagram {
+                        width: 2.3em;
+                        height: 2.3em;
+                    }
+                }
+                // LEARN MORE BUTTON (PORTRAIT)
+                .learn_more {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border: 1px solid $portfolios;
+                    border-radius: 5px;
+                    border-radius: 45px;
+                    background-color: $portfolios;
+                    // width: 14em;
+                    // height: 2.5em;
+                    padding: .5em 4em .5em 4em;
+                    a {
+                        color: $jobdescription;
+                        color: $descriptionblue;
+                        font-family: 'Inter', sans-serif;
+                        // font-size: 4.5vw;
+                        font-size: .9rem;
+                        font-weight: bold;
+                        text-decoration: none;
+                    }
+                }
+            }
+            
+        } 
+    }
+    // ABOUT SECTION
+    #about_section_id {
+        .about_section_class {
+            background-color: $nextgreen;
+            height: 160vh;
+            display: flex;
+            flex-direction: column;
+            color: white;
+        }
+        .title_nav {
+            .about_desktop_nav {
+                display: none;
+                ul {
+                    display: none;
+                }
+            }
+            .section_title {
+                font-family: 'Inter', sans-serif;
+                // font-size: 6vw;
+                font-size: 2.3rem;
+                font-weight: bold;
+                margin: 7vh 0 0 7vw;
+            }
+        }
+        .about_section_content {
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            line-height: 2.5ch;
+            width: 80%;
+            margin: 2vh 0 0 7vw;
+            .brand_is {
+                font-family: 'Inter', sans-serif;
+                // font-size: 2.5vw;
+                // display: flex;
+                align-items: center;
+                // margin: 0 0 0 -3vw;
+                // gap: 2vw;
+                .brand {
+                    display: flex;
+                    justify-content: left;
+                    align-items: center;
+                    gap: 1ch;
+                    margin: 3vh 0 3vh 0;
+                    #about_logo {
+                        // width: 25.5vw;
+                        // height: 25.5vw;
+                        width: 4em;
+                        height: 4em;
+                    }
+                }
+            }
+        }
+        .download_resume {
+            display: flex;
+            // justify-content: center;
+            // align-items: center;
+            margin: 3vh 0 0 5vw;
+            font-family: 'Inter', sans-serif;
+            font-weight: bold;
+            // border: 1px solid white;
+            // background-color: white;
+            border-radius: 25px;
+            width: 13em;
+            height: 2.5em;
+            padding: .5em .5em;
+            a {
+                color: $nextgreen;
+                color: white;
+                // text-decoration: none;
+                font-size: 1rem;
+            }
+        }
     }
 }
 
