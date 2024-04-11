@@ -55,16 +55,14 @@ let job_2_description = document.getElementById('job_2_description');
     // to make appear
 let job_2_details = document.getElementById('exp_details_two');
 
+// query the job activities
+    // to make dissapear
+let job_2_position = document.getElementById('job_2_position');
+
 // click or hover
 job_2_square.addEventListener('mouseover', function() {
-    // make job description dissapear
-    // job_1_description.classList.add('dissapear');
     // make job deets appear
     job_2_details.classList.add('show');
-    // function to reset it all
-    // function job_1_reset() {
-
-    // }
 });
 
 // remove when removing mouse
@@ -75,8 +73,10 @@ job_2_square.addEventListener('mouseout', function() {
 // pointerdown for Touchscreens
 job_2_square.addEventListener('pointerdown', () => {
     job_2_details.classList.add('show');
+    job_2_position.classList.add('dissapear');
     function reverse_job_2() {
         job_2_details.classList.remove('show');
+        job_2_position.classList.remove('dissapear');
     }
     setTimeout(reverse_job_2, 5000);
 });

@@ -1514,35 +1514,51 @@
     border-radius: 10px;
     background-color: #36395D;
     border: none;
-    border: none;
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: 2px 2px 2px 2px black;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_2_square #slea {
-    width: 16vw;
-    height: 16vw;
     width: 21vw;
     height: 21vw;
-    margin: 0 0 0 -10vw;
+    margin: 0 0ch 0 0;
   }
-  #experience_section_id .experience_section_class .experience_section_squares .experience_2_square .job_2_description {
+  #experience_section_id .experience_section_class .experience_section_squares .experience_2_square .experience_job .job_description {
     position: relative;
-    left: 26px;
+    left: 7px;
     font-family: "Inter", sans-serif;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 0.3ch;
   }
-  #experience_section_id .experience_section_class .experience_section_squares .experience_2_square .job_2_description .experience_company {
+  #experience_section_id .experience_section_class .experience_section_squares .experience_2_square .experience_job .job_description .experience_description {
+    transition: 0.3s all ease-in;
+    position: absolute;
+  }
+  #experience_section_id .experience_section_class .experience_section_squares .experience_2_square .experience_job .job_description .experience_description .experience_company {
     color: white;
     font-size: 1rem;
     font-weight: bold;
   }
-  #experience_section_id .experience_section_class .experience_section_squares .experience_2_square .job_2_description .experience_position {
+  #experience_section_id .experience_section_class .experience_section_squares .experience_2_square .experience_job .job_description .experience_description .experience_position {
     color: #8091ED;
     font-size: 0.9rem;
+  }
+  #experience_section_id .experience_section_class .experience_section_squares .experience_2_square .experience_job .job_description #job_2_position.dissapear {
+    transition: 0.5s all ease-out;
+    opacity: 0;
+  }
+  #experience_section_id .experience_section_class .experience_section_squares .experience_2_square .experience_job .job_description #exp_details_two {
+    opacity: 0;
+  }
+  #experience_section_id .experience_section_class .experience_section_squares .experience_2_square .experience_job .job_description #exp_details_two.show {
+    transition: 0.5s all ease-in;
+    color: #8091ED;
+    margin: 4ch 0 0 0;
+    opacity: 1;
   }
   #experience_section_id .experience_section_class .experience_section_squares .experience_3_square {
     width: 85.5vw;

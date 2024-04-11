@@ -1766,14 +1766,14 @@ $savethis: #7273ad;
                     box-shadow: 2px 2px 2px 2px black;
 
                     // Square stuff
-                    // logo
+                    // Courdevelops
                     #courdevelops {
                         width: 23vw;
                         height: 23vw;
                         margin: 0 0 0 -9.5vw;
                     }
+                    // text
                     .experience_job {
-                        // text
                         .job_description {
                             position: relative;
                             left: 25px;
@@ -1794,6 +1794,7 @@ $savethis: #7273ad;
                                     // font-size: 18px;
                                     font-weight: bold;
                                 }
+                                // Just the position for smartphone
                                 .experience_position {
                                     color: $descriptionblue;
                                     // color: $jobdescription;
@@ -1834,7 +1835,6 @@ $savethis: #7273ad;
                     border-radius: 10px;
                     background-color: $portfolios;
                     border: none;
-                    border: none;
                     display: flex;
                     align-items: center;
                     justify-content: center;
@@ -1843,29 +1843,50 @@ $savethis: #7273ad;
                     // Square stuff
                     // logo
                     #slea {
-                        width: 16vw;
-                        height: 16vw;
                         width: 21vw;
                         height: 21vw;
-                        margin: 0 0 0 -10vw;
+                        margin: 0 0ch 0 0;
                     }
                     // text
-                    .job_2_description {
-                        position: relative;
-                        left: 26px;
-                        font-family: 'Inter', sans-serif;
-                        display: flex;
-                        flex-direction: column;
-                        gap: .3ch;
-                        .experience_company {
-                            color: white;
-                            font-size: 1rem;
-                            font-weight: bold;
-                        }
-                        .experience_position {
-                            color: $descriptionblue;
-                            font-size: .9rem;
-
+                    .experience_job {
+                        .job_description {
+                            position: relative;
+                            left: 7px;
+                            font-family: 'Inter', sans-serif;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            gap: .3ch;
+                            .experience_description {
+                                transition: .3s all ease-in;
+                                position: absolute;
+                                .experience_company {
+                                    color: white;
+                                    font-size: 1rem;
+                                    font-weight: bold;
+                                }
+                                .experience_position {
+                                    color: $descriptionblue;
+                                    font-size: .9rem;
+                                }
+                            }
+                            #job_2_position.dissapear {
+                                transition: .5s all ease-out;
+                                opacity: 0;
+                            }
+                            #exp_details_two {
+                                opacity: 0;
+                            }
+                            #exp_details_two.show {
+                                transition: .5s all ease-in;
+                                // color: white;
+                                // font-family: 'Inter', sans-serif;
+                                // font-size: .6rem;
+                                color: $descriptionblue;
+                                margin: 4ch 0 0 0;
+                                opacity: 1;
+                            }
                         }
                     }
                 }
